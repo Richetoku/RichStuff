@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:ores/lead"
+  },
+  "result": {
+    "id": "richstuff:lead_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

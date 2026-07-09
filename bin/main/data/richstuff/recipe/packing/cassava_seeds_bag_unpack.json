@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cassava_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:cassavaseeditem",
+    "count": 9
+  }
+}

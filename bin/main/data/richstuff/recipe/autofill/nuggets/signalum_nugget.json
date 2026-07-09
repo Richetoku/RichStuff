@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/signalum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:signalum_nugget",
+    "count": 9
+  }
+}

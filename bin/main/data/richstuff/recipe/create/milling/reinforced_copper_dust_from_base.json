@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/reinforced_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:reinforced_copper_dust"
+    }
+  ],
+  "processingTime": 100
+}

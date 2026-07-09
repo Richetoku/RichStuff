@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:platinum_ingot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:platinum"
+  }
+}

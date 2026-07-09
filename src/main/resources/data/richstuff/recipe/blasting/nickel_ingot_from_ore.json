@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:ores/nickel"
+  },
+  "result": {
+    "id": "richstuff:nickel_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

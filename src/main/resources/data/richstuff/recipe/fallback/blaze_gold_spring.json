@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "W W",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "c:wires/blaze_gold"
+    }
+  },
+  "result": {
+    "id": "richstuff:blaze_gold_spring"
+  }
+}

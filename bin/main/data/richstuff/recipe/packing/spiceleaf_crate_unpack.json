@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:spiceleaf_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:spiceleafitem",
+    "count": 9
+  }
+}

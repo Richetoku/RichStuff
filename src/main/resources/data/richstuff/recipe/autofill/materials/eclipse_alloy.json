@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:eclipse_alloy_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:eclipse_alloy"
+  }
+}

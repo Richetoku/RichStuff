@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    },
+    {
+      "tag": "c:coins/uranium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:uranium_coin_stack"
+  }
+}

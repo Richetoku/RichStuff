@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/nickel"
+    }
+  ],
+  "result": {
+    "item": "richstuff:nickel_wire",
+    "count": 2
+  }
+}

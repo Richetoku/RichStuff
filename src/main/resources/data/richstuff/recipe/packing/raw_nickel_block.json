@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    },
+    {
+      "tag": "c:raw_materials/nickel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_nickel_block"
+  }
+}

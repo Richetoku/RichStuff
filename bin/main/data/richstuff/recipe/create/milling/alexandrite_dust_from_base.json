@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/alexandrite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:alexandrite_dust"
+    }
+  ],
+  "processingTime": 100
+}

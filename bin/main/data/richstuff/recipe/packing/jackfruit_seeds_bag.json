@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:jackfruitseeditem"
+    }
+  },
+  "result": {
+    "id": "richstuff:jackfruit_seeds_bag"
+  }
+}

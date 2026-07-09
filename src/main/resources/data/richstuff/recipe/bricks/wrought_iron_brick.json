@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/wrought_iron"
+    }
+  },
+  "result": {
+    "id": "richstuff:wrought_iron_brick",
+    "count": 4
+  }
+}

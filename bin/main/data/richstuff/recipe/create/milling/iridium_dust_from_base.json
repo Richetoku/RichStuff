@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/iridium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iridium_dust"
+    }
+  ],
+  "processingTime": 100
+}

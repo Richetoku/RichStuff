@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    },
+    {
+      "tag": "c:raw_materials/topaz"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_topaz_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:steel_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#CACACA",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

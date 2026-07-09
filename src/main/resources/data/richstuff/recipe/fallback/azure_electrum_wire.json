@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/azure_electrum"
+    }
+  },
+  "result": {
+    "item": "richstuff:azure_electrum_wire",
+    "count": 2
+  }
+}

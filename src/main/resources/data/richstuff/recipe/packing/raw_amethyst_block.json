@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    },
+    {
+      "tag": "c:raw_materials/amethyst"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_amethyst_block"
+  }
+}

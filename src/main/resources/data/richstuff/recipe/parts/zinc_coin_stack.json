@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    },
+    {
+      "tag": "c:coins/zinc"
+    }
+  ],
+  "result": {
+    "id": "richstuff:zinc_coin_stack"
+  }
+}

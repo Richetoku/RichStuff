@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "id": "richstuff:melon_seeds_bag"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/lead"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_plate"
+    }
+  ],
+  "processingTime": 80
+}

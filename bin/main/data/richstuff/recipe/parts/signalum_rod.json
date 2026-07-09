@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/signalum"
+    }
+  },
+  "result": {
+    "id": "richstuff:signalum_rod",
+    "count": 2
+  }
+}

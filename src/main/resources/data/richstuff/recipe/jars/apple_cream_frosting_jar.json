@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "c:fruits/apple"
+    },
+    {
+      "tag": "c:sugars"
+    }
+  ],
+  "result": {
+    "id": "richstuff:apple_cream_frosting_jar"
+  }
+}

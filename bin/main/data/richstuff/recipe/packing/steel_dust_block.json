@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    },
+    {
+      "tag": "c:dusts/steel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:steel_dust_block"
+  }
+}

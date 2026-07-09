@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/lumium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lumium_plate"
+    }
+  ],
+  "processingTime": 80
+}

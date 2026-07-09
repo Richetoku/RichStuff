@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/turquoise"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:turquoise_plate"
+    }
+  ],
+  "processingTime": 80
+}

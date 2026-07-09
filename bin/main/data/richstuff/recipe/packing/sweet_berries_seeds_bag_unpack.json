@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:sweet_berries_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:sweet_berriesseeditem",
+    "count": 9
+  }
+}

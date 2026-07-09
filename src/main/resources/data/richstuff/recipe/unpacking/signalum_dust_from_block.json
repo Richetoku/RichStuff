@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:signalum_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:signalum_dust",
+    "count": 9
+  }
+}

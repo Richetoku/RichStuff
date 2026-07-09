@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:gold_crushed"
+    }
+  ],
+  "processingTime": 180
+}

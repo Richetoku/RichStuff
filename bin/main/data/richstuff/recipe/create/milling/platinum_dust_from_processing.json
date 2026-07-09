@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:platinum_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:platinum_dust"
+    }
+  ],
+  "processingTime": 140
+}

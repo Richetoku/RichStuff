@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    },
+    {
+      "tag": "c:coins/lead"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lead_coin_stack"
+  }
+}

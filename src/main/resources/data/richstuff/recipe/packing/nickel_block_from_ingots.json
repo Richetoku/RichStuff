@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:nickel_block"
+  }
+}

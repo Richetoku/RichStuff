@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/iolite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iolite_plate"
+    }
+  ],
+  "processingTime": 80
+}

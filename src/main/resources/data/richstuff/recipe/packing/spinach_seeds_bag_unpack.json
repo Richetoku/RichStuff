@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:spinach_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:spinachseeditem",
+    "count": 9
+  }
+}

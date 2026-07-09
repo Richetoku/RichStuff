@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:invar_coin_stack"
+    }
+  ],
+  "result": {
+    "id": "richstuff:invar_coin",
+    "count": 9
+  }
+}

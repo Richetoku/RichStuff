@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cranberry_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:cranberryitem",
+    "count": 9
+  }
+}

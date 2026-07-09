@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/alexandrite"
+    }
+  ],
+  "result": {
+    "item": "richstuff:alexandrite_wire",
+    "count": 2
+  }
+}

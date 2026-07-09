@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    },
+    {
+      "tag": "c:dusts/tin"
+    }
+  ],
+  "result": {
+    "id": "richstuff:tin_dust_block"
+  }
+}

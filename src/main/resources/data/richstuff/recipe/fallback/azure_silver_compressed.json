@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SMS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "richstuff:azure_silver_seperated"
+    },
+    "M": {
+      "item": "create:mechanical_press"
+    }
+  },
+  "result": {
+    "id": "richstuff:azure_silver_compressed"
+  }
+}

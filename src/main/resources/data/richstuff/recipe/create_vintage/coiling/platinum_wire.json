@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/platinum"
+    }
+  ],
+  "result": {
+    "item": "richstuff:platinum_wire",
+    "count": 2
+  }
+}

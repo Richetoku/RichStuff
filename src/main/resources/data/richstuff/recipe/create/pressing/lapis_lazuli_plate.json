@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lapis_lazuli_plate"
+    }
+  ],
+  "processingTime": 80
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:dusts/zinc"
+    }
+  ],
+  "result": {
+    "id": "richstuff:zinc_dust_block"
+  }
+}

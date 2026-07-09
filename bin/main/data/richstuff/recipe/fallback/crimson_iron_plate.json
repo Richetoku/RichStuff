@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " I ",
+    "   "
+  ],
+  "key": {
+    "M": {
+      "item": "richstuff:plate_mold_press"
+    },
+    "I": {
+      "tag": "c:ingots/crimson_iron"
+    }
+  },
+  "result": {
+    "id": "richstuff:crimson_iron_plate"
+  }
+}

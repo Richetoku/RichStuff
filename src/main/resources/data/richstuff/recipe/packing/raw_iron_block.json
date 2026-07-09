@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    },
+    {
+      "tag": "c:raw_materials/iron"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_iron_block"
+  }
+}

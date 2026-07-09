@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:ores/aluminum"
+  },
+  "result": {
+    "id": "richstuff:aluminum_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

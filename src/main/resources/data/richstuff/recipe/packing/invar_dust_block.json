@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    },
+    {
+      "tag": "c:dusts/invar"
+    }
+  ],
+  "result": {
+    "id": "richstuff:invar_dust_block"
+  }
+}

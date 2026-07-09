@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/heliodor"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:heliodor_plate"
+    }
+  ],
+  "processingTime": 80
+}

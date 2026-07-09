@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/peridot"
+    }
+  ],
+  "result": {
+    "item": "richstuff:peridot_wire",
+    "count": 2
+  }
+}

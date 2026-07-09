@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/reinforced_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:reinforced_copper_plate"
+    }
+  ],
+  "processingTime": 80
+}

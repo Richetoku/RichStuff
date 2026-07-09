@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/amethyst"
+    }
+  },
+  "result": {
+    "item": "richstuff:amethyst_wire",
+    "count": 2
+  }
+}

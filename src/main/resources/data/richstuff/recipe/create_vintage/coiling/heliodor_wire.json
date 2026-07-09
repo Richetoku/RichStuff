@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/heliodor"
+    }
+  ],
+  "result": {
+    "item": "richstuff:heliodor_wire",
+    "count": 2
+  }
+}

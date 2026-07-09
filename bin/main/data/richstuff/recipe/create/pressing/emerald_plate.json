@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/emerald"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:emerald_plate"
+    }
+  ],
+  "processingTime": 80
+}

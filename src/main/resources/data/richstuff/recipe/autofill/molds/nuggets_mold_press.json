@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " M ",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "M": {
+      "item": "richstuff:blank_mold"
+    }
+  },
+  "result": {
+    "id": "richstuff:nuggets_mold_press"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_heated"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ammolite_sandpaper"
+  }
+}

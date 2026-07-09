@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "tag": "c:tiny_dusts/nether_charcoal"
+    }
+  },
+  "result": {
+    "id": "richstuff:nether_charcoal_dust"
+  }
+}

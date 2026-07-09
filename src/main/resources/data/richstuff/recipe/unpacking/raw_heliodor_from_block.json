@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_heliodor_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_heliodor",
+    "count": 9
+  }
+}

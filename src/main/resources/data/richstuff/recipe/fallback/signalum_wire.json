@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/signalum"
+    }
+  },
+  "result": {
+    "item": "richstuff:signalum_wire",
+    "count": 2
+  }
+}

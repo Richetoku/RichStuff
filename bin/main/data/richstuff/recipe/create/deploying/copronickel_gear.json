@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:plates/copronickel"
+    },
+    {
+      "item": "richstuff:gear_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copronickel_gear"
+    }
+  ],
+  "keep_held_item": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:azure_silver_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_silver_dust"
+    }
+  ],
+  "processingTime": 140
+}

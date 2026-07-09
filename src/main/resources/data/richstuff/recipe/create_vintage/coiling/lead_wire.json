@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/lead"
+    }
+  ],
+  "result": {
+    "item": "richstuff:lead_wire",
+    "count": 2
+  }
+}

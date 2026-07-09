@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/citrine"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#744300",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

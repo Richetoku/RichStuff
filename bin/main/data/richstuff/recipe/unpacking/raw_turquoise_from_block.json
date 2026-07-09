@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_turquoise_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_turquoise",
+    "count": 9
+  }
+}

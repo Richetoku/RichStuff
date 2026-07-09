@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:pumpkin_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pumpkin",
+    "count": 9
+  }
+}

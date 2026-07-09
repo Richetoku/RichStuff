@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:charcoal"
+    }
+  ],
+  "result": {
+    "id": "richstuff:charcoal_nugget",
+    "count": 9
+  }
+}

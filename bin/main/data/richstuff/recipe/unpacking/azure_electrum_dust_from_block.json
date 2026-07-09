@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:azure_electrum_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:azure_electrum_dust",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:plates/sapphire"
+    },
+    {
+      "item": "richstuff:blisk_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sapphire_blisk"
+    }
+  ],
+  "keep_held_item": true
+}

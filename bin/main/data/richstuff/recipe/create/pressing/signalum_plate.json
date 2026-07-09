@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/signalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:signalum_plate"
+    }
+  ],
+  "processingTime": 80
+}

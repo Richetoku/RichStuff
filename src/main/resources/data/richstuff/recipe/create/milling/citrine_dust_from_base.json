@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/citrine"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_dust"
+    }
+  ],
+  "processingTime": 100
+}

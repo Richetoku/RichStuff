@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:pig_iron_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:pig_iron"
+  }
+}

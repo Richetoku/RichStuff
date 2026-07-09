@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "W W",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "c:wires/rose_quartz"
+    }
+  },
+  "result": {
+    "id": "richstuff:rose_quartz_spring"
+  }
+}

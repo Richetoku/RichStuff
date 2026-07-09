@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:grape_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:grapeitem",
+    "count": 9
+  }
+}

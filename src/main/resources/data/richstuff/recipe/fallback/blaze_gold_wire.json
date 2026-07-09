@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/blaze_gold"
+    }
+  },
+  "result": {
+    "item": "richstuff:blaze_gold_wire",
+    "count": 2
+  }
+}

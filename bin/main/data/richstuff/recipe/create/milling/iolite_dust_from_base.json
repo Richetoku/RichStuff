@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/iolite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iolite_dust"
+    }
+  ],
+  "processingTime": 100
+}

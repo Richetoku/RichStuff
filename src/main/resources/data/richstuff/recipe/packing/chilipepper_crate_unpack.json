@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:chilipepper_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:chilipepperitem",
+    "count": 9
+  }
+}

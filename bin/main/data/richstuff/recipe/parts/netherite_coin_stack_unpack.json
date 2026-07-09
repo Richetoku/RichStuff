@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:netherite_coin_stack"
+    }
+  ],
+  "result": {
+    "id": "richstuff:netherite_coin",
+    "count": 9
+  }
+}

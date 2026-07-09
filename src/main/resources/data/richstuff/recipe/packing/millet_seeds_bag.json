@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:milletseeditem"
+    }
+  },
+  "result": {
+    "id": "richstuff:millet_seeds_bag"
+  }
+}

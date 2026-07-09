@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    },
+    {
+      "tag": "c:coins/nickel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:nickel_coin_stack"
+  }
+}

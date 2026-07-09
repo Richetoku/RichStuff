@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:amaranth_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:amaranthseeditem",
+    "count": 9
+  }
+}

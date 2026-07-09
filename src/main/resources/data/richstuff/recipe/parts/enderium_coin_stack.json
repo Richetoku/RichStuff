@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    },
+    {
+      "tag": "c:coins/enderium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:enderium_coin_stack"
+  }
+}

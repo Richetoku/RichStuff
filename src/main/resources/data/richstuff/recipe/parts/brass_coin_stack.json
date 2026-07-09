@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    },
+    {
+      "tag": "c:coins/brass"
+    }
+  ],
+  "result": {
+    "id": "richstuff:brass_coin_stack"
+  }
+}

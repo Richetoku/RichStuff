@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    },
+    {
+      "tag": "c:gems/turquoise"
+    }
+  ],
+  "result": {
+    "id": "richstuff:turquoise_block"
+  }
+}

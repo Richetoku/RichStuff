@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/cobalt"
+    }
+  ],
+  "result": {
+    "item": "richstuff:cobalt_wire",
+    "count": 2
+  }
+}

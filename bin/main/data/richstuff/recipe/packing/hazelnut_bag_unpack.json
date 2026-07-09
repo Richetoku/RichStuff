@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:hazelnut_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:hazelnutseeditem",
+    "count": 9
+  }
+}

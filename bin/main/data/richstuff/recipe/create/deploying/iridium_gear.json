@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:plates/iridium"
+    },
+    {
+      "item": "richstuff:gear_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iridium_gear"
+    }
+  ],
+  "keep_held_item": true
+}

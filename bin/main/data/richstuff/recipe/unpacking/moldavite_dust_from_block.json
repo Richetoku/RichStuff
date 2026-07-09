@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:moldavite_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:moldavite_dust",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_plate"
+    }
+  ],
+  "processingTime": 80
+}

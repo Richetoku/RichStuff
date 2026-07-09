@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/amethyst"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:amethyst_plate"
+    }
+  ],
+  "processingTime": 80
+}

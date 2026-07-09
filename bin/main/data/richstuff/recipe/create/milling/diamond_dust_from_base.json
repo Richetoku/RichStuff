@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:diamond_dust"
+    }
+  ],
+  "processingTime": 100
+}

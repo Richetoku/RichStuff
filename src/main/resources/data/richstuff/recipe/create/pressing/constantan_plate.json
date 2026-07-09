@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/constantan"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:constantan_plate"
+    }
+  ],
+  "processingTime": 80
+}

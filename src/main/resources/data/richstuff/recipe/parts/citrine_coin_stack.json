@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    },
+    {
+      "tag": "c:coins/citrine"
+    }
+  ],
+  "result": {
+    "id": "richstuff:citrine_coin_stack"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/nickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_crushed"
+    }
+  ],
+  "processingTime": 180
+}

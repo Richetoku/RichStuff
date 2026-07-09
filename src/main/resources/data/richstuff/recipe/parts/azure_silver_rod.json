@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    " I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/azure_silver"
+    }
+  },
+  "result": {
+    "id": "richstuff:azure_silver_rod",
+    "count": 2
+  }
+}

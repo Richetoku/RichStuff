@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/signalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:signalum_dust"
+    }
+  ],
+  "processingTime": 100
+}

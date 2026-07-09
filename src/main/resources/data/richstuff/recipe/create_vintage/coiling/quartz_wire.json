@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/quartz"
+    }
+  ],
+  "result": {
+    "item": "richstuff:quartz_wire",
+    "count": 2
+  }
+}

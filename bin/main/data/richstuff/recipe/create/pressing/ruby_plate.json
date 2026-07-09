@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/ruby"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ruby_plate"
+    }
+  ],
+  "processingTime": 80
+}

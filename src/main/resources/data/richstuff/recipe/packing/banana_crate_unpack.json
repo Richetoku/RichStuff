@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:banana_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:bananaitem",
+    "count": 9
+  }
+}

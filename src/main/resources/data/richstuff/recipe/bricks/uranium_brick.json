@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/uranium"
+    }
+  },
+  "result": {
+    "id": "richstuff:uranium_brick",
+    "count": 4
+  }
+}

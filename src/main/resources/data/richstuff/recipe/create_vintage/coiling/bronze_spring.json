@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/bronze"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:bronze_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#C47E50",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

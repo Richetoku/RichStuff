@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "W W",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "c:wires/andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "richstuff:andesite_alloy_spring"
+  }
+}

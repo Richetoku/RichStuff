@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:azure_electrum_dust"
+  },
+  "result": {
+    "id": "richstuff:azure_electrum_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

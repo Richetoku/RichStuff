@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "richstuff:item/vessels/juniperberry_jam_jar"
+  }
+}

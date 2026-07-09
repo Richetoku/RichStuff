@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:white_diamond_washed"
+  },
+  "result": {
+    "id": "richstuff:white_diamond_refined"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

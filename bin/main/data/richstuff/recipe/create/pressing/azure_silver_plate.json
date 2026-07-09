@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/azure_silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_silver_plate"
+    }
+  ],
+  "processingTime": 80
+}

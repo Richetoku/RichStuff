@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/topaz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:topaz_plate"
+    }
+  ],
+  "processingTime": 80
+}

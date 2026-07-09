@@ -1,0 +1,21 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/quartz"
+    }
+  ],
+  "result": {
+    "item": "richstuff:quartz_wire",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

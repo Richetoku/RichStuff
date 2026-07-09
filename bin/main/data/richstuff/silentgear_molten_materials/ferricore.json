@@ -1,0 +1,49 @@
+{
+  "material": "richstuff:ferricore",
+  "silent_gear_material": "richstuff:ferricore",
+  "fluid": "richstuff:molten_ferricore",
+  "fluid_tag": "c:molten/ferricore",
+  "base_item_tag": "c:ingots/ferricore",
+  "grade_passthrough": true,
+  "grade_component_passthrough": [
+    "silentgear:grade",
+    "silentgear:material_grade",
+    "silentgear:material_modifiers"
+  ],
+  "modifier_passthrough": true,
+  "stats_snapshot": {
+    "armor": 16.7,
+    "armor/boots": 2.7,
+    "armor/chestplate": 7.0,
+    "armor/helmet": 3.0,
+    "armor/leggings": 5.3,
+    "armor_durability": 20.6,
+    "attack_damage": 3.56,
+    "attack_speed": 0.0,
+    "attack_speed/axe": -0.08,
+    "charging_value": 1.09,
+    "draw_speed": 0.12,
+    "durability": 552,
+    "enchantment_value": 18.2,
+    "harvest_speed": 8.12,
+    "harvest_tier": {
+      "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+      "level_hint": "3",
+      "name": "diamond"
+    },
+    "magic_armor": 4.3,
+    "magic_damage": 2.37,
+    "projectile_accuracy": 1.0,
+    "projectile_speed": 1.0,
+    "ranged_damage": 1.42,
+    "rarity": 47.0,
+    "traits": [
+      {
+        "conditions": [],
+        "level": 3,
+        "trait": "silentgear:malleable"
+      }
+    ]
+  },
+  "notes": "RichStuff keeps Silent Gear material identity on molten variants so Create casting and pack scripts can create graded Silent Gear parts from molten metals."
+}

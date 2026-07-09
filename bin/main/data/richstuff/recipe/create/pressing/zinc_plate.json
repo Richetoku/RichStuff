@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/zinc"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_plate"
+    }
+  ],
+  "processingTime": 80
+}

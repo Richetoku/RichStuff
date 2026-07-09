@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    },
+    {
+      "tag": "c:coins/diamond"
+    }
+  ],
+  "result": {
+    "id": "richstuff:diamond_coin_stack"
+  }
+}

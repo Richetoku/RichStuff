@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/peridot"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:peridot_plate"
+    }
+  ],
+  "processingTime": 80
+}

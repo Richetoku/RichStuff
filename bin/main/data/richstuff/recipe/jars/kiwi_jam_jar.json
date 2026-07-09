@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "c:fruits/kiwi"
+    },
+    {
+      "tag": "c:sugars"
+    }
+  ],
+  "result": {
+    "id": "richstuff:kiwi_jam_jar"
+  }
+}

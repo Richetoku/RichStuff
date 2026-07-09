@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    },
+    {
+      "tag": "c:coins/aluminum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:aluminum_coin_stack"
+  }
+}

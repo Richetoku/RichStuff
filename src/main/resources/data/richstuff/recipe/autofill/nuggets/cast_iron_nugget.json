@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/cast_iron"
+    }
+  ],
+  "result": {
+    "id": "richstuff:cast_iron_nugget",
+    "count": 9
+  }
+}

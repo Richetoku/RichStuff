@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/reinforced_copper"
+    }
+  ],
+  "result": {
+    "item": "richstuff:reinforced_copper_wire",
+    "count": 2
+  }
+}

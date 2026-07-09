@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:copronickel_ingot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:copronickel"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:tyrian_steel_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:tyrian_steel_ingot",
+    "count": 9
+  }
+}

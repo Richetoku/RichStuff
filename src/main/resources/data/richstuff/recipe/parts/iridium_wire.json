@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "R"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:shears"
+    },
+    "R": {
+      "tag": "c:rods/iridium"
+    }
+  },
+  "result": {
+    "id": "richstuff:iridium_wire",
+    "count": 2
+  }
+}

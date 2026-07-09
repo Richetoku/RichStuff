@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "richstuff:iron_ingot"
+    },
+    "title": {
+      "text": "Process Metal"
+    },
+    "description": {
+      "text": "RichStuff quest: Process Metal"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "richstuff:quests/gem_refining",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "richstuff:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    },
+    {
+      "tag": "c:gems/ammolite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ammolite_block"
+  }
+}

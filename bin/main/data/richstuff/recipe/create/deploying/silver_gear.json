@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:plates/silver"
+    },
+    {
+      "item": "richstuff:gear_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:silver_gear"
+    }
+  ],
+  "keep_held_item": true
+}

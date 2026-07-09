@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    },
+    {
+      "tag": "c:dusts/tyrian_steel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:tyrian_steel_dust_block"
+  }
+}

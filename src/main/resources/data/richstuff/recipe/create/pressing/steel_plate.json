@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:steel_plate"
+    }
+  ],
+  "processingTime": 80
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:rotten_flesh"
+    }
+  },
+  "result": {
+    "id": "richstuff:rotten_flesh_block"
+  }
+}

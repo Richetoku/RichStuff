@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/moldavite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:moldavite_dust"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:charcoal_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:tiny_charcoal_dust",
+    "count": 9
+  }
+}

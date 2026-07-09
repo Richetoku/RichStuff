@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:citrine"
+    }
+  ],
+  "result": {
+    "id": "richstuff:citrine_shard",
+    "count": 4
+  }
+}

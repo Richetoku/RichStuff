@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "richstuff:amethyst_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:budding_amethyst_crystal"
+  }
+}

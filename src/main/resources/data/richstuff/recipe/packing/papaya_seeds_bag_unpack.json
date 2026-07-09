@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:papaya_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:papayaseeditem",
+    "count": 9
+  }
+}

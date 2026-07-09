@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:emerald_washed"
+  },
+  "result": {
+    "id": "richstuff:emerald_refined"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

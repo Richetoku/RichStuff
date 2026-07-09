@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:nettles_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:nettlesseeditem",
+    "count": 9
+  }
+}

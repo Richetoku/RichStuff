@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:iridium_coin_stack"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iridium_coin",
+    "count": 9
+  }
+}

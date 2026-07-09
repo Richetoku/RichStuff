@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    },
+    {
+      "tag": "c:raw_materials/emerald"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_emerald_block"
+  }
+}

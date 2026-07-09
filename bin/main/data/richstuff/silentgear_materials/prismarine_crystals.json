@@ -1,0 +1,111 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "crystal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/prismarine_crystals"
+    },
+    "part_substitutes": {
+      "silentgear:tip": {
+        "tag": "c:shards/prismarine_crystals"
+      }
+    }
+  },
+  "display": {
+    "color": "#FF87CEEB",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.prismarine_crystals"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 15.8,
+      "armor/boots": 2.5,
+      "armor/chestplate": 6.6,
+      "armor/helmet": 2.8,
+      "armor/leggings": 5.1,
+      "armor_durability": 16.9,
+      "attack_damage": 2.83,
+      "attack_speed": 0.0,
+      "attack_speed/axe": 0.02,
+      "charging_value": 1.18,
+      "draw_speed": 0.18,
+      "durability": 463,
+      "enchantment_value": 27.4,
+      "harvest_speed": 7.26,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_netherite_tools",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 11.8,
+      "magic_damage": 6.46,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.54,
+      "rarity": 53.5,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:synergistic"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 4.2
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.99
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 148.2
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.16
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_netherite_tools",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 13.4
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:glowing"
+        }
+      ]
+    }
+  }
+}

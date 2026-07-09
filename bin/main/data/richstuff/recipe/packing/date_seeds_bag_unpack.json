@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:date_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:dateseeditem",
+    "count": 9
+  }
+}

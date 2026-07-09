@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    },
+    {
+      "tag": "c:coins/platinum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:platinum_coin_stack"
+  }
+}

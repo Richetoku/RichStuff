@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/lead"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:lead_crushed"
+    }
+  ],
+  "processingTime": 250
+}

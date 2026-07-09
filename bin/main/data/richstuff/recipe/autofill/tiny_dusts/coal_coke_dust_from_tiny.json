@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "tag": "c:tiny_dusts/coal_coke"
+    }
+  },
+  "result": {
+    "id": "richstuff:coal_coke_dust"
+  }
+}

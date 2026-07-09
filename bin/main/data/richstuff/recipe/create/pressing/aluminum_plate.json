@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/aluminum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:aluminum_plate"
+    }
+  ],
+  "processingTime": 80
+}

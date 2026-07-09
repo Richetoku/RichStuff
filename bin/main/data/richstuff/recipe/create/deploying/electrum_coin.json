@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:ingots/electrum"
+    },
+    {
+      "item": "richstuff:coin_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:electrum_coin"
+    }
+  ],
+  "keep_held_item": true
+}

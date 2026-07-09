@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/lead"
+    }
+  },
+  "result": {
+    "item": "richstuff:lead_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/diamond"
+    }
+  ],
+  "result": {
+    "item": "richstuff:diamond_wire",
+    "count": 2
+  }
+}

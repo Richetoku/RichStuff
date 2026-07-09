@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/kyanite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:kyanite_dust"
+    }
+  ],
+  "processingTime": 100
+}

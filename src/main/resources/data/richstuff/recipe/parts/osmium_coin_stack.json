@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    },
+    {
+      "tag": "c:coins/osmium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:osmium_coin_stack"
+  }
+}

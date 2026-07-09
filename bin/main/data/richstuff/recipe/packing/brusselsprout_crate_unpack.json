@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:brusselsprout_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:brusselsproutitem",
+    "count": 9
+  }
+}

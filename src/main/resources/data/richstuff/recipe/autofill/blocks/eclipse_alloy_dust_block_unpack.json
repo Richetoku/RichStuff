@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:eclipse_alloy_dust_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 9
+  }
+}

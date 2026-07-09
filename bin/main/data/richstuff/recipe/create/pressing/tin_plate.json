@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tin_plate"
+    }
+  ],
+  "processingTime": 80
+}

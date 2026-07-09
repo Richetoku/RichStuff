@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:slag_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:slag"
+  }
+}

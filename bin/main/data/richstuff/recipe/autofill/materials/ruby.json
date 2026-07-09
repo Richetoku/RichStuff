@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:ruby_refined"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ruby"
+  }
+}

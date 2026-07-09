@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    },
+    {
+      "tag": "c:coins/turquoise"
+    }
+  ],
+  "result": {
+    "id": "richstuff:turquoise_coin_stack"
+  }
+}

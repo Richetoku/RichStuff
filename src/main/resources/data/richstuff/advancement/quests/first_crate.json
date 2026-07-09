@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "richstuff:apple_crate"
+    },
+    "title": {
+      "text": "Package Crops"
+    },
+    "description": {
+      "text": "RichStuff quest: Package Crops"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "richstuff:quests/first_mold",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "richstuff:apple_crate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

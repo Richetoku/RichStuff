@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:dusts/ferricore"
+    }
+  },
+  "result": {
+    "id": "richstuff:ferricore_dust_block"
+  }
+}

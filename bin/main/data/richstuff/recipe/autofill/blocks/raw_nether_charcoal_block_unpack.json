@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_nether_charcoal_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:stone",
+    "count": 9
+  }
+}

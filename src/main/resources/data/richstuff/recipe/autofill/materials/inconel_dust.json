@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:inconel_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:inconel_dust"
+  }
+}

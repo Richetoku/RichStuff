@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    },
+    {
+      "tag": "c:dusts/rose_quartz"
+    }
+  ],
+  "result": {
+    "id": "richstuff:rose_quartz_dust_block"
+  }
+}

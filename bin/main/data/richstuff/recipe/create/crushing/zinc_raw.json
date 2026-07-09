@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/zinc"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "id": "richstuff:zinc_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:zinc_dust",
+      "chance": 0.25
+    }
+  ]
+}

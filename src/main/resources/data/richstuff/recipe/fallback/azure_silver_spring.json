@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "W W",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "c:wires/azure_silver"
+    }
+  },
+  "result": {
+    "id": "richstuff:azure_silver_spring"
+  }
+}

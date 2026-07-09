@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/ruby"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ruby_dust"
+    }
+  ],
+  "processingTime": 100
+}

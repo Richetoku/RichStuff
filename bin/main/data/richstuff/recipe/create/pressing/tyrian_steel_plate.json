@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tyrian_steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tyrian_steel_plate"
+    }
+  ],
+  "processingTime": 80
+}

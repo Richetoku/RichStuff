@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/rose_quartz"
+    }
+  ],
+  "result": {
+    "item": "richstuff:rose_quartz_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    },
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_lapis_lazuli_block"
+  }
+}

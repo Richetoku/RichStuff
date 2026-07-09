@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    },
+    {
+      "tag": "c:raw_materials/prismarine"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_prismarine_block"
+  }
+}

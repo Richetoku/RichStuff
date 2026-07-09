@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/andesite_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:andesite_alloy_dust"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "#silentgems:gem_blocks/diamond",
+    "#silentgems:gem_blocks/emerald",
+    "#silentgems:gem_blocks/lapis_lazuli",
+    "#silentgems:gem_blocks/alexandrite",
+    "#silentgems:gem_blocks/ammolite",
+    "#silentgems:gem_blocks/black_diamond",
+    "#silentgems:gem_blocks/carnelian",
+    "#silentgems:gem_blocks/citrine",
+    "#silentgems:gem_blocks/heliodor",
+    "#silentgems:gem_blocks/iolite",
+    "#silentgems:gem_blocks/kyanite",
+    "#silentgems:gem_blocks/moldavite",
+    "#silentgems:gem_blocks/peridot",
+    "#silentgems:gem_blocks/rose_quartz",
+    "#silentgems:gem_blocks/ruby",
+    "#silentgems:gem_blocks/sapphire",
+    "#silentgems:gem_blocks/topaz",
+    "#silentgems:gem_blocks/turquoise",
+    "#silentgems:gem_blocks/white_diamond",
+    "#silentgems:gem_blocks/celestigem",
+    "#silentgems:gem_blocks/quartz",
+    "#silentgems:gem_blocks/amethyst",
+    "#silentgems:gem_blocks/prismarine_shard",
+    "#silentgems:gem_blocks/prismarine_crystals"
+  ]
+}

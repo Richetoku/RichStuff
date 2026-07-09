@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:topaz_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:topaz_refined",
+    "count": 9
+  }
+}

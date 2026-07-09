@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    },
+    {
+      "tag": "c:coins/ruby"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ruby_coin_stack"
+  }
+}

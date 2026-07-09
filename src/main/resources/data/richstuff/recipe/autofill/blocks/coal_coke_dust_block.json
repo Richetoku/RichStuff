@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "richstuff:coal_coke_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:coal_coke_dust_block"
+  }
+}

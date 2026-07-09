@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_gold_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_gold",
+    "count": 9
+  }
+}

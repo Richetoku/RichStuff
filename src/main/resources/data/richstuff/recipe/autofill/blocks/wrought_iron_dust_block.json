@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:dusts/wrought_iron"
+    }
+  },
+  "result": {
+    "id": "richstuff:wrought_iron_dust_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:white_diamond_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:white_diamond_refined",
+    "count": 9
+  }
+}

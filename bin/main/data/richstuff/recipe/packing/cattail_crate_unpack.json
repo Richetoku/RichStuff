@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cattail_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:cattailitem",
+    "count": 9
+  }
+}

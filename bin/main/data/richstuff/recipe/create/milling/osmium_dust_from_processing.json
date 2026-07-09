@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:osmium_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_dust"
+    }
+  ],
+  "processingTime": 140
+}

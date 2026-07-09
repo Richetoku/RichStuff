@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:rice_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:riceseeditem",
+    "count": 9
+  }
+}

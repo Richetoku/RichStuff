@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "richstuff:osmium_dust"
+  },
+  "result": {
+    "id": "richstuff:osmium_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100
+}

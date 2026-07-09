@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/crimson_iron"
+    }
+  ],
+  "result": {
+    "id": "richstuff:crimson_iron_nugget",
+    "count": 9
+  }
+}

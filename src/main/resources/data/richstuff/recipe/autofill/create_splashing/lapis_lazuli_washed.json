@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:lapis_lazuli_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lapis_lazuli_washed"
+    }
+  ],
+  "processingTime": 120
+}

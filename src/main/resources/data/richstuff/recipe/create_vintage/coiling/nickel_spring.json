@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/nickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#C5C297",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:enderium_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:enderium_dust",
+    "count": 9
+  }
+}

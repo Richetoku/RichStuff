@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/azure_silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_silver_dust"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:rose_quartz_crushed",
+      "count": 2
+    }
+  ],
+  "processingTime": 220
+}

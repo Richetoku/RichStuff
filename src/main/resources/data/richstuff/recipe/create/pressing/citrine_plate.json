@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/citrine"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_plate"
+    }
+  ],
+  "processingTime": 80
+}

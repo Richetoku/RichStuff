@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "item": "richstuff:coin_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:silver_coin"
+    }
+  ],
+  "keep_held_item": true
+}

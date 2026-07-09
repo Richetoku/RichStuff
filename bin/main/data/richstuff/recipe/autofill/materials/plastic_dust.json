@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:plastic_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:plastic_dust"
+  }
+}

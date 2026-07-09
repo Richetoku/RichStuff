@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copronickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copronickel_plate"
+    }
+  ],
+  "processingTime": 80
+}

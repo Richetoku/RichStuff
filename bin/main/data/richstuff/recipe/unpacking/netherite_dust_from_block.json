@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:netherite_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:netherite_dust",
+    "count": 9
+  }
+}

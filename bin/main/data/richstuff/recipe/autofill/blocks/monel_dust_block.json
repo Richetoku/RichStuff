@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "richstuff:monel_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:monel_dust_block"
+  }
+}

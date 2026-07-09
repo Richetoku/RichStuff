@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:passionfruit_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:passionfruitseeditem",
+    "count": 9
+  }
+}

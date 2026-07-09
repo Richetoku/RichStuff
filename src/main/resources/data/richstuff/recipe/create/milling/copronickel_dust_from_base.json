@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copronickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copronickel_dust"
+    }
+  ],
+  "processingTime": 100
+}

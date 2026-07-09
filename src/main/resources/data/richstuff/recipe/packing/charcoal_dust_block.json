@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    },
+    {
+      "tag": "c:dusts/charcoal"
+    }
+  ],
+  "result": {
+    "id": "richstuff:charcoal_dust_block"
+  }
+}

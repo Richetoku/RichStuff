@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_aluminum_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_aluminum",
+    "count": 9
+  }
+}

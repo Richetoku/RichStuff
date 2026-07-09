@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:signalum_coin_stack"
+    }
+  ],
+  "result": {
+    "id": "richstuff:signalum_coin",
+    "count": 9
+  }
+}

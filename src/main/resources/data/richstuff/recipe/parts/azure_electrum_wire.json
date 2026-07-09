@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "R"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:shears"
+    },
+    "R": {
+      "tag": "c:rods/azure_electrum"
+    }
+  },
+  "result": {
+    "id": "richstuff:azure_electrum_wire",
+    "count": 2
+  }
+}

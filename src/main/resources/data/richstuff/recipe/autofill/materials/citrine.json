@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:citrine_refined"
+    }
+  ],
+  "result": {
+    "id": "richstuff:citrine"
+  }
+}

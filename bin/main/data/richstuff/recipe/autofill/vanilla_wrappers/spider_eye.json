@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spider_eye"
+    }
+  ],
+  "result": {
+    "id": "richstuff:spider_eye"
+  }
+}

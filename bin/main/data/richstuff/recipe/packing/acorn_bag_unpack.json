@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:acorn_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:acornseeditem",
+    "count": 9
+  }
+}

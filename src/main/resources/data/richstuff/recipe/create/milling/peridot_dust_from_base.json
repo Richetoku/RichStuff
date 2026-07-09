@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/peridot"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:peridot_dust"
+    }
+  ],
+  "processingTime": 100
+}

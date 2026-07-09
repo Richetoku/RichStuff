@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:kyanite_brick"
+    }
+  },
+  "result": {
+    "id": "richstuff:kyanite_block"
+  }
+}

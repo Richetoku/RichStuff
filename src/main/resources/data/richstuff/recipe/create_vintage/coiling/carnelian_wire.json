@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/carnelian"
+    }
+  ],
+  "result": {
+    "item": "richstuff:carnelian_wire",
+    "count": 2
+  }
+}

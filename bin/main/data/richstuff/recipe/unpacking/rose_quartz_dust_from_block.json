@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:rose_quartz_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:rose_quartz_dust",
+    "count": 9
+  }
+}

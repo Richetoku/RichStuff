@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:bone_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:bone",
+    "count": 9
+  }
+}

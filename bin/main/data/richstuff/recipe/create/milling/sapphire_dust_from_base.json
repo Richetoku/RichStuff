@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/sapphire"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sapphire_dust"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/lapis_lazuli"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "id": "richstuff:lapis_lazuli_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:lapis_lazuli_dust",
+      "chance": 0.25
+    }
+  ]
+}

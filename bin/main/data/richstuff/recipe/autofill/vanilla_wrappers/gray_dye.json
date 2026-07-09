@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "result": {
+    "id": "richstuff:gray_dye"
+  }
+}

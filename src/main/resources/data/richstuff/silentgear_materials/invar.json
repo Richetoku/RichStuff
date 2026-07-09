@@ -1,0 +1,127 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "alloy"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/invar"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/invar"
+      },
+      "silentgear:tip": {
+        "tag": "c:nuggets/invar"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFA9B59A",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.invar"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 13.8,
+      "armor/boots": 2.2,
+      "armor/chestplate": 5.8,
+      "armor/helmet": 2.5,
+      "armor/leggings": 4.4,
+      "armor_durability": 16.4,
+      "attack_damage": 2.64,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.08,
+      "charging_value": 0.91,
+      "draw_speed": 0.09,
+      "durability": 408,
+      "enchantment_value": 14.8,
+      "harvest_speed": 6.68,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "magic_armor": 3.2,
+      "magic_damage": 1.76,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.18,
+      "rarity": 34.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 4.1
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.92
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 130.6
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.07
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "2",
+        "name": "iron"
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 8.5
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 49.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    }
+  }
+}

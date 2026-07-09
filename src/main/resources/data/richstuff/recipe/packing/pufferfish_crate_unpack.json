@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:pufferfish_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:pufferfishitem",
+    "count": 9
+  }
+}

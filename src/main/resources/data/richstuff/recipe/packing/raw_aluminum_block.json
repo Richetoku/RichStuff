@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_aluminum_block"
+  }
+}

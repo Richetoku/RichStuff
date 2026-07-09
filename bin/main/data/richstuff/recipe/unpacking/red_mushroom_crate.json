@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:red_mushroom_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:red_mushroom",
+    "count": 9
+  }
+}

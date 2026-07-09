@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:prismarine_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:prismarine_refined",
+    "count": 9
+  }
+}

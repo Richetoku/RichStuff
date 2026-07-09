@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    },
+    {
+      "tag": "c:dusts/turquoise"
+    }
+  ],
+  "result": {
+    "id": "richstuff:turquoise_dust_block"
+  }
+}

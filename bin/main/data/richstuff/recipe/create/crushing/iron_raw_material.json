@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iron_crushed"
+    }
+  ],
+  "processingTime": 180
+}

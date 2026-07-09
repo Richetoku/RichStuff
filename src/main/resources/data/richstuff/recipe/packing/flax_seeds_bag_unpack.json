@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:flax_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:flaxseeditem",
+    "count": 9
+  }
+}

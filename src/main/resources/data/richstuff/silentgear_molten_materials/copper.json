@@ -1,0 +1,49 @@
+{
+  "material": "richstuff:copper",
+  "silent_gear_material": "richstuff:copper",
+  "fluid": "richstuff:molten_copper",
+  "fluid_tag": "c:molten/copper",
+  "base_item_tag": "c:ingots/copper",
+  "grade_passthrough": true,
+  "grade_component_passthrough": [
+    "silentgear:grade",
+    "silentgear:material_grade",
+    "silentgear:material_modifiers"
+  ],
+  "modifier_passthrough": true,
+  "stats_snapshot": {
+    "armor": 12.3,
+    "armor/boots": 2.0,
+    "armor/chestplate": 5.2,
+    "armor/helmet": 2.2,
+    "armor/leggings": 3.9,
+    "armor_durability": 14.3,
+    "attack_damage": 2.18,
+    "attack_speed": 0.0,
+    "attack_speed/axe": -0.08,
+    "charging_value": 0.82,
+    "draw_speed": 0.07,
+    "durability": 336,
+    "enchantment_value": 13.1,
+    "harvest_speed": 5.96,
+    "harvest_tier": {
+      "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+      "level_hint": "2",
+      "name": "iron"
+    },
+    "magic_armor": 2.7,
+    "magic_damage": 1.46,
+    "projectile_accuracy": 1.0,
+    "projectile_speed": 1.0,
+    "ranged_damage": 1.06,
+    "rarity": 27.5,
+    "traits": [
+      {
+        "conditions": [],
+        "level": 2,
+        "trait": "silentgear:malleable"
+      }
+    ]
+  },
+  "notes": "RichStuff keeps Silent Gear material identity on molten variants so Create casting and pack scripts can create graded Silent Gear parts from molten metals."
+}

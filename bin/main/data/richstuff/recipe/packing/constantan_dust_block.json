@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    },
+    {
+      "tag": "c:dusts/constantan"
+    }
+  ],
+  "result": {
+    "id": "richstuff:constantan_dust_block"
+  }
+}

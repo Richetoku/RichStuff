@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:uranium_ingot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:uranium"
+  }
+}

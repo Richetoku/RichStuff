@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    },
+    {
+      "tag": "c:dusts/diamond"
+    }
+  ],
+  "result": {
+    "id": "richstuff:diamond_dust_block"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    },
+    {
+      "tag": "c:dusts/moldavite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:moldavite_dust_block"
+  }
+}

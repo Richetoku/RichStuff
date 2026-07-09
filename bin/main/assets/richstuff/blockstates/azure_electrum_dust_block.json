@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "richstuff:block/azure_electrum_dust_block"
+    }
+  }
+}

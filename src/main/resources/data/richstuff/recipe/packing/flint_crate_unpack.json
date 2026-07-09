@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:flint_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:flintitem",
+    "count": 9
+  }
+}

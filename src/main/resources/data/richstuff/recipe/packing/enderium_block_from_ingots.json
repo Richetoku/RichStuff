@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    },
+    {
+      "tag": "c:ingots/enderium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:enderium_block"
+  }
+}

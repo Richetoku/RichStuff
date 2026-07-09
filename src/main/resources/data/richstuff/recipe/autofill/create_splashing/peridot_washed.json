@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:peridot_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:peridot_washed"
+    }
+  ],
+  "processingTime": 120
+}

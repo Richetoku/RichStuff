@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/lumium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lumium_dust"
+    }
+  ],
+  "processingTime": 100
+}

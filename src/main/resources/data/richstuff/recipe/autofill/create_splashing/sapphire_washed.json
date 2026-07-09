@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:sapphire_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sapphire_washed"
+    }
+  ],
+  "processingTime": 120
+}

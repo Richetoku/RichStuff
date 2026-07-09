@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " I ",
+    "   "
+  ],
+  "key": {
+    "M": {
+      "item": "richstuff:coin_mold_press"
+    },
+    "I": {
+      "tag": "c:ingots/silver"
+    }
+  },
+  "result": {
+    "id": "richstuff:silver_coin"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/carnelian"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:carnelian_dust"
+    }
+  ],
+  "processingTime": 100
+}

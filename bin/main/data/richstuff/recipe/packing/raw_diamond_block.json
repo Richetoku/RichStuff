@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    },
+    {
+      "tag": "c:raw_materials/diamond"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_diamond_block"
+  }
+}

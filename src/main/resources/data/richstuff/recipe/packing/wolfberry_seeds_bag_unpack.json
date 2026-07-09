@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:wolfberry_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:wolfberryseeditem",
+    "count": 9
+  }
+}

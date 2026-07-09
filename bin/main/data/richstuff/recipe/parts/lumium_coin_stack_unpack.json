@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:lumium_coin_stack"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lumium_coin",
+    "count": 9
+  }
+}

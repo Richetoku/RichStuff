@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_crushed"
+    }
+  ],
+  "processingTime": 180
+}

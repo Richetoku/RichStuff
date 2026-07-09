@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:gold_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:gold_dust"
+    }
+  ],
+  "processingTime": 140
+}

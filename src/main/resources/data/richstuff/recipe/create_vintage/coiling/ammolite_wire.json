@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/ammolite"
+    }
+  ],
+  "result": {
+    "item": "richstuff:ammolite_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    },
+    {
+      "tag": "c:gems/kyanite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:kyanite_block"
+  }
+}

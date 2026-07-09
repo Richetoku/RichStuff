@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_emerald_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_emerald",
+    "count": 9
+  }
+}

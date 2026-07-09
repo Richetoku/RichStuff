@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "result": {
+    "id": "richstuff:glass_filled_plate_mold"
+  }
+}

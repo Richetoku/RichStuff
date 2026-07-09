@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:avocado_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:avocadoitem",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/electrum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:electrum_dust"
+    }
+  ],
+  "processingTime": 100
+}

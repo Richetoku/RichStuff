@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:breadfruit_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:breadfruitseeditem",
+    "count": 9
+  }
+}

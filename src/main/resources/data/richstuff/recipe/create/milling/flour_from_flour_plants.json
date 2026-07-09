@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:flour_plants"
+    }
+  ],
+  "results": [
+    {
+      "id": "pamhc2foodcore:flouritem"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/steel"
+    }
+  },
+  "result": {
+    "id": "richstuff:steel_brick",
+    "count": 4
+  }
+}

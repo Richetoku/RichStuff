@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:gold_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:gold_crushed"
+    }
+  ],
+  "processingTime": 250
+}

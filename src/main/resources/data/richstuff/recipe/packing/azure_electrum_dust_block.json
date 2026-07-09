@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    },
+    {
+      "tag": "c:dusts/azure_electrum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:azure_electrum_dust_block"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/azure_silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_silver_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#7D3CE7",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

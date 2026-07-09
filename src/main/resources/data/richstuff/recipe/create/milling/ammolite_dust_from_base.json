@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/ammolite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ammolite_dust"
+    }
+  ],
+  "processingTime": 100
+}

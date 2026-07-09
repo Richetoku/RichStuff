@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    },
+    {
+      "tag": "c:gems/topaz"
+    }
+  ],
+  "result": {
+    "id": "richstuff:topaz_block"
+  }
+}

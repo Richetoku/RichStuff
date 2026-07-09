@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cast_iron_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:cast_iron_dust",
+    "count": 9
+  }
+}

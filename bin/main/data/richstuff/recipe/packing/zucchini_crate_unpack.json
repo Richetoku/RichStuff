@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:zucchini_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:zucchiniitem",
+    "count": 9
+  }
+}

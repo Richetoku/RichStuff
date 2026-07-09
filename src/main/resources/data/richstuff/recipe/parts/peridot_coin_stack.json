@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    },
+    {
+      "tag": "c:coins/peridot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:peridot_coin_stack"
+  }
+}

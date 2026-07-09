@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/invar"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:invar_plate"
+    }
+  ],
+  "processingTime": 80
+}

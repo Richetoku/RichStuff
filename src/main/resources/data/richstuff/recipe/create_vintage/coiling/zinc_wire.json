@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/zinc"
+    }
+  ],
+  "result": {
+    "item": "richstuff:zinc_wire",
+    "count": 2
+  }
+}

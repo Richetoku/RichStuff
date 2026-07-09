@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/topaz"
+    }
+  ],
+  "result": {
+    "item": "richstuff:topaz_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:kelp_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:kelpitem",
+    "count": 9
+  }
+}

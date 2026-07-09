@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:ryeitem"
+    }
+  },
+  "result": {
+    "id": "richstuff:rye_crate"
+  }
+}

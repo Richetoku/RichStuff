@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:moldavite_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:moldavite_washed"
+    }
+  ],
+  "processingTime": 120
+}

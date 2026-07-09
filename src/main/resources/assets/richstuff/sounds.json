@@ -1,0 +1,10 @@
+{
+    "egirl_melody": {
+        "sounds": [
+            {
+                "name": "richstuff:egirl_melody",
+                "stream": true
+            }
+        ]
+    }
+}

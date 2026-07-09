@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/platinum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:platinum_dust"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:aluminum_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:aluminum_dust"
+    }
+  ],
+  "processingTime": 140
+}

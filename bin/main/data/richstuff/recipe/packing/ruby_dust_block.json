@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    },
+    {
+      "tag": "c:dusts/ruby"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ruby_dust_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:plastic_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:plastic_ingot",
+    "count": 9
+  }
+}

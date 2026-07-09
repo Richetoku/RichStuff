@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:experience_bottle_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:experience_bottleitem",
+    "count": 9
+  }
+}

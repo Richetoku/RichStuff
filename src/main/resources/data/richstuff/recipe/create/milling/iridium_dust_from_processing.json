@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:iridium_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iridium_dust"
+    }
+  ],
+  "processingTime": 140
+}

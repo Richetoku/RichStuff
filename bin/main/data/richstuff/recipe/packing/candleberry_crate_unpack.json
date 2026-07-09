@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:candleberry_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:candleberryitem",
+    "count": 9
+  }
+}

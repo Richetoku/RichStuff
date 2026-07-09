@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:sunchoke_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:sunchokeseeditem",
+    "count": 9
+  }
+}

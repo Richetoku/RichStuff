@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/azure_silver"
+    }
+  ],
+  "result": {
+    "id": "richstuff:azure_silver_nugget",
+    "count": 9
+  }
+}

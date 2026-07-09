@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:raw_materials/nickel"
+  },
+  "result": {
+    "id": "richstuff:nickel_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

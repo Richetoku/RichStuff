@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/amethyst"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:amethyst_crushed",
+      "count": 2
+    }
+  ],
+  "processingTime": 220
+}

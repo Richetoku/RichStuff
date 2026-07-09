@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:parsnip_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:parsnipseeditem",
+    "count": 9
+  }
+}

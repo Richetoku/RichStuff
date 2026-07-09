@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/uranium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:uranium_crushed"
+    }
+  ],
+  "processingTime": 180
+}

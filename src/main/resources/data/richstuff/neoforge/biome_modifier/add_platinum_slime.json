@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/platinum",
+  "spawners": {
+    "type": "richstuff:platinum_slime",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

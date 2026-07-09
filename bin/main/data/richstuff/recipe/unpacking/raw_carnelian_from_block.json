@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_carnelian_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_carnelian",
+    "count": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    },
+    {
+      "tag": "c:dusts/bronze"
+    }
+  ],
+  "result": {
+    "id": "richstuff:bronze_dust_block"
+  }
+}

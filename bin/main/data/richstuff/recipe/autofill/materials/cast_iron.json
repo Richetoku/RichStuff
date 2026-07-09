@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cast_iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:cast_iron"
+  }
+}

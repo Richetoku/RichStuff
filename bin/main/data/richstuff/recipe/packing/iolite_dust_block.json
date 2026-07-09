@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    },
+    {
+      "tag": "c:dusts/iolite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iolite_dust_block"
+  }
+}

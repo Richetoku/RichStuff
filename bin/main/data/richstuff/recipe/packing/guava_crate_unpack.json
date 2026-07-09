@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:guava_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:guavaitem",
+    "count": 9
+  }
+}

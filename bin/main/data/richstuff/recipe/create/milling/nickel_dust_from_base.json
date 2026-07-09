@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/nickel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_dust"
+    }
+  ],
+  "processingTime": 100
+}

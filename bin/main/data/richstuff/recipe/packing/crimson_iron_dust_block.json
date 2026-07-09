@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    },
+    {
+      "tag": "c:dusts/crimson_iron"
+    }
+  ],
+  "result": {
+    "id": "richstuff:crimson_iron_dust_block"
+  }
+}

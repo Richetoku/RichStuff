@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_vanadium_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_vanadium",
+    "count": 9
+  }
+}

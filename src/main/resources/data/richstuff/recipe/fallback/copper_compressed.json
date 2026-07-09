@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SMS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "richstuff:copper_seperated"
+    },
+    "M": {
+      "item": "create:mechanical_press"
+    }
+  },
+  "result": {
+    "id": "richstuff:copper_compressed"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_dust"
+    }
+  ],
+  "processingTime": 100
+}

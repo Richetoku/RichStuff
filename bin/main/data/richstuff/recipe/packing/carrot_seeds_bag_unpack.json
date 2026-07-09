@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:carrot_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:carrotseeditem",
+    "count": 9
+  }
+}

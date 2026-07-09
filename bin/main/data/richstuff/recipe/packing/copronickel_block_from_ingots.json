@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    },
+    {
+      "tag": "c:ingots/copronickel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:copronickel_block"
+  }
+}

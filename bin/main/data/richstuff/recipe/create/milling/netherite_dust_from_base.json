@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/netherite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:netherite_dust"
+    }
+  ],
+  "processingTime": 100
+}

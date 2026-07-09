@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    },
+    {
+      "tag": "c:raw_materials/zinc"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_zinc_block"
+  }
+}

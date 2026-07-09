@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tyrian_steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tyrian_steel_dust"
+    }
+  ],
+  "processingTime": 100
+}

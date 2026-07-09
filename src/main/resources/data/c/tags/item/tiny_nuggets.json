@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:tiny_nuggets/bitumen",
+    "#c:tiny_nuggets/charcoal",
+    "#c:tiny_nuggets/coal_coke",
+    "#c:tiny_nuggets/coal",
+    "#c:tiny_nuggets/nether_charcoal"
+  ]
+}

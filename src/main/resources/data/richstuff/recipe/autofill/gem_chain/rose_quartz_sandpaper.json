@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:rose_quartz_heated"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "id": "richstuff:rose_quartz_sandpaper"
+  }
+}

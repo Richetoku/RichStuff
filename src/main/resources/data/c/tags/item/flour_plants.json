@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wheat",
+    "pamhc2crops:barleyitem",
+    "pamhc2crops:oatsitem",
+    "pamhc2crops:ryeitem"
+  ]
+}

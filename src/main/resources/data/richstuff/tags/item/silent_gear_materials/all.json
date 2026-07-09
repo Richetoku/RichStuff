@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#richstuff:silent_gear_materials/metals",
+    "#richstuff:silent_gear_materials/gems"
+  ]
+}

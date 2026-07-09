@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:starfruit_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:starfruititem",
+    "count": 9
+  }
+}

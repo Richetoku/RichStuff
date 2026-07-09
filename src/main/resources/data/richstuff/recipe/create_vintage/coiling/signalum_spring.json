@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/signalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:signalum_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#B05B51",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

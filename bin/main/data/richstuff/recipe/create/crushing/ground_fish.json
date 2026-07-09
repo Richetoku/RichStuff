@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:fish/raw"
+    }
+  ],
+  "results": [
+    {
+      "id": "pamhc2foodcore:groundfishitem",
+      "count": 2
+    }
+  ],
+  "processingTime": 120
+}

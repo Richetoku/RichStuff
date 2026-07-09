@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    },
+    {
+      "tag": "c:gems/ruby"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ruby_block"
+  }
+}

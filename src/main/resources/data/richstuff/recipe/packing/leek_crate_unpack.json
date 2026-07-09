@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:leek_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:leekitem",
+    "count": 9
+  }
+}

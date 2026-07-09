@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:steel_dust"
+    }
+  ],
+  "processingTime": 100
+}

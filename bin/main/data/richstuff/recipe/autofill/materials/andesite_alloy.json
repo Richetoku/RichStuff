@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:andesite_alloy_ingot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:andesite_alloy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:bell_pepper_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:bell_pepperitem",
+    "count": 9
+  }
+}

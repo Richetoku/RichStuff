@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:lead_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_dust"
+    }
+  ],
+  "processingTime": 140
+}

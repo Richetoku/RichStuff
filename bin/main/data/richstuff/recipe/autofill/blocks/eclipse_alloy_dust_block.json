@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "tag": "c:dusts/eclipse_alloy"
+    }
+  },
+  "result": {
+    "id": "richstuff:eclipse_alloy_dust_block"
+  }
+}

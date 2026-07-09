@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:cinder_flourseeditem"
+    }
+  },
+  "result": {
+    "id": "richstuff:cinder_flour_bag"
+  }
+}

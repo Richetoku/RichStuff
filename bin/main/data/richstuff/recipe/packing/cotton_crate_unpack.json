@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cotton_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:cottonitem",
+    "count": 9
+  }
+}

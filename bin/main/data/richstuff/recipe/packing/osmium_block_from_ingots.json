@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:osmium_block"
+  }
+}

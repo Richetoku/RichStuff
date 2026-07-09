@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:quartz_dust"
+    }
+  ],
+  "processingTime": 100
+}

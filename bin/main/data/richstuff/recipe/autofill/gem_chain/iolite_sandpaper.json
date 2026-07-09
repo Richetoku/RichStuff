@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:iolite_heated"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iolite_sandpaper"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    },
+    {
+      "tag": "c:ingots/lumium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lumium_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/iridium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iridium_crushed"
+    }
+  ],
+  "processingTime": 180
+}

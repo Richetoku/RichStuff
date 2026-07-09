@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/blaze_gold"
+    }
+  },
+  "result": {
+    "id": "richstuff:blaze_gold_ingot"
+  }
+}

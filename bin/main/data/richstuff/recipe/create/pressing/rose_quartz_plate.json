@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:rose_quartz_plate"
+    }
+  ],
+  "processingTime": 80
+}

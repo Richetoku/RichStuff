@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:black_diamond"
+    }
+  ],
+  "result": {
+    "id": "richstuff:black_diamond_shard",
+    "count": 4
+  }
+}

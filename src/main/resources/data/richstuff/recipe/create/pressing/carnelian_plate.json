@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/carnelian"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:carnelian_plate"
+    }
+  ],
+  "processingTime": 80
+}

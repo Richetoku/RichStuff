@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/aluminum"
+    }
+  ],
+  "result": {
+    "item": "richstuff:aluminum_wire",
+    "count": 2
+  }
+}

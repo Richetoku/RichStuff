@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:rotten_flesh_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:rotten_fleshitem",
+    "count": 9
+  }
+}

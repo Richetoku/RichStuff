@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:glow_berriesitem"
+    }
+  },
+  "result": {
+    "id": "richstuff:glow_berries_crate"
+  }
+}

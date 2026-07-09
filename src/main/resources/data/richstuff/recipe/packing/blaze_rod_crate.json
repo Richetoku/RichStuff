@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:blaze_roditem"
+    }
+  },
+  "result": {
+    "id": "richstuff:blaze_rod_crate"
+  }
+}

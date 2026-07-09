@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:feather_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:feather",
+    "count": 9
+  }
+}

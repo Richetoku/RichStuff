@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    },
+    {
+      "tag": "c:dusts/osmium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:osmium_dust_block"
+  }
+}

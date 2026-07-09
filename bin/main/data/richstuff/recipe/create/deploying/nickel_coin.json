@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:ingots/nickel"
+    },
+    {
+      "item": "richstuff:coin_mold_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_coin"
+    }
+  ],
+  "keep_held_item": true
+}

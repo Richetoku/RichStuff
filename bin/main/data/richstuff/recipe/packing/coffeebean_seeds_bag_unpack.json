@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:coffeebean_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:coffeebeanseeditem",
+    "count": 9
+  }
+}

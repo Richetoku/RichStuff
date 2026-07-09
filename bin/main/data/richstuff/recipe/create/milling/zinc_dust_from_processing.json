@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:zinc_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_dust"
+    }
+  ],
+  "processingTime": 140
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/ammolite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ammolite_plate"
+    }
+  ],
+  "processingTime": 80
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/osmium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_plate"
+    }
+  ],
+  "processingTime": 80
+}

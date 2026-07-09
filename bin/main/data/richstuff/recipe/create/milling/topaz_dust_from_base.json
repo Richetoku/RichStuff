@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/topaz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:topaz_dust"
+    }
+  ],
+  "processingTime": 100
+}

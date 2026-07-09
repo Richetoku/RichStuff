@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:bitumen_nugget"
+    }
+  ],
+  "result": {
+    "id": "richstuff:tiny_bitumen_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/emerald"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:emerald_dust"
+    }
+  ],
+  "processingTime": 100
+}

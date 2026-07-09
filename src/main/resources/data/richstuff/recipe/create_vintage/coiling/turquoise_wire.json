@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/turquoise"
+    }
+  ],
+  "result": {
+    "item": "richstuff:turquoise_wire",
+    "count": 2
+  }
+}

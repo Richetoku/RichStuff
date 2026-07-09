@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "c:fruits/cactusfruit"
+    },
+    {
+      "tag": "c:sugars"
+    }
+  ],
+  "result": {
+    "id": "richstuff:cactusfruit_jelly_jar"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:diamond_shard",
+    "richstuff:emerald_shard",
+    "richstuff:lapis_lazuli_shard",
+    "richstuff:alexandrite_shard",
+    "richstuff:ammolite_shard",
+    "richstuff:black_diamond_shard",
+    "richstuff:carnelian_shard",
+    "richstuff:citrine_shard",
+    "richstuff:heliodor_shard",
+    "richstuff:iolite_shard",
+    "richstuff:kyanite_shard",
+    "richstuff:moldavite_shard",
+    "richstuff:peridot_shard",
+    "richstuff:rose_quartz_shard",
+    "richstuff:ruby_shard",
+    "richstuff:sapphire_shard",
+    "richstuff:topaz_shard",
+    "richstuff:turquoise_shard",
+    "richstuff:white_diamond_shard",
+    "richstuff:quartz_shard",
+    "richstuff:amethyst_shard",
+    "richstuff:prismarine_shard"
+  ]
+}

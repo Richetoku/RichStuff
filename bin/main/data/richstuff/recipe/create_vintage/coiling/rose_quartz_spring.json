@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:rose_quartz_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#FC7DAA",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

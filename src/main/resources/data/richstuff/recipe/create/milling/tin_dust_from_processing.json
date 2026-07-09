@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:tin_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tin_dust"
+    }
+  ],
+  "processingTime": 140
+}

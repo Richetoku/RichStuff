@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:coal_coke_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:coal_coke_dust",
+    "count": 9
+  }
+}

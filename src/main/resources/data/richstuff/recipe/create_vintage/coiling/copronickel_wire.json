@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/copronickel"
+    }
+  ],
+  "result": {
+    "item": "richstuff:copronickel_wire",
+    "count": 2
+  }
+}

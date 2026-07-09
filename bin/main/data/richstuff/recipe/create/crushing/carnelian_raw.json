@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/carnelian"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "id": "richstuff:carnelian_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:carnelian_dust",
+      "chance": 0.25
+    }
+  ]
+}

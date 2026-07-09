@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:iolite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iolite_shard",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "richstuff:blank_mold_press"
+  },
+  "result": {
+    "id": "richstuff:nugget_mold_press"
+  }
+}

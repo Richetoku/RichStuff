@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    },
+    {
+      "tag": "c:raw_materials/moldavite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_moldavite_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/turquoise"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:turquoise_dust"
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "richstuff:item/vessels/lemon_jelly_jar"
+  }
+}

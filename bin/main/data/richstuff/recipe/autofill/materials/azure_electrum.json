@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:azure_electrum_ingot"
+    }
+  ],
+  "result": {
+    "id": "richstuff:azure_electrum"
+  }
+}

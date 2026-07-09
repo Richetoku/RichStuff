@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "richstuff:blank_mold"
+  },
+  "result": {
+    "id": "richstuff:base_black_diamond_gem_mold"
+  }
+}

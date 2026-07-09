@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:apricot_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:apricotitem",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/cobalt"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cobalt_crushed"
+    }
+  ],
+  "processingTime": 180
+}

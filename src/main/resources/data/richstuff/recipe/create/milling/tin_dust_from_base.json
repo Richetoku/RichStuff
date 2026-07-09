@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tin_dust"
+    }
+  ],
+  "processingTime": 100
+}

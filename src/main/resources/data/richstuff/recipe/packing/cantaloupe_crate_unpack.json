@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cantaloupe_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:cantaloupeitem",
+    "count": 9
+  }
+}

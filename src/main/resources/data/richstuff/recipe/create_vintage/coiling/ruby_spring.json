@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/ruby"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ruby_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#B72D2D",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

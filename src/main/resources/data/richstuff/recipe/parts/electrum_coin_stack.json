@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    },
+    {
+      "tag": "c:coins/electrum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:electrum_coin_stack"
+  }
+}

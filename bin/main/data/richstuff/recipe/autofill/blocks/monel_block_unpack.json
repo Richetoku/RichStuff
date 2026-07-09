@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:monel_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:monel_ingot",
+    "count": 9
+  }
+}

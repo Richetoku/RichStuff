@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/lumium"
+    }
+  ],
+  "result": {
+    "item": "richstuff:lumium_wire",
+    "count": 2
+  }
+}

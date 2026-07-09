@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/crimson_iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_iron_crushed"
+    }
+  ],
+  "processingTime": 180
+}

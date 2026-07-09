@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:alexandrite_shard",
+    "count": 4
+  }
+}

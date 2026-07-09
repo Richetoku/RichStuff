@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_iron_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_iron_dust"
+    }
+  ],
+  "processingTime": 140
+}

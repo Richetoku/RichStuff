@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:orange_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:orangeseeditem",
+    "count": 9
+  }
+}

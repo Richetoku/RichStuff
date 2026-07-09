@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cobalt_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:cobalt_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:silver_plate"
+    }
+  ],
+  "processingTime": 80
+}

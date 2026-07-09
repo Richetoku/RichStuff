@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/osmium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_crushed"
+    }
+  ],
+  "processingTime": 180
+}

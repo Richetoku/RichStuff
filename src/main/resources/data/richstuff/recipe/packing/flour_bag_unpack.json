@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:flour_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:flourseeditem",
+    "count": 9
+  }
+}

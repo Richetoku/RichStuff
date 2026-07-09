@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/enderium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:enderium_plate"
+    }
+  ],
+  "processingTime": 80
+}

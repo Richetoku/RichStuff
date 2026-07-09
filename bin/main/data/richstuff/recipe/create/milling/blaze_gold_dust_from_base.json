@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/blaze_gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:blaze_gold_dust"
+    }
+  ],
+  "processingTime": 100
+}

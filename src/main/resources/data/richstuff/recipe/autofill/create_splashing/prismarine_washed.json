@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:prismarine_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:prismarine_washed"
+    }
+  ],
+  "processingTime": 120
+}

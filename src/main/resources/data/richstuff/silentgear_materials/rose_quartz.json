@@ -1,0 +1,111 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/rose_quartz"
+    },
+    "part_substitutes": {
+      "silentgear:tip": {
+        "tag": "c:shards/rose_quartz"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFFC7DAA",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.rose_quartz"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 14.5,
+      "armor/boots": 2.3,
+      "armor/chestplate": 6.1,
+      "armor/helmet": 2.6,
+      "armor/leggings": 4.6,
+      "armor_durability": 15.3,
+      "attack_damage": 2.49,
+      "attack_speed": 0.0,
+      "attack_speed/axe": 0.02,
+      "charging_value": 1.09,
+      "draw_speed": 0.17,
+      "durability": 409,
+      "enchantment_value": 25.2,
+      "harvest_speed": 6.68,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "magic_armor": 10.5,
+      "magic_damage": 5.78,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.42,
+      "rarity": 47.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.8
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.87
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 130.9
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.07
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "3",
+        "name": "diamond"
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 11.8
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:setting": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    }
+  }
+}

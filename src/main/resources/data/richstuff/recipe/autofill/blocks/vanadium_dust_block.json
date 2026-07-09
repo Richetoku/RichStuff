@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "richstuff:vanadium_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:vanadium_dust_block"
+  }
+}

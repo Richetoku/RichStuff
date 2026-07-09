@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:pinenut_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:pinenutseeditem",
+    "count": 9
+  }
+}

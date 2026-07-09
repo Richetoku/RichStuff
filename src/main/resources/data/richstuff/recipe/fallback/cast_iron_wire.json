@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/cast_iron"
+    }
+  },
+  "result": {
+    "item": "richstuff:cast_iron_wire",
+    "count": 2
+  }
+}

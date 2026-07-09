@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cocoa_beans_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cocoa_beans",
+    "count": 9
+  }
+}

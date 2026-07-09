@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:ender_dustseeditem"
+    }
+  },
+  "result": {
+    "id": "richstuff:ender_dust_bag"
+  }
+}

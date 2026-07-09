@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/andesite_alloy"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:andesite_alloy_plate"
+    }
+  ],
+  "processingTime": 80
+}

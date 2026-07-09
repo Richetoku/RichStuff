@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/andesite_alloy"
+    }
+  ],
+  "result": {
+    "item": "richstuff:andesite_alloy_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:gooseberry_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:gooseberryseeditem",
+    "count": 9
+  }
+}

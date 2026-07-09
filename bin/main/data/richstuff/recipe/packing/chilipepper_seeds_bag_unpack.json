@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:chilipepper_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:chilipepperseeditem",
+    "count": 9
+  }
+}

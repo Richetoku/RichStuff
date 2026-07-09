@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/eclipse_alloy"
+    }
+  },
+  "result": {
+    "id": "richstuff:eclipse_alloy_brick",
+    "count": 4
+  }
+}

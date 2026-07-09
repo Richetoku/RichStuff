@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:hastelloy_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:hastelloy_ingot",
+    "count": 9
+  }
+}

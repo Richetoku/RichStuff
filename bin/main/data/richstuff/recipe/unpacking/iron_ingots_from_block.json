@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:iron_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iron_ingot",
+    "count": 9
+  }
+}

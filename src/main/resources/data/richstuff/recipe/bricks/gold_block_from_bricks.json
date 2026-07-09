@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:gold_brick"
+    }
+  },
+  "result": {
+    "id": "richstuff:gold_block"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "createvintageneoforged:polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:turquoise_sandpaper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:turquoise_polished"
+    }
+  ],
+  "processingTime": 120,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

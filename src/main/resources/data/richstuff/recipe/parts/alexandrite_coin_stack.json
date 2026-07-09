@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    },
+    {
+      "tag": "c:coins/alexandrite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:alexandrite_coin_stack"
+  }
+}

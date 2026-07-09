@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:quartz_coin_stack"
+    }
+  ],
+  "result": {
+    "id": "richstuff:quartz_coin",
+    "count": 9
+  }
+}

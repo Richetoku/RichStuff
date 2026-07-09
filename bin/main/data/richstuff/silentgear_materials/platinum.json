@@ -1,0 +1,118 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/platinum"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/platinum"
+      },
+      "silentgear:tip": {
+        "tag": "c:nuggets/platinum"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFA7B1C3",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.platinum"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 18.1,
+      "armor/boots": 2.9,
+      "armor/chestplate": 7.6,
+      "armor/helmet": 3.3,
+      "armor/leggings": 5.8,
+      "armor_durability": 22.7,
+      "attack_damage": 4.02,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.08,
+      "charging_value": 1.18,
+      "draw_speed": 0.14,
+      "durability": 624,
+      "enchantment_value": 19.9,
+      "harvest_speed": 8.84,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_netherite_tools",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 4.9,
+      "magic_damage": 2.67,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.54,
+      "rarity": 53.5,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 4,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 5.7
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.41
+      },
+      "draw_speed": {
+        "operation": "ADD",
+        "value": 0.1
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 199.7
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.41
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_netherite_tools",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 13.4
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 74.9
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    }
+  }
+}

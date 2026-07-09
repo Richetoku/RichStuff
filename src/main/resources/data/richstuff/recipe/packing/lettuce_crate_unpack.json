@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:lettuce_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:lettuceitem",
+    "count": 9
+  }
+}

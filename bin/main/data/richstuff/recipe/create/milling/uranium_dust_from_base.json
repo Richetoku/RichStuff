@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/uranium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:uranium_dust"
+    }
+  ],
+  "processingTime": 100
+}

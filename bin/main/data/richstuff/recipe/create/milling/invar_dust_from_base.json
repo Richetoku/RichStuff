@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/invar"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:invar_dust"
+    }
+  ],
+  "processingTime": 100
+}

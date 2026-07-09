@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/crimson_steel"
+    }
+  },
+  "result": {
+    "id": "richstuff:crimson_steel_ingot"
+  }
+}

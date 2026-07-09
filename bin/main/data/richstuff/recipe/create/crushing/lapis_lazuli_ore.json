@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lapis_lazuli_crushed",
+      "count": 2
+    }
+  ],
+  "processingTime": 220
+}

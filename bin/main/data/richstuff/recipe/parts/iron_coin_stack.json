@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    },
+    {
+      "tag": "c:coins/iron"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iron_coin_stack"
+  }
+}

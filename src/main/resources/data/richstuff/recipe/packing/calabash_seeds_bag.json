@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:calabashseeditem"
+    }
+  },
+  "result": {
+    "id": "richstuff:calabash_seeds_bag"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    },
+    {
+      "tag": "c:dusts/ammolite"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ammolite_dust_block"
+  }
+}

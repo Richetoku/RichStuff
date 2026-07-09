@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:ruby_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ruby_washed"
+    }
+  ],
+  "processingTime": 120
+}

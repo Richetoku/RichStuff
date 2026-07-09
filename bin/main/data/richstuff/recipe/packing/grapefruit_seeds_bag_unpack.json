@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:grapefruit_seeds_bag"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:grapefruitseeditem",
+    "count": 9
+  }
+}

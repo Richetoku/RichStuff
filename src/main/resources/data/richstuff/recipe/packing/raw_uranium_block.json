@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_uranium_block"
+  }
+}

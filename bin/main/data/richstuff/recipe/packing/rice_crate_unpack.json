@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:rice_crate"
+    }
+  ],
+  "result": {
+    "id": "pamhc2crops:riceitem",
+    "count": 9
+  }
+}

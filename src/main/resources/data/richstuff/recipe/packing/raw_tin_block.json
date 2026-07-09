@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    },
+    {
+      "tag": "c:raw_materials/tin"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_tin_block"
+  }
+}

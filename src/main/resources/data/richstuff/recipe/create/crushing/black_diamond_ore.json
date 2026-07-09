@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/black_diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:black_diamond_crushed",
+      "count": 2
+    }
+  ],
+  "processingTime": 220
+}

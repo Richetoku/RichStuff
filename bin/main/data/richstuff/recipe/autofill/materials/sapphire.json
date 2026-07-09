@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:sapphire_refined"
+    }
+  ],
+  "result": {
+    "id": "richstuff:sapphire"
+  }
+}

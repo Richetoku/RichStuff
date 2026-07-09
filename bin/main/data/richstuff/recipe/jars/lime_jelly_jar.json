@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "c:fruits/lime"
+    },
+    {
+      "tag": "c:sugars"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lime_jelly_jar"
+  }
+}

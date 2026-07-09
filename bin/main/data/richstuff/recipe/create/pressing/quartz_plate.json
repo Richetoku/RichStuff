@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:quartz_plate"
+    }
+  ],
+  "processingTime": 80
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_cobalt_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:raw_cobalt",
+    "count": 9
+  }
+}

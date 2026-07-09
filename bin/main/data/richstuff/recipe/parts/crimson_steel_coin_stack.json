@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    },
+    {
+      "tag": "c:coins/crimson_steel"
+    }
+  ],
+  "result": {
+    "id": "richstuff:crimson_steel_coin_stack"
+  }
+}

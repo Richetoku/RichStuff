@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/white_diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:white_diamond_crushed",
+      "count": 2
+    }
+  ],
+  "processingTime": 220
+}
