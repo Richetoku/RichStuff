@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "richstuff:blank_mold"
-  },
-  "result": {
-    "id": "richstuff:base_blank_10x6_mold"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "richstuff:item/vessels/kiwi_jelly_jar"
-  }
-}

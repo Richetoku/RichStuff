@@ -1,8 +1,0 @@
-{
-  "parent": "richstuff:block/crate_base",
-  "textures": {
-    "base": "richstuff:block/crate/crate_side",
-    "particle": "richstuff:block/crate/crate_side",
-    "overlay": "richstuff:block/crate/overlay/coffeebean"
-  }
-}
