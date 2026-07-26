@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:andesite_alloy_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:andesite_alloy_tiny_dust",
+    "count": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:enderium_ingot"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:enderium_filled_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:enderium_ingot",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "enderium",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/enderium",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_ingot_mold",
+      "count": 1
+    }
+  ]
+}

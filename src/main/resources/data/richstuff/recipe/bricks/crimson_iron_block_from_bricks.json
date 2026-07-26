@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:crimson_iron_brick"
+    }
+  },
+  "result": {
+    "id": "richstuff:crimson_iron_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

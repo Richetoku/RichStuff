@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "BMB",
+    "IWI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "G": {
+      "item": "minecraft:grass_block"
+    },
+    "B": {
+      "item": "create:andesite_casing"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "richstuff:rich_crop_chamber"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    }
+  ]
+}

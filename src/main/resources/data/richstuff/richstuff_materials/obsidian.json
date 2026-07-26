@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "material": "obsidian",
+  "category": "utility",
+  "enabled": true,
+  "color": "#1A0F29",
+  "forms": [
+    "obsidian_block",
+    "obsidian_brick",
+    "obsidian_dust_block",
+    "powdered_obsidian_bag",
+    "raw_obsidian_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

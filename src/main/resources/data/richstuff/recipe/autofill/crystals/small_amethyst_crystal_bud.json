@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:budding_amethyst_crystal"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:small_amethyst_crystal_bud"
+    }
+  ],
+  "processing_time": 80
+}

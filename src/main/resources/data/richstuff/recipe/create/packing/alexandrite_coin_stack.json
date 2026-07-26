@@ -1,0 +1,45 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    },
+    {
+      "item": "richstuff:alexandrite_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:alexandrite_coin_stack",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

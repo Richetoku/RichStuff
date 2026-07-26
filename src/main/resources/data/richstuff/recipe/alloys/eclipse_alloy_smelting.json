@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:eclipse_alloy_crushed"
+  },
+  "result": {
+    "id": "richstuff:eclipse_alloy_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

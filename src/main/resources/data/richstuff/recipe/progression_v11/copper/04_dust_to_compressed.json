@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    },
+    {
+      "item": "richstuff:copper_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    },
+    {
+      "type": "richstuff:server_config",
+      "option": "enableMoltenSilentGearCasting",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:copper_filled_shovel_head_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "silentgear:shovel_head",
+      "count": 1,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:copper",
+          "item": {
+            "id": "richstuff:copper_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "silentgear:part_type": "silentgear:main",
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "copper",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/copper",
+          "SilentGearMaterial": "richstuff:copper",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:silent_shovel_head_mold",
+      "count": 1
+    }
+  ]
+}

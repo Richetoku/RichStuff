@@ -1,0 +1,25 @@
+{
+  "material": "copper",
+  "tier": 1,
+  "tierName": "Foundational",
+  "minimumCreateRpm": 16,
+  "category": "metal",
+  "profile": "sulfide_metal",
+  "oreTag": "c:ores/copper",
+  "growthSource": "",
+  "primaryDrop": "minecraft:raw_copper",
+  "byproducts": [
+    "richstuff:small_sulfur_dust"
+  ],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "crushing": 2.0,
+    "washing": 2.5,
+    "heatedSeparation": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Mixer / RichStuff Centrifuge"
+  ]
+}

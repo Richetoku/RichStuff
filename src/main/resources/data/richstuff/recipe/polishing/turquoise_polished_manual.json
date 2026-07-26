@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:turquoise_unrefined"
+    },
+    {
+      "item": "richstuff:turquoise_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:turquoise_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

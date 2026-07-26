@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:obsidian_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:obsidian_brick",
+    "count": 4
+  }
+}

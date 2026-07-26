@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/lead",
+  "spawners": {
+    "type": "richstuff:lead_slime",
+    "weight": 14,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

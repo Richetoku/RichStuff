@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:tyrian_steel_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:tyrian_steel_small_dust",
+    "count": 9
+  }
+}

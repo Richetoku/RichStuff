@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    },
+    {
+      "item": "richstuff:azure_silver_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_silver_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

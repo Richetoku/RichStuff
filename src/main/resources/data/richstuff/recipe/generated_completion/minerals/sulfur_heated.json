@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:sulfur_washed"
+  },
+  "cookingtime": 160,
+  "experience": 0.3,
+  "result": {
+    "id": "richstuff:sulfur_heated"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

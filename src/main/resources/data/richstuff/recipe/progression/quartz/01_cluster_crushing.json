@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:quartz_crystal_cluster"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:quartz",
+      "count": 6
+    },
+    {
+      "id": "richstuff:quartz_crushed",
+      "count": 2
+    }
+  ],
+  "processing_time": 234
+}

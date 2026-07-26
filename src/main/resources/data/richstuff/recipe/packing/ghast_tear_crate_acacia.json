@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XWX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:ghast_tearitem"
+    },
+    "W": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "id": "richstuff:ghast_tear_crate",
+    "components": {
+      "minecraft:block_state": {
+        "wood": "acacia"
+      },
+      "minecraft:custom_model_data": 4
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

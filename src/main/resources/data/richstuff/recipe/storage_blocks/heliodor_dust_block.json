@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:heliodor_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:heliodor_dust_block"
+  }
+}

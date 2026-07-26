@@ -1,0 +1,31 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_steel_filled_block_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_steel_block",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "crimson_steel",
+          "RichStuffMoltenCast": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_block_mold",
+      "count": 1
+    }
+  ]
+}

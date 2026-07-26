@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_crushed",
+      "count": 1
+    }
+  ],
+  "processing_time": 120,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

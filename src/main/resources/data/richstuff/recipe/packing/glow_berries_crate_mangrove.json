@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XWX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:glow_berriesitem"
+    },
+    "W": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result": {
+    "id": "richstuff:glow_berries_crate",
+    "components": {
+      "minecraft:block_state": {
+        "wood": "mangrove"
+      },
+      "minecraft:custom_model_data": 6
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

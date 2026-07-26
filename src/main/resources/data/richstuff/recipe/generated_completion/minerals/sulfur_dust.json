@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:sulfur_refined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sulfur_dust",
+      "count": 1
+    }
+  ],
+  "processing_time": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

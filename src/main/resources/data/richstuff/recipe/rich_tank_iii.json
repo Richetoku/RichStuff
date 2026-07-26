@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "richstuff:rich_tank_ii"
+    }
+  },
+  "result": {
+    "id": "richstuff:rich_tank_iii",
+    "count": 1
+  }
+}

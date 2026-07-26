@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    },
+    {
+      "item": "richstuff:iron_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iron_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

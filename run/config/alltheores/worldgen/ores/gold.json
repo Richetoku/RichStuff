@@ -1,0 +1,138 @@
+{
+  "material": "gold",
+  "enabled": true,
+  "dimension": "overworld",
+  "passes": [
+    {
+      "name": "deep_gold",
+      "dimension": "overworld",
+      "enabled": true,
+      "distribution": "triangle_low",
+      "chunkChance": 1,
+      "veinsPerChunk": 4,
+      "veinsPerChunkVariance": 1,
+      "veinSize": 9,
+      "veinSizeVariance": 3,
+      "minY": -64,
+      "maxY": 32,
+      "discardChanceOnAirExposure": 0.0,
+      "hosts": [
+        "stone",
+        "deepslate",
+        "granite",
+        "diorite",
+        "andesite",
+        "tuff",
+        "calcite",
+        "dripstone",
+        "limestone",
+        "scoria",
+        "scorchia",
+        "crimsite",
+        "asurine",
+        "veridium",
+        "ochrum"
+      ],
+      "biomeAllow": [
+        "*"
+      ],
+      "biomeDeny": []
+    },
+    {
+      "name": "badlands_gold",
+      "dimension": "overworld",
+      "enabled": true,
+      "distribution": "uniform",
+      "chunkChance": 1,
+      "veinsPerChunk": 18,
+      "veinsPerChunkVariance": 4,
+      "veinSize": 9,
+      "veinSizeVariance": 3,
+      "minY": 32,
+      "maxY": 256,
+      "discardChanceOnAirExposure": 0.0,
+      "hosts": [
+        "stone",
+        "deepslate",
+        "granite",
+        "diorite",
+        "andesite",
+        "tuff",
+        "calcite",
+        "dripstone",
+        "limestone",
+        "scoria",
+        "scorchia",
+        "crimsite",
+        "asurine",
+        "veridium",
+        "ochrum"
+      ],
+      "biomeAllow": [
+        "*badlands*"
+      ],
+      "biomeDeny": []
+    },
+    {
+      "name": "rare_gold_pocket",
+      "dimension": "overworld",
+      "enabled": true,
+      "distribution": "uniform",
+      "chunkChance": 0.1,
+      "veinsPerChunk": 1,
+      "veinsPerChunkVariance": 0,
+      "veinSize": 18,
+      "veinSizeVariance": 6,
+      "minY": -64,
+      "maxY": -16,
+      "discardChanceOnAirExposure": 0.35,
+      "hosts": [
+        "stone",
+        "deepslate",
+        "granite",
+        "diorite",
+        "andesite",
+        "tuff",
+        "calcite",
+        "dripstone",
+        "limestone",
+        "scoria",
+        "scorchia",
+        "crimsite",
+        "asurine",
+        "veridium",
+        "ochrum"
+      ],
+      "biomeAllow": [
+        "*"
+      ],
+      "biomeDeny": []
+    },
+    {
+      "name": "sedimentary_trace",
+      "dimension": "overworld",
+      "enabled": true,
+      "distribution": "uniform",
+      "chunkChance": 0.035,
+      "veinsPerChunk": 1,
+      "veinsPerChunkVariance": 0,
+      "veinSize": 4,
+      "veinSizeVariance": 2,
+      "minY": 40,
+      "maxY": 112,
+      "discardChanceOnAirExposure": 0.0,
+      "hosts": [
+        "sand",
+        "gravel"
+      ],
+      "biomeAllow": [
+        "*beach*",
+        "*river*",
+        "*desert*",
+        "*badlands*"
+      ],
+      "biomeDeny": []
+    }
+  ],
+  "comment": "Layered distribution: sparse background veins, focused depth bands, rare rich lodes, biome bonuses, and uncommon sediment/dimension traces."
+}

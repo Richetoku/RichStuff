@@ -1,0 +1,20 @@
+{
+  "type": "createvintageneoforged:centrifugation",
+  "ingredients": [
+    {
+      "item": "richstuff:uranium_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:uranium_dust"
+    }
+  ],
+  "processingTime": 180,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

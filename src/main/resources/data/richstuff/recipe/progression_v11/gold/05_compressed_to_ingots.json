@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:gold_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:gold_ingot",
+      "count": 9
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heat_requirement": "heated"
+}

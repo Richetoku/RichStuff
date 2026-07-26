@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:black_diamond_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:black_diamond_small_dust",
+    "count": 9
+  }
+}

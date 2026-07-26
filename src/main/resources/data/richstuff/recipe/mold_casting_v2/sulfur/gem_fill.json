@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_sulfur_gem_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/sulfur",
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:filled_sulfur_gem_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "sulfur",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/sulfur",
+          "RichStuffTargetPart": "richstuff:sulfur",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

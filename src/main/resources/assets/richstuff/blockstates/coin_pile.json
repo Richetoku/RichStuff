@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "richstuff:block/coin_pile" }
+  }
+}

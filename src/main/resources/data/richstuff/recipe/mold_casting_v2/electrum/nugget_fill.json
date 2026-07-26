@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_nugget_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/electrum",
+      "amount": 16
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:electrum_filled_nugget_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "electrum",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/electrum",
+          "RichStuffTargetPart": "richstuff:electrum_nugget",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

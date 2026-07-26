@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "material": "gunpowder",
+  "category": "utility",
+  "enabled": true,
+  "color": "#777777",
+  "forms": [
+    "gunpowder_bag",
+    "gunpowder_crate"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

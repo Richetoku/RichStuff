@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:emerald"
+    },
+    "T": {
+      "item": "richstuff:rich_tank_iv"
+    }
+  },
+  "result": {
+    "id": "richstuff:rich_tank_v",
+    "count": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:sapphire_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_sapphire",
+      "amount": 1296,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:sapphire",
+          "item": {
+            "id": "richstuff:sapphire_shard",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "sapphire",
+          "RichStuffFluidTag": "c:molten/sapphire",
+          "SilentGearMaterial": "richstuff:sapphire",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 2592
+}

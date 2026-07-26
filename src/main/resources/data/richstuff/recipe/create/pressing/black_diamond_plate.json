@@ -1,0 +1,20 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:gems/black_diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:black_diamond_plate"
+    }
+  ],
+  "processing_time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

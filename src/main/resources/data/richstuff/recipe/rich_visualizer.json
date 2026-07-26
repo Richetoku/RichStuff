@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " G ",
+    "CRC",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:tinted_glass",
+    "C": "minecraft:copper_ingot",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "richstuff:rich_visualizer",
+    "count": 1
+  }
+}

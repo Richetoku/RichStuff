@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:blackstone_coal_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:coal",
+      "count": 2
+    },
+    {
+      "id": "richstuff:coal_dust",
+      "chance": 1.0
+    }
+  ],
+  "processing_time": 180
+}

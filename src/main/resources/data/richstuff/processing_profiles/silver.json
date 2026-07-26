@@ -1,0 +1,23 @@
+{
+  "material": "silver",
+  "tier": 3,
+  "tierName": "Mechanical",
+  "minimumCreateRpm": 64,
+  "category": "metal",
+  "profile": "precious_metal",
+  "oreTag": "c:ores/silver",
+  "growthSource": "",
+  "primaryDrop": "richores:raw_silver",
+  "byproducts": [],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "crushing": 2.0,
+    "washing": 2.5,
+    "heatedSeparation": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Mixer / RichStuff Centrifuge"
+  ]
+}

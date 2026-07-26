@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "#c:crops/almond",
+    "#c:crops/bellpepper",
+    "#c:crops/cabbage",
+    "#c:crops/calabash",
+    "#c:crops/cashew",
+    "#c:crops/chestnut",
+    "#c:crops/chickpea",
+    "#c:crops/chilipepper",
+    "#c:crops/cinnamon",
+    "#c:crops/corn",
+    "#c:crops/eggplant",
+    "#c:crops/garlic",
+    "#c:crops/guarana",
+    "#c:crops/hazelnut",
+    "#c:crops/nutmeg",
+    "#c:crops/onion",
+    "#c:crops/papyrus",
+    "#c:crops/peanut",
+    "#c:crops/peas",
+    "#c:crops/pecan",
+    "#c:crops/peppercorn",
+    "#c:crops/pistachio",
+    "#c:crops/rice",
+    "#c:crops/soybean",
+    "#c:crops/tealeaf",
+    "#c:crops/tomato",
+    "#c:crops/walnut",
+    "#c:crops/wintersquash"
+  ]
+}

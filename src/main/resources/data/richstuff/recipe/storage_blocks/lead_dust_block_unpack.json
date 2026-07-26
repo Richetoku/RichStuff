@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:lead_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lead_dust",
+    "count": 9
+  }
+}

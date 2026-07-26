@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:uranium_plate"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_uranium",
+      "amount": 144,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "uranium",
+          "RichStuffFluidTag": "c:molten/uranium",
+          "RichGearMaterial": "richstuff:uranium",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 288
+}

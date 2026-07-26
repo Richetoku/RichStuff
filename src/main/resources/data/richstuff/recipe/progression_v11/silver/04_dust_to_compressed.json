@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    },
+    {
+      "item": "richstuff:silver_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:silver_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

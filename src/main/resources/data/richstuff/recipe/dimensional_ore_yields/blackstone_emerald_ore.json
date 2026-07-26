@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:blackstone_emerald_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:emerald_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:emerald_unrefined",
+      "chance": 0.7
+    }
+  ],
+  "processing_time": 180
+}

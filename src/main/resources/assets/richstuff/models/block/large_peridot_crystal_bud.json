@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "richstuff:block/crystal_growth/large_peridot_crystal_bud"
+  },
+  "render_type": "minecraft:cutout"
+}

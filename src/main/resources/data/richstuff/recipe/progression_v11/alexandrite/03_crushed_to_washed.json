@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:alexandrite_washed"
+    },
+    {
+      "id": "richstuff:alexandrite_dust",
+      "chance": 0.2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tyrian_steel"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tyrian_steel_plate"
+    }
+  ],
+  "processing_time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

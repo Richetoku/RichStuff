@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_azure_silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_silver_crushed"
+    },
+    {
+      "id": "richstuff:azure_silver_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

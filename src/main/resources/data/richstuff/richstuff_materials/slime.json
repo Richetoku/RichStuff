@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "material": "slime",
+  "category": "utility",
+  "enabled": true,
+  "color": "#83EB9D",
+  "forms": [
+    "slime_filled_blisk_mold",
+    "slime_filled_block_mold"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,78 @@
+{
+  "material": "diamond",
+  "enabled": true,
+  "dimension": "overworld",
+  "passes": [
+    {
+      "name": "deep_triangle",
+      "dimension": "overworld",
+      "enabled": true,
+      "distribution": "triangle_low",
+      "chunkChance": 1,
+      "veinsPerChunk": 4,
+      "veinsPerChunkVariance": 1,
+      "veinSize": 8,
+      "veinSizeVariance": 3,
+      "minY": -64,
+      "maxY": 16,
+      "discardChanceOnAirExposure": 0.5,
+      "hosts": [
+        "stone",
+        "deepslate",
+        "granite",
+        "diorite",
+        "andesite",
+        "tuff",
+        "calcite",
+        "dripstone",
+        "limestone",
+        "scoria",
+        "scorchia",
+        "crimsite",
+        "asurine",
+        "veridium",
+        "ochrum"
+      ],
+      "biomeAllow": [
+        "*"
+      ],
+      "biomeDeny": []
+    },
+    {
+      "name": "bottom_rich",
+      "dimension": "overworld",
+      "enabled": true,
+      "distribution": "uniform",
+      "chunkChance": 0.42,
+      "veinsPerChunk": 1,
+      "veinsPerChunkVariance": 0,
+      "veinSize": 12,
+      "veinSizeVariance": 5,
+      "minY": -64,
+      "maxY": -48,
+      "discardChanceOnAirExposure": 0.65,
+      "hosts": [
+        "stone",
+        "deepslate",
+        "granite",
+        "diorite",
+        "andesite",
+        "tuff",
+        "calcite",
+        "dripstone",
+        "limestone",
+        "scoria",
+        "scorchia",
+        "crimsite",
+        "asurine",
+        "veridium",
+        "ochrum"
+      ],
+      "biomeAllow": [
+        "*"
+      ],
+      "biomeDeny": []
+    }
+  ],
+  "comment": "Layered distribution: sparse background veins, focused depth bands, rare rich lodes, biome bonuses, and uncommon sediment/dimension traces."
+}

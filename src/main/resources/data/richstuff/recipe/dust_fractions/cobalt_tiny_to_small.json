@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT",
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "richstuff:cobalt_tiny_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:cobalt_small_dust"
+  }
+}

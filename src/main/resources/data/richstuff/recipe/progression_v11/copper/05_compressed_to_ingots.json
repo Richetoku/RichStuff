@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:copper_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_ingot",
+      "count": 9
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heat_requirement": "heated"
+}

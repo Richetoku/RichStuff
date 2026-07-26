@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:unfired_nuggets_mold"
+  },
+  "result": {
+    "id": "richstuff:base_nuggets_mold"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

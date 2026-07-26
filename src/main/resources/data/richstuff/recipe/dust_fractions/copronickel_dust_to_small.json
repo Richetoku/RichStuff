@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:copronickel_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:copronickel_small_dust",
+    "count": 9
+  }
+}

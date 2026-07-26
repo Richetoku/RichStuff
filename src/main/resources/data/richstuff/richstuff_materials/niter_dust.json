@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "niter_dust",
+  "category": "utility",
+  "enabled": true,
+  "color": "#EEDFCC",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

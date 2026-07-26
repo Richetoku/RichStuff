@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:aluminum_plate"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_aluminum",
+      "amount": 144,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:aluminum",
+          "item": {
+            "id": "richstuff:aluminum_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "aluminum",
+          "RichStuffFluidTag": "c:molten/aluminum",
+          "SilentGearMaterial": "richstuff:aluminum",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 288
+}

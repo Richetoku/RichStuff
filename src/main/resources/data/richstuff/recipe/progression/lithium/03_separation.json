@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:lithium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lithium_dust",
+      "count": 2
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 190
+}

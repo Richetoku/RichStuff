@@ -1,0 +1,92 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/lumium"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/lumium"
+      },
+      "silentgear:tip": {
+        "tag": "c:nuggets/lumium"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFF6F298",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.lumium"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 10.6,
+      "armor_durability": 16.4,
+      "attack_damage": 1.91,
+      "attack_speed": 0.0,
+      "durability": 600,
+      "enchantment_value": 17.6,
+      "harvest_speed": 6.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "3",
+        "name": "iron"
+      },
+      "magic_armor": 1.8,
+      "magic_damage": 0.8,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.02,
+      "rarity": 32.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 58.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.68
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 95
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.78
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "3",
+        "name": "iron"
+      }
+    }
+  }
+}

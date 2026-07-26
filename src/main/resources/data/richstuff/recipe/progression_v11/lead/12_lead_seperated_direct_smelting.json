@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "richstuff:lead_seperated"
+  },
+  "result": {
+    "id": "richstuff:lead_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

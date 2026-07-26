@@ -1,0 +1,31 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:reinforced_copper_filled_brick_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:reinforced_copper_brick",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "reinforced_copper",
+          "RichStuffMoltenCast": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_brick_mold",
+      "count": 1
+    }
+  ]
+}

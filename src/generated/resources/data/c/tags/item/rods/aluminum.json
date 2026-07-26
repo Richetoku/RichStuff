@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:aluminum_rod",
+    {
+      "id": "vintageimprovements:aluminum_rod",
+      "required": false
+    }
+  ]
+}

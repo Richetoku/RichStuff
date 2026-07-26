@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "soul_sand",
+  "category": "utility",
+  "enabled": true,
+  "color": "#6C4F43",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

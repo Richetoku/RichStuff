@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_bakeware"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "item": "richstuff:pie_crust"
+    }
+  ],
+  "result": {
+    "id": "pamhc2fantasy:rottenpotpieitem",
+    "count": 1
+  }
+}

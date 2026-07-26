@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:rose_quartz_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:rose_quartz_brick",
+    "count": 4
+  }
+}

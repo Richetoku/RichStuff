@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "blaze_powder",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FFB32C",
+  "forms": [
+    "blaze_powder_bag"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

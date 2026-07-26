@@ -1,0 +1,16 @@
+{
+  "type": "alloy",
+  "inputs": [
+    {
+      "fluid": "richstuff:molten_copper",
+      "amount": 270
+    },
+    {
+      "fluid": "richstuff:molten_zinc",
+      "amount": 90
+    }
+  ],
+  "fluid": "richstuff:molten_brass",
+  "amount": 360,
+  "ticks": 80
+}

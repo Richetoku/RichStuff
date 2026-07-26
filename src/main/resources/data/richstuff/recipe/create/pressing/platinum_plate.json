@@ -1,0 +1,20 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/platinum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:platinum_plate"
+    }
+  ],
+  "processing_time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

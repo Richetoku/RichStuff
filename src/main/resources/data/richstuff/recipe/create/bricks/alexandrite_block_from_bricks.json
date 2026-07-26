@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite_brick"
+    },
+    {
+      "item": "richstuff:alexandrite_brick"
+    },
+    {
+      "item": "richstuff:alexandrite_brick"
+    },
+    {
+      "item": "richstuff:alexandrite_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:alexandrite_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

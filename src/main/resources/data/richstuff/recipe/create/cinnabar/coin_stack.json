@@ -1,0 +1,44 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    },
+    {
+      "item": "richstuff:cinnabar_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_coin_stack"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

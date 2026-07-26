@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "richores:uranium_ore",
+    "richores:deepslate_uranium_ore"
+  ]
+}

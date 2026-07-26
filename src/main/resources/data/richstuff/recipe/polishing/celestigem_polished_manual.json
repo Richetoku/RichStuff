@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:celestigem_unrefined"
+    },
+    {
+      "item": "richstuff:celestigem_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:celestigem_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

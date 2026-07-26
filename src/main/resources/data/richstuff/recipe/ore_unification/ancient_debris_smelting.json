@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "c:ores/ancient_debris"
+  },
+  "result": {
+    "id": "minecraft:netherite_scrap"
+  },
+  "experience": 0.7,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

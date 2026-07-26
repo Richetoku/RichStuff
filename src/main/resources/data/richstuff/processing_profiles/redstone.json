@@ -1,0 +1,21 @@
+{
+  "material": "redstone",
+  "tier": 2,
+  "tierName": "Industrial",
+  "minimumCreateRpm": 32,
+  "category": "dust",
+  "profile": "dust_milling",
+  "oreTag": "c:ores/redstone",
+  "growthSource": "",
+  "primaryDrop": "minecraft:redstone",
+  "byproducts": [],
+  "yieldTiers": {
+    "handMining": 4.0,
+    "milling": 5.0,
+    "crushing": 7.0
+  },
+  "requiredMachines": [
+    "Create Millstone",
+    "Create Crushing Wheels"
+  ]
+}

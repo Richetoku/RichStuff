@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XWX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:blaze_roditem"
+    },
+    "W": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "result": {
+    "id": "richstuff:blaze_rod_crate",
+    "components": {
+      "minecraft:block_state": {
+        "wood": "bamboo"
+      },
+      "minecraft:custom_model_data": 8
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

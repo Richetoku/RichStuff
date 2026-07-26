@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:ferricore_raw"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ferricore_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:ferricore_dust",
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 140
+}

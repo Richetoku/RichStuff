@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:platinum_wire",
+    {
+      "id": "vintageimprovements:platinum_wire",
+      "required": false
+    }
+  ]
+}

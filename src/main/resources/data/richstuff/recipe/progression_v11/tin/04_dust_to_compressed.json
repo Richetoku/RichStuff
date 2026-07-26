@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    },
+    {
+      "item": "richstuff:tin_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tin_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

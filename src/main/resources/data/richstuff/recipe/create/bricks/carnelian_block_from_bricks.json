@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:carnelian_brick"
+    },
+    {
+      "item": "richstuff:carnelian_brick"
+    },
+    {
+      "item": "richstuff:carnelian_brick"
+    },
+    {
+      "item": "richstuff:carnelian_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:carnelian_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

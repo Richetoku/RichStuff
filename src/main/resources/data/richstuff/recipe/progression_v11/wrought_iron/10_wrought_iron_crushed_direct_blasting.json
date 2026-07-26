@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "richstuff:wrought_iron_crushed"
+  },
+  "result": {
+    "id": "richstuff:wrought_iron_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:andesite_alloy_ingot",
+    "richstuff:andesite_alloy_rod",
+    "richstuff:andesite_alloy_plate",
+    "richstuff:andesite_alloy_gear"
+  ]
+}

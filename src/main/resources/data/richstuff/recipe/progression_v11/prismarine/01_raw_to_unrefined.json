@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_prismarine"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:prismarine_unrefined"
+    },
+    {
+      "id": "richstuff:prismarine_unrefined",
+      "chance": 0.2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:iridium_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iridium_ingot",
+    "count": 9
+  }
+}

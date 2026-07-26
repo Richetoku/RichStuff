@@ -1,0 +1,21 @@
+{
+  "material": "cinnabar",
+  "tier": 3,
+  "tierName": "Mechanical",
+  "minimumCreateRpm": 64,
+  "category": "utility",
+  "profile": "chemical_extraction",
+  "oreTag": "c:ores/cinnabar",
+  "growthSource": "",
+  "primaryDrop": "richores:cinnabar",
+  "byproducts": [],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "mechanicalExtraction": 2.0,
+    "washedPurification": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing / RichStuff Ore Washer"
+  ]
+}

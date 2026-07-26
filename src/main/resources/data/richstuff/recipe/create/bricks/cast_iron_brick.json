@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/cast_iron"
+    },
+    {
+      "tag": "c:storage_blocks/cast_iron"
+    },
+    {
+      "tag": "c:storage_blocks/cast_iron"
+    },
+    {
+      "tag": "c:storage_blocks/cast_iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cast_iron_brick",
+      "count": 4
+    }
+  ],
+  "processing_time": 80
+}

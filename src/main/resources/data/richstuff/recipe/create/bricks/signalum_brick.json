@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/signalum"
+    },
+    {
+      "tag": "c:storage_blocks/signalum"
+    },
+    {
+      "tag": "c:storage_blocks/signalum"
+    },
+    {
+      "tag": "c:storage_blocks/signalum"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:signalum_brick",
+      "count": 4
+    }
+  ],
+  "processing_time": 80
+}

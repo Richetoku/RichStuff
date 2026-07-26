@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:platinum_brick"
+    },
+    {
+      "item": "richstuff:platinum_brick"
+    },
+    {
+      "item": "richstuff:platinum_brick"
+    },
+    {
+      "item": "richstuff:platinum_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:platinum_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

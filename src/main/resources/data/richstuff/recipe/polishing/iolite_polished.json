@@ -1,0 +1,19 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:iolite_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iolite_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

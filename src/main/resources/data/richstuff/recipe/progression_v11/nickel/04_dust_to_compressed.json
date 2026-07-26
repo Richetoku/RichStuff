@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    },
+    {
+      "item": "richstuff:nickel_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

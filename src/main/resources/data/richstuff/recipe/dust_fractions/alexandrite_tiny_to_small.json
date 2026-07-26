@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT",
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "richstuff:alexandrite_tiny_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:alexandrite_small_dust"
+  }
+}

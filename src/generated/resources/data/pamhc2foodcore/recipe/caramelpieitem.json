@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_bakeware"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:caramel"
+    },
+    {
+      "item": "richstuff:pie_crust"
+    }
+  ],
+  "result": {
+    "id": "pamhc2foodcore:caramelpieitem",
+    "count": 1
+  }
+}

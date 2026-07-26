@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "snowball",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FFFFFF",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

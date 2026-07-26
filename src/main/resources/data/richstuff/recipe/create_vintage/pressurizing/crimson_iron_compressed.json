@@ -1,0 +1,20 @@
+{
+  "type": "createvintageneoforged:pressurizing",
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_iron_seperated"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_iron_compressed"
+    }
+  ],
+  "processingTime": 160,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

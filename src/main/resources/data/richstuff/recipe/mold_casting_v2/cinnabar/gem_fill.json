@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_cinnabar_gem_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/cinnabar",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:filled_cinnabar_gem_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "cinnabar",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/cinnabar",
+          "RichStuffTargetPart": "richstuff:cinnabar",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

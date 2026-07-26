@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "richstuff:platinum_dust"
+  }
+}

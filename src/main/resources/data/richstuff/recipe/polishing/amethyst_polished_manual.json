@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:amethyst_unrefined"
+    },
+    {
+      "item": "richstuff:amethyst_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:amethyst_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "richstuff:block/ore_extractor_casing_unformed"
+    },
+    "formed=true,powered=false": {
+      "model": "richstuff:block/ore_extractor_casing_formed"
+    },
+    "formed=true,powered=true": {
+      "model": "richstuff:block/ore_extractor_casing_powered"
+    }
+  }
+}

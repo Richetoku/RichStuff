@@ -1,0 +1,24 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:citrine_washed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_refined"
+    },
+    {
+      "id": "richstuff:citrine_refined",
+      "chance": 0.15
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

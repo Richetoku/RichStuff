@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:celestigem_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:celestigem_brick",
+    "count": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:rose_quartz_polished"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:rose_quartz"
+    },
+    {
+      "id": "richstuff:rose_quartz_dust",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

@@ -1,0 +1,92 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "crystal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/prismarine_shard"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/prismarine_shard"
+      },
+      "silentgear:tip": {
+        "tag": "c:shards/prismarine_shard"
+      }
+    }
+  },
+  "display": {
+    "color": "#FF87CEEB",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.prismarine_shard"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 12.25,
+      "armor_durability": 18.5,
+      "attack_damage": 2.25,
+      "attack_speed": 0.0,
+      "durability": 705,
+      "enchantment_value": 20.0,
+      "harvest_speed": 7.45,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "4",
+        "name": "diamond"
+      },
+      "magic_armor": 5,
+      "magic_damage": 3.75,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.1,
+      "rarity": 37.5,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 67.5
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.8
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 110
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.9
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_diamond_tools",
+        "level_hint": "4",
+        "name": "diamond"
+      }
+    }
+  }
+}

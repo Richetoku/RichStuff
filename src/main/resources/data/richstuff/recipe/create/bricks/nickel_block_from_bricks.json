@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:nickel_brick"
+    },
+    {
+      "item": "richstuff:nickel_brick"
+    },
+    {
+      "item": "richstuff:nickel_brick"
+    },
+    {
+      "item": "richstuff:nickel_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

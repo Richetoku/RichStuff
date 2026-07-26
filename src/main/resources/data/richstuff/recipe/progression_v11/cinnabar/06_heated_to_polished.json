@@ -1,0 +1,23 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_heated"
+    },
+    {
+      "item": "richstuff:cinnabar_sandpaper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "keep_held_item": true
+}

@@ -1,0 +1,23 @@
+{
+  "material": "bitumen",
+  "tier": 1,
+  "tierName": "Foundational",
+  "minimumCreateRpm": 16,
+  "category": "fuel",
+  "profile": "fuel_refining",
+  "oreTag": "c:ores/bitumen",
+  "growthSource": "",
+  "primaryDrop": "richores:raw_bitumen",
+  "byproducts": [
+    "richstuff:small_sulfur_dust"
+  ],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "breaking": 2.0,
+    "washedFuel": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing"
+  ]
+}

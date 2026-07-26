@@ -1,0 +1,37 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:lead_rod"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:lead_filled_rod_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_rod",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "lead",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/lead",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_rod_mold",
+      "count": 1
+    }
+  ]
+}

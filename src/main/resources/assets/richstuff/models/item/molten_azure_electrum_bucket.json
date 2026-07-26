@@ -1,0 +1,5 @@
+{
+  "parent": "neoforge:item/bucket",
+  "loader": "neoforge:fluid_container",
+  "fluid": "richstuff:molten_azure_electrum"
+}

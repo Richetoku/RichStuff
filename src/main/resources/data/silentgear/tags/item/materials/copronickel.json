@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:copronickel_ingot",
+    "richstuff:copronickel_rod",
+    "richstuff:copronickel_plate",
+    "richstuff:copronickel_gear"
+  ]
+}

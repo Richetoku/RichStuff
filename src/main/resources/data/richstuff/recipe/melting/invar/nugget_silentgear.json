@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:invar_nugget"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_invar",
+      "amount": 16,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:invar",
+          "item": {
+            "id": "richstuff:invar_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "invar",
+          "RichStuffFluidTag": "c:molten/invar",
+          "SilentGearMaterial": "richstuff:invar",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 32
+}

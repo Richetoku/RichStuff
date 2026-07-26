@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_unrefined"
+    },
+    {
+      "item": "richstuff:ammolite_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ammolite_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

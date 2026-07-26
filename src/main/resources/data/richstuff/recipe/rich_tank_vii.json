@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_star"
+    },
+    "T": {
+      "item": "richstuff:rich_tank_vi"
+    }
+  },
+  "result": {
+    "id": "richstuff:rich_tank_vii",
+    "count": 1
+  }
+}

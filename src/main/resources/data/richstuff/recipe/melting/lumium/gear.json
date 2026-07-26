@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:lumium_gear"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_lumium",
+      "amount": 576,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "lumium",
+          "RichStuffFluidTag": "c:molten/lumium",
+          "RichGearMaterial": "richstuff:lumium",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 1152
+}

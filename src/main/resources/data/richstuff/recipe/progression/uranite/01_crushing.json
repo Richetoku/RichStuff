@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/uranite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:uranite",
+      "count": 2
+    },
+    {
+      "id": "richstuff:uranite",
+      "chance": 0.35
+    },
+    {
+      "id": "richstuff:uranium_small_dust",
+      "chance": 0.14
+    }
+  ],
+  "processing_time": 282
+}

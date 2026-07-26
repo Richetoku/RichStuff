@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:smooth_basalt_carnelian_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:carnelian_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:carnelian_unrefined",
+      "chance": 0.7
+    }
+  ],
+  "processing_time": 180
+}

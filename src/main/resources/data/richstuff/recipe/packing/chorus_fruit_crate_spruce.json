@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XWX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:chorus_fruititem"
+    },
+    "W": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "id": "richstuff:chorus_fruit_crate",
+    "components": {
+      "minecraft:block_state": {
+        "wood": "spruce"
+      },
+      "minecraft:custom_model_data": 1
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

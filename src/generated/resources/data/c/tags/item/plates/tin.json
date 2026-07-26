@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:tin_plate",
+    {
+      "id": "oritech:carbon_plating_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "oritech:machine_plating_pressure_plate",
+      "required": false
+    }
+  ]
+}

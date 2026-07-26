@@ -1,0 +1,45 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    },
+    {
+      "item": "richstuff:enderium_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:enderium_coin_stack",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

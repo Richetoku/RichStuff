@@ -1,0 +1,14 @@
+
+{
+    id: "richstuff",
+    title: "RichStuff",
+    subtitle: "Ore, gem, crystal, storage, and Create processing",
+    groups: [],
+    quests: [
+        { id: "welcome", title: "Welcome to RichStuff", icon: "richstuff:green_heart", tasks: [{ type: "item", item: "richstuff:green_heart" }] },
+        { id: "molds", title: "Make Your First Mold", icon: "richstuff:ingot_mold", tasks: [{ type: "item", item: "richstuff:ingot_mold" }] },
+        { id: "jars", title: "Stack Jars", icon: "richstuff:apple_sauce_jar", tasks: [{ type: "item", item: "richstuff:apple_sauce_jar" }] },
+        { id: "jugs", title: "Stack Jugs", icon: "richstuff:milk_jug", tasks: [{ type: "item", item: "richstuff:milk_jug" }] },
+        { id: "create", title: "Create Processing Chain", icon: "richstuff:centrifuge", tasks: [{ type: "item", item: "richstuff:centrifuge" }] }
+    ]
+}

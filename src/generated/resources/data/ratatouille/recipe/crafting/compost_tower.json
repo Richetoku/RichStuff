@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:barrel"
+    },
+    "Y": {
+      "tag": "c:ingots/zinc"
+    }
+  },
+  "pattern": [
+    " Y ",
+    " X ",
+    " Y "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ratatouille:compost_tower"
+  }
+}

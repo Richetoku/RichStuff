@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "richstuff:rose_quartz_small_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:rose_quartz_dust"
+  }
+}

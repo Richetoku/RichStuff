@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:prismarine_crystal_cluster"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:prismarine_shard",
+      "count": 6
+    },
+    {
+      "id": "richstuff:prismarine_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_quartz_dust",
+      "chance": 0.16499999999999998
+    }
+  ],
+  "processing_time": 270
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    },
+    {
+      "item": "richstuff:lead_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

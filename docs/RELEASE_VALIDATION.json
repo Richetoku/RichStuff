@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "stats": {
+    "richstuff_json": 15156,
+    "alltheores_json": 4548,
+    "richstuff_registered_ids": 2811,
+    "richstuff_recipe_outputs": 2973,
+    "conditional_vessel_recipes": 114,
+    "polishing_materials": 27,
+    "silentgear_materials_checked": 67,
+    "filled_3d_molds": 716,
+    "normal_mold_fills": 216,
+    "normal_mold_cooling": 216,
+    "silentgear_mold_cooling": 494,
+    "ingot_textures": 45,
+    "gear_textures": 63,
+    "coin_textures": 63,
+    "coin_stack_textures": 62,
+    "rikumi_outfits": 8,
+    "ore_materials": 49,
+    "ore_blocks": 1078,
+    "worldgen_passes": 300,
+    "alltheores_config_version": "0.0.5"
+  },
+  "warnings": [],
+  "errors": []
+}

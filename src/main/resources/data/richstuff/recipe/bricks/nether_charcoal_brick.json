@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:nether_charcoal_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:nether_charcoal_brick",
+    "count": 4
+  }
+}

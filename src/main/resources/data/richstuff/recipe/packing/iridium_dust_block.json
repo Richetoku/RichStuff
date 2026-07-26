@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    },
+    {
+      "tag": "c:dusts/iridium"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iridium_dust_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

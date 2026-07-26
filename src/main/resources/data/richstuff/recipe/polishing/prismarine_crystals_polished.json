@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:prismarine_crystals_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:prismarine_crystals_polished"
+    }
+  ]
+}

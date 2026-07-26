@@ -1,0 +1,37 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:lumium_plate"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:lumium_filled_plate_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lumium_plate",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "lumium",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/lumium",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_plate_mold",
+      "count": 1
+    }
+  ]
+}

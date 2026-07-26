@@ -1,0 +1,28 @@
+{
+  "textures": {
+    "particle": "richstuff:block/redstone_dust_ground",
+    "wire": "richstuff:block/redstone_dust_ground"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0.02,
+        0
+      ],
+      "to": [
+        16,
+        0.02,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wire"
+        },
+        "down": {
+          "texture": "#wire"
+        }
+      }
+    }
+  ]
+}

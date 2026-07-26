@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:gems/black_diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:black_diamond_dust"
+    }
+  ],
+  "processing_time": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_tin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tin_crushed"
+    },
+    {
+      "id": "richstuff:tin_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

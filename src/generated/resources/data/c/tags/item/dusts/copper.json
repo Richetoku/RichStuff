@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:copper_dust",
+    {
+      "id": "oritech:copper_dust",
+      "required": false
+    },
+    {
+      "id": "oritech:small_copper_dust",
+      "required": false
+    }
+  ]
+}

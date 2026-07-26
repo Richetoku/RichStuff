@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodextended:applepieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:bananacreampieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:beetrootpieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:blueberrypieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:cherrypieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:cranberrypieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:mangopieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:pecanpieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:pumpkinpieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:walnutpieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodcore:applepieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodcore:chocolatepieitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodcore:fishpotpieitem",
+      "required": false
+    }
+  ]
+}

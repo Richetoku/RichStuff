@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/cobalt"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cobalt_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_sulfur_dust",
+      "chance": 0.195
+    }
+  ],
+  "processing_time": 216
+}

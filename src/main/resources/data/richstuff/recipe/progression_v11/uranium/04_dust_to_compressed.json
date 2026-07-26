@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    },
+    {
+      "item": "richstuff:uranium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:uranium_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

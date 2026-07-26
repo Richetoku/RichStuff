@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    },
+    {
+      "tag": "c:gems/white_diamond"
+    }
+  ],
+  "result": {
+    "id": "richstuff:white_diamond_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

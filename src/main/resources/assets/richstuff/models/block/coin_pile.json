@@ -1,0 +1,5 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": { "particle": "richstuff:item/iron_coin" },
+  "elements": []
+}

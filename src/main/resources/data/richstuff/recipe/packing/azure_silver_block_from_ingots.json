@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    },
+    {
+      "tag": "c:ingots/azure_silver"
+    }
+  ],
+  "result": {
+    "id": "richstuff:azure_silver_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

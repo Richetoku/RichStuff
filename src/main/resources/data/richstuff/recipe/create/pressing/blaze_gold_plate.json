@@ -1,0 +1,20 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/blaze_gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:blaze_gold_plate"
+    }
+  ],
+  "processing_time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

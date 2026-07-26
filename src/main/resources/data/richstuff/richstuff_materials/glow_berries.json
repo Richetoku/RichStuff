@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "material": "glow_berries",
+  "category": "utility",
+  "enabled": true,
+  "color": "#66FF66",
+  "forms": [
+    "glow_berries_crate",
+    "glow_berries_seeds_bag"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

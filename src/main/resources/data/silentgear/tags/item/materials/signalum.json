@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:signalum_ingot",
+    "richstuff:signalum_rod",
+    "richstuff:signalum_plate",
+    "richstuff:signalum_gear"
+  ]
+}

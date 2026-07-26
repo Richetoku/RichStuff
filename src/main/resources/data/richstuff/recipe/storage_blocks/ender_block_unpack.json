@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:ender_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:ender_pearl",
+    "count": 9
+  }
+}

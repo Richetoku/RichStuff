@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "end_stone",
+  "category": "utility",
+  "enabled": true,
+  "color": "#E0D6A8",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "material": "glowstone",
+  "category": "dust",
+  "enabled": true,
+  "color": "#F7D53E",
+  "forms": [
+    "glowstone_block",
+    "glowstone_filled_block_mold"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

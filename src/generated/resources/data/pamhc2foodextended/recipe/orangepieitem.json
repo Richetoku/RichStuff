@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_bakeware"
+    },
+    {
+      "tag": "c:fruits/orange"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "item": "richstuff:pie_crust"
+    }
+  ],
+  "result": {
+    "id": "pamhc2foodextended:orangepieitem",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_plate_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/rose_quartz",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:rose_quartz_filled_plate_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "rose_quartz",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/rose_quartz",
+          "RichStuffTargetPart": "richstuff:rose_quartz_plate",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

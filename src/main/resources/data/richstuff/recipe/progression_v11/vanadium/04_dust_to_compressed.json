@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    },
+    {
+      "item": "richstuff:vanadium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:vanadium_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/turquoise"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:turquoise_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:turquoise_unrefined",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 248
+}

@@ -1,0 +1,25 @@
+{
+  "material": "salt",
+  "tier": 2,
+  "tierName": "Industrial",
+  "minimumCreateRpm": 32,
+  "category": "crystal",
+  "profile": "crystal_growth",
+  "oreTag": "",
+  "growthSource": "richstuff:salt_crystal_cluster",
+  "primaryDrop": "richores:salt",
+  "byproducts": [],
+  "yieldTiers": {
+    "clusterMining": 4.0,
+    "clusterCrushing": 6.0,
+    "washingAndSorting": 7.0,
+    "cutAndPolish": 8.0
+  },
+  "requiredMachines": [
+    "RichStuff Budding Crystal Growth",
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Saw / RichStuff Gem Cutter",
+    "Create Sandpaper Polishing"
+  ]
+}

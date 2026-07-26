@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:vanadium_nugget",
+    {
+      "id": "vintageimprovements:vanadium_nugget",
+      "required": false
+    }
+  ]
+}

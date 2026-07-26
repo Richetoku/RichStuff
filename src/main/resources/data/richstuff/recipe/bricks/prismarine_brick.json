@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:prismarine_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:prismarine_brick",
+    "count": 4
+  }
+}

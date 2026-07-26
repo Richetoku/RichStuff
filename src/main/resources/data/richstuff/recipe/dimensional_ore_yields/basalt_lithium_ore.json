@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:basalt_lithium_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:raw_lithium",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_lithium_dust",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 180
+}

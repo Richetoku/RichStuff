@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "material": "bitumen",
+  "category": "utility",
+  "enabled": true,
+  "color": "#292426",
+  "forms": [
+    "bitumen_block",
+    "bitumen_brick",
+    "bitumen_dust",
+    "bitumen_dust_block",
+    "bitumen_nugget",
+    "raw_bitumen",
+    "raw_bitumen_block",
+    "small_bitumen_dust",
+    "tiny_bitumen_dust",
+    "tiny_bitumen_nugget"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

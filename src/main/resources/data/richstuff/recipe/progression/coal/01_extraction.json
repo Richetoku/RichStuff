@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/coal"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:coal",
+      "count": 2
+    },
+    {
+      "id": "richstuff:coal_dust",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 160
+}

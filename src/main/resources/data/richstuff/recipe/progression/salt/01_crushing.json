@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/salt"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:salt",
+      "count": 2
+    },
+    {
+      "id": "richstuff:salt",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 234
+}

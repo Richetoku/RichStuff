@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "string",
+  "category": "utility",
+  "enabled": true,
+  "color": "#D8D8D8",
+  "forms": [
+    "string_crate"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

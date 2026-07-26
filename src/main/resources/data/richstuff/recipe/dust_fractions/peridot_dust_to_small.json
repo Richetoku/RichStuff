@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:peridot_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:peridot_small_dust",
+    "count": 9
+  }
+}

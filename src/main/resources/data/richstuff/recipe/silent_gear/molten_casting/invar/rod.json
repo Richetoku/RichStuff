@@ -1,0 +1,52 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    },
+    {
+      "type": "richstuff:server_config",
+      "option": "enableMoltenSilentGearCasting",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_rod_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/invar",
+      "amount": 72
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:invar_filled_rod_mold",
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:invar",
+          "item": {
+            "id": "richstuff:invar_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "silentgear:part_type": "silentgear:rod",
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "invar",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/invar",
+          "SilentGearMaterial": "richstuff:invar",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

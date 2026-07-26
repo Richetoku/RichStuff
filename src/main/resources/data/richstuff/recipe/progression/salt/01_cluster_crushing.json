@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:salt_crystal_cluster"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:salt",
+      "count": 6
+    },
+    {
+      "id": "richores:salt",
+      "count": 2
+    }
+  ],
+  "processing_time": 234
+}

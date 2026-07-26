@@ -1,0 +1,24 @@
+{
+  "material": "topaz",
+  "tier": 4,
+  "tierName": "Advanced",
+  "minimumCreateRpm": 128,
+  "category": "gem",
+  "profile": "gem_cutting",
+  "oreTag": "c:ores/topaz",
+  "growthSource": "",
+  "primaryDrop": "richores:topaz",
+  "byproducts": [],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "crushing": 2.0,
+    "washingAndSorting": 2.5,
+    "cutAndPolish": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Saw / RichStuff Gem Cutter",
+    "Create Sandpaper Polishing / RichStuff Belt Sander"
+  ]
+}

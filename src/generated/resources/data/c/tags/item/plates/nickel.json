@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:nickel_plate",
+    {
+      "id": "oritech:nickel_plating_pressure_plate",
+      "required": false
+    }
+  ]
+}

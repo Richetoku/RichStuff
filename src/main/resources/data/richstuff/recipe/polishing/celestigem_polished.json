@@ -1,0 +1,19 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:celestigem_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:celestigem_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

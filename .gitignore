@@ -1,0 +1,41 @@
+# Build directories
+build/
+bin/
+.gradle/
+
+# IDE
+.eclipse/
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials/secrets
+*.db
+*.db-shm
+*.db-wal
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+local.properties
+*.properties.local
+
+# Logs
+*.log
+
+# Gradle cache
+.gradle/
+*.gradle
+
+# Mod jars (built artifacts)
+*.jar
+!src/**/*.jar
+
+# Scripts and tools (generated)
+tools/validate_worldgen.py
+scripts/

@@ -1,0 +1,9 @@
+{
+  "type": "casting",
+  "fluid": "richstuff:molten_iron",
+  "amount": 810,
+  "result": "richstuff:iron_block",
+  "count": 1,
+  "basin": true,
+  "ticks": 180
+}

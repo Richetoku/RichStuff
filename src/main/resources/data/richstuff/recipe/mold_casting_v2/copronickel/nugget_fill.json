@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_nugget_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/copronickel",
+      "amount": 16
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copronickel_filled_nugget_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "copronickel",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/copronickel",
+          "RichStuffTargetPart": "richstuff:copronickel_nugget",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

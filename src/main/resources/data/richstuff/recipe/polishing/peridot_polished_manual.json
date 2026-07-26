@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:peridot_unrefined"
+    },
+    {
+      "item": "richstuff:peridot_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:peridot_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

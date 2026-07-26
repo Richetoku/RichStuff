@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:iron_rod",
+    {
+      "id": "vintageimprovements:cast_iron_rod",
+      "required": false
+    },
+    {
+      "id": "vintageimprovements:ironwood_rod",
+      "required": false
+    },
+    {
+      "id": "vintageimprovements:pig_iron_rod",
+      "required": false
+    }
+  ]
+}

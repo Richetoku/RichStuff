@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodcore:friedchickenitem",
+      "required": false
+    }
+  ]
+}

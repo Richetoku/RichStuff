@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:carnelian_unrefined"
+    },
+    {
+      "item": "richstuff:carnelian_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:carnelian_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

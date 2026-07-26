@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:fluorite_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:fluorite_brick",
+    "count": 4
+  }
+}

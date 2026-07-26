@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "richstuff:wrought_iron_small_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:wrought_iron_dust"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:pig_iron_filled_gear_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:pig_iron_gear",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "pig_iron",
+          "RichStuffMoltenCast": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_gear_mold",
+      "count": 1
+    }
+  ]
+}

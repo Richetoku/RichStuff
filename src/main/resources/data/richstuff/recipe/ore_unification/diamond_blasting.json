@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "c:ores/diamond"
+  },
+  "result": {
+    "id": "minecraft:diamond"
+  },
+  "experience": 0.7,
+  "cookingtime": 100,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

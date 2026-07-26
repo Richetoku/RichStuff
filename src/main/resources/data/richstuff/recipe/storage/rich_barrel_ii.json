@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "richstuff:plate"
+    },
+    "B": {
+      "item": "richstuff:rich_barrel_i"
+    }
+  },
+  "result": {
+    "id": "richstuff:rich_barrel_ii"
+  }
+}

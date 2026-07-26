@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "gravel",
+  "category": "utility",
+  "enabled": true,
+  "color": "#8F8F8F",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

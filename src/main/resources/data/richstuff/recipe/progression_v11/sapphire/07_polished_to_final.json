@@ -1,0 +1,24 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:sapphire_polished"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sapphire"
+    },
+    {
+      "id": "richstuff:sapphire_dust",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

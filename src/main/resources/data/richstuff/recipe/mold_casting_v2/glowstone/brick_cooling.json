@@ -1,0 +1,31 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:glowstone_filled_brick_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:glowstone_brick",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "glowstone",
+          "RichStuffMoltenCast": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_brick_mold",
+      "count": 1
+    }
+  ]
+}

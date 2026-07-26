@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_cinnabar",
+      "amount": 1296,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "cinnabar",
+          "RichStuffFluidTag": "c:molten/cinnabar",
+          "RichGearMaterial": "richstuff:cinnabar",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 2592
+}

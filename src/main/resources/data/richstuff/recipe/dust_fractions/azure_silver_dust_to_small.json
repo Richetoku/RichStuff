@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:azure_silver_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:azure_silver_small_dust",
+    "count": 9
+  }
+}

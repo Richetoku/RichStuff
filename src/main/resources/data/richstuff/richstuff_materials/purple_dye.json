@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "purple_dye",
+  "category": "utility",
+  "enabled": true,
+  "color": "#800080",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

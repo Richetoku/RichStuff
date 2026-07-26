@@ -1,0 +1,19 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:citrine_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

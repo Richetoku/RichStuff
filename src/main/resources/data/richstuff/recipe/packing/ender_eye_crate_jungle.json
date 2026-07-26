@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XWX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "pamhc2crops:ender_eyeitem"
+    },
+    "W": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "id": "richstuff:ender_eye_crate",
+    "components": {
+      "minecraft:block_state": {
+        "wood": "jungle"
+      },
+      "minecraft:custom_model_data": 3
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

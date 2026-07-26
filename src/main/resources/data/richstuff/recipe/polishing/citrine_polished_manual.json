@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:citrine_unrefined"
+    },
+    {
+      "item": "richstuff:citrine_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:citrine_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

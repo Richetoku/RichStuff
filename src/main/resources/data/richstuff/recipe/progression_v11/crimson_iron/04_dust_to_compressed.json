@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    },
+    {
+      "item": "richstuff:crimson_iron_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_iron_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

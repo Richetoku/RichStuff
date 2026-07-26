@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2crops:spiceleafitem",
+      "required": false
+    }
+  ]
+}

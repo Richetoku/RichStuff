@@ -1,0 +1,24 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:carnelian_polished"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:carnelian"
+    },
+    {
+      "id": "richstuff:carnelian_dust",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

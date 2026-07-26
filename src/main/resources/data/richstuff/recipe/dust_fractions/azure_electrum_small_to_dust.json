@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "richstuff:azure_electrum_small_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:azure_electrum_dust"
+  }
+}

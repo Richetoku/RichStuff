@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "rotten_flesh",
+  "category": "utility",
+  "enabled": true,
+  "color": "#6E4A32",
+  "forms": [
+    "rotten_flesh_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

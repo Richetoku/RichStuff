@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodextended:zucchinibakeitem",
+      "required": false
+    }
+  ]
+}

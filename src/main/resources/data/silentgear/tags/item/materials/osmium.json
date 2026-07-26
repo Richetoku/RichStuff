@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:osmium_ingot",
+    "richstuff:osmium_rod",
+    "richstuff:osmium_plate",
+    "richstuff:osmium_gear"
+  ]
+}

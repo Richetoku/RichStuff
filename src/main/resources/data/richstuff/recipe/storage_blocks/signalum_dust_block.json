@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:signalum_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:signalum_dust_block"
+  }
+}

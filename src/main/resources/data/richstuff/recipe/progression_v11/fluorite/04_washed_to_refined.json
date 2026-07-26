@@ -1,0 +1,24 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:fluorite_washed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:fluorite_refined"
+    },
+    {
+      "id": "richstuff:fluorite_refined",
+      "chance": 0.15
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

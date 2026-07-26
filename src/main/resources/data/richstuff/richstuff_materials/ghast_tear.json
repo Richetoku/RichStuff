@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "ghast_tear",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FFFFFF",
+  "forms": [
+    "ghast_tear_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

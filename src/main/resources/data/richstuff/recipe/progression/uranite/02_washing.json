@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richores:uranite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:uranite",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_uranium_dust",
+      "chance": 0.2
+    }
+  ],
+  "processing_time": 164
+}

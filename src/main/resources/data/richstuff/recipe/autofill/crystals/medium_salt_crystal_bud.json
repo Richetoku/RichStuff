@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:small_salt_crystal_bud"
+    },
+    {
+      "item": "richstuff:small_salt_crystal_bud"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:medium_salt_crystal_bud"
+    }
+  ],
+  "processing_time": 80
+}

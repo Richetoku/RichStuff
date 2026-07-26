@@ -1,0 +1,20 @@
+{
+  "type": "createvintageneoforged:centrifugation",
+  "ingredients": [
+    {
+      "item": "richstuff:osmium_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_dust"
+    }
+  ],
+  "processingTime": 180,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

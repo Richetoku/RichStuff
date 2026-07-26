@@ -1,0 +1,22 @@
+{
+  "material": "prismarine_crystals",
+  "tier": 4,
+  "category": "crystal",
+  "profile": "crystal_growth",
+  "oreTag": "c:ores/prismarine_crystals",
+  "primaryDrop": "minecraft:prismarine_crystals",
+  "byproducts": [
+    "richstuff:quartz_small_dust"
+  ],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "basicCrushing": 2.0,
+    "washedProcessing": 2.5,
+    "advancedSeparation": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Mechanical Saw / RichStuff Gem Cutter",
+    "Create Deployer and Press / RichStuff Belt Sander"
+  ]
+}

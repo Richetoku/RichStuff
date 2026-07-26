@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:white_diamond_unrefined"
+    },
+    {
+      "item": "richstuff:white_diamond_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:white_diamond_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

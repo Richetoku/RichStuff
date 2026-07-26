@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:cobalt_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cobalt_dust"
+    }
+  ],
+  "processing_time": 140,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

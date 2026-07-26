@@ -1,0 +1,27 @@
+{
+  "material": "prismarine",
+  "tier": 5,
+  "tierName": "Elite",
+  "minimumCreateRpm": 256,
+  "category": "crystal",
+  "profile": "crystal_growth",
+  "oreTag": "",
+  "growthSource": "richstuff:prismarine_crystal_cluster",
+  "primaryDrop": "minecraft:prismarine_shard",
+  "byproducts": [
+    "richstuff:small_quartz_dust"
+  ],
+  "yieldTiers": {
+    "clusterMining": 4.0,
+    "clusterCrushing": 6.0,
+    "washingAndSorting": 7.0,
+    "cutAndPolish": 8.0
+  },
+  "requiredMachines": [
+    "RichStuff Budding Crystal Growth",
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Saw / RichStuff Gem Cutter",
+    "Create Sandpaper Polishing"
+  ]
+}

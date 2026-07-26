@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/prismarine_shard"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:prismarine_shard",
+      "count": 2
+    },
+    {
+      "id": "minecraft:prismarine_shard",
+      "chance": 0.35
+    },
+    {
+      "id": "richstuff:quartz_small_dust",
+      "chance": 0.14
+    }
+  ],
+  "processing_time": 246
+}

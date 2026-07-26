@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richores:celestigem"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:celestigem",
+      "count": 2
+    }
+  ],
+  "processing_time": 210
+}

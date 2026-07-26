@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_lithium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lithium_dust",
+      "count": 2
+    }
+  ],
+  "processing_time": 136
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:pig_iron_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:pig_iron_tiny_dust",
+    "count": 4
+  }
+}

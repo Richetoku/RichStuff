@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:alexandrite_dust",
+    "count": 9
+  }
+}

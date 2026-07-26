@@ -1,0 +1,104 @@
+{
+  "tiers": {
+    "1": {
+      "name": "Foundational",
+      "oreRateMultiplier": 1.0,
+      "minimumCreateRpm": 16,
+      "materials": [
+        "bitumen",
+        "coal",
+        "copper",
+        "iron",
+        "sulfur"
+      ]
+    },
+    "2": {
+      "name": "Industrial",
+      "oreRateMultiplier": 0.82,
+      "minimumCreateRpm": 32,
+      "materials": [
+        "aluminum",
+        "lapis_lazuli",
+        "lead",
+        "quartz",
+        "redstone",
+        "salt",
+        "tin",
+        "zinc"
+      ]
+    },
+    "3": {
+      "name": "Mechanical",
+      "oreRateMultiplier": 0.65,
+      "minimumCreateRpm": 64,
+      "materials": [
+        "amethyst",
+        "cinnabar",
+        "cobalt",
+        "fluorite",
+        "gold",
+        "nickel",
+        "silver"
+      ]
+    },
+    "4": {
+      "name": "Advanced",
+      "oreRateMultiplier": 0.48,
+      "minimumCreateRpm": 128,
+      "materials": [
+        "carnelian",
+        "citrine",
+        "crimson_iron",
+        "lithium",
+        "osmium",
+        "peridot",
+        "rose_quartz",
+        "topaz",
+        "turquoise",
+        "uranium",
+        "vanadium"
+      ]
+    },
+    "5": {
+      "name": "Elite",
+      "oreRateMultiplier": 0.32,
+      "minimumCreateRpm": 256,
+      "materials": [
+        "azure_silver",
+        "diamond",
+        "emerald",
+        "heliodor",
+        "iolite",
+        "kyanite",
+        "platinum",
+        "prismarine",
+        "ruby",
+        "sapphire",
+        "white_diamond"
+      ]
+    },
+    "6": {
+      "name": "Mythic",
+      "oreRateMultiplier": 0.18,
+      "minimumCreateRpm": 512,
+      "materials": [
+        "alexandrite",
+        "ammolite",
+        "black_diamond",
+        "celestigem",
+        "iridium",
+        "moldavite",
+        "uranite"
+      ]
+    },
+    "7": {
+      "name": "Endgame",
+      "oreRateMultiplier": 0.08,
+      "minimumCreateRpm": 1024,
+      "materials": [
+        "ancient_debris",
+        "netherite"
+      ]
+    }
+  }
+}

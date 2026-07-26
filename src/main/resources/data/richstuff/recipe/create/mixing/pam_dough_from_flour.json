@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "pamhc2foodcore:flouritem"
+    },
+    {
+      "tag": "c:milk"
+    },
+    {
+      "tag": "c:dusts/salt"
+    }
+  ],
+  "results": [
+    {
+      "id": "pamhc2foodcore:doughitem",
+      "count": 2
+    }
+  ],
+  "processing_time": 120,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2026-07-24 14:08:10
+Description: Exception ticking world
+
+java.lang.IllegalArgumentException: Cannot set property DirectionProperty{name=facing, clazz=class net.minecraft.core.Direction, values=[north, east, south, west, up, down]} as it does not exist in Block{richstuff:amethyst_crystal_cluster}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.StateHolder.setValue(StateHolder.java:109) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.mojang_registry_size.StateHolderMixin from mod modernfix,pl:mixin:APP:create.mixins.json:accessor.StateHolderAccessor from mod create,pl:mixin:A}
+	at TRANSFORMER/richstuff@0.0.1/com.richetoku.richstuff.BuddingRichCrystalBlock.randomTick(BuddingRichCrystalBlock.java:50) ~[%23301!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.randomTick(BlockBehaviour.java:815) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:BlockStateBaseMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.reduce_blockstate_cache_rebuilds.BlockStateBaseMixin from mod modernfix,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tickChunk(ServerLevel.java:532) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:glitchcore.mixins.json:MixinServerLevel from mod glitchcore,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor from mod create,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:374) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCacheAccessor from mod modernfix,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:324) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCacheAccessor from mod modernfix,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:382) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:glitchcore.mixins.json:MixinServerLevel from mod glitchcore,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor from mod create,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1052) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:113) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.thread_priorities.IntegratedServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.IntegratedServerMixin from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.StateHolder.setValue(StateHolder.java:109) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.mojang_registry_size.StateHolderMixin from mod modernfix,pl:mixin:APP:create.mixins.json:accessor.StateHolderAccessor from mod create,pl:mixin:A}
+	at TRANSFORMER/richstuff@0.0.1/com.richetoku.richstuff.BuddingRichCrystalBlock.randomTick(BuddingRichCrystalBlock.java:50) ~[%23301!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.randomTick(BlockBehaviour.java:815) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:BlockStateBaseMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.reduce_blockstate_cache_rebuilds.BlockStateBaseMixin from mod modernfix,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tickChunk(ServerLevel.java:532) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:glitchcore.mixins.json:MixinServerLevel from mod glitchcore,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor from mod create,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:374) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCacheAccessor from mod modernfix,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:324) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCacheAccessor from mod modernfix,pl:mixin:A}
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Player'/72, l='ServerLevel[New World]', x=143.33, y=69.63, z=-59.60]]
+	Chunk stats: 2601
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (128,66,-64), Section: (at 0,2,0 in 8,4,-4; chunk contains blocks 128,-64,-64 to 143,319,-49), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 74371 game time, 52252 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Commands: true
+	Level weather: Rain time: 32286 (now: false), thunder time: 4011 (now: true)
+	Known server brands: neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 275
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1745) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:glitchcore.mixins.json:MixinServerLevel from mod glitchcore,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor from mod create,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1055) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:932) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:113) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.thread_priorities.IntegratedServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.IntegratedServerMixin from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.235.jar%23245!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:kubejs.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:ponder-common.mixins.json:accessor.MinecraftServerAccessor from mod ponder,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.12, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 972282936 bytes (927 MiB) / 5200936960 bytes (4960 MiB) up to 25753026560 bytes (24560 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5500                               
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4060
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8188.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1062
+	Graphics card #1 name: NVIDIA GeForce RTX 5060 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 16311.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.16.1062
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MiB): 16384.00
+	Memory slot #2 clockSpeed (GHz): 2.13
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MiB): 32768.00
+	Memory slot #3 clockSpeed (GHz): 2.13
+	Memory slot #3 type: DDR4
+	Virtual memory max (MiB): 162197.13
+	Virtual memory used (MiB): 103176.97
+	Swap memory total (MiB): 64000.00
+	Swap memory used (MiB): 243.48
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 65287.02, total: 1906000.00
+	Space in storage for workdir (MiB): available: 65287.02, total: 1906000.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Player'/72, l='ServerLevel[New World]', x=143.33, y=69.63, z=-59.60]]
+	Active Data Packs: create:dynamic_data, vanilla, mod_data, mod/rhino, mod/pamhc2trees (incompatible), mod/geckolib, mod/sophisticatedstorage (incompatible), mod/towntalk, mod/jei (incompatible), mod/sophisticatedcore (incompatible), mod/pamhc2fantasy (incompatible), mod/clumps (incompatible), mod/controlling (incompatible), mod/neoforge, mod/kubejs, mod/ponderjs (incompatible), mod/modernfix (incompatible), mod/glitchcore (incompatible), mod/sophisticatedbackpacks (incompatible), mod/audrops, mod/vintageimprovements (incompatible), mod/grandpower, mod/bobberdetector (incompatible), mod/oritechthings, mod/athena, mod/farmersdelight, mod/terrablender (incompatible), mod/mousetweaks (incompatible), mod/biomesoplenty (incompatible), mod/jade (incompatible), mod/pamhc2crops (incompatible), mod/domum_ornamentum, mod/pamhc2foodextended (incompatible), mod/touhou_little_maid (incompatible), mod/curios (incompatible), mod/flywheel (incompatible), mod/ponder (incompatible), mod/create (incompatible), mod/ratatouille (incompatible), mod/blockui, mod/sophisticatedstoragecreateintegration (incompatible), mod/pamhc2foodcore, mod/searchables (incompatible), mod/createoplenty (incompatible), mod/almostunified (incompatible), mod/structurize, mod/multipiston, mod/minecolonies, mod/mctier_engine (incompatible), mod/minecoloniesphfe (incompatible), mod/minecoloniesphfc (incompatible), mod/betteradvancedtooltips, mod/worldstripper (incompatible), mod/architectury (incompatible), mod/oritech, mod/createoritechcompat, mod/yukamibackpacktab (incompatible), mod/richcore (incompatible), mod/richfarming (incompatible), mod/richmobfarming (incompatible), mod/richores, mod/richstuff (incompatible), mod/dynamictrees (incompatible), mod/dtphc2 (incompatible), mod/richmachines (incompatible)
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/almostunified (incompatible), mod/architectury (incompatible), mod/athena, mod/audrops, mod/betteradvancedtooltips, mod/biomesoplenty (incompatible), mod/blockui, mod/bobberdetector (incompatible), mod/clumps (incompatible), mod/controlling (incompatible), mod/create (incompatible), mod/createoplenty (incompatible), mod/createoritechcompat, mod/curios (incompatible), mod/domum_ornamentum, mod/dtphc2 (incompatible), mod/dynamictrees (incompatible), mod/farmersdelight, mod/flywheel (incompatible), mod/geckolib, mod/glitchcore (incompatible), mod/grandpower, mod/jade (incompatible), mod/jei (incompatible), mod/kubejs, mod/mctier_engine (incompatible), mod/minecolonies, mod/minecoloniesphfc (incompatible), mod/minecoloniesphfe (incompatible), mod/modernfix (incompatible), mod/mousetweaks (incompatible), mod/multipiston, mod/neoforge, mod/oritech, mod/oritechthings, mod/pamhc2crops (incompatible), mod/pamhc2fantasy (incompatible), mod/pamhc2foodcore, mod/pamhc2foodextended (incompatible), mod/pamhc2trees (incompatible), mod/ponder (incompatible), mod/ponderjs (incompatible), mod/ratatouille (incompatible), mod/rhino, mod/richcore (incompatible), mod/richfarming (incompatible), mod/richmachines (incompatible), mod/richmobfarming (incompatible), mod/richores, mod/richstuff (incompatible), mod/searchables (incompatible), mod/sophisticatedbackpacks (incompatible), mod/sophisticatedcore (incompatible), mod/sophisticatedstorage (incompatible), mod/sophisticatedstoragecreateintegration (incompatible), mod/structurize, mod/terrablender (incompatible), mod/touhou_little_maid (incompatible), mod/towntalk, mod/vintageimprovements (incompatible), mod/worldstripper (incompatible), mod/yukamibackpacktab (incompatible), mod_data, create:dynamic_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 14486959261149561
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 21.1.235
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		almostunified-neoforge-1.21.1-1.4.2.jar           |AlmostUnified                 |almostunified                 |1.21.1-1.4.2        |Manifest: NOSIGNATURE
+		audrops-1.0.1.jar                                 |AlmostUnifiedDrops            |audrops                       |1.0.1               |Manifest: NOSIGNATURE
+		architectury-13.0.8-neoforge.jar                  |Architectury                  |architectury                  |13.0.8              |Manifest: NOSIGNATURE
+		athena-neoforge-1.21.1-4.0.6.jar                  |Athena                        |athena                        |4.0.6               |Manifest: NOSIGNATURE
+		better-advanced-tooltips-2101.1.0-build.1.jar     |Better Advanced Tooltips      |betteradvancedtooltips        |2101.1.0-build.1    |Manifest: NOSIGNATURE
+		BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar       |Biomes O' Plenty              |biomesoplenty                 |21.1.0.14           |Manifest: NOSIGNATURE
+		bobberdetector-neoforge1.21.1-1.0.3.jar           |Bobber Detector               |bobberdetector                |1.0.3               |Manifest: NOSIGNATURE
+		Clumps-neoforge-1.21.1-19.0.0.1.jar               |Clumps                        |clumps                        |19.0.0.1            |Manifest: NOSIGNATURE
+		Controlling-neoforge-1.21.1-19.0.5.jar            |Controlling                   |controlling                   |19.0.5              |Manifest: NOSIGNATURE
+		create-1.21.1-6.0.10.jar                          |Create                        |create                        |6.0.10              |Manifest: NOSIGNATURE
+		CreateOPlenty-NeoForge-Create+6.0.7-3.0.jar       |Create O' Plenty              |createoplenty                 |3.0                 |Manifest: NOSIGNATURE
+		createoritechcompat-1.20.1-1.0.jar                |Create Oritech Compat         |createoritechcompat           |1.0                 |Manifest: NOSIGNATURE
+		vintageimprovements-1.21.1-0.0.0.3.jar            |Create: Vintage Improvements  |vintageimprovements           |1.21.1-0.0.0.3      |Manifest: NOSIGNATURE
+		curios-neoforge-9.5.1+1.21.1.jar                  |Curios API                    |curios                        |9.5.1+1.21.1        |Manifest: NOSIGNATURE
+		domum-ornamentum-1.0.231-main.jar                 |Domum Ornamentum              |domum_ornamentum              |1.0.231             |Manifest: NOSIGNATURE
+		dynamictrees-neoforge-1.21.1-1.7.2.jar            |Dynamic Trees                 |dynamictrees                  |1.7.2               |Manifest: NOSIGNATURE
+		dtphc2-1.4.3.jar                                  |Dynamic Trees PHC2            |dtphc2                        |1.4.3               |Manifest: NOSIGNATURE
+		FarmersDelight-1.21.1-1.3.2.jar                   |Farmer's Delight              |farmersdelight                |1.3.2               |Manifest: NOSIGNATURE
+		flywheel-neoforge-1.21.1-1.0.6.jar                |Flywheel                      |flywheel                      |1.0.6               |Manifest: NOSIGNATURE
+		geckolib-neoforge-1.21.1-4.9.2.jar                |GeckoLib 4                    |geckolib                      |4.9.2               |Manifest: NOSIGNATURE
+		GlitchCore-neoforge-1.21.1-2.1.0.2.jar            |GlitchCore                    |glitchcore                    |2.1.0.2             |Manifest: NOSIGNATURE
+		GrandPower-3.0.2.jar                              |Grand Power                   |grandpower                    |3.0.2               |Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.10.5.jar                  |Jade                          |jade                          |15.10.5+neoforge    |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.27.0.336.jar               |Just Enough Items             |jei                           |19.27.0.336         |Manifest: NOSIGNATURE
+		kubejs-neoforge-2101.7.2-build.368.jar            |KubeJS                        |kubejs                        |2101.7.2-build.368  |Manifest: NOSIGNATURE
+		minecolonies-1.1.1319-1.21.1.jar                  |MineColonies                  |minecolonies                  |1.1.1319-1.21.1     |Manifest: NOSIGNATURE
+		mctier_engine-1.0.0.jar                           |MineColonies Food Tier Engine |mctier_engine                 |1.0.0               |Manifest: NOSIGNATURE
+		minecoloniesphfc-1.0.0.jar                        |MineColonies PHC2 Food Core Ti|minecoloniesphfc              |1.0.0               |Manifest: NOSIGNATURE
+		minecoloniesphfe-1.0.0.jar                        |MineColonies PHC2 Food Extende|minecoloniesphfe              |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.235.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		modernfix-neoforge-5.27.15+mc1.21.1.jar           |ModernFix                     |modernfix                     |5.27.15+mc1.21.1    |Manifest: NOSIGNATURE
+		MouseTweaks-neoforge-mc1.21-2.26.1.jar            |Mouse Tweaks                  |mousetweaks                   |2.26.1              |Manifest: NOSIGNATURE
+		multipiston-1.2.58-1.21.1.jar                     |Multi-Piston                  |multipiston                   |1.2.58-1.21.1       |Manifest: NOSIGNATURE
+		neoforge-21.1.235.jar                             |NeoForge                      |neoforge                      |21.1.235            |Manifest: NOSIGNATURE
+		oritech-neoforge-1.21.1-1.2.8.jar                 |Oritech                       |oritech                       |1.2.8               |Manifest: NOSIGNATURE
+		oritechthings-0.0.44.jar                          |Oritech Things                |oritechthings                 |0.0.44              |Manifest: NOSIGNATURE
+		pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar             |Pam's HarvestCraft - Crops    |pamhc2crops                   |1.0.9               |Manifest: NOSIGNATURE
+		pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar          |Pam's HarvestCraft - Food Core|pamhc2foodcore                |1.0.4               |Manifest: NOSIGNATURE
+		pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar      |Pam's HarvestCraft - Food Exte|pamhc2foodextended            |1.0.0               |Manifest: NOSIGNATURE
+		pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar             |Pam's HarvestCraft - Trees    |pamhc2trees                   |1.0.9               |Manifest: NOSIGNATURE
+		pamhc2fantasy-NEOFORGE-1.21.0-1.0.3.jar           |Pam's HarvestCraft 2 - Fantasy|pamhc2fantasy                 |1.0.3               |Manifest: NOSIGNATURE
+		ponder-neoforge-1.0.82+mc1.21.1.jar               |Ponder                        |ponder                        |1.0.82+mc1.21.1     |Manifest: NOSIGNATURE
+		ponderjs-neoforge-1.21.1-2.4.0.jar                |PonderJS                      |ponderjs                      |1.21.1-2.4.0        |Manifest: NOSIGNATURE
+		create_ratatouille-1.21.1-1.3.9-2.jar             |Ratatouille                   |ratatouille                   |1.3.9-2             |Manifest: NOSIGNATURE
+		rhino-2101.2.7-build.85.jar                       |Rhino                         |rhino                         |2101.2.7-build.85   |Manifest: NOSIGNATURE
+		main                                              |Rich Farming                  |richfarming                   |0.0.1               |Manifest: NOSIGNATURE
+		main                                              |Rich Machines                 |richmachines                  |0.0.1               |Manifest: NOSIGNATURE
+		main                                              |Rich Mob Farming              |richmobfarming                |0.0.1               |Manifest: NOSIGNATURE
+		main                                              |Rich Ores                     |richores                      |0.0.1               |Manifest: NOSIGNATURE
+		main                                              |Rich Stuff                    |richstuff                     |0.0.1               |Manifest: NOSIGNATURE
+		main                                              |RichCore                      |richcore                      |0.0.1               |Manifest: NOSIGNATURE
+		Searchables-neoforge-1.21.1-1.0.2.jar             |Searchables                   |searchables                   |1.0.2               |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.21.1-3.25.68.1971.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.25.68             |Manifest: NOSIGNATURE
+		sophisticatedcore-1.21.1-1.4.69.2125.jar          |Sophisticated Core            |sophisticatedcore             |1.4.69              |Manifest: NOSIGNATURE
+		sophisticatedstorage-1.21.1-1.5.70.1941.jar       |Sophisticated Storage         |sophisticatedstorage          |1.5.70              |Manifest: NOSIGNATURE
+		sophisticatedstoragecreateintegration-1.21.1-0.1.1|Sophisticated Storage Create I|sophisticatedstoragecreateinte|0.1.18              |Manifest: NOSIGNATURE
+		structurize-1.0.830-1.21.1.jar                    |Structurize                   |structurize                   |1.0.830-1.21.1      |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.8.jar          |TerraBlender                  |terrablender                  |4.1.0.8             |Manifest: NOSIGNATURE
+		touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar      |Touhou Little Maid            |touhou_little_maid            |1.5.3-neoforge+mc1.2|Manifest: NOSIGNATURE
+		towntalk-1.2.0.jar                                |Towntalk                      |towntalk                      |1.2.0               |Manifest: NOSIGNATURE
+		blockui-1.0.209-1.21.1.jar                        |UI Library Mod                |blockui                       |1.0.209-1.21.1      |Manifest: NOSIGNATURE
+		worldstripper-1.21-5.0.0-neoforge.jar             |World Stripper                |worldstripper                 |5.0.0               |Manifest: NOSIGNATURE
+		yukamibackpacktab-1.21.1-1.1.1-neoforge.jar       |Yukami's Sophisticated Backpac|yukamibackpacktab             |1.1.1               |Manifest: NOSIGNATURE
+	Crash Report UUID: cac11c90-7f56-4030-a76b-06564b0c8100
+	FML: 4.0.42
+	NeoForge: 21.1.235
+	Flywheel Backend: flywheel:indirect

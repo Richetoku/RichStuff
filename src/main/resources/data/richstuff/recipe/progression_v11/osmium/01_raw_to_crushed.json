@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_osmium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_crushed"
+    },
+    {
+      "id": "richstuff:osmium_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

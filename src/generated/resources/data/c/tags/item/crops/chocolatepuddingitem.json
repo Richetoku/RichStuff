@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodcore:chocolatepuddingitem",
+      "required": false
+    }
+  ]
+}

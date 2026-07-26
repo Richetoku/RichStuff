@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:brass_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:brass_dust",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

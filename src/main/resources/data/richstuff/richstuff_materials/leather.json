@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "leather",
+  "category": "utility",
+  "enabled": true,
+  "color": "#8A5A3B",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

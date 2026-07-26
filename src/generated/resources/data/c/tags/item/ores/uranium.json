@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "richores:uranium_ore",
+    "richores:deepslate_uranium_ore",
+    {
+      "id": "immersiveengineering:deepslate_ore_uranium",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:ore_uranium",
+      "required": false
+    },
+    {
+      "id": "oritech:deepslate_uranium_ore",
+      "required": false
+    }
+  ]
+}

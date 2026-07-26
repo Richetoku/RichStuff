@@ -1,0 +1,23 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "richstuff:prismarine_heated"
+    },
+    {
+      "item": "richstuff:prismarine_sandpaper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:prismarine_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "keep_held_item": true
+}

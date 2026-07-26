@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:iolite_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iolite_crushed"
+    },
+    {
+      "id": "richstuff:iolite_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

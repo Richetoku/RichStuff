@@ -1,0 +1,92 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "crystal",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/salt"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/salt"
+      },
+      "silentgear:tip": {
+        "tag": "c:shards/salt"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFEDEDED",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.salt"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 7.3,
+      "armor_durability": 12.2,
+      "attack_damage": 1.23,
+      "attack_speed": 0.0,
+      "durability": 390,
+      "enchantment_value": 12.8,
+      "harvest_speed": 4.9,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_stone_tools",
+        "level_hint": "1",
+        "name": "stone"
+      },
+      "magic_armor": 2,
+      "magic_damage": 1.5,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 0.86,
+      "rarity": 21.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 39.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.44
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 65
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.54
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_stone_tools",
+        "level_hint": "1",
+        "name": "stone"
+      }
+    }
+  }
+}

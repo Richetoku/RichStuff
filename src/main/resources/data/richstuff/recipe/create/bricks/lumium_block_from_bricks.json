@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:lumium_brick"
+    },
+    {
+      "item": "richstuff:lumium_brick"
+    },
+    {
+      "item": "richstuff:lumium_brick"
+    },
+    {
+      "item": "richstuff:lumium_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lumium_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:uranite_crystal_cluster"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:uranite",
+      "count": 6
+    },
+    {
+      "id": "richores:uranite",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_uranium_dust",
+      "chance": 0.15
+    }
+  ],
+  "processing_time": 282
+}

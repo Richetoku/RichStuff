@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:zinc_ingot",
+    "richstuff:zinc_rod",
+    "richstuff:zinc_plate",
+    "richstuff:zinc_gear"
+  ]
+}

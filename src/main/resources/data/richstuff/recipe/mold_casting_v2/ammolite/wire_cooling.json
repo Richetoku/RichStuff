@@ -1,0 +1,31 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_filled_wire_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ammolite_wire",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "ammolite",
+          "RichStuffMoltenCast": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_wire_mold",
+      "count": 1
+    }
+  ]
+}

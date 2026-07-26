@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/sapphire"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sapphire_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#2D2DB7",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:azure_silver_ingot",
+    "richstuff:azure_silver_rod",
+    "richstuff:azure_silver_plate",
+    "richstuff:azure_silver_gear"
+  ]
+}

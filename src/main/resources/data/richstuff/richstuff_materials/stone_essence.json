@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "stone_essence",
+  "category": "utility",
+  "enabled": true,
+  "color": "#808080",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

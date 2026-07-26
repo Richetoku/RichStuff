@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "richstuff:block/rikumi_mita_present_closed"
+    },
+    "open=true": {
+      "model": "richstuff:block/rikumi_mita_present_open"
+    }
+  }
+}

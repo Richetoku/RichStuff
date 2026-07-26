@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "richores:platinum_ore",
+    "richores:deepslate_platinum_ore",
+    {
+      "id": "oritech:deepslate_platinum_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:endstone_platinum_ore",
+      "required": false
+    }
+  ]
+}

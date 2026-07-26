@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:gems/platinum"
+    },
+    {
+      "tag": "c:gems/platinum"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "richstuff:platinum_ingot"
+    }
+  ]
+}

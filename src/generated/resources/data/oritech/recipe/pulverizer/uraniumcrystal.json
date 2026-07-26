@@ -1,0 +1,15 @@
+{
+  "type": "oritech:pulverizer",
+  "ingredients": [
+    {
+      "tag": "c:crystals/uranium"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "oritech:raw_uranium"
+    }
+  ],
+  "time": 100
+}

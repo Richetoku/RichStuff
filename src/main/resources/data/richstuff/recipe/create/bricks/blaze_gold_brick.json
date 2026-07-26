@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/blaze_gold"
+    },
+    {
+      "tag": "c:storage_blocks/blaze_gold"
+    },
+    {
+      "tag": "c:storage_blocks/blaze_gold"
+    },
+    {
+      "tag": "c:storage_blocks/blaze_gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:blaze_gold_brick",
+      "count": 4
+    }
+  ],
+  "processing_time": 80
+}

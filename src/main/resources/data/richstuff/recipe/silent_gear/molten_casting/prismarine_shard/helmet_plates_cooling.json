@@ -1,0 +1,51 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    },
+    {
+      "type": "richstuff:server_config",
+      "option": "enableMoltenSilentGearCasting",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:prismarine_shard_filled_helmet_plates_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "silentgear:helmet_plates",
+      "count": 1,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:prismarine_shard",
+          "item": {
+            "id": "minecraft:prismarine_shard",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "silentgear:part_type": "silentgear:main",
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "prismarine_shard",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/prismarine_shard",
+          "SilentGearMaterial": "richstuff:prismarine_shard",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:silent_helmet_plates_mold",
+      "count": 1
+    }
+  ]
+}

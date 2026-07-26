@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "blaze_rod",
+  "category": "utility",
+  "enabled": true,
+  "color": "#C8C8C8",
+  "forms": [
+    "blaze_rod_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

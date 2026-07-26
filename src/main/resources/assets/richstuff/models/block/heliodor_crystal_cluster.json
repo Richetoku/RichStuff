@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "richstuff:block/crystal_growth/heliodor_crystal_cluster"
+  },
+  "render_type": "minecraft:cutout"
+}

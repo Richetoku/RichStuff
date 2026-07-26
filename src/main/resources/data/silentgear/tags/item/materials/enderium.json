@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:enderium_ingot",
+    "richstuff:enderium_rod",
+    "richstuff:enderium_plate",
+    "richstuff:enderium_gear"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_bakeware"
+    },
+    {
+      "tag": "c:fruits/jackfruit"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "item": "richstuff:pie_crust"
+    }
+  ],
+  "result": {
+    "id": "pamhc2foodextended:jackfruitpieitem",
+    "count": 1
+  }
+}

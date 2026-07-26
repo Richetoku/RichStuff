@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:citrine_refined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_heated"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heat_requirement": "heated"
+}

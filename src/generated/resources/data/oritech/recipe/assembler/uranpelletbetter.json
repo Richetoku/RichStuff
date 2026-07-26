@@ -1,0 +1,24 @@
+{
+  "type": "oritech:assembler",
+  "ingredients": [
+    {
+      "tag": "c:gems/uranium"
+    },
+    {
+      "tag": "c:gems/uranium"
+    },
+    {
+      "tag": "c:plates/plastic"
+    },
+    {
+      "item": "oritech:adamant_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "oritech:uranium_pellet"
+    }
+  ],
+  "time": 96
+}

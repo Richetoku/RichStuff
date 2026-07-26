@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:andesite_alloy_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:andesite_alloy_dust_block"
+  }
+}

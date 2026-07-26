@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ammolite_crushed"
+    },
+    {
+      "id": "richstuff:ammolite_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

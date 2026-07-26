@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:uranium_brick"
+    },
+    {
+      "item": "richstuff:uranium_brick"
+    },
+    {
+      "item": "richstuff:uranium_brick"
+    },
+    {
+      "item": "richstuff:uranium_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:uranium_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

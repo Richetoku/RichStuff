@@ -1,0 +1,23 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "richstuff:iolite_heated"
+    },
+    {
+      "item": "richstuff:iolite_sandpaper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iolite_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "keep_held_item": true
+}

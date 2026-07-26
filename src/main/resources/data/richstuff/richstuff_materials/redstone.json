@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "material": "redstone",
+  "category": "dust",
+  "enabled": true,
+  "color": "#FF0000",
+  "forms": [
+    "redstone_block",
+    "redstone_brick",
+    "redstone_dust",
+    "redstone_filled_block_mold",
+    "redstone_filled_brick_mold",
+    "redstone_small_dust",
+    "redstone_tiny_dust"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

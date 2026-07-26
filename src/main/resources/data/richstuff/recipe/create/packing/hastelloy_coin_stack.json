@@ -1,0 +1,49 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    },
+    {
+      "item": "richstuff:hastelloy_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:hastelloy_coin_stack",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

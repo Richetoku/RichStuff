@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:blaze_gold_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:blaze_gold_brick",
+    "count": 4
+  }
+}

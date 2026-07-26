@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:osmium_wire",
+    {
+      "id": "vintageimprovements:osmium_wire",
+      "required": false
+    }
+  ]
+}

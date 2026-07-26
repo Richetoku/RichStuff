@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:gold_brick"
+    },
+    {
+      "item": "richstuff:gold_brick"
+    },
+    {
+      "item": "richstuff:gold_brick"
+    },
+    {
+      "item": "richstuff:gold_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:gold_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

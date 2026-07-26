@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:raw_materials/iron"
+  },
+  "result": {
+    "id": "richstuff:iron_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "geore"
+    }
+  ],
+  "type": "oritech:assembler",
+  "ingredients": [
+    {
+      "tag": "c:shards/sapphire"
+    },
+    {
+      "tag": "c:shards/sapphire"
+    },
+    {
+      "item": "oritech:enderic_compound"
+    },
+    {
+      "item": "oritech:overcharged_crystal"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "geore:budding_sapphire"
+    }
+  ],
+  "time": 120
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:copronickel_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:copronickel_dust_block"
+  }
+}

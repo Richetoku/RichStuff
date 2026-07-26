@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_lead"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_crushed"
+    },
+    {
+      "id": "richstuff:lead_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

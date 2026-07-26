@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    },
+    {
+      "item": "richstuff:iridium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iridium_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

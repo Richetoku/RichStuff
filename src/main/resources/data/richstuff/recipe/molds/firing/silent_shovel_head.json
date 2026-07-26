@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:unfired_silent_shovel_head_mold"
+  },
+  "result": {
+    "id": "richstuff:silent_shovel_head_mold"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

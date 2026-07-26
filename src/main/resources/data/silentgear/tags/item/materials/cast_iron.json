@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:cast_iron_ingot",
+    "richstuff:cast_iron_rod",
+    "richstuff:cast_iron_plate",
+    "richstuff:cast_iron_gear"
+  ]
+}

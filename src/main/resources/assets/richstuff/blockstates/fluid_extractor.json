@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north,formed=false,powered=false": {
+      "model": "richstuff:block/fluid_extractor_unformed",
+      "y": 0
+    },
+    "facing=north,formed=true,powered=false": {
+      "model": "richstuff:block/fluid_extractor_formed",
+      "y": 0
+    },
+    "facing=north,formed=true,powered=true": {
+      "model": "richstuff:block/fluid_extractor_powered",
+      "y": 0
+    },
+    "facing=east,formed=false,powered=false": {
+      "model": "richstuff:block/fluid_extractor_unformed",
+      "y": 90
+    },
+    "facing=east,formed=true,powered=false": {
+      "model": "richstuff:block/fluid_extractor_formed",
+      "y": 90
+    },
+    "facing=east,formed=true,powered=true": {
+      "model": "richstuff:block/fluid_extractor_powered",
+      "y": 90
+    },
+    "facing=south,formed=false,powered=false": {
+      "model": "richstuff:block/fluid_extractor_unformed",
+      "y": 180
+    },
+    "facing=south,formed=true,powered=false": {
+      "model": "richstuff:block/fluid_extractor_formed",
+      "y": 180
+    },
+    "facing=south,formed=true,powered=true": {
+      "model": "richstuff:block/fluid_extractor_powered",
+      "y": 180
+    },
+    "facing=west,formed=false,powered=false": {
+      "model": "richstuff:block/fluid_extractor_unformed",
+      "y": 270
+    },
+    "facing=west,formed=true,powered=false": {
+      "model": "richstuff:block/fluid_extractor_formed",
+      "y": 270
+    },
+    "facing=west,formed=true,powered=true": {
+      "model": "richstuff:block/fluid_extractor_powered",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/reinforced_copper"
+    },
+    {
+      "tag": "c:storage_blocks/reinforced_copper"
+    },
+    {
+      "tag": "c:storage_blocks/reinforced_copper"
+    },
+    {
+      "tag": "c:storage_blocks/reinforced_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:reinforced_copper_brick",
+      "count": 4
+    }
+  ],
+  "processing_time": 80
+}

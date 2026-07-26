@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:constantan_brick"
+    },
+    {
+      "item": "richstuff:constantan_brick"
+    },
+    {
+      "item": "richstuff:constantan_brick"
+    },
+    {
+      "item": "richstuff:constantan_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:constantan_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

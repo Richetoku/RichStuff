@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:osmium_compressed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_ingot",
+      "count": 9
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heat_requirement": "heated"
+}

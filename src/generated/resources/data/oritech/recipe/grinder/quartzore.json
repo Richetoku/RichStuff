@@ -1,0 +1,15 @@
+{
+  "type": "oritech:grinder",
+  "ingredients": [
+    {
+      "tag": "c:ores/quartz"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "minecraft:quartz"
+    }
+  ],
+  "time": 40
+}

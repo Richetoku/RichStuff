@@ -1,0 +1,18 @@
+{
+  "type": "oritech:foundry",
+  "ingredients": [
+    {
+      "tag": "c:gems/copper"
+    },
+    {
+      "tag": "c:gems/copper"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "richstuff:copper_ingot"
+    }
+  ],
+  "time": 80
+}

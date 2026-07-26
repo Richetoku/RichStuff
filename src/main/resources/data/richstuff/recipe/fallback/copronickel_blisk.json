@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " P ",
+    "   "
+  ],
+  "key": {
+    "M": {
+      "item": "richstuff:blisk_mold_press"
+    },
+    "P": {
+      "tag": "c:plates/copronickel"
+    }
+  },
+  "result": {
+    "id": "richstuff:copronickel_blisk"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

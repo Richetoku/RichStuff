@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:emerald_unrefined"
+    },
+    {
+      "item": "richstuff:emerald_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:emerald_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

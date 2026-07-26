@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "c:ores/moldavite"
+  },
+  "result": {
+    "id": "richstuff:raw_moldavite"
+  },
+  "experience": 0.7,
+  "cookingtime": 100,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

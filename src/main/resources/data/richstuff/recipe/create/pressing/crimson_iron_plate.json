@@ -1,0 +1,20 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/crimson_iron"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_iron_plate"
+    }
+  ],
+  "processing_time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

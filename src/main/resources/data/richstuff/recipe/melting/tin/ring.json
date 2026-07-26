@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:tin_ring"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_tin",
+      "amount": 72,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "tin",
+          "RichStuffFluidTag": "c:molten/tin",
+          "RichGearMaterial": "richstuff:tin",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 144
+}

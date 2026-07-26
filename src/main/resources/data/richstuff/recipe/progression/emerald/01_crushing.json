@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/emerald"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:emerald_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:emerald_unrefined",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 260
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:melon_crate"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:melon_slice",
+      "count": 9
+    }
+  ],
+  "processing_time": 60
+}

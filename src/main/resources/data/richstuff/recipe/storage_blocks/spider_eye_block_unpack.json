@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:spider_eye_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:spider_eye",
+    "count": 9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:budding_uranite_crystal"
+    },
+    {
+      "item": "richstuff:uranite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:small_uranite_crystal_bud"
+    }
+  ],
+  "processing_time": 80
+}

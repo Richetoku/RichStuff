@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_bitumen"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:raw_bitumen",
+      "count": 3
+    },
+    {
+      "id": "richstuff:small_sulfur_dust",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 105
+}

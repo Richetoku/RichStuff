@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:zinc_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_ingot",
+      "count": 9
+    }
+  ],
+  "processing_time": 60
+}

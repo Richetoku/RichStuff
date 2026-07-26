@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "richstuff:raw_peridot"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:peridot_unrefined"
+    },
+    {
+      "id": "richstuff:peridot_unrefined",
+      "chance": 0.2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 100
+}

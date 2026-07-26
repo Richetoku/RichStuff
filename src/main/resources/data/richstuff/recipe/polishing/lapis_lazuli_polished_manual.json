@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:lapis_lazuli_unrefined"
+    },
+    {
+      "item": "richstuff:lapis_lazuli_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lapis_lazuli_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

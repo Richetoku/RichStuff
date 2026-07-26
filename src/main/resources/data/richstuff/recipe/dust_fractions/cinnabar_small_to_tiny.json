@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:cinnabar_tiny_dust",
+    "count": 4
+  }
+}

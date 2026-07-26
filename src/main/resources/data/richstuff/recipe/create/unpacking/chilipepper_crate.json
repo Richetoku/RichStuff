@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:chilipepper_crate"
+    }
+  ],
+  "results": [
+    {
+      "id": "pamhc2crops:chilipepperitem",
+      "count": 9
+    }
+  ],
+  "processing_time": 60
+}

@@ -1,0 +1,45 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    },
+    {
+      "item": "richstuff:andesite_alloy_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:andesite_alloy_coin_stack",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:rich_ancient_debris_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ancient_debris",
+      "count": 4
+    }
+  ],
+  "processing_time": 220
+}

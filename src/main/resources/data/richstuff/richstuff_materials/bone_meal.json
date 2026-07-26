@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "bone_meal",
+  "category": "utility",
+  "enabled": true,
+  "color": "#F8F8F2",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

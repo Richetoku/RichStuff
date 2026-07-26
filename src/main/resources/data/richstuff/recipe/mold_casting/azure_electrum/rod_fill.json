@@ -1,0 +1,39 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:base_rod_mold"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_rod_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/azure_electrum",
+      "amount": 72
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_electrum_filled_rod_mold",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "azure_electrum",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/azure_electrum",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

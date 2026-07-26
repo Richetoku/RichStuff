@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:rose_quartz_refined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:rose_quartz_polished"
+    }
+  ]
+}

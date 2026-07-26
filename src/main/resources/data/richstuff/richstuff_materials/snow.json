@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "snow",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FFFFFF",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

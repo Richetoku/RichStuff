@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:peridot_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:peridot_brick",
+    "count": 4
+  }
+}

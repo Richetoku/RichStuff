@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:ingots/ferricore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ferricore_rod",
+      "count": 2
+    }
+  ],
+  "processing_time": 100
+}

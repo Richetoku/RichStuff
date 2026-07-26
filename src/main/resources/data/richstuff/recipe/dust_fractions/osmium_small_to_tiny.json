@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:osmium_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:osmium_tiny_dust",
+    "count": 4
+  }
+}

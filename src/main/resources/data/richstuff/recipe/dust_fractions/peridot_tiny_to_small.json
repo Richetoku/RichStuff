@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TT",
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "richstuff:peridot_tiny_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:peridot_small_dust"
+  }
+}

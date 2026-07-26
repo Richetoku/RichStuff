@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:nickel_ingot",
+    {
+      "id": "oritech:nickel_ingot",
+      "required": false
+    }
+  ]
+}

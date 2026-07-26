@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:diamond_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:diamond_small_dust",
+    "count": 9
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_blisk_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/pig_iron",
+      "amount": 24
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:pig_iron_filled_blisk_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "pig_iron",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/pig_iron",
+          "RichStuffTargetPart": "richstuff:pig_iron_blisk",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

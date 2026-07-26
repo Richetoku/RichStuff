@@ -1,0 +1,56 @@
+{
+  "material": "ancient_debris",
+  "enabled": true,
+  "dimension": "overworld",
+  "passes": [
+    {
+      "name": "ancient_bottom",
+      "dimension": "nether",
+      "enabled": true,
+      "distribution": "triangle",
+      "chunkChance": 0.65,
+      "veinsPerChunk": 1,
+      "veinsPerChunkVariance": 0,
+      "veinSize": 3,
+      "veinSizeVariance": 1,
+      "minY": 8,
+      "maxY": 24,
+      "discardChanceOnAirExposure": 0.0,
+      "hosts": [
+        "nether",
+        "blackstone",
+        "basalt",
+        "smooth_basalt"
+      ],
+      "biomeAllow": [
+        "*"
+      ],
+      "biomeDeny": []
+    },
+    {
+      "name": "ancient_scattered",
+      "dimension": "nether",
+      "enabled": true,
+      "distribution": "uniform",
+      "chunkChance": 0.14,
+      "veinsPerChunk": 1,
+      "veinsPerChunkVariance": 0,
+      "veinSize": 2,
+      "veinSizeVariance": 1,
+      "minY": 8,
+      "maxY": 119,
+      "discardChanceOnAirExposure": 0.25,
+      "hosts": [
+        "nether",
+        "blackstone",
+        "basalt",
+        "smooth_basalt"
+      ],
+      "biomeAllow": [
+        "*"
+      ],
+      "biomeDeny": []
+    }
+  ],
+  "comment": "Layered distribution: sparse background veins, focused depth bands, rare rich lodes, biome bonuses, and uncommon sediment/dimension traces."
+}

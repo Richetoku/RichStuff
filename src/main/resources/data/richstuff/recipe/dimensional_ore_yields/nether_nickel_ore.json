@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:nether_nickel_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nickel_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_sulfur_dust",
+      "chance": 0.39
+    }
+  ],
+  "processing_time": 180
+}

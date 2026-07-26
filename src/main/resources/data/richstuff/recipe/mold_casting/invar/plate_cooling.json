@@ -1,0 +1,37 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:invar_plate"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:invar_filled_plate_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:invar_plate",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "invar",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/invar",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_plate_mold",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:zinc_seperated"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_dust",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_sulfur_dust",
+      "chance": 0.36
+    }
+  ],
+  "heat_requirement": "none",
+  "processing_time": 170
+}

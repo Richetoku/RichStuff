@@ -1,0 +1,15 @@
+{
+  "type": "oritech:grinder",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "richstuff:copper_dust"
+    }
+  ],
+  "time": 40
+}

@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "material": "coal",
+  "category": "fuel",
+  "enabled": true,
+  "color": "#2F2E2F",
+  "forms": [
+    "coal_block",
+    "coal_brick",
+    "coal_coke_block",
+    "coal_coke_brick",
+    "coal_coke_dust",
+    "coal_coke_dust_block",
+    "coal_coke_nugget",
+    "coal_dust",
+    "coal_dust_block",
+    "coal_nugget",
+    "raw_coal_block",
+    "raw_coal_coke_block",
+    "small_coal_coke_dust",
+    "small_coal_dust",
+    "tiny_coal_coke_dust",
+    "tiny_coal_coke_nugget",
+    "tiny_coal_dust",
+    "tiny_coal_nugget"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "richstuff:sulfur_heated"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sulfur_refined",
+      "count": 1
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

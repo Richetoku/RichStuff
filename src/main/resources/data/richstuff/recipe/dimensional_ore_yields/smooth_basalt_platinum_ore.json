@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:smooth_basalt_platinum_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:platinum_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_platinum_dust",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 180
+}

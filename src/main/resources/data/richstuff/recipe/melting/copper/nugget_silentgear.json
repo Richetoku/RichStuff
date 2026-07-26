@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:copper_nugget"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_copper",
+      "amount": 16,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:copper",
+          "item": {
+            "id": "richstuff:copper_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "copper",
+          "RichStuffFluidTag": "c:molten/copper",
+          "SilentGearMaterial": "richstuff:copper",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 32
+}

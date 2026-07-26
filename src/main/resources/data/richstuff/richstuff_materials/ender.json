@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "material": "ender",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FFFFFF",
+  "forms": [
+    "ender_block",
+    "ender_dust_bag",
+    "ender_eye_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

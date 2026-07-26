@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:amethyst_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:amethyst_washed"
+    },
+    {
+      "id": "richstuff:amethyst_dust",
+      "chance": 0.2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

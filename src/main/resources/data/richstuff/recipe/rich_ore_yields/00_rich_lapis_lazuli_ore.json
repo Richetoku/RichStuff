@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:rich_lapis_lazuli_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lapis_lazuli_crushed",
+      "count": 4
+    },
+    {
+      "id": "richstuff:lapis_lazuli_unrefined",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 220
+}

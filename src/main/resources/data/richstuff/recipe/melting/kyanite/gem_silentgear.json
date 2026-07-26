@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:kyanite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_kyanite",
+      "amount": 144,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:kyanite",
+          "item": {
+            "id": "richstuff:kyanite_shard",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "kyanite",
+          "RichStuffFluidTag": "c:molten/kyanite",
+          "SilentGearMaterial": "richstuff:kyanite",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 288
+}

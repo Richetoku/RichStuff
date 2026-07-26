@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    }
+  ],
+  "result": {
+    "id": "richstuff:lead_dust_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

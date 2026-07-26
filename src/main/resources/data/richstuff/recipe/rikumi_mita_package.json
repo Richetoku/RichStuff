@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "GCG",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "tag": "minecraft:wool"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
+    },
+    "C": {
+      "item": "richstuff:green_heart"
+    }
+  },
+  "result": {
+    "id": "richstuff:rikumi_mita_package"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    }
+  ]
+}

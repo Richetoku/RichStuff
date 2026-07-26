@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,running=false": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 0
+    },
+    "facing=north,running=true": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 0
+    },
+    "facing=east,running=false": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 90
+    },
+    "facing=east,running=true": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 90
+    },
+    "facing=south,running=false": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 180
+    },
+    "facing=south,running=true": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 180
+    },
+    "facing=west,running=false": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 270
+    },
+    "facing=west,running=true": {
+      "model": "richstuff:block/rich_tree_chamber",
+      "y": 270
+    }
+  }
+}

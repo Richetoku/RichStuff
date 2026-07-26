@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "material": "apple",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FF0000",
+  "forms": [
+    "apple_cider_jug",
+    "apple_crate",
+    "apple_cream_frosting_jar",
+    "apple_jam_jar",
+    "apple_jelly_jar",
+    "apple_sauce_jar",
+    "golden_apple_crate",
+    "golden_apple_jam_jar",
+    "golden_apple_jelly_jar"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "material": "sulfur",
+  "category": "dust",
+  "enabled": true,
+  "color": "#E7D544",
+  "forms": [
+    "small_sulfur_dust",
+    "sulfur_block",
+    "sulfur_brick",
+    "sulfur_dust",
+    "sulfur_filled_block_mold",
+    "sulfur_filled_brick_mold",
+    "tiny_sulfur_dust"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

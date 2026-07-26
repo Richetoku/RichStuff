@@ -1,0 +1,39 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:base_ingot_mold"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_ingot_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/electrum",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:electrum_filled_ingot_mold",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "electrum",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/electrum",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

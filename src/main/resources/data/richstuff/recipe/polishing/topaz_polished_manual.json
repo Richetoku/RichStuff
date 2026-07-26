@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:topaz_unrefined"
+    },
+    {
+      "item": "richstuff:topaz_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:topaz_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

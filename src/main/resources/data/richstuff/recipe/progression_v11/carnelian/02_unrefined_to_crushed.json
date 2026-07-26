@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:carnelian_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:carnelian_crushed"
+    },
+    {
+      "id": "richstuff:carnelian_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

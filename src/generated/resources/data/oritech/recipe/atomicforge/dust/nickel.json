@@ -1,0 +1,21 @@
+{
+  "type": "oritech:atomic_forge",
+  "ingredients": [
+    {
+      "tag": "c:gems/nickel"
+    },
+    {
+      "item": "oritech:fluxite"
+    },
+    {
+      "item": "oritech:fluxite"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "richstuff:nickel_dust"
+    }
+  ],
+  "time": 20
+}

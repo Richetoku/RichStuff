@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "breeze_rod",
+  "category": "utility",
+  "enabled": true,
+  "color": "#B0D0E0",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

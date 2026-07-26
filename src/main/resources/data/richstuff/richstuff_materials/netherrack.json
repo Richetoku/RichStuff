@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "netherrack",
+  "category": "utility",
+  "enabled": true,
+  "color": "#7B3A3A",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

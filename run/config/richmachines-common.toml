@@ -1,0 +1,47 @@
+[ore_extractor]
+	# Default: 1024
+	# Range: 16 ~ 4096
+	minimumRpm = 1024
+	# Default: 96
+	# Range: 1 ~ 2048
+	scanBlocksPerTick = 96
+	# Default: 5
+	# Range: 1 ~ 1200
+	ticksPerOre = 5
+
+[fluid_extractor]
+	# Default: 256
+	# Range: 16 ~ 4096
+	minimumRpm = 256
+	# Default: 96
+	# Range: 1 ~ 2048
+	scanBlocksPerTick = 96
+	# Default: 5
+	# Range: 1 ~ 1200
+	ticksPerSource = 5
+	# Default: 64000
+	# Range: 1000 ~ 1024000
+	tankCapacity = 64000
+	# Default: 1000
+	# Range: 1 ~ 64000
+	outputPerTick = 1000
+
+[flux_capacitor]
+	# Default: -256
+	# Range: -4096 ~ 0
+	minimumTargetRpm = -256
+	# Default: 256
+	# Range: 0 ~ 4096
+	maximumTargetRpm = 256
+	# Default: 64
+	# Range: -4096 ~ 4096
+	defaultTargetRpm = 64
+	# Default: 1
+	# Range: 0 ~ 100000
+	baseFluxPerTick = 1
+	# Default: 4
+	# Range: 0 ~ 100000
+	fluxPer64Rpm = 4
+	# Default: 1
+	# Range: 0 ~ 100000
+	fluxPerStressUnit = 1

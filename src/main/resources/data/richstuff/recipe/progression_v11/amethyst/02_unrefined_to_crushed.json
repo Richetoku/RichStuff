@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:amethyst_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:amethyst_crushed"
+    },
+    {
+      "id": "richstuff:amethyst_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

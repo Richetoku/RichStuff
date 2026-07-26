@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_steel_raw"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_steel_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:crimson_steel_dust",
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 140
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:tin_seperated"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tin_dust"
+    },
+    {
+      "id": "richstuff:tin_dust",
+      "chance": 0.5
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

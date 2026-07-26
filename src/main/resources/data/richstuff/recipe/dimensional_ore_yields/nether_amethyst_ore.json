@@ -1,0 +1,33 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:nether_amethyst_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:amethyst_shard",
+      "count": 6
+    },
+    {
+      "id": "richstuff:amethyst_crushed",
+      "count": 4
+    },
+    {
+      "id": "richstuff:small_quartz_dust",
+      "chance": 0.39
+    }
+  ],
+  "processing_time": 180
+}

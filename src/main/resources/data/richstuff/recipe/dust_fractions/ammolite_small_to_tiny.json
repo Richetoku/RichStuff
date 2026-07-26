@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:ammolite_tiny_dust",
+    "count": 4
+  }
+}

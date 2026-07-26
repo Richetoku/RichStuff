@@ -1,0 +1,18 @@
+{
+  "type": "oritech:foundry",
+  "ingredients": [
+    {
+      "tag": "c:gems/gold"
+    },
+    {
+      "tag": "c:gems/gold"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "richstuff:gold_ingot"
+    }
+  ],
+  "time": 80
+}

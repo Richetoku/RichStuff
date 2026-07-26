@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    },
+    {
+      "tag": "c:dusts/gold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "richstuff:gold_dust"
+  }
+}

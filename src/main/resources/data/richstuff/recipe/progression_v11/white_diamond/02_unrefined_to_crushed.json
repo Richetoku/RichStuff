@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:white_diamond_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:white_diamond_crushed"
+    },
+    {
+      "id": "richstuff:white_diamond_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

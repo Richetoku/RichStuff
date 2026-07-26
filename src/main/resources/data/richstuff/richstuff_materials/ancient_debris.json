@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "ancient_debris",
+  "category": "utility",
+  "enabled": true,
+  "color": "#624C4C",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:raw_lapis_lazuli_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:raw_lapis_lazuli",
+      "count": 9
+    }
+  ],
+  "processing_time": 60
+}

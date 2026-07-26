@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/black_diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:black_diamond_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#131313",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

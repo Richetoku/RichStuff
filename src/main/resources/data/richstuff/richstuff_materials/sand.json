@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "sand",
+  "category": "utility",
+  "enabled": true,
+  "color": "#E4D29F",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

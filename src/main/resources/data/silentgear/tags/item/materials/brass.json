@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:brass_ingot",
+    "richstuff:brass_rod",
+    "richstuff:brass_plate",
+    "richstuff:brass_gear"
+  ]
+}

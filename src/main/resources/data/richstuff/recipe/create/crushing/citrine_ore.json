@@ -1,0 +1,21 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/citrine"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:citrine_crushed",
+      "count": 2
+    }
+  ],
+  "processing_time": 220,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

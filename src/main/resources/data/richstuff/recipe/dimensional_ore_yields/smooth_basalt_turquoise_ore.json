@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:smooth_basalt_turquoise_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:turquoise_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:turquoise_unrefined",
+      "chance": 0.7
+    }
+  ],
+  "processing_time": 180
+}

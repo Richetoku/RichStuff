@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_wire_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/moldavite",
+      "amount": 72
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:moldavite_filled_wire_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "moldavite",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/moldavite",
+          "RichStuffTargetPart": "richstuff:moldavite_wire",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

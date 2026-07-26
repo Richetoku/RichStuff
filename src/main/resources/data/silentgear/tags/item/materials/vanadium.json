@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:vanadium_ingot",
+    "richstuff:vanadium_rod",
+    "richstuff:vanadium_plate",
+    "richstuff:vanadium_gear"
+  ]
+}

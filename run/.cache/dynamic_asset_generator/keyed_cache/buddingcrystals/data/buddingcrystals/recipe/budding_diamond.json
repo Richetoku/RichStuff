@@ -1,0 +1,1 @@
+{"neoforge:conditions":[{"config":"enable_crafting_budding_diamond","type":"buddingcrystals:config"}],"key":{"M":{"item":"minecraft:diamond"},"C":{"item":"buddingcrystals:crystal_catalyst"}},"pattern":["MMM","MCM","MMM"],"result":{"id":"buddingcrystals:budding_diamond","count":1},"category":"misc","type":"minecraft:crafting_shaped"}

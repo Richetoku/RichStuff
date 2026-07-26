@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:sulfur_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sulfur_crushed",
+      "count": 1
+    }
+  ],
+  "processing_time": 120,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

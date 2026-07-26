@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_block_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/peridot",
+      "amount": 1296
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:peridot_filled_block_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "peridot",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/peridot",
+          "RichStuffTargetPart": "richstuff:peridot_block",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/topaz"
+    },
+    {
+      "tag": "c:storage_blocks/topaz"
+    },
+    {
+      "tag": "c:storage_blocks/topaz"
+    },
+    {
+      "tag": "c:storage_blocks/topaz"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:topaz_brick",
+      "count": 4
+    }
+  ],
+  "processing_time": 80
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:copronickel_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:copronickel_brick",
+    "count": 4
+  }
+}

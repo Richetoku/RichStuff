@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_steel_dust_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:crimson_steel_dust",
+    "count": 9
+  }
+}

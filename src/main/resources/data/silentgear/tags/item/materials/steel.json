@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:steel_ingot",
+    "richstuff:steel_rod",
+    "richstuff:steel_plate",
+    "richstuff:steel_gear"
+  ]
+}

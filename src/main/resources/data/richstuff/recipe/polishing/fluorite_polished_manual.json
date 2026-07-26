@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:fluorite_unrefined"
+    },
+    {
+      "item": "richstuff:fluorite_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:fluorite_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

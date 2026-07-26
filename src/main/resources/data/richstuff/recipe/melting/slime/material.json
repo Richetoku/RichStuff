@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_slime",
+      "amount": 144,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "slime",
+          "RichStuffFluidTag": "c:molten/slime",
+          "RichGearMaterial": "richstuff:slime",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 288
+}

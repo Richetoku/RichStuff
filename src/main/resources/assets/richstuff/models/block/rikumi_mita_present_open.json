@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "gift": "richstuff:block/rikumi_mita_present",
+    "lid": "richstuff:block/rikumi_mita_present_lid",
+    "particle": "richstuff:block/rikumi_mita_present"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gift"
+        },
+        "south": {
+          "texture": "#gift"
+        },
+        "east": {
+          "texture": "#gift"
+        },
+        "west": {
+          "texture": "#gift"
+        },
+        "up": {
+          "texture": "#gift"
+        },
+        "down": {
+          "texture": "#gift"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        9,
+        13
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          14
+        ],
+        "axis": "x",
+        "angle": -45
+      },
+      "faces": {
+        "north": {
+          "texture": "#lid"
+        },
+        "south": {
+          "texture": "#lid"
+        },
+        "east": {
+          "texture": "#lid"
+        },
+        "west": {
+          "texture": "#lid"
+        },
+        "up": {
+          "texture": "#lid"
+        },
+        "down": {
+          "texture": "#lid"
+        }
+      }
+    }
+  ]
+}

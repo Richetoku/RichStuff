@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:blaze_gold_ingot",
+    "richstuff:blaze_gold_rod",
+    "richstuff:blaze_gold_plate",
+    "richstuff:blaze_gold_gear"
+  ]
+}

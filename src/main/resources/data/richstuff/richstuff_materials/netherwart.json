@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "netherwart",
+  "category": "utility",
+  "enabled": true,
+  "color": "#6E4A32",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

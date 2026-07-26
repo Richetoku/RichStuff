@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_brick"
+    },
+    {
+      "item": "richstuff:ammolite_brick"
+    },
+    {
+      "item": "richstuff:ammolite_brick"
+    },
+    {
+      "item": "richstuff:ammolite_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ammolite_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_nugget_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/zinc",
+      "amount": 16
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_filled_nugget_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "zinc",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/zinc",
+          "RichStuffTargetPart": "richstuff:zinc_nugget",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

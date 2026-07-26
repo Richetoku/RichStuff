@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "oritech:iron_gem",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/enderium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:enderium_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#598F7B",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:fluorite_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:fluorite_tiny_dust",
+    "count": 4
+  }
+}

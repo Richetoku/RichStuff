@@ -1,0 +1,16 @@
+{
+  "type": "alloy",
+  "inputs": [
+    {
+      "fluid": "richstuff:molten_gold",
+      "amount": 180
+    },
+    {
+      "fluid": "richstuff:molten_silver",
+      "amount": 180
+    }
+  ],
+  "fluid": "richstuff:molten_electrum",
+  "amount": 360,
+  "ticks": 100
+}

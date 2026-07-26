@@ -1,0 +1,49 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    },
+    {
+      "item": "richstuff:plastic_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:plastic_coin_stack",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

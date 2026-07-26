@@ -1,0 +1,24 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:diamond_washed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:diamond_refined"
+    },
+    {
+      "id": "richstuff:diamond_refined",
+      "chance": 0.15
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_alexandrite",
+      "amount": 144,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:alexandrite",
+          "item": {
+            "id": "richstuff:alexandrite_shard",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "alexandrite",
+          "RichStuffFluidTag": "c:molten/alexandrite",
+          "SilentGearMaterial": "richstuff:alexandrite",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 288
+}

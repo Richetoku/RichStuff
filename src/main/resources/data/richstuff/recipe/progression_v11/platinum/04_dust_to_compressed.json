@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    },
+    {
+      "item": "richstuff:platinum_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:platinum_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

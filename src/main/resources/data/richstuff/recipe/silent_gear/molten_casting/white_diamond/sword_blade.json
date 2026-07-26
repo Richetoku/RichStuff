@@ -1,0 +1,52 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    },
+    {
+      "type": "richstuff:server_config",
+      "option": "enableMoltenSilentGearCasting",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:silent_sword_blade_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/white_diamond",
+      "amount": 288
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:white_diamond_filled_sword_blade_mold",
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:white_diamond",
+          "item": {
+            "id": "richstuff:white_diamond_shard",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "silentgear:part_type": "silentgear:main",
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "white_diamond",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/white_diamond",
+          "SilentGearMaterial": "richstuff:white_diamond",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

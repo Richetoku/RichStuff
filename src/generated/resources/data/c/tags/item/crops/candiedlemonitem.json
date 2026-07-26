@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodextended:candiedlemonitem",
+      "required": false
+    }
+  ]
+}

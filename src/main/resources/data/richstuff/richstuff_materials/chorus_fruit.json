@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "material": "chorus_fruit",
+  "category": "utility",
+  "enabled": true,
+  "color": "#A060C0",
+  "forms": [
+    "chorus_fruit_crate",
+    "chorus_fruit_cream_frosting_jar",
+    "chorus_fruit_jam_jar",
+    "chorus_fruit_jelly_jar",
+    "chorus_fruit_seeds_bag"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

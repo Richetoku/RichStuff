@@ -1,0 +1,57 @@
+[processing]
+	#Enable budding RichStuff crystal blocks to grow crystal blocks in adjacent air.
+	enableCrystalGrowth = true
+	#Generated Create recipe JSON is gated with a create mod_loaded condition.
+	createRecipesRequireCreate = true
+	#Enable direct vanilla crafting/smelting shortcuts. Disabled by default so materials must use the processing chain or powered machines.
+	enableVanillaFallbackRecipes = false
+
+[metal_slimes]
+	#Enable colored RichStuff metal slimes that drop matching metal nuggets.
+	enableMetalSlimes = true
+	#Global multiplier applied to metal slime spawn-rule chances. Biome modifier weights remain data-pack controlled.
+	# Default: 1.0
+	# Range: 0.0 ~ 64.0
+	metalSlimeSpawnMultiplier = 1.0
+
+[silent_gear]
+	#Enable RichStuff molten metal mold recipes that output Silent Gear parts when Silent Gear and Create are loaded.
+	enableMoltenSilentGearCasting = true
+	#When true, RichStuff adds server-side handling and optional duplicate vanilla-pattern recipes so vanilla tool/armor crafting produces Silent Gear equivalents. Off by default so vanilla tool crafting stays untouched.
+	convertVanillaToolRecipesToSilentGear = false
+
+[ore_extractor]
+	#Minimum absolute Create RPM required by the end-game ore extractor.
+	# Default: 1024
+	# Range: 16 ~ 4096
+	minimumRpm = 1024
+	#Base number of chunk blocks inspected per tick. Mining remains limited by ticksPerOre.
+	# Default: 96
+	# Range: 1 ~ 2048
+	scanBlocksPerTick = 96
+	#Cooldown after each ore block is mined and replaced with cobblestone.
+	# Default: 5
+	# Range: 1 ~ 1200
+	ticksPerOre = 5
+
+[fluid_extractor]
+	#Minimum absolute Create RPM required at either side-bottom power port.
+	# Default: 256
+	# Range: 16 ~ 4096
+	minimumRpm = 512
+	#Base number of chunk blocks inspected per tick for source water or lava.
+	# Default: 96
+	# Range: 1 ~ 2048
+	scanBlocksPerTick = 96
+	#Cooldown after each source block is replaced with cobblestone and pumped into the machine.
+	# Default: 5
+	# Range: 1 ~ 1200
+	ticksPerSource = 5
+	#Internal Fluid Extractor capacity in millibuckets.
+	# Default: 64000
+	# Range: 1000 ~ 1024000
+	tankCapacity = 64000
+	#Maximum millibuckets pushed through the rear output each tick.
+	# Default: 1000
+	# Range: 1 ~ 64000
+	outputPerTick = 1000

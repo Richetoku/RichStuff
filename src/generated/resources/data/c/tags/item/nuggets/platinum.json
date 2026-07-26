@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:platinum_nugget",
+    {
+      "id": "oritech:platinum_nugget",
+      "required": false
+    }
+  ]
+}

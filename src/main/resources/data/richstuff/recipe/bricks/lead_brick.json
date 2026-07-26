@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:lead_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:lead_brick",
+    "count": 4
+  }
+}

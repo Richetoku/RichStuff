@@ -1,0 +1,39 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:base_gear_mold"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_gear_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/brass",
+      "amount": 576
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:brass_filled_gear_mold",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "brass",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/brass",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

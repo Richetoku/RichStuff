@@ -1,0 +1,24 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "richstuff:moldavite_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:moldavite_crushed"
+    },
+    {
+      "id": "richstuff:moldavite_crushed",
+      "chance": 0.25
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 60
+}

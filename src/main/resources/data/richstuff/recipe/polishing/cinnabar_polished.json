@@ -1,0 +1,19 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

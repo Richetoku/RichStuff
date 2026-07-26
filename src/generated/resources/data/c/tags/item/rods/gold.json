@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:gold_rod",
+    {
+      "id": "vintageimprovements:pure_gold_rod",
+      "required": false
+    },
+    {
+      "id": "vintageimprovements:rose_gold_rod",
+      "required": false
+    }
+  ]
+}

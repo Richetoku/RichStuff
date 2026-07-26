@@ -1,0 +1,52 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    },
+    {
+      "type": "richstuff:server_config",
+      "option": "enableMoltenSilentGearCasting",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:silent_boots_plates_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/lithium",
+      "amount": 576
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lithium_filled_boots_plates_mold",
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:lithium",
+          "item": {
+            "id": "richstuff:lithium_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "silentgear:part_type": "silentgear:main",
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "lithium",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/lithium",
+          "SilentGearMaterial": "richstuff:lithium",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

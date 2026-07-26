@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:heliodor_unrefined"
+    },
+    {
+      "item": "richstuff:heliodor_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:heliodor_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

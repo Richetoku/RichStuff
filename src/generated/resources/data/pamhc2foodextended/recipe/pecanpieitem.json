@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_bakeware"
+    },
+    {
+      "tag": "c:crops/pecan"
+    },
+    {
+      "item": "richstuff:pie_crust"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:butter"
+    }
+  ],
+  "result": {
+    "id": "pamhc2foodextended:pecanpieitem",
+    "count": 1
+  }
+}

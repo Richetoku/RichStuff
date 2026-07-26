@@ -1,0 +1,92 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/cinnabar"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/cinnabar"
+      },
+      "silentgear:tip": {
+        "tag": "c:shards/cinnabar"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFB72D3B",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.cinnabar"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 10.6,
+      "armor_durability": 16.4,
+      "attack_damage": 1.91,
+      "attack_speed": 0.0,
+      "durability": 600,
+      "enchantment_value": 17.6,
+      "harvest_speed": 6.6,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "3",
+        "name": "iron"
+      },
+      "magic_armor": 4,
+      "magic_damage": 3.0,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.02,
+      "rarity": 32.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 58.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.68
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 95
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.78
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_iron_tools",
+        "level_hint": "3",
+        "name": "iron"
+      }
+    }
+  }
+}

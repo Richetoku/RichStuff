@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    },
+    {
+      "tag": "c:coins/sapphire"
+    }
+  ],
+  "result": {
+    "id": "richstuff:sapphire_coin_stack"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

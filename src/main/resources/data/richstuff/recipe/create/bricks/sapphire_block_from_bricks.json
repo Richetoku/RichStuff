@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:sapphire_brick"
+    },
+    {
+      "item": "richstuff:sapphire_brick"
+    },
+    {
+      "item": "richstuff:sapphire_brick"
+    },
+    {
+      "item": "richstuff:sapphire_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sapphire_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

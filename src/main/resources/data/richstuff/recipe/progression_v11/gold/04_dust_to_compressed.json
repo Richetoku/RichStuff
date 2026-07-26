@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    },
+    {
+      "item": "richstuff:gold_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:gold_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "clay_ball",
+  "category": "utility",
+  "enabled": true,
+  "color": "#A8A8B5",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

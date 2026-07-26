@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:salt",
+    "richstuff:salt_shard"
+  ]
+}

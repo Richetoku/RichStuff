@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:ender_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_ender",
+      "amount": 1296,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "ender",
+          "RichStuffFluidTag": "c:molten/ender",
+          "RichGearMaterial": "richstuff:ender",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 2592
+}

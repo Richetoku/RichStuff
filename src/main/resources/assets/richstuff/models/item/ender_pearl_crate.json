@@ -1,0 +1,65 @@
+{
+  "parent": "richstuff:block/ender_pearl_crate_oak",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "richstuff:block/ender_pearl_crate_spruce"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "richstuff:block/ender_pearl_crate_birch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "richstuff:block/ender_pearl_crate_jungle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "richstuff:block/ender_pearl_crate_acacia"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "richstuff:block/ender_pearl_crate_dark_oak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "richstuff:block/ender_pearl_crate_mangrove"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "richstuff:block/ender_pearl_crate_cherry"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "richstuff:block/ender_pearl_crate_bamboo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "richstuff:block/ender_pearl_crate_crimson"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "richstuff:block/ender_pearl_crate_warped"
+    }
+  ]
+}

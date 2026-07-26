@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/celestigem"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:celestigem",
+      "count": 2
+    },
+    {
+      "id": "richores:celestigem",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 272
+}

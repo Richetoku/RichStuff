@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/osmium"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:osmium_crushed"
+    }
+  ],
+  "processing_time": 250,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

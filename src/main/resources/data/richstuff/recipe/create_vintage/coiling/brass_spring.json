@@ -1,0 +1,21 @@
+{
+  "type": "createvintageneoforged:coiling",
+  "ingredients": [
+    {
+      "tag": "c:wires/brass"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:brass_spring"
+    }
+  ],
+  "processingTime": 120,
+  "springColor": "#D4A66A",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createvintageneoforged"
+    }
+  ]
+}

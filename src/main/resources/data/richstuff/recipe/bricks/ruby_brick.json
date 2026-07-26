@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:ruby_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:ruby_brick",
+    "count": 4
+  }
+}

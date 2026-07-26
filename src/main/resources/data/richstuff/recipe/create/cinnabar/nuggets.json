@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_nugget",
+      "count": 9
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 80
+}

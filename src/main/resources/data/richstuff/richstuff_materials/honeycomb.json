@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "honeycomb",
+  "category": "utility",
+  "enabled": true,
+  "color": "#F7D74F",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:sulfur_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:sulfur_small_dust",
+    "count": 9
+  }
+}

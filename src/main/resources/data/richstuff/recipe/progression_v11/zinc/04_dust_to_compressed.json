@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    },
+    {
+      "item": "richstuff:zinc_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

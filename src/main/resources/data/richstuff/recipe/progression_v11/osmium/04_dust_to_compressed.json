@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    },
+    {
+      "item": "richstuff:osmium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:osmium_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "oak"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "spruce"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 1
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "birch"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "jungle"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "acacia"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "dark_oak"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "mangrove"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 6
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "cherry"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 7
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "bamboo"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 8
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "crimson"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 9
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "richstuff:blaze_rod_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": {
+                    "wood": "warped"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "richstuff:blaze_rod_crate",
+                  "properties": [
+                    "wood"
+                  ]
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 10
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

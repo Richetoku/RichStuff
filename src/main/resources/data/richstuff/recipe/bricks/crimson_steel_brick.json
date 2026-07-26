@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:crimson_steel_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:crimson_steel_brick",
+    "count": 4
+  }
+}

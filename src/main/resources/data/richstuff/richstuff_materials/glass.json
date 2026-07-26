@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "material": "glass",
+  "category": "utility",
+  "enabled": true,
+  "color": "#E6E6E6",
+  "forms": [
+    "glass_bottle_crate",
+    "glass_cup",
+    "glass_filled_block_mold",
+    "glass_filled_plate_mold"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

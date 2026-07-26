@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:kyanite_shard"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_kyanite",
+      "amount": 16,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "kyanite",
+          "RichStuffFluidTag": "c:molten/kyanite",
+          "RichGearMaterial": "richstuff:kyanite",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 32
+}

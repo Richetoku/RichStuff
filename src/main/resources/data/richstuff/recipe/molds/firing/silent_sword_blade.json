@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:unfired_silent_sword_blade_mold"
+  },
+  "result": {
+    "id": "richstuff:silent_sword_blade_mold"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

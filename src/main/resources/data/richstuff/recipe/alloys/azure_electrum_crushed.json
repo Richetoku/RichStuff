@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:azure_electrum_raw"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:azure_electrum_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:azure_electrum_dust",
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 140
+}

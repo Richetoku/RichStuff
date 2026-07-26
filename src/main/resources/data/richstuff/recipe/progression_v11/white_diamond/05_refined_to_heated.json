@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:white_diamond_refined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:white_diamond_heated"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heat_requirement": "heated"
+}

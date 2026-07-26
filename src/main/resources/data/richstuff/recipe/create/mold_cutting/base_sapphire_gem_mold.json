@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:blank_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:base_sapphire_gem_mold",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:blackstone_cinnabar_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_crushed",
+      "count": 2
+    },
+    {
+      "id": "minecraft:flint",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 180
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "richstuff:rich_tank_iii"
+    }
+  },
+  "result": {
+    "id": "richstuff:rich_tank_iv",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:eclipse_alloy_raw"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:eclipse_alloy_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:eclipse_alloy_dust",
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 140
+}

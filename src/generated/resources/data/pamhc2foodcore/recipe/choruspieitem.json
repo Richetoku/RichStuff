@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_bakeware"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:crops/chorusfruit"
+    },
+    {
+      "item": "richstuff:pie_crust"
+    }
+  ],
+  "result": {
+    "id": "pamhc2foodcore:choruspieitem",
+    "count": 1
+  }
+}

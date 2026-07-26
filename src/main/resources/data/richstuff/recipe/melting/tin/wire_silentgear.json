@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:tin_wire"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_tin",
+      "amount": 72,
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:tin",
+          "item": {
+            "id": "richstuff:tin_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "tin",
+          "RichStuffFluidTag": "c:molten/tin",
+          "SilentGearMaterial": "richstuff:tin",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 144
+}

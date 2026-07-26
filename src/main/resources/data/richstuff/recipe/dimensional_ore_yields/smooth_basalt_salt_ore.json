@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:smooth_basalt_salt_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:salt",
+      "count": 6
+    },
+    {
+      "id": "richores:salt",
+      "count": 4
+    }
+  ],
+  "processing_time": 180
+}

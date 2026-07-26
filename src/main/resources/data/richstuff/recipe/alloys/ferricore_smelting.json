@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:ferricore_crushed"
+  },
+  "result": {
+    "id": "richstuff:ferricore_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

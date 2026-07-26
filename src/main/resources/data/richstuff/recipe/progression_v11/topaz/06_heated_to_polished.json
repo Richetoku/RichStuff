@@ -1,0 +1,23 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "richstuff:topaz_heated"
+    },
+    {
+      "item": "richstuff:topaz_sandpaper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:topaz_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "keep_held_item": true
+}

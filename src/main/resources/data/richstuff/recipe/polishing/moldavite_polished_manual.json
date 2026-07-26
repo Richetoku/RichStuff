@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:moldavite_unrefined"
+    },
+    {
+      "item": "richstuff:moldavite_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:moldavite_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "c:ores/sulfur"
+  },
+  "result": {
+    "id": "richstuff:raw_sulfur"
+  },
+  "experience": 0.7,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

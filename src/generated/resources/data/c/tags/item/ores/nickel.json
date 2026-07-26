@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "richores:nickel_ore",
+    "richores:deepslate_nickel_ore",
+    {
+      "id": "oritech:deepslate_nickel_ore",
+      "required": false
+    },
+    {
+      "id": "oritech:nickel_ore",
+      "required": false
+    }
+  ]
+}

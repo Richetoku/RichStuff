@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:alexandrite_unrefined"
+    },
+    {
+      "item": "richstuff:alexandrite_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:alexandrite_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

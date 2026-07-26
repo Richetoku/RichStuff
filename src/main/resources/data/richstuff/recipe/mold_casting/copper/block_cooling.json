@@ -1,0 +1,37 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:copper_block"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:copper_filled_block_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_block",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "copper",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/copper",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    },
+    {
+      "id": "richstuff:base_block_mold",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "richstuff:eclipse_alloy_crushed"
+  },
+  "result": {
+    "id": "richstuff:eclipse_alloy_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

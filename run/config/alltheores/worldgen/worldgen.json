@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "globalRateMultiplier": 1.0,
+  "dimensionRateMultipliers": {
+    "overworld": 1.0,
+    "nether": 1.0,
+    "end": 1.0
+  },
+  "maximumVeinsPerMaterialPerChunk": 128,
+  "maximumBlocksPerVein": 96
+}

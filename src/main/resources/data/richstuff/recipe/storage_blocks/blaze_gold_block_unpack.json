@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:blaze_gold_block"
+    }
+  ],
+  "result": {
+    "id": "richstuff:blaze_gold_ingot",
+    "count": 9
+  }
+}

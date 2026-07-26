@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "spider_eye",
+  "category": "utility",
+  "enabled": true,
+  "color": "#551A8B",
+  "forms": [
+    "spider_eye_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

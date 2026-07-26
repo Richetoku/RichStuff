@@ -1,0 +1,20 @@
+{
+  "type": "createaddition:rolling",
+  "input": {
+    "tag": "c:ingots/ironwood"
+  },
+  "result": {
+    "count": 2,
+    "id": "richstuff:iron_rod"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "material": "uranium",
+  "tier": 4,
+  "tierName": "Advanced",
+  "minimumCreateRpm": 128,
+  "category": "metal",
+  "profile": "radioactive_metal",
+  "oreTag": "c:ores/uranium",
+  "growthSource": "",
+  "primaryDrop": "richores:raw_uranium",
+  "byproducts": [],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "crushing": 2.0,
+    "washing": 2.5,
+    "heatedSeparation": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Mixer / RichStuff Centrifuge"
+  ]
+}

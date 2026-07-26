@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "basalt",
+  "category": "utility",
+  "enabled": true,
+  "color": "#3B2F2F",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

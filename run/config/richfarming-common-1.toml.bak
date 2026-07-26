@@ -1,0 +1,23 @@
+[chambers]
+	# Default: 64
+	# Range: 1 ~ 4096
+	cropMinimumRpm = 64
+	# Default: 300
+	# Range: 1 ~ 72000
+	cropCycleTicks = 300
+	# Default: 128
+	# Range: 1 ~ 4096
+	treeMinimumRpm = 128
+	# Default: 1200
+	# Range: 1 ~ 72000
+	treeCycleTicks = 1200
+
+[worldgen]
+	#Base chance for biome-matched Rich Farming seeds while breaking grass.
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	grassSeedChance = 0.025
+	#Multiplier for biome-tagged natural fruit-tree placement.
+	# Default: 1.0
+	# Range: 0.0 ~ 64.0
+	fruitTreeChanceMultiplier = 1.0

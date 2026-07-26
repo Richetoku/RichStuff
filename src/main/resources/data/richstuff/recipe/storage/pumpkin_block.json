@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FRF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "tag": "richstuff:pumpkin_blocks"
+    },
+    "R": {
+      "item": "richstuff:rope"
+    }
+  },
+  "result": {
+    "id": "richstuff:pumpkin_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    }
+  ]
+}

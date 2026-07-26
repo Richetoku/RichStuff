@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:crimson_iron_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:crimson_iron_ingot",
+      "count": 9
+    }
+  ],
+  "processing_time": 60
+}

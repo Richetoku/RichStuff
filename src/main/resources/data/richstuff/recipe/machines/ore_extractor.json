@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "SBS",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "item": "richstuff:steel_plate"
+    },
+    "C": {
+      "item": "richstuff:ore_extractor_casing"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "richstuff:ore_extractor"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richmachines"
+    }
+  ]
+}

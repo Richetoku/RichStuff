@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:end_lead_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lead_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_sulfur_dust",
+      "chance": 0.63
+    }
+  ],
+  "processing_time": 180
+}

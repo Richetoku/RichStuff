@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_moldavite_gem_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/moldavite",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:filled_moldavite_gem_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "moldavite",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/moldavite",
+          "RichStuffTargetPart": "richstuff:moldavite",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

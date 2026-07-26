@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "richstuff:block/redstone_dust_ground"
+      }
+    }
+  ]
+}

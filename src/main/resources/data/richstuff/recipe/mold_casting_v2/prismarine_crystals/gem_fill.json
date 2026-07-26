@@ -1,0 +1,34 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_prismarine_crystals_gem_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/prismarine_crystals",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:filled_prismarine_crystals_gem_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "prismarine_crystals",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/prismarine_crystals",
+          "RichStuffTargetPart": "minecraft:prismarine_crystals",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

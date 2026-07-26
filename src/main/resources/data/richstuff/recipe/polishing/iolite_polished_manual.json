@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:iolite_unrefined"
+    },
+    {
+      "item": "richstuff:iolite_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:iolite_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

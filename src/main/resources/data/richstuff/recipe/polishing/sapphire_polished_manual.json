@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:sapphire_unrefined"
+    },
+    {
+      "item": "richstuff:sapphire_sandpaper"
+    }
+  ],
+  "result": {
+    "id": "richstuff:sapphire_polished"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

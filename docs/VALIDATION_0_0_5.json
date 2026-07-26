@@ -1,0 +1,17 @@
+{
+  "version": "0.0.5",
+  "json_files_validated": 19797,
+  "checks": {
+    "gui_width_308": true,
+    "gui_height_232": true,
+    "left_outfit_icon": true,
+    "right_outfit_icon": true,
+    "center_outfit_label": true,
+    "old_previous_button_removed": true,
+    "old_next_button_removed": true,
+    "shared_companion_coords": true,
+    "shared_player_coords": true,
+    "custom_background_only": true
+  },
+  "errors": []
+}

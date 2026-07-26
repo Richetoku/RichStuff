@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/fluorite"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:fluorite_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:fluorite_unrefined",
+      "chance": 0.35
+    }
+  ],
+  "processing_time": 236
+}

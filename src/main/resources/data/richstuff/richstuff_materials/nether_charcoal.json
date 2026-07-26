@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "material": "nether_charcoal",
+  "category": "fuel",
+  "enabled": true,
+  "color": "#BB3127",
+  "forms": [
+    "nether_charcoal_block",
+    "nether_charcoal_brick",
+    "nether_charcoal_dust",
+    "nether_charcoal_dust_block",
+    "nether_charcoal_nugget",
+    "raw_nether_charcoal_block",
+    "small_nether_charcoal_dust",
+    "tiny_nether_charcoal_dust",
+    "tiny_nether_charcoal_nugget"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

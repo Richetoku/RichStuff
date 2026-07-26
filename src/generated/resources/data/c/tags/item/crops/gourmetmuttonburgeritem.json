@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodextended:gourmetmuttonburgeritem",
+      "required": false
+    }
+  ]
+}

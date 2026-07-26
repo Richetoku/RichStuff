@@ -1,0 +1,27 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:iron_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:iron_seperated"
+    },
+    {
+      "id": "richstuff:iron_seperated",
+      "chance": 0.2
+    },
+    {
+      "id": "richstuff:small_iron_dust",
+      "chance": 0.35
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

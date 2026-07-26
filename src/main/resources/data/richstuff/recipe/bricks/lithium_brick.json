@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "richstuff:lithium_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:lithium_brick",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2foodcore:powdereddonutitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:powdereddonutitem",
+      "required": false
+    }
+  ]
+}

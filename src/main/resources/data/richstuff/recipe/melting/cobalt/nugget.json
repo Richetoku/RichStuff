@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:cobalt_nugget"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_cobalt",
+      "amount": 16,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "cobalt",
+          "RichStuffFluidTag": "c:molten/cobalt",
+          "RichGearMaterial": "richstuff:cobalt",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 32
+}

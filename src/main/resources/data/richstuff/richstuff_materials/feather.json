@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "feather",
+  "category": "utility",
+  "enabled": true,
+  "color": "#E6E6E6",
+  "forms": [
+    "feather_crate"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:blackstone_peridot_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:peridot_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:peridot_unrefined",
+      "chance": 0.7
+    }
+  ],
+  "processing_time": 180
+}

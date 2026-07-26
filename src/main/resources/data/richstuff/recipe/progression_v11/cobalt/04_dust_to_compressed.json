@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    },
+    {
+      "item": "richstuff:cobalt_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cobalt_compressed"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

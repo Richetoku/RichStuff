@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:tyrian_steel_ingot",
+    "richstuff:tyrian_steel_rod",
+    "richstuff:tyrian_steel_plate",
+    "richstuff:tyrian_steel_gear"
+  ]
+}

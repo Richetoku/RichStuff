@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "richstuff:sulfur_unrefined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:sulfur_polished"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "richstuff:crimson_iron_dust"
+  },
+  "result": {
+    "id": "richstuff:crimson_iron_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 100,
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/silver"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:silver_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:silver_crushed"
+    }
+  ],
+  "processing_time": 250,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

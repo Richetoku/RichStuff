@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "orange_dye",
+  "category": "utility",
+  "enabled": true,
+  "color": "#FFA500",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

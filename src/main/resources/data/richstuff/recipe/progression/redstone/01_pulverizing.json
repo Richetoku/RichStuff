@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ores/redstone"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:redstone_dust",
+      "count": 4
+    },
+    {
+      "id": "richstuff:redstone_tiny_dust",
+      "count": 2,
+      "chance": 0.65
+    }
+  ],
+  "processing_time": 130
+}

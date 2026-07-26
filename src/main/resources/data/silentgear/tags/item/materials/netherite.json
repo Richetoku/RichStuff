@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:netherite_ingot",
+    "richstuff:netherite_rod",
+    "richstuff:netherite_plate",
+    "richstuff:netherite_gear"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "minecraft:flint"
+    },
+    {
+      "chance": 0.1,
+      "id": "richstuff:gold_nugget"
+    },
+    {
+      "chance": 0.1,
+      "id": "richstuff:copper_nugget"
+    },
+    {
+      "chance": 0.1,
+      "id": "richstuff:zinc_nugget"
+    },
+    {
+      "chance": 0.1,
+      "id": "richstuff:iron_nugget"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    },
+    {
+      "item": "richstuff:inconel_coin"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:inconel_coin_stack",
+      "count": 1
+    }
+  ],
+  "processing_time": 100
+}

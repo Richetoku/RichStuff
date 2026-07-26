@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Richetoku / RikumiMita, converted from KubeJS by ChatGPT"
+description='''
+Rich Stuff is the material core of the Rich suite: seven-tier metals, alloys, gems, crystals, fuels, dusts, utility resources, molten fluids, molds, native modular gear, foundries, alloy foundries, pouring, and casting.
+Ore blocks and JSON world generation remain in the sibling RichOres mod. Farming, machines, and mob farming are separate modules.
+'''
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="create"
+type="optional"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="ftbquests"
+type="optional"
+ordering="AFTER"
+side="BOTH"
+
+
+[[dependencies.${mod_id}]]
+modId="richcore"
+type="required"
+versionRange="[0.0.6,)"
+ordering="AFTER"
+side="BOTH"

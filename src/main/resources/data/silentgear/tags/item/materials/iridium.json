@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:iridium_ingot",
+    "richstuff:iridium_rod",
+    "richstuff:iridium_plate",
+    "richstuff:iridium_gear"
+  ]
+}

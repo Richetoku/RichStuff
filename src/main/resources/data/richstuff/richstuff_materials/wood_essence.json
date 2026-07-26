@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "wood_essence",
+  "category": "utility",
+  "enabled": true,
+  "color": "#8B4513",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

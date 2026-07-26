@@ -1,0 +1,39 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:base_gear_mold"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_gear_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/zinc",
+      "amount": 576
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:zinc_filled_gear_mold",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "zinc",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/zinc",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

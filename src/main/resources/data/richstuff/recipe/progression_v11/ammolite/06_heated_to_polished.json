@@ -1,0 +1,23 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "richstuff:ammolite_heated"
+    },
+    {
+      "item": "richstuff:ammolite_sandpaper"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ammolite_polished"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "keep_held_item": true
+}

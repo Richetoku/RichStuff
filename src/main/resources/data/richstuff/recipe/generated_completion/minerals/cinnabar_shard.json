@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_refined"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_shard",
+      "count": 2
+    }
+  ],
+  "processing_time": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

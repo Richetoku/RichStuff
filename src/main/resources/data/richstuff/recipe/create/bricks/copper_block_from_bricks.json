@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:copper_brick"
+    },
+    {
+      "item": "richstuff:copper_brick"
+    },
+    {
+      "item": "richstuff:copper_brick"
+    },
+    {
+      "item": "richstuff:copper_brick"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_block",
+      "count": 1
+    }
+  ],
+  "processing_time": 80
+}

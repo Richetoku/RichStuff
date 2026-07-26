@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "richstuff:unfired_blank_10x10_mold"
+  },
+  "result": {
+    "id": "richstuff:unfired_kyanite_gem_mold",
+    "count": 1
+  }
+}

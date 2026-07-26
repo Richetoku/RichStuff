@@ -1,0 +1,92 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "gem",
+      "intermediate"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:gems/rose_quartz"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "c:rods/rose_quartz"
+      },
+      "silentgear:tip": {
+        "tag": "c:shards/rose_quartz"
+      }
+    }
+  },
+  "display": {
+    "color": "#FFFC7DAA",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.richstuff.rose_quartz"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 13.9,
+      "armor_durability": 20.6,
+      "attack_damage": 2.59,
+      "attack_speed": 0.0,
+      "durability": 810,
+      "enchantment_value": 22.4,
+      "harvest_speed": 8.3,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_netherite_tools",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "magic_armor": 6,
+      "magic_damage": 4.5,
+      "projectile_accuracy": 1.0,
+      "projectile_speed": 1.0,
+      "ranged_damage": 1.18,
+      "rarity": 43.0,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:lustrous"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 77.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.92
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 125
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.02
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_netherite_tools",
+        "level_hint": "4",
+        "name": "netherite"
+      }
+    }
+  }
+}

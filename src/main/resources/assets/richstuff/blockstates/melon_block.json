@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "pieces=1": {
+      "model": "richstuff:block/melon_block_1"
+    },
+    "pieces=2": {
+      "model": "richstuff:block/melon_block_2"
+    },
+    "pieces=3": {
+      "model": "richstuff:block/melon_block_3"
+    },
+    "pieces=4": {
+      "model": "richstuff:block/melon_block_4"
+    },
+    "pieces=5": {
+      "model": "richstuff:block/melon_block_5"
+    },
+    "pieces=6": {
+      "model": "richstuff:block/melon_block_6"
+    },
+    "pieces=7": {
+      "model": "richstuff:block/melon_block_7"
+    },
+    "pieces=8": {
+      "model": "richstuff:block/melon_block_8"
+    }
+  }
+}

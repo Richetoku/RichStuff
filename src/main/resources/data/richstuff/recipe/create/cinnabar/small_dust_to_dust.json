@@ -1,0 +1,44 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    },
+    {
+      "item": "richstuff:cinnabar_small_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cinnabar_dust"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "processing_time": 80
+}

@@ -1,0 +1,15 @@
+{
+  "type": "oritech:pulverizer",
+  "ingredients": [
+    {
+      "tag": "c:ingots/gold"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "richstuff:gold_dust"
+    }
+  ],
+  "time": 100
+}

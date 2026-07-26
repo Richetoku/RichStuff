@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "richstuff:netherite_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:netherite_dust",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_gold_dust",
+      "chance": 0.36
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 220
+}

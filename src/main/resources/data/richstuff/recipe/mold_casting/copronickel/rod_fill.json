@@ -1,0 +1,39 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:registered",
+      "registry": "minecraft:item",
+      "value": "richstuff:base_rod_mold"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_rod_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/copronickel",
+      "amount": 72
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copronickel_filled_rod_mold",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "copronickel",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/copronickel",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

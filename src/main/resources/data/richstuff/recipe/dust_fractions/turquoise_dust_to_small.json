@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:turquoise_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:turquoise_small_dust",
+    "count": 9
+  }
+}

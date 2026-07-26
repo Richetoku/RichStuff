@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "flint",
+  "category": "utility",
+  "enabled": true,
+  "color": "#9E9E9E",
+  "forms": [
+    "flint_crate"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

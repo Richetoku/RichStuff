@@ -1,0 +1,25 @@
+{
+  "material": "netherite",
+  "tier": 7,
+  "tierName": "Endgame",
+  "minimumCreateRpm": 1024,
+  "category": "metal",
+  "profile": "precious_metal",
+  "oreTag": "c:ores/netherite",
+  "growthSource": "",
+  "primaryDrop": "minecraft:netherite_scrap",
+  "byproducts": [
+    "richstuff:small_gold_dust"
+  ],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "crushing": 2.0,
+    "washing": 2.5,
+    "heatedSeparation": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Mixer / RichStuff Centrifuge"
+  ]
+}

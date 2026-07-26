@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:rich_copper_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:copper_crushed",
+      "count": 4
+    },
+    {
+      "id": "richstuff:small_sulfur_dust",
+      "chance": 0.22499999999999998
+    }
+  ],
+  "processing_time": 220
+}

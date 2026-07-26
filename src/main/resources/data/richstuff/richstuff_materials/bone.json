@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "material": "bone",
+  "category": "utility",
+  "enabled": true,
+  "color": "#D8D8D8",
+  "forms": [
+    "bone_block"
+  ],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

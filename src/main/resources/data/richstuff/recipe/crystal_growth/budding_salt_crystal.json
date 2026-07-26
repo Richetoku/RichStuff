@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:gems/salt"
+    },
+    "B": {
+      "item": "minecraft:budding_amethyst"
+    }
+  },
+  "result": {
+    "id": "richstuff:budding_salt_crystal"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "richstuff:quartz_dust",
+    {
+      "id": "oritech:quartz_dust",
+      "required": false
+    }
+  ]
+}

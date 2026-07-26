@@ -1,0 +1,11 @@
+{
+  "type": "casting",
+  "fluid": "richstuff:molten_iron",
+  "amount": 90,
+  "mold": {
+    "tag": "c:molds/ingot"
+  },
+  "result": "richstuff:iron_ingot",
+  "count": 1,
+  "ticks": 60
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:nether_uranite_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richores:uranite",
+      "count": 6
+    },
+    {
+      "id": "richores:uranite",
+      "count": 4
+    },
+    {
+      "id": "richstuff:small_uranium_dust",
+      "chance": 0.3
+    }
+  ],
+  "processing_time": 180
+}

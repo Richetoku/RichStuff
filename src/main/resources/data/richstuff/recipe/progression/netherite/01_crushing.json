@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richfarming"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/netherite"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherite_scrap",
+      "count": 2
+    },
+    {
+      "id": "richstuff:small_gold_dust",
+      "chance": 0.135
+    }
+  ],
+  "processing_time": 264
+}

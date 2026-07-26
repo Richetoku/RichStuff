@@ -1,0 +1,52 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "silentgear"
+    },
+    {
+      "type": "richstuff:server_config",
+      "option": "enableMoltenSilentGearCasting",
+      "expected": true
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_rod_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/lithium",
+      "amount": 72
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:lithium_filled_rod_mold",
+      "components": {
+        "silentgear:material": {
+          "material": "richstuff:lithium",
+          "item": {
+            "id": "richstuff:lithium_ingot",
+            "count": 1
+          },
+          "modifiers": []
+        },
+        "silentgear:part_type": "silentgear:rod",
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "lithium",
+          "RichStuffMoltenCast": true,
+          "RichStuffFluidTag": "c:molten/lithium",
+          "SilentGearMaterial": "richstuff:lithium",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "processing_time": 80
+}

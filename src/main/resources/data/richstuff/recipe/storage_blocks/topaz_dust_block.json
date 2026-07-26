@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:topaz_dust"
+    }
+  },
+  "result": {
+    "id": "richstuff:topaz_dust_block"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "richstuff:cobalt_crushed"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:cobalt_seperated"
+    },
+    {
+      "id": "richstuff:cobalt_seperated",
+      "chance": 0.2
+    },
+    {
+      "id": "richstuff:small_cobalt_dust",
+      "chance": 0.35
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

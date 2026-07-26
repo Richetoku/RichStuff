@@ -1,0 +1,25 @@
+{
+  "material": "lead",
+  "tier": 2,
+  "tierName": "Industrial",
+  "minimumCreateRpm": 32,
+  "category": "metal",
+  "profile": "sulfide_metal",
+  "oreTag": "c:ores/lead",
+  "growthSource": "",
+  "primaryDrop": "richores:raw_lead",
+  "byproducts": [
+    "richstuff:small_sulfur_dust"
+  ],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "crushing": 2.0,
+    "washing": 2.5,
+    "heatedSeparation": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing",
+    "Create Mechanical Mixer / RichStuff Centrifuge"
+  ]
+}

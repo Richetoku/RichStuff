@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:carnelian"
+    }
+  },
+  "result": {
+    "id": "richstuff:carnelian_block"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "richstuff:chorus_fruit_cream_frosting",
+  "aliases": [
+    "chorus_fruit_cream_frosting"
+  ],
+  "still": "richstuff:block/fluid/fallback_still",
+  "flowing": "richstuff:block/fluid/fallback_flow",
+  "density": 1200,
+  "viscosity": 6000,
+  "temperature": 300,
+  "luminosity": 0,
+  "translucent": true,
+  "containers": {
+    "jar": true,
+    "jug": true,
+    "tank": true
+  },
+  "foundry_compatible": true,
+  "prefer_external_tag": "c:chorus_fruit_cream_frosting"
+}

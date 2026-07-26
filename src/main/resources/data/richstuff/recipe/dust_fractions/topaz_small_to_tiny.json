@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:topaz_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:topaz_tiny_dust",
+    "count": 4
+  }
+}

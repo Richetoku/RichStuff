@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "ink_sac",
+  "category": "utility",
+  "enabled": true,
+  "color": "#2B2B2B",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

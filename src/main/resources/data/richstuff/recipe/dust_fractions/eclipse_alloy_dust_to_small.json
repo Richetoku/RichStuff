@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:eclipse_alloy_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:eclipse_alloy_small_dust",
+    "count": 9
+  }
+}

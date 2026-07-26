@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:netherite_small_dust"
+    }
+  ],
+  "result": {
+    "id": "richstuff:netherite_tiny_dust",
+    "count": 4
+  }
+}

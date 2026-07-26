@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "richstuff:bronze_ingot"
+    }
+  },
+  "result": {
+    "id": "richstuff:bronze_block"
+  }
+}

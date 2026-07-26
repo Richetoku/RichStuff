@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/amethyst"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:amethyst_crushed",
+      "count": 2
+    },
+    {
+      "id": "richstuff:amethyst_unrefined",
+      "chance": 0.35
+    },
+    {
+      "id": "richstuff:quartz_small_dust",
+      "chance": 0.14
+    }
+  ],
+  "processing_time": 246
+}

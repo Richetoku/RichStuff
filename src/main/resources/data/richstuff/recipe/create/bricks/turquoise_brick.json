@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/turquoise"
+    },
+    {
+      "tag": "c:storage_blocks/turquoise"
+    },
+    {
+      "tag": "c:storage_blocks/turquoise"
+    },
+    {
+      "tag": "c:storage_blocks/turquoise"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:turquoise_brick",
+      "count": 4
+    }
+  ],
+  "processing_time": 80
+}

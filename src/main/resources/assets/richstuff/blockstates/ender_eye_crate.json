@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "wood=oak": {
+      "model": "richstuff:block/ender_eye_crate_oak"
+    },
+    "wood=spruce": {
+      "model": "richstuff:block/ender_eye_crate_spruce"
+    },
+    "wood=birch": {
+      "model": "richstuff:block/ender_eye_crate_birch"
+    },
+    "wood=jungle": {
+      "model": "richstuff:block/ender_eye_crate_jungle"
+    },
+    "wood=acacia": {
+      "model": "richstuff:block/ender_eye_crate_acacia"
+    },
+    "wood=dark_oak": {
+      "model": "richstuff:block/ender_eye_crate_dark_oak"
+    },
+    "wood=mangrove": {
+      "model": "richstuff:block/ender_eye_crate_mangrove"
+    },
+    "wood=cherry": {
+      "model": "richstuff:block/ender_eye_crate_cherry"
+    },
+    "wood=bamboo": {
+      "model": "richstuff:block/ender_eye_crate_bamboo"
+    },
+    "wood=crimson": {
+      "model": "richstuff:block/ender_eye_crate_crimson"
+    },
+    "wood=warped": {
+      "model": "richstuff:block/ender_eye_crate_warped"
+    }
+  }
+}

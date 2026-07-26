@@ -1,0 +1,21 @@
+{
+  "material": "sulfur",
+  "tier": 1,
+  "tierName": "Foundational",
+  "minimumCreateRpm": 16,
+  "category": "utility",
+  "profile": "chemical_extraction",
+  "oreTag": "c:ores/sulfur",
+  "growthSource": "",
+  "primaryDrop": "richores:sulfur_dust",
+  "byproducts": [],
+  "yieldTiers": {
+    "handMining": 1.0,
+    "mechanicalExtraction": 2.0,
+    "washedPurification": 3.0
+  },
+  "requiredMachines": [
+    "Create Crushing Wheels",
+    "Create Encased Fan Washing / RichStuff Ore Washer"
+  ]
+}

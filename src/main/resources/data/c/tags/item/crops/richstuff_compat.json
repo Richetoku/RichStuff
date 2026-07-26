@@ -1,0 +1,245 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pamhc2crops:tomatoitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:onionitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:lettuceitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cabbageitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cornitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:riceitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:soybeanitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:strawberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:blueberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:blackberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:raspberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:grapeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:appleitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:peachitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:pearitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:plumitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cherryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:lemonitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:limeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:orangeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:tomatoitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:onionitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:lettuceitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:cabbageitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:cornitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:riceitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:soybeanitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:strawberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:blueberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:blackberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:raspberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:grapeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:appleitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:peachitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:pearitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:plumitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:cherryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:lemonitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:limeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:orangeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:tomatoitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:onionitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:lettuceitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:cabbageitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:cornitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:riceitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:soybeanitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:strawberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:blueberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:blackberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:raspberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:grapeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:appleitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:peachitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:pearitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:plumitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:cherryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:lemonitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:limeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:orangeitem",
+      "required": false
+    }
+  ]
+}

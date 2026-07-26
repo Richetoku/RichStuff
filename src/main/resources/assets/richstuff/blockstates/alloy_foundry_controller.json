@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "richstuff:block/alloy_foundry_controller"
+    }
+  }
+}

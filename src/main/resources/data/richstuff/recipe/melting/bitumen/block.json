@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:bitumen_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:molten_bitumen",
+      "amount": 1296,
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "bitumen",
+          "RichStuffFluidTag": "c:molten/bitumen",
+          "RichGearMaterial": "richstuff:bitumen",
+          "RichStuffMoltenMaterial": true,
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 2592
+}

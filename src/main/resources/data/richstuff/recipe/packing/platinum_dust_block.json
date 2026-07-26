@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    }
+  ],
+  "result": {
+    "id": "richstuff:platinum_dust_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "richstuff:server_config",
+      "option": "enableVanillaFallbackRecipes",
+      "expected": true
+    }
+  ]
+}

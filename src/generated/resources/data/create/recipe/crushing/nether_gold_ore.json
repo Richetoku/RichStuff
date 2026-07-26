@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:ores/gold"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    {
+      "count": 18,
+      "id": "richstuff:gold_nugget"
+    },
+    {
+      "chance": 0.75,
+      "id": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "id": "minecraft:netherrack"
+    }
+  ]
+}
