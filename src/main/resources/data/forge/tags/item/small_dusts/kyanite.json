@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/kyanite"
+    {
+      "id": "#c:small_dusts/kyanite",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:eclipse_alloy_rod"
+    {
+      "id": "richstuff:eclipse_alloy_rod",
+      "required": false
+    }
   ]
 }

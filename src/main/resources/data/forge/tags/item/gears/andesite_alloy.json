@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/andesite_alloy"
+    {
+      "id": "#c:gears/andesite_alloy",
+      "required": false
+    }
   ]
 }

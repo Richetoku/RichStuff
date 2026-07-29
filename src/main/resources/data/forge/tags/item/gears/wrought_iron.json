@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/wrought_iron"
+    {
+      "id": "#c:gears/wrought_iron",
+      "required": false
+    }
   ]
 }

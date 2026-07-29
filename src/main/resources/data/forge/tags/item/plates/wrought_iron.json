@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/wrought_iron"
+    {
+      "id": "#c:plates/wrought_iron",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/copper"
+    {
+      "id": "#c:raw_materials/copper",
+      "required": false
+    }
   ]
 }

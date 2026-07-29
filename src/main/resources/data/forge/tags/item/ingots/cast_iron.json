@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/cast_iron"
+    {
+      "id": "#c:ingots/cast_iron",
+      "required": false
+    }
   ]
 }

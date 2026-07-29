@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:electrum_nugget"
+    {
+      "id": "richstuff:electrum_nugget",
+      "required": false
+    }
   ]
 }

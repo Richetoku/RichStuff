@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:amethyst_polished",
-    "richstuff:amethyst_rod"
+    {
+      "id": "richstuff:amethyst_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:amethyst_rod",
+      "required": false
+    }
   ]
 }

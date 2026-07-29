@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:gunpowder_bag"
+    {
+      "id": "richstuff:gunpowder_bag",
+      "required": false
+    }
   ]
 }

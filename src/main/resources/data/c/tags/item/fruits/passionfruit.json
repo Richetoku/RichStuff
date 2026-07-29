@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:passionfruititem",
-    "pamhc2crops:passionfruititem"
+    {
+      "id": "pamhc2trees:passionfruititem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:passionfruititem",
+      "required": false
+    }
   ]
 }

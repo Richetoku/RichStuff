@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:cobalt_ore",
-    "richores:deepslate_cobalt_ore"
+    {
+      "id": "richores:cobalt_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_cobalt_ore",
+      "required": false
+    }
   ]
 }

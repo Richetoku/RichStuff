@@ -1,29 +1,101 @@
 {
   "replace": false,
   "values": [
-    "#silentgems:gems/diamond",
-    "#silentgems:gems/emerald",
-    "#silentgems:gems/lapis_lazuli",
-    "#silentgems:gems/alexandrite",
-    "#silentgems:gems/ammolite",
-    "#silentgems:gems/black_diamond",
-    "#silentgems:gems/carnelian",
-    "#silentgems:gems/citrine",
-    "#silentgems:gems/heliodor",
-    "#silentgems:gems/iolite",
-    "#silentgems:gems/kyanite",
-    "#silentgems:gems/moldavite",
-    "#silentgems:gems/peridot",
-    "#silentgems:gems/rose_quartz",
-    "#silentgems:gems/ruby",
-    "#silentgems:gems/sapphire",
-    "#silentgems:gems/topaz",
-    "#silentgems:gems/turquoise",
-    "#silentgems:gems/white_diamond",
-    "#silentgems:gems/celestigem",
-    "#silentgems:gems/quartz",
-    "#silentgems:gems/amethyst",
-    "#silentgems:gems/prismarine_shard",
-    "#silentgems:gems/prismarine_crystals"
+    {
+      "id": "#silentgems:gems/diamond",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/emerald",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/ammolite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/carnelian",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/citrine",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/heliodor",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/iolite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/kyanite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/moldavite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/peridot",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/ruby",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/sapphire",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/topaz",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/turquoise",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/celestigem",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/quartz",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/amethyst",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/prismarine_shard",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gems/prismarine_crystals",
+      "required": false
+    }
   ]
 }

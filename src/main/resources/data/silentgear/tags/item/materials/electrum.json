@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:electrum_ingot",
-    "richstuff:electrum_rod",
-    "richstuff:electrum_plate",
-    "richstuff:electrum_gear"
+    {
+      "id": "richstuff:electrum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_gear",
+      "required": false
+    }
   ]
 }

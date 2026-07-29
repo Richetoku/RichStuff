@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/redstone"
+    {
+      "id": "#c:storage_blocks/redstone",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:topaz_block"
+    {
+      "id": "richstuff:topaz_block",
+      "required": false
+    }
   ]
 }

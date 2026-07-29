@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/ammolite"
+    {
+      "id": "#c:plates/ammolite",
+      "required": false
+    }
   ]
 }

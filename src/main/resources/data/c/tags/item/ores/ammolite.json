@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:ammolite_ore",
-    "richores:deepslate_ammolite_ore"
+    {
+      "id": "richores:ammolite_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_ammolite_ore",
+      "required": false
+    }
   ]
 }

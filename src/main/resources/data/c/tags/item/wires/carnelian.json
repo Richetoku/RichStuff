@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:carnelian_wire"
+    {
+      "id": "richstuff:carnelian_wire",
+      "required": false
+    }
   ]
 }

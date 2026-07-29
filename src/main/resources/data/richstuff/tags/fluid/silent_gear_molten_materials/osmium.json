@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/osmium"
+    {
+      "id": "#c:molten/osmium",
+      "required": false
+    }
   ]
 }

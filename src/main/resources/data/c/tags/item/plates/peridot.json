@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:peridot_plate"
+    {
+      "id": "richstuff:peridot_plate",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/cast_iron"
+    {
+      "id": "#c:rods/cast_iron",
+      "required": false
+    }
   ]
 }

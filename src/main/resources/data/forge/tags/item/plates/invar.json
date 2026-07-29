@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/invar"
+    {
+      "id": "#c:plates/invar",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_osmium"
+    {
+      "id": "#c:storage_blocks/raw_osmium",
+      "required": false
+    }
   ]
 }

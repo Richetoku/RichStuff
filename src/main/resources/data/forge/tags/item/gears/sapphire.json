@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/sapphire"
+    {
+      "id": "#c:gears/sapphire",
+      "required": false
+    }
   ]
 }

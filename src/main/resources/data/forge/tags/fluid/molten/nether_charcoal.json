@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:flowing_molten_nether_charcoal",
+      "required": false
+    },
+    {
+      "id": "richstuff:molten_nether_charcoal",
+      "required": false
+    }
+  ]
+}

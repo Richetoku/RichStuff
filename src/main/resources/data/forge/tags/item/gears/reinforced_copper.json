@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/reinforced_copper"
+    {
+      "id": "#c:gears/reinforced_copper",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/azure_electrum"
+    {
+      "id": "#c:rods/azure_electrum",
+      "required": false
+    }
   ]
 }

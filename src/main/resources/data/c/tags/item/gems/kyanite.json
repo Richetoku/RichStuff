@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:kyanite",
-    "richstuff:kyanite"
+    {
+      "id": "richores:kyanite",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:eclipse_alloy_nugget"
+    {
+      "id": "richstuff:eclipse_alloy_nugget",
+      "required": false
+    }
   ]
 }

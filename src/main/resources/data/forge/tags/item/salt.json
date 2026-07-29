@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:salt",
-    "richstuff:salt_shard"
+    {
+      "id": "richstuff:salt",
+      "required": false
+    },
+    {
+      "id": "richstuff:salt_shard",
+      "required": false
+    }
   ]
 }

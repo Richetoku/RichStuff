@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:moldavite_polished"
+    {
+      "id": "richstuff:moldavite_polished",
+      "required": false
+    }
   ]
 }

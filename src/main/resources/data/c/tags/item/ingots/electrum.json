@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:electrum_ingot"
+    {
+      "id": "richstuff:electrum_ingot",
+      "required": false
+    }
   ]
 }

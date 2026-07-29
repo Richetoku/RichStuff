@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:moldavite_ore",
-    "richores:deepslate_moldavite_ore"
+    {
+      "id": "richores:moldavite_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_moldavite_ore",
+      "required": false
+    }
   ]
 }

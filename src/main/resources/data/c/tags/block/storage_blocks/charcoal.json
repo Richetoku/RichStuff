@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:charcoal_block"
+    {
+      "id": "richstuff:charcoal_block",
+      "required": false
+    }
   ]
 }

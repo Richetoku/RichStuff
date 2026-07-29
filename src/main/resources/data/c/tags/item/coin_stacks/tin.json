@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tin_coin_stack"
+    {
+      "id": "richstuff:tin_coin_stack",
+      "required": false
+    }
   ]
 }

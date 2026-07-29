@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/netherite"
+    {
+      "id": "#c:storage_blocks/netherite",
+      "required": false
+    }
   ]
 }

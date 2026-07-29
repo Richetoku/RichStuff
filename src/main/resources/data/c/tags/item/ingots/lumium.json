@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lumium_ingot"
+    {
+      "id": "richstuff:lumium_ingot",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:coal_coke_nugget"
+    {
+      "id": "richstuff:coal_coke_nugget",
+      "required": false
+    }
   ]
 }

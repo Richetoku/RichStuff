@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:uranium_ingot",
-    "richstuff:uranium_rod",
-    "richstuff:uranium_plate",
-    "richstuff:uranium_gear"
+    {
+      "id": "richstuff:uranium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_gear",
+      "required": false
+    }
   ]
 }

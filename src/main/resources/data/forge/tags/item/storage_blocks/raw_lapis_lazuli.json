@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_lapis_lazuli"
+    {
+      "id": "#c:storage_blocks/raw_lapis_lazuli",
+      "required": false
+    }
   ]
 }

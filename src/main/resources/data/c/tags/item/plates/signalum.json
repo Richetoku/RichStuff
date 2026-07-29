@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:signalum_plate"
+    {
+      "id": "richstuff:signalum_plate",
+      "required": false
+    }
   ]
 }

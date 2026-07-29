@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:guavaitem",
-    "pamhc2crops:guavaitem"
+    {
+      "id": "pamhc2trees:guavaitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:guavaitem",
+      "required": false
+    }
   ]
 }

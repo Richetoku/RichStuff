@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:silver_block"
+    {
+      "id": "richstuff:silver_block",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/moldavite"
+    {
+      "id": "#c:storage_blocks/moldavite",
+      "required": false
+    }
   ]
 }

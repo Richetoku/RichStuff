@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/netherite"
+    {
+      "id": "#c:molten/netherite",
+      "required": false
+    }
   ]
 }

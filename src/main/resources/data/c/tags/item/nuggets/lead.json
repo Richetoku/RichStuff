@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lead_nugget"
+    {
+      "id": "richstuff:lead_nugget",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/celestigem"
+    {
+      "id": "#c:rods/celestigem",
+      "required": false
+    }
   ]
 }

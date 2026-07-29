@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:enderium_nugget"
+    {
+      "id": "richstuff:enderium_nugget",
+      "required": false
+    }
   ]
 }

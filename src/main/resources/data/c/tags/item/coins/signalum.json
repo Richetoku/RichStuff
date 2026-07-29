@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:signalum_coin"
+    {
+      "id": "richstuff:signalum_coin",
+      "required": false
+    }
   ]
 }

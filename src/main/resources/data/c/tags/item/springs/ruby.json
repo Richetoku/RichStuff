@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ruby_spring"
+    {
+      "id": "richstuff:ruby_spring",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/prismarine"
+    {
+      "id": "#c:raw_materials/prismarine",
+      "required": false
+    }
   ]
 }

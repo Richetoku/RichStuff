@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/netherite"
+    {
+      "id": "#c:small_dusts/netherite",
+      "required": false
+    }
   ]
 }

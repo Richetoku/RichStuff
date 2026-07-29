@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/rose_quartz"
+    {
+      "id": "#c:shards/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "richstuff:rose_quartz_shard",
+      "required": false
+    }
   ]
 }

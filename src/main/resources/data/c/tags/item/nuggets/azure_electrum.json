@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:azure_electrum_nugget"
+    {
+      "id": "richstuff:azure_electrum_nugget",
+      "required": false
+    }
   ]
 }

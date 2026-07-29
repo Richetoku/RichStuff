@@ -1,43 +1,157 @@
 {
   "replace": false,
   "values": [
-    "#richstuff:silent_gear_molten_materials/aluminum",
-    "#richstuff:silent_gear_molten_materials/andesite_alloy",
-    "#richstuff:silent_gear_molten_materials/azure_electrum",
-    "#richstuff:silent_gear_molten_materials/azure_silver",
-    "#richstuff:silent_gear_molten_materials/blaze_gold",
-    "#richstuff:silent_gear_molten_materials/brass",
-    "#richstuff:silent_gear_molten_materials/bronze",
-    "#richstuff:silent_gear_molten_materials/cast_iron",
-    "#richstuff:silent_gear_molten_materials/cobalt",
-    "#richstuff:silent_gear_molten_materials/constantan",
-    "#richstuff:silent_gear_molten_materials/copper",
-    "#richstuff:silent_gear_molten_materials/copronickel",
-    "#richstuff:silent_gear_molten_materials/crimson_iron",
-    "#richstuff:silent_gear_molten_materials/crimson_steel",
-    "#richstuff:silent_gear_molten_materials/eclipse_alloy",
-    "#richstuff:silent_gear_molten_materials/electrum",
-    "#richstuff:silent_gear_molten_materials/enderium",
-    "#richstuff:silent_gear_molten_materials/ferricore",
-    "#richstuff:silent_gear_molten_materials/gold",
-    "#richstuff:silent_gear_molten_materials/invar",
-    "#richstuff:silent_gear_molten_materials/iridium",
-    "#richstuff:silent_gear_molten_materials/iron",
-    "#richstuff:silent_gear_molten_materials/lead",
-    "#richstuff:silent_gear_molten_materials/lumium",
-    "#richstuff:silent_gear_molten_materials/netherite",
-    "#richstuff:silent_gear_molten_materials/nickel",
-    "#richstuff:silent_gear_molten_materials/osmium",
-    "#richstuff:silent_gear_molten_materials/pig_iron",
-    "#richstuff:silent_gear_molten_materials/platinum",
-    "#richstuff:silent_gear_molten_materials/reinforced_copper",
-    "#richstuff:silent_gear_molten_materials/signalum",
-    "#richstuff:silent_gear_molten_materials/silver",
-    "#richstuff:silent_gear_molten_materials/steel",
-    "#richstuff:silent_gear_molten_materials/tin",
-    "#richstuff:silent_gear_molten_materials/tyrian_steel",
-    "#richstuff:silent_gear_molten_materials/uranium",
-    "#richstuff:silent_gear_molten_materials/wrought_iron",
-    "#richstuff:silent_gear_molten_materials/zinc"
+    {
+      "id": "#richstuff:silent_gear_molten_materials/aluminum",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/brass",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/bronze",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/cobalt",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/constantan",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/copper",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/copronickel",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/electrum",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/enderium",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/ferricore",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/gold",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/invar",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/iridium",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/iron",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/lead",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/lumium",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/netherite",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/nickel",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/osmium",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/pig_iron",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/platinum",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/signalum",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/silver",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/steel",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/tin",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/uranium",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_molten_materials/zinc",
+      "required": false
+    }
   ]
 }

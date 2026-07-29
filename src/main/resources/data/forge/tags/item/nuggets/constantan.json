@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/constantan"
+    {
+      "id": "#c:nuggets/constantan",
+      "required": false
+    }
   ]
 }

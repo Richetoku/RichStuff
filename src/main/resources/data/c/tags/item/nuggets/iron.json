@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:iron_nugget",
-    "richstuff:iron_nugget"
+    {
+      "id": "richstuff:iron_nugget",
+      "required": false
+    }
   ]
 }

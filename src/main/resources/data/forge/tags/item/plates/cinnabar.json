@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/cinnabar"
+    {
+      "id": "#c:plates/cinnabar",
+      "required": false
+    }
   ]
 }

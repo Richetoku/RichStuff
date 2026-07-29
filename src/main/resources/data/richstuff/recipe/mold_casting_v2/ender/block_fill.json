@@ -1,0 +1,33 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:base_block_mold"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:molten/ender",
+      "amount": 1296
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:ender_filled_block_mold",
+      "components": {
+        "minecraft:custom_data": {
+          "RichStuffMaterial": "ender",
+          "RichStuffMoltenMold": true,
+          "RichStuffFluidTag": "c:molten/ender",
+          "RichStuffTargetPart": "richstuff:ender_block",
+          "RichStuffPreserveGrade": true
+        }
+      }
+    }
+  ]
+}

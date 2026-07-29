@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ammolite_gear"
+    {
+      "id": "richstuff:ammolite_gear",
+      "required": false
+    }
   ]
 }

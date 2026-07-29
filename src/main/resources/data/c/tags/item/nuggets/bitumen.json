@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:bitumen_nugget"
+    {
+      "id": "richstuff:bitumen_nugget",
+      "required": false
+    }
   ]
 }

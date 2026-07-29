@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:sulfur_polished",
-    "richstuff:sulfur_rod"
+    {
+      "id": "richstuff:sulfur_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_rod",
+      "required": false
+    }
   ]
 }

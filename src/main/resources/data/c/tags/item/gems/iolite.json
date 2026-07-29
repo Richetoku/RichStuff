@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:iolite",
-    "richstuff:iolite"
+    {
+      "id": "richores:iolite",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite",
+      "required": false
+    }
   ]
 }

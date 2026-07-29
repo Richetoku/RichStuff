@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "#c:seeds",
+    {
+      "id": "#c:seeds",
+      "required": false
+    },
     "minecraft:wheat_seeds",
     "minecraft:beetroot_seeds",
     "minecraft:melon_seeds",

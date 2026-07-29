@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:rotten_flesh_block"
+    {
+      "id": "richstuff:rotten_flesh_block",
+      "required": false
+    }
   ]
 }

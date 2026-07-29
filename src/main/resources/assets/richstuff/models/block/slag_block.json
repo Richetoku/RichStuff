@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "richstuff:block/generated/slag_block"
+    "all": "richstuff:block/slag_block"
   }
 }

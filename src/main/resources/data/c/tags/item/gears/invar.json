@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:invar_gear"
+    {
+      "id": "richstuff:invar_gear",
+      "required": false
+    }
   ]
 }

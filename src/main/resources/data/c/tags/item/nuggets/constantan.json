@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_nugget"
+    {
+      "id": "richstuff:constantan_nugget",
+      "required": false
+    }
   ]
 }

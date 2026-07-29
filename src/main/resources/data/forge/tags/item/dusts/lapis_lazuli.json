@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/lapis_lazuli"
+    {
+      "id": "#c:dusts/lapis_lazuli",
+      "required": false
+    }
   ]
 }

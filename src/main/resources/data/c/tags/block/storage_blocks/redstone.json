@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:redstone_block"
+    {
+      "id": "richstuff:redstone_block",
+      "required": false
+    }
   ]
 }

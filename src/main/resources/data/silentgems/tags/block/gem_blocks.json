@@ -1,29 +1,101 @@
 {
   "replace": false,
   "values": [
-    "#silentgems:gem_blocks/diamond",
-    "#silentgems:gem_blocks/emerald",
-    "#silentgems:gem_blocks/lapis_lazuli",
-    "#silentgems:gem_blocks/alexandrite",
-    "#silentgems:gem_blocks/ammolite",
-    "#silentgems:gem_blocks/black_diamond",
-    "#silentgems:gem_blocks/carnelian",
-    "#silentgems:gem_blocks/citrine",
-    "#silentgems:gem_blocks/heliodor",
-    "#silentgems:gem_blocks/iolite",
-    "#silentgems:gem_blocks/kyanite",
-    "#silentgems:gem_blocks/moldavite",
-    "#silentgems:gem_blocks/peridot",
-    "#silentgems:gem_blocks/rose_quartz",
-    "#silentgems:gem_blocks/ruby",
-    "#silentgems:gem_blocks/sapphire",
-    "#silentgems:gem_blocks/topaz",
-    "#silentgems:gem_blocks/turquoise",
-    "#silentgems:gem_blocks/white_diamond",
-    "#silentgems:gem_blocks/celestigem",
-    "#silentgems:gem_blocks/quartz",
-    "#silentgems:gem_blocks/amethyst",
-    "#silentgems:gem_blocks/prismarine_shard",
-    "#silentgems:gem_blocks/prismarine_crystals"
+    {
+      "id": "#silentgems:gem_blocks/diamond",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/emerald",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/ammolite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/carnelian",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/citrine",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/heliodor",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/iolite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/kyanite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/moldavite",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/peridot",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/ruby",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/sapphire",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/topaz",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/turquoise",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/celestigem",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/quartz",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/amethyst",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/prismarine_shard",
+      "required": false
+    },
+    {
+      "id": "#silentgems:gem_blocks/prismarine_crystals",
+      "required": false
+    }
   ]
 }

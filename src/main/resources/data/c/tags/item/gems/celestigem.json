@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:celestigem",
-    "richstuff:celestigem"
+    {
+      "id": "richores:celestigem",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem",
+      "required": false
+    }
   ]
 }

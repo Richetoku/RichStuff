@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/ruby"
+    {
+      "id": "#c:shards/ruby",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby_shard",
+      "required": false
+    }
   ]
 }

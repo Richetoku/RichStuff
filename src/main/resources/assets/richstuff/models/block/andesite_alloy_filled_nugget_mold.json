@@ -1,8 +1,8 @@
 {
-  "parent": "minecraft:block/block",
+  "parent": "richstuff:block/mold/base_nugget_mold",
   "textures": {
-    "base": "minecraft:block/terracotta",
-    "particle": "minecraft:block/terracotta",
+    "particle": "#base",
+    "base": "minecraft:block/clay",
     "fluid": "richstuff:block/fluid/molten_andesite_alloy_still"
   },
   "elements": [
@@ -82,7 +82,7 @@
       ],
       "to": [
         11,
-        4.0,
+        3,
         6
       ],
       "faces": {
@@ -150,7 +150,7 @@
       ],
       "to": [
         11,
-        4.0,
+        3,
         11
       ],
       "faces": {
@@ -218,7 +218,7 @@
       ],
       "to": [
         6,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -286,7 +286,7 @@
       ],
       "to": [
         11,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -354,7 +354,7 @@
       ],
       "to": [
         5,
-        4.0,
+        3,
         7
       ],
       "faces": {
@@ -422,7 +422,7 @@
       ],
       "to": [
         5,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -490,7 +490,7 @@
       ],
       "to": [
         4,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -558,7 +558,7 @@
       ],
       "to": [
         4,
-        4.0,
+        3,
         8
       ],
       "faces": {
@@ -626,7 +626,7 @@
       ],
       "to": [
         12,
-        4.0,
+        3,
         7
       ],
       "faces": {
@@ -694,7 +694,7 @@
       ],
       "to": [
         12,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -762,7 +762,7 @@
       ],
       "to": [
         13,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -830,7 +830,7 @@
       ],
       "to": [
         13,
-        4.0,
+        3,
         8
       ],
       "faces": {
@@ -898,7 +898,7 @@
       ],
       "to": [
         10,
-        4.0,
+        3,
         7
       ],
       "faces": {
@@ -966,7 +966,7 @@
       ],
       "to": [
         7,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -1034,7 +1034,7 @@
       ],
       "to": [
         10,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -1102,7 +1102,7 @@
       ],
       "to": [
         9,
-        4.0,
+        3,
         10
       ],
       "faces": {
@@ -1170,7 +1170,7 @@
       ],
       "to": [
         9,
-        2.0,
+        2,
         9
       ],
       "faces": {
@@ -1229,6 +1229,92 @@
           "texture": "#fluid"
         }
       }
+    }
+  ],
+  "groups": [
+    {
+      "name": "Base",
+      "origin": [
+        5,
+        0,
+        5
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Walls",
+      "origin": [
+        5,
+        0,
+        5
+      ],
+      "color": 0,
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Left_Handle",
+      "origin": [
+        5,
+        0,
+        5
+      ],
+      "color": 0,
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Right_Handle",
+      "origin": [
+        5,
+        0,
+        5
+      ],
+      "color": 0,
+      "children": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "Interior",
+      "origin": [
+        5,
+        0,
+        5
+      ],
+      "color": 0,
+      "children": [
+        15,
+        16
+      ]
+    },
+    {
+      "name": "Fluid",
+      "origin": [
+        5,
+        0,
+        5
+      ],
+      "color": 0,
+      "children": [
+        17
+      ]
     }
   ],
   "display": {
@@ -1368,6 +1454,5 @@
         0.5
       ]
     }
-  },
-  "render_type": "minecraft:cutout"
+  }
 }

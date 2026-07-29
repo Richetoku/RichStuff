@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/topaz"
+    {
+      "id": "#c:gears/topaz",
+      "required": false
+    }
   ]
 }

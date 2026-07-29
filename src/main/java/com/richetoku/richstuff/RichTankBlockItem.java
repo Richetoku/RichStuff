@@ -14,7 +14,7 @@ import java.util.List;
 public final class RichTankBlockItem extends BlockItem {
     private final int tier;
     public RichTankBlockItem(RichTankBlock block, Properties properties, int tier) {
-        super(block, properties.stacksTo(1));
+        super(block, properties.stacksTo(64));
         this.tier = tier;
     }
     public int tier() { return tier; }

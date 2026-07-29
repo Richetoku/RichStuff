@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/constantan"
+    {
+      "id": "#c:gears/constantan",
+      "required": false
+    }
   ]
 }

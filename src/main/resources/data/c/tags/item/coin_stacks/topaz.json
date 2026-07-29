@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:topaz_coin_stack"
+    {
+      "id": "richstuff:topaz_coin_stack",
+      "required": false
+    }
   ]
 }

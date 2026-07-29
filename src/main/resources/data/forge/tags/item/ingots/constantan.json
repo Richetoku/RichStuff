@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/constantan"
+    {
+      "id": "#c:ingots/constantan",
+      "required": false
+    }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:flowing_molten_dark_iron",
+      "required": false
+    },
+    {
+      "id": "richstuff:molten_dark_iron",
+      "required": false
+    }
+  ]
+}

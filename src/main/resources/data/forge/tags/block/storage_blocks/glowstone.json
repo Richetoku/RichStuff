@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/glowstone"
+    {
+      "id": "#c:storage_blocks/glowstone",
+      "required": false
+    }
   ]
 }

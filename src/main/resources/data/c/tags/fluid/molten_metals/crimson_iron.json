@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/crimson_iron"
+    {
+      "id": "#c:molten/crimson_iron",
+      "required": false
+    }
   ]
 }

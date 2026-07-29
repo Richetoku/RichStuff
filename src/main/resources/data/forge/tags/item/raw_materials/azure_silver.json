@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/azure_silver"
+    {
+      "id": "#c:raw_materials/azure_silver",
+      "required": false
+    }
   ]
 }

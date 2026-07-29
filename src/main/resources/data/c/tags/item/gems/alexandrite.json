@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:alexandrite",
-    "richstuff:alexandrite"
+    {
+      "id": "richores:alexandrite",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite",
+      "required": false
+    }
   ]
 }

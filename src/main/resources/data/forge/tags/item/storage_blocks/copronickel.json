@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/copronickel"
+    {
+      "id": "#c:storage_blocks/copronickel",
+      "required": false
+    }
   ]
 }

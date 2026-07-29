@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:rotten_flesh_crate"
+    {
+      "id": "richstuff:rotten_flesh_crate",
+      "required": false
+    }
   ]
 }

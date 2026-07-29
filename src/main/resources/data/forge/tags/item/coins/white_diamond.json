@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/white_diamond"
+    {
+      "id": "#c:coins/white_diamond",
+      "required": false
+    }
   ]
 }

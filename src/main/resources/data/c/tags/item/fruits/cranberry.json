@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:cranberryitem",
-    "pamhc2crops:cranberryitem"
+    {
+      "id": "pamhc2trees:cranberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cranberryitem",
+      "required": false
+    }
   ]
 }

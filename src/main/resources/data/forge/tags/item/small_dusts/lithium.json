@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/lithium"
+    {
+      "id": "#c:small_dusts/lithium",
+      "required": false
+    }
   ]
 }

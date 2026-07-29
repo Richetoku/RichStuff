@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:lead_ore",
-    "richores:deepslate_lead_ore"
+    {
+      "id": "richores:lead_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_lead_ore",
+      "required": false
+    }
   ]
 }

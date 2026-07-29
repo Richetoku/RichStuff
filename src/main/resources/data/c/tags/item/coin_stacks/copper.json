@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copper_coin_stack"
+    {
+      "id": "richstuff:copper_coin_stack",
+      "required": false
+    }
   ]
 }

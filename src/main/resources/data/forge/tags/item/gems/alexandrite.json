@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/alexandrite"
+    {
+      "id": "#c:gems/alexandrite",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/uranium"
+    {
+      "id": "#c:ingots/uranium",
+      "required": false
+    }
   ]
 }

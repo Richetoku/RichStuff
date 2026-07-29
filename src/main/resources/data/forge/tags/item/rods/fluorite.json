@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/fluorite"
+    {
+      "id": "#c:rods/fluorite",
+      "required": false
+    }
   ]
 }

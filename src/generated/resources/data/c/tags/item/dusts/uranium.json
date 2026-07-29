@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:uranium_dust",
+    {
+      "id": "richstuff:uranium_dust",
+      "required": false
+    },
     {
       "id": "oritech:small_uranium_dust",
       "required": false

@@ -1,79 +1,305 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/aluminum",
-    "#c:ingots/andesite_alloy",
-    "#c:ingots/azure_electrum",
-    "#c:ingots/azure_silver",
-    "#c:ingots/blaze_gold",
-    "#c:ingots/brass",
-    "#c:ingots/bronze",
-    "#c:ingots/cast_iron",
-    "#c:ingots/cobalt",
-    "#c:ingots/constantan",
-    "#c:ingots/copper",
-    "#c:ingots/copronickel",
-    "#c:ingots/crimson_iron",
-    "#c:ingots/crimson_steel",
-    "#c:ingots/eclipse_alloy",
-    "#c:ingots/electrum",
-    "#c:ingots/enderium",
-    "#c:ingots/ferricore",
-    "#c:ingots/gold",
-    "#c:ingots/invar",
-    "#c:ingots/iridium",
-    "#c:ingots/iron",
-    "#c:ingots/lead",
-    "#c:ingots/lithium",
-    "#c:ingots/lumium",
-    "#c:ingots/netherite",
-    "#c:ingots/nickel",
-    "#c:ingots/osmium",
-    "#c:ingots/pig_iron",
-    "#c:ingots/platinum",
-    "#c:ingots/reinforced_copper",
-    "#c:ingots/signalum",
-    "#c:ingots/silver",
-    "#c:ingots/steel",
-    "#c:ingots/tin",
-    "#c:ingots/tyrian_steel",
-    "#c:ingots/uranium",
-    "#c:ingots/vanadium",
-    "#c:ingots/wrought_iron",
-    "#c:ingots/zinc",
-    "richstuff:aluminum_ingot",
-    "richstuff:andesite_alloy_ingot",
-    "richstuff:azure_electrum_ingot",
-    "richstuff:azure_silver_ingot",
-    "richstuff:blaze_gold_ingot",
-    "richstuff:brass_ingot",
-    "richstuff:bronze_ingot",
-    "richstuff:cast_iron_ingot",
-    "richstuff:cobalt_ingot",
-    "richstuff:constantan_ingot",
-    "richstuff:copper_ingot",
-    "richstuff:copronickel_ingot",
-    "richstuff:crimson_iron_ingot",
-    "richstuff:crimson_steel_ingot",
-    "richstuff:electrum_ingot",
-    "richstuff:enderium_ingot",
-    "richstuff:gold_ingot",
-    "richstuff:invar_ingot",
-    "richstuff:iridium_ingot",
-    "richstuff:iron_ingot",
-    "richstuff:lead_ingot",
-    "richstuff:lumium_ingot",
-    "richstuff:netherite_ingot",
-    "richstuff:nickel_ingot",
-    "richstuff:osmium_ingot",
-    "richstuff:platinum_ingot",
-    "richstuff:reinforced_copper_ingot",
-    "richstuff:signalum_ingot",
-    "richstuff:silver_ingot",
-    "richstuff:steel_ingot",
-    "richstuff:tin_ingot",
-    "richstuff:tyrian_steel_ingot",
-    "richstuff:uranium_ingot",
-    "richstuff:zinc_ingot"
+    {
+      "id": "#c:ingots/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/brass",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/bronze",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/constantan",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copronickel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/dark_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/enderium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/ferricore",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/gold",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/invar",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lead",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lithium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lumium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/netherite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/pig_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/signalum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/silver",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/tin",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/zinc",
+      "required": false
+    },
+    {
+      "id": "richstuff:aluminum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_electrum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:bronze_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:signalum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:steel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:zinc_ingot",
+      "required": false
+    }
   ]
 }

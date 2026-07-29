@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/wrought_iron",
+  "spawners": {
+    "type": "richstuff:wrought_iron_slime",
+    "weight": 16,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

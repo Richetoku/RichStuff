@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:glowstone_block"
+    {
+      "id": "richstuff:glowstone_block",
+      "required": false
+    }
   ]
 }

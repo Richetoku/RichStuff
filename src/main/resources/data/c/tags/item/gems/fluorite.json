@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:fluorite",
-    "richstuff:fluorite"
+    {
+      "id": "richores:fluorite",
+      "required": false
+    },
+    {
+      "id": "richstuff:fluorite",
+      "required": false
+    }
   ]
 }

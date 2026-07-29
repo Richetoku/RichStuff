@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_platinum",
-    "richstuff:raw_platinum"
+    {
+      "id": "richores:raw_platinum",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_platinum",
+      "required": false
+    }
   ]
 }

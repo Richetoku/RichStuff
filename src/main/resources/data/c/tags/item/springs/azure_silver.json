@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:azure_silver_spring"
+    {
+      "id": "richstuff:azure_silver_spring",
+      "required": false
+    }
   ]
 }

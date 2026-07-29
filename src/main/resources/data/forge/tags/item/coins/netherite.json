@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/netherite"
+    {
+      "id": "#c:coins/netherite",
+      "required": false
+    }
   ]
 }

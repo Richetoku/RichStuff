@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:lycheeitem",
-    "pamhc2crops:lycheeitem"
+    {
+      "id": "pamhc2trees:lycheeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:lycheeitem",
+      "required": false
+    }
   ]
 }

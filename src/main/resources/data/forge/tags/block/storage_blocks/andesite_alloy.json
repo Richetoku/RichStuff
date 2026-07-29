@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/andesite_alloy"
+    {
+      "id": "#c:storage_blocks/andesite_alloy",
+      "required": false
+    }
   ]
 }

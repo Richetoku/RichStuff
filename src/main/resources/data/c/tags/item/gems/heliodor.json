@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:heliodor",
-    "richstuff:heliodor"
+    {
+      "id": "richores:heliodor",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor",
+      "required": false
+    }
   ]
 }

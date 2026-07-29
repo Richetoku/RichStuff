@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:andesite_alloy_ingot",
-    "richstuff:andesite_alloy_rod",
-    "richstuff:andesite_alloy_plate",
-    "richstuff:andesite_alloy_gear"
+    {
+      "id": "richstuff:andesite_alloy_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_gear",
+      "required": false
+    }
   ]
 }

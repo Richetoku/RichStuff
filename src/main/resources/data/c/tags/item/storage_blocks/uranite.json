@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:uranite_block"
+    {
+      "id": "richstuff:uranite_block",
+      "required": false
+    }
   ]
 }

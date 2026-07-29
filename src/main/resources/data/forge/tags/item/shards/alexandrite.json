@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/alexandrite"
+    {
+      "id": "#c:shards/alexandrite",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_shard",
+      "required": false
+    }
   ]
 }

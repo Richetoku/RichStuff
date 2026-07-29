@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_signalum_block"
+    {
+      "id": "richstuff:raw_signalum_block",
+      "required": false
+    }
   ]
 }

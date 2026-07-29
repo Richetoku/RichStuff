@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:figitem",
-    "pamhc2crops:figitem"
+    {
+      "id": "pamhc2trees:figitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:figitem",
+      "required": false
+    }
   ]
 }

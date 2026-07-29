@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_ruby"
+    {
+      "id": "#c:storage_blocks/raw_ruby",
+      "required": false
+    }
   ]
 }

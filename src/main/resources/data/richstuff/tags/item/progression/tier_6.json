@@ -1,330 +1,1305 @@
 {
   "replace": false,
   "values": [
-    "richstuff:alexandrite",
-    "richstuff:alexandrite_blisk",
-    "richstuff:alexandrite_block",
-    "richstuff:alexandrite_brick",
-    "richstuff:alexandrite_coin",
-    "richstuff:alexandrite_coin_stack",
-    "richstuff:alexandrite_crushed",
-    "richstuff:alexandrite_dust",
-    "richstuff:alexandrite_dust_block",
-    "richstuff:alexandrite_filled_axe_head_mold",
-    "richstuff:alexandrite_filled_binding_mold",
-    "richstuff:alexandrite_filled_blisk_mold",
-    "richstuff:alexandrite_filled_block_mold",
-    "richstuff:alexandrite_filled_boots_plates_mold",
-    "richstuff:alexandrite_filled_brick_mold",
-    "richstuff:alexandrite_filled_chestplate_plates_mold",
-    "richstuff:alexandrite_filled_coin_mold",
-    "richstuff:alexandrite_filled_gear_mold",
-    "richstuff:alexandrite_filled_helmet_plates_mold",
-    "richstuff:alexandrite_filled_hoe_head_mold",
-    "richstuff:alexandrite_filled_leggings_plates_mold",
-    "richstuff:alexandrite_filled_main_part_mold",
-    "richstuff:alexandrite_filled_pickaxe_head_mold",
-    "richstuff:alexandrite_filled_plate_mold",
-    "richstuff:alexandrite_filled_ring_mold",
-    "richstuff:alexandrite_filled_rod_mold",
-    "richstuff:alexandrite_filled_shard_mold",
-    "richstuff:alexandrite_filled_shards_mold",
-    "richstuff:alexandrite_filled_shovel_head_mold",
-    "richstuff:alexandrite_filled_sword_blade_mold",
-    "richstuff:alexandrite_filled_tip_upgrade_mold",
-    "richstuff:alexandrite_filled_wire_mold",
-    "richstuff:alexandrite_gear",
-    "richstuff:alexandrite_heated",
-    "richstuff:alexandrite_plate",
-    "richstuff:alexandrite_polished",
-    "richstuff:alexandrite_refined",
-    "richstuff:alexandrite_ring",
-    "richstuff:alexandrite_rod",
-    "richstuff:alexandrite_sandpaper",
-    "richstuff:alexandrite_shard",
-    "richstuff:alexandrite_spring",
-    "richstuff:alexandrite_unrefined",
-    "richstuff:alexandrite_washed",
-    "richstuff:alexandrite_wire",
-    "richstuff:ammolite",
-    "richstuff:ammolite_blisk",
-    "richstuff:ammolite_block",
-    "richstuff:ammolite_brick",
-    "richstuff:ammolite_coin",
-    "richstuff:ammolite_coin_stack",
-    "richstuff:ammolite_crushed",
-    "richstuff:ammolite_dust",
-    "richstuff:ammolite_dust_block",
-    "richstuff:ammolite_filled_axe_head_mold",
-    "richstuff:ammolite_filled_binding_mold",
-    "richstuff:ammolite_filled_blisk_mold",
-    "richstuff:ammolite_filled_block_mold",
-    "richstuff:ammolite_filled_boots_plates_mold",
-    "richstuff:ammolite_filled_brick_mold",
-    "richstuff:ammolite_filled_chestplate_plates_mold",
-    "richstuff:ammolite_filled_coin_mold",
-    "richstuff:ammolite_filled_gear_mold",
-    "richstuff:ammolite_filled_helmet_plates_mold",
-    "richstuff:ammolite_filled_hoe_head_mold",
-    "richstuff:ammolite_filled_leggings_plates_mold",
-    "richstuff:ammolite_filled_main_part_mold",
-    "richstuff:ammolite_filled_pickaxe_head_mold",
-    "richstuff:ammolite_filled_plate_mold",
-    "richstuff:ammolite_filled_ring_mold",
-    "richstuff:ammolite_filled_rod_mold",
-    "richstuff:ammolite_filled_shard_mold",
-    "richstuff:ammolite_filled_shards_mold",
-    "richstuff:ammolite_filled_shovel_head_mold",
-    "richstuff:ammolite_filled_sword_blade_mold",
-    "richstuff:ammolite_filled_tip_upgrade_mold",
-    "richstuff:ammolite_filled_wire_mold",
-    "richstuff:ammolite_gear",
-    "richstuff:ammolite_heated",
-    "richstuff:ammolite_plate",
-    "richstuff:ammolite_polished",
-    "richstuff:ammolite_refined",
-    "richstuff:ammolite_ring",
-    "richstuff:ammolite_rod",
-    "richstuff:ammolite_sandpaper",
-    "richstuff:ammolite_shard",
-    "richstuff:ammolite_spring",
-    "richstuff:ammolite_unrefined",
-    "richstuff:ammolite_washed",
-    "richstuff:ammolite_wire",
-    "richstuff:base_alexandrite_gem_mold",
-    "richstuff:base_ammolite_gem_mold",
-    "richstuff:base_black_diamond_gem_mold",
-    "richstuff:base_celestigem_gem_mold",
-    "richstuff:base_moldavite_gem_mold",
-    "richstuff:base_uranite_gem_mold",
-    "richstuff:black_diamond",
-    "richstuff:black_diamond_blisk",
-    "richstuff:black_diamond_block",
-    "richstuff:black_diamond_brick",
-    "richstuff:black_diamond_coin",
-    "richstuff:black_diamond_coin_stack",
-    "richstuff:black_diamond_crushed",
-    "richstuff:black_diamond_dust",
-    "richstuff:black_diamond_dust_block",
-    "richstuff:black_diamond_filled_axe_head_mold",
-    "richstuff:black_diamond_filled_binding_mold",
-    "richstuff:black_diamond_filled_blisk_mold",
-    "richstuff:black_diamond_filled_block_mold",
-    "richstuff:black_diamond_filled_boots_plates_mold",
-    "richstuff:black_diamond_filled_brick_mold",
-    "richstuff:black_diamond_filled_chestplate_plates_mold",
-    "richstuff:black_diamond_filled_coin_mold",
-    "richstuff:black_diamond_filled_gear_mold",
-    "richstuff:black_diamond_filled_helmet_plates_mold",
-    "richstuff:black_diamond_filled_hoe_head_mold",
-    "richstuff:black_diamond_filled_leggings_plates_mold",
-    "richstuff:black_diamond_filled_main_part_mold",
-    "richstuff:black_diamond_filled_pickaxe_head_mold",
-    "richstuff:black_diamond_filled_plate_mold",
-    "richstuff:black_diamond_filled_ring_mold",
-    "richstuff:black_diamond_filled_rod_mold",
-    "richstuff:black_diamond_filled_shard_mold",
-    "richstuff:black_diamond_filled_shards_mold",
-    "richstuff:black_diamond_filled_shovel_head_mold",
-    "richstuff:black_diamond_filled_sword_blade_mold",
-    "richstuff:black_diamond_filled_tip_upgrade_mold",
-    "richstuff:black_diamond_filled_wire_mold",
-    "richstuff:black_diamond_gear",
-    "richstuff:black_diamond_heated",
-    "richstuff:black_diamond_plate",
-    "richstuff:black_diamond_polished",
-    "richstuff:black_diamond_refined",
-    "richstuff:black_diamond_ring",
-    "richstuff:black_diamond_rod",
-    "richstuff:black_diamond_sandpaper",
-    "richstuff:black_diamond_shard",
-    "richstuff:black_diamond_spring",
-    "richstuff:black_diamond_unrefined",
-    "richstuff:black_diamond_washed",
-    "richstuff:black_diamond_wire",
-    "richstuff:budding_uranite_crystal",
-    "richstuff:celestigem",
-    "richstuff:celestigem_blisk",
-    "richstuff:celestigem_block",
-    "richstuff:celestigem_brick",
-    "richstuff:celestigem_coin",
-    "richstuff:celestigem_dust_block",
-    "richstuff:celestigem_filled_axe_head_mold",
-    "richstuff:celestigem_filled_binding_mold",
-    "richstuff:celestigem_filled_blisk_mold",
-    "richstuff:celestigem_filled_block_mold",
-    "richstuff:celestigem_filled_boots_plates_mold",
-    "richstuff:celestigem_filled_brick_mold",
-    "richstuff:celestigem_filled_chestplate_plates_mold",
-    "richstuff:celestigem_filled_coin_mold",
-    "richstuff:celestigem_filled_gear_mold",
-    "richstuff:celestigem_filled_helmet_plates_mold",
-    "richstuff:celestigem_filled_hoe_head_mold",
-    "richstuff:celestigem_filled_leggings_plates_mold",
-    "richstuff:celestigem_filled_main_part_mold",
-    "richstuff:celestigem_filled_pickaxe_head_mold",
-    "richstuff:celestigem_filled_plate_mold",
-    "richstuff:celestigem_filled_ring_mold",
-    "richstuff:celestigem_filled_rod_mold",
-    "richstuff:celestigem_filled_shard_mold",
-    "richstuff:celestigem_filled_shards_mold",
-    "richstuff:celestigem_filled_shovel_head_mold",
-    "richstuff:celestigem_filled_sword_blade_mold",
-    "richstuff:celestigem_filled_tip_upgrade_mold",
-    "richstuff:celestigem_filled_wire_mold",
-    "richstuff:celestigem_gear",
-    "richstuff:celestigem_plate",
-    "richstuff:celestigem_ring",
-    "richstuff:celestigem_rod",
-    "richstuff:celestigem_shard",
-    "richstuff:celestigem_wire",
-    "richstuff:filled_alexandrite_gem_mold",
-    "richstuff:filled_ammolite_gem_mold",
-    "richstuff:filled_black_diamond_gem_mold",
-    "richstuff:filled_celestigem_gem_mold",
-    "richstuff:filled_moldavite_gem_mold",
-    "richstuff:filled_uranite_gem_mold",
-    "richstuff:iridium_blisk",
-    "richstuff:iridium_block",
-    "richstuff:iridium_brick",
-    "richstuff:iridium_ceramic_ingot_mold",
-    "richstuff:iridium_coin",
-    "richstuff:iridium_coin_stack",
-    "richstuff:iridium_compressed",
-    "richstuff:iridium_crushed",
-    "richstuff:iridium_dust",
-    "richstuff:iridium_dust_block",
-    "richstuff:iridium_filled_axe_head_mold",
-    "richstuff:iridium_filled_binding_mold",
-    "richstuff:iridium_filled_blisk_mold",
-    "richstuff:iridium_filled_block_mold",
-    "richstuff:iridium_filled_boots_plates_mold",
-    "richstuff:iridium_filled_brick_mold",
-    "richstuff:iridium_filled_chestplate_plates_mold",
-    "richstuff:iridium_filled_coin_mold",
-    "richstuff:iridium_filled_gear_mold",
-    "richstuff:iridium_filled_helmet_plates_mold",
-    "richstuff:iridium_filled_hoe_head_mold",
-    "richstuff:iridium_filled_ingot_mold",
-    "richstuff:iridium_filled_leggings_plates_mold",
-    "richstuff:iridium_filled_main_part_mold",
-    "richstuff:iridium_filled_nugget_mold",
-    "richstuff:iridium_filled_nuggets_mold",
-    "richstuff:iridium_filled_pickaxe_head_mold",
-    "richstuff:iridium_filled_plate_mold",
-    "richstuff:iridium_filled_ring_mold",
-    "richstuff:iridium_filled_rod_mold",
-    "richstuff:iridium_filled_shovel_head_mold",
-    "richstuff:iridium_filled_sword_blade_mold",
-    "richstuff:iridium_filled_tip_upgrade_mold",
-    "richstuff:iridium_filled_wire_mold",
-    "richstuff:iridium_gear",
-    "richstuff:iridium_ingot",
-    "richstuff:iridium_ingot_mold",
-    "richstuff:iridium_nugget",
-    "richstuff:iridium_plate",
-    "richstuff:iridium_ring",
-    "richstuff:iridium_rod",
-    "richstuff:iridium_seperated",
-    "richstuff:iridium_spring",
-    "richstuff:iridium_wire",
-    "richstuff:large_uranite_crystal_bud",
-    "richstuff:medium_uranite_crystal_bud",
-    "richstuff:moldavite",
-    "richstuff:moldavite_blisk",
-    "richstuff:moldavite_block",
-    "richstuff:moldavite_brick",
-    "richstuff:moldavite_coin",
-    "richstuff:moldavite_coin_stack",
-    "richstuff:moldavite_crushed",
-    "richstuff:moldavite_dust",
-    "richstuff:moldavite_dust_block",
-    "richstuff:moldavite_filled_axe_head_mold",
-    "richstuff:moldavite_filled_binding_mold",
-    "richstuff:moldavite_filled_blisk_mold",
-    "richstuff:moldavite_filled_block_mold",
-    "richstuff:moldavite_filled_boots_plates_mold",
-    "richstuff:moldavite_filled_brick_mold",
-    "richstuff:moldavite_filled_chestplate_plates_mold",
-    "richstuff:moldavite_filled_coin_mold",
-    "richstuff:moldavite_filled_gear_mold",
-    "richstuff:moldavite_filled_helmet_plates_mold",
-    "richstuff:moldavite_filled_hoe_head_mold",
-    "richstuff:moldavite_filled_leggings_plates_mold",
-    "richstuff:moldavite_filled_main_part_mold",
-    "richstuff:moldavite_filled_pickaxe_head_mold",
-    "richstuff:moldavite_filled_plate_mold",
-    "richstuff:moldavite_filled_ring_mold",
-    "richstuff:moldavite_filled_rod_mold",
-    "richstuff:moldavite_filled_shard_mold",
-    "richstuff:moldavite_filled_shards_mold",
-    "richstuff:moldavite_filled_shovel_head_mold",
-    "richstuff:moldavite_filled_sword_blade_mold",
-    "richstuff:moldavite_filled_tip_upgrade_mold",
-    "richstuff:moldavite_filled_wire_mold",
-    "richstuff:moldavite_gear",
-    "richstuff:moldavite_heated",
-    "richstuff:moldavite_plate",
-    "richstuff:moldavite_polished",
-    "richstuff:moldavite_refined",
-    "richstuff:moldavite_ring",
-    "richstuff:moldavite_rod",
-    "richstuff:moldavite_sandpaper",
-    "richstuff:moldavite_shard",
-    "richstuff:moldavite_spring",
-    "richstuff:moldavite_unrefined",
-    "richstuff:moldavite_washed",
-    "richstuff:moldavite_wire",
-    "richstuff:raw_moldavite",
-    "richstuff:raw_moldavite_block",
-    "richstuff:small_moldavite_dust",
-    "richstuff:small_moldavite_spring",
-    "richstuff:small_uranite_crystal_bud",
-    "richstuff:tiny_alexandrite_dust",
-    "richstuff:tiny_ammolite_dust",
-    "richstuff:tiny_black_diamond_dust",
-    "richstuff:tiny_iridium_dust",
-    "richstuff:tiny_moldavite_dust",
-    "richstuff:unfired_alexandrite_gem_mold",
-    "richstuff:unfired_ammolite_gem_mold",
-    "richstuff:unfired_black_diamond_gem_mold",
-    "richstuff:unfired_celestigem_gem_mold",
-    "richstuff:unfired_moldavite_gem_mold",
-    "richstuff:unfired_uranite_gem_mold",
-    "richstuff:uranite",
-    "richstuff:uranite_blisk",
-    "richstuff:uranite_block",
-    "richstuff:uranite_brick",
-    "richstuff:uranite_coin",
-    "richstuff:uranite_crystal_cluster",
-    "richstuff:uranite_filled_axe_head_mold",
-    "richstuff:uranite_filled_binding_mold",
-    "richstuff:uranite_filled_blisk_mold",
-    "richstuff:uranite_filled_block_mold",
-    "richstuff:uranite_filled_boots_plates_mold",
-    "richstuff:uranite_filled_brick_mold",
-    "richstuff:uranite_filled_chestplate_plates_mold",
-    "richstuff:uranite_filled_coin_mold",
-    "richstuff:uranite_filled_gear_mold",
-    "richstuff:uranite_filled_helmet_plates_mold",
-    "richstuff:uranite_filled_hoe_head_mold",
-    "richstuff:uranite_filled_leggings_plates_mold",
-    "richstuff:uranite_filled_main_part_mold",
-    "richstuff:uranite_filled_pickaxe_head_mold",
-    "richstuff:uranite_filled_plate_mold",
-    "richstuff:uranite_filled_ring_mold",
-    "richstuff:uranite_filled_rod_mold",
-    "richstuff:uranite_filled_shard_mold",
-    "richstuff:uranite_filled_shards_mold",
-    "richstuff:uranite_filled_shovel_head_mold",
-    "richstuff:uranite_filled_sword_blade_mold",
-    "richstuff:uranite_filled_tip_upgrade_mold",
-    "richstuff:uranite_filled_wire_mold",
-    "richstuff:uranite_gear",
-    "richstuff:uranite_plate",
-    "richstuff:uranite_ring",
-    "richstuff:uranite_rod",
-    "richstuff:uranite_shard",
-    "richstuff:uranite_wire"
+    {
+      "id": "richstuff:alexandrite",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_shard_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_shards_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_heated",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_sandpaper",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_unrefined",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_washed",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_shard_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_shards_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_heated",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_sandpaper",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_unrefined",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_washed",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:base_alexandrite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:base_ammolite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:base_black_diamond_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:base_celestigem_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:base_moldavite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:base_uranite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_shard_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_shards_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_heated",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_sandpaper",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_unrefined",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_washed",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:budding_uranite_crystal",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_shard_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_shards_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:filled_alexandrite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:filled_ammolite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:filled_black_diamond_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:filled_celestigem_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:filled_moldavite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:filled_uranite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_ceramic_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_compressed",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_seperated",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:large_uranite_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "richstuff:medium_uranite_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_shard_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_shards_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_heated",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_sandpaper",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_unrefined",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_washed",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_moldavite",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_moldavite_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:small_moldavite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:small_moldavite_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:small_uranite_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_alexandrite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_ammolite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_black_diamond_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_iridium_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_moldavite_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:unfired_alexandrite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:unfired_ammolite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:unfired_black_diamond_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:unfired_celestigem_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:unfired_moldavite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:unfired_uranite_gem_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_crystal_cluster",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_shard_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_shards_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_wire",
+      "required": false
+    }
   ]
 }

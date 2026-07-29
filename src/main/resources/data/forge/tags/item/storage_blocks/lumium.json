@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/lumium"
+    {
+      "id": "#c:storage_blocks/lumium",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_vanadium",
-    "richstuff:raw_vanadium"
+    {
+      "id": "richores:raw_vanadium",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_vanadium",
+      "required": false
+    }
   ]
 }

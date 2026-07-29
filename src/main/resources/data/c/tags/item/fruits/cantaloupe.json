@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:cantaloupeitem",
-    "pamhc2crops:cantaloupeitem"
+    {
+      "id": "pamhc2trees:cantaloupeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cantaloupeitem",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tiny_coal_dust"
+    {
+      "id": "richstuff:tiny_coal_dust",
+      "required": false
+    }
   ]
 }

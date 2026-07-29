@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/blaze_rod"
+    {
+      "id": "#c:storage_blocks/blaze_rod",
+      "required": false
+    }
   ]
 }

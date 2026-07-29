@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/ammolite"
+    {
+      "id": "#c:gems/ammolite",
+      "required": false
+    }
   ]
 }

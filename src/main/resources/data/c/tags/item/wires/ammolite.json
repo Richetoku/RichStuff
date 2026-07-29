@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ammolite_wire"
+    {
+      "id": "richstuff:ammolite_wire",
+      "required": false
+    }
   ]
 }

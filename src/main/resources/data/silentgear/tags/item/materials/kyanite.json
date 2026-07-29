@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:kyanite_polished",
-    "richstuff:kyanite_rod"
+    {
+      "id": "richstuff:kyanite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite_rod",
+      "required": false
+    }
   ]
 }

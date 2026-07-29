@@ -4,7 +4,7 @@
   "textures": {
     "particle": "richstuff:block/rich_tank_v_frame",
     "frame": "richstuff:block/rich_tank_v_frame",
-    "glass": "minecraft:block/tinted_glass"
+    "glass": "minecraft:block/glass"
   },
   "elements": [
     {

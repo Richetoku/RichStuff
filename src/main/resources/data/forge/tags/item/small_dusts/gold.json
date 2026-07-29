@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/gold"
+    {
+      "id": "#c:small_dusts/gold",
+      "required": false
+    }
   ]
 }

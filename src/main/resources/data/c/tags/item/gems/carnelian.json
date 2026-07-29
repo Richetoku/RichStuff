@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:carnelian",
-    "richstuff:carnelian"
+    {
+      "id": "richores:carnelian",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian",
+      "required": false
+    }
   ]
 }

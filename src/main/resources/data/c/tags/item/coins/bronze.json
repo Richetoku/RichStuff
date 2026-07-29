@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:bronze_coin"
+    {
+      "id": "richstuff:bronze_coin",
+      "required": false
+    }
   ]
 }

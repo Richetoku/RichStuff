@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tin_spring"
+    {
+      "id": "richstuff:tin_spring",
+      "required": false
+    }
   ]
 }

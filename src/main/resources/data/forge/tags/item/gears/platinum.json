@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/platinum"
+    {
+      "id": "#c:gears/platinum",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:reinforced_copper_spring"
+    {
+      "id": "richstuff:reinforced_copper_spring",
+      "required": false
+    }
   ]
 }

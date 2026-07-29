@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:appleitem",
-    "pamhc2crops:appleitem"
+    {
+      "id": "pamhc2trees:appleitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:appleitem",
+      "required": false
+    }
   ]
 }

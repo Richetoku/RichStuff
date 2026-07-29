@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/osmium"
+    {
+      "id": "#c:small_dusts/osmium",
+      "required": false
+    }
   ]
 }

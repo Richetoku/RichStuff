@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:brass_spring"
+    {
+      "id": "richstuff:brass_spring",
+      "required": false
+    }
   ]
 }

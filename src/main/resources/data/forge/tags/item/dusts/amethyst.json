@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/amethyst"
+    {
+      "id": "#c:dusts/amethyst",
+      "required": false
+    }
   ]
 }

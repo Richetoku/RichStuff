@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:pig_iron_nugget"
+    {
+      "id": "richstuff:pig_iron_nugget",
+      "required": false
+    }
   ]
 }

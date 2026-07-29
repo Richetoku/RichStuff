@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/iridium"
+    {
+      "id": "#c:gears/iridium",
+      "required": false
+    }
   ]
 }

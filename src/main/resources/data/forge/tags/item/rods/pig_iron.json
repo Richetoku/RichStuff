@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/pig_iron"
+    {
+      "id": "#c:rods/pig_iron",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_aluminum",
-    "richstuff:raw_aluminum"
+    {
+      "id": "richores:raw_aluminum",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_aluminum",
+      "required": false
+    }
   ]
 }

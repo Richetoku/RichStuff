@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ender_dust_bag"
+    {
+      "id": "richstuff:ender_dust_bag",
+      "required": false
+    }
   ]
 }

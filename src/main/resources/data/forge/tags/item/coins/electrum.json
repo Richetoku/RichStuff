@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/electrum"
+    {
+      "id": "#c:coins/electrum",
+      "required": false
+    }
   ]
 }

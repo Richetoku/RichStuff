@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:osmium_rod",
+    {
+      "id": "richstuff:osmium_rod",
+      "required": false
+    },
     {
       "id": "vintageimprovements:osmium_rod",
       "required": false

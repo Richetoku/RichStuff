@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/ammolite"
+    {
+      "id": "#c:shards/ammolite",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_shard",
+      "required": false
+    }
   ]
 }

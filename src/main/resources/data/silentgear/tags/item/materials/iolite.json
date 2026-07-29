@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:iolite_polished",
-    "richstuff:iolite_rod"
+    {
+      "id": "richstuff:iolite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite_rod",
+      "required": false
+    }
   ]
 }

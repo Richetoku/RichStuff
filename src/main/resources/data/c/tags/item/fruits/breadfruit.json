@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:breadfruititem",
-    "pamhc2crops:breadfruititem"
+    {
+      "id": "pamhc2trees:breadfruititem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:breadfruititem",
+      "required": false
+    }
   ]
 }

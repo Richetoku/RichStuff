@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_bitumen",
-    "richstuff:raw_bitumen"
+    {
+      "id": "richores:raw_bitumen",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_bitumen",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/topaz_dust"
+    {
+      "id": "#c:storage_blocks/topaz_dust",
+      "required": false
+    }
   ]
 }

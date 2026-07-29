@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:coal_filled_block_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:coal_block"
+    },
+    {
+      "id": "richstuff:base_block_mold"
+    }
+  ]
+}

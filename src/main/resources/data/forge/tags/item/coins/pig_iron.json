@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/pig_iron"
+    {
+      "id": "#c:coins/pig_iron",
+      "required": false
+    }
   ]
 }

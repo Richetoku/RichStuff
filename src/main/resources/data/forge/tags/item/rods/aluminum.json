@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/aluminum"
+    {
+      "id": "#c:rods/aluminum",
+      "required": false
+    }
   ]
 }

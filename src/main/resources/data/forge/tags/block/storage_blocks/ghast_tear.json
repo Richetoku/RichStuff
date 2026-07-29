@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/ghast_tear"
+    {
+      "id": "#c:storage_blocks/ghast_tear",
+      "required": false
+    }
   ]
 }

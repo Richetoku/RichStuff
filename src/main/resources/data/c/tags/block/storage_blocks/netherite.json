@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:netherite_block"
+    {
+      "id": "richstuff:netherite_block",
+      "required": false
+    }
   ]
 }

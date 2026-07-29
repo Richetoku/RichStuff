@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lead_spring"
+    {
+      "id": "richstuff:lead_spring",
+      "required": false
+    }
   ]
 }

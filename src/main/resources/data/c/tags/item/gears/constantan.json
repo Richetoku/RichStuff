@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_gear"
+    {
+      "id": "richstuff:constantan_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/iridium"
+    {
+      "id": "#c:nuggets/iridium",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/eclipse_alloy"
+    {
+      "id": "#c:gears/eclipse_alloy",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:black_diamond",
-    "richstuff:black_diamond"
+    {
+      "id": "richores:black_diamond",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond",
+      "required": false
+    }
   ]
 }

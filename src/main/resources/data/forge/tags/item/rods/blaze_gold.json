@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/blaze_gold"
+    {
+      "id": "#c:rods/blaze_gold",
+      "required": false
+    }
   ]
 }

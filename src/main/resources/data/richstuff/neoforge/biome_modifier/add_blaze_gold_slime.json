@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/blaze_gold",
+  "spawners": {
+    "type": "richstuff:blaze_gold_slime",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

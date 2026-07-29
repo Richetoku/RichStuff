@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:chocolateitem",
-    "pamhc2crops:chocolateitem"
+    {
+      "id": "pamhc2trees:chocolateitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:chocolateitem",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/white_diamond"
+    {
+      "id": "#c:small_dusts/white_diamond",
+      "required": false
+    }
   ]
 }

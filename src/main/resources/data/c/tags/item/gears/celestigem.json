@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:celestigem_gear"
+    {
+      "id": "richstuff:celestigem_gear",
+      "required": false
+    }
   ]
 }

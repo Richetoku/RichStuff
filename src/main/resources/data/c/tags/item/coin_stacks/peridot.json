@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:peridot_coin_stack"
+    {
+      "id": "richstuff:peridot_coin_stack",
+      "required": false
+    }
   ]
 }

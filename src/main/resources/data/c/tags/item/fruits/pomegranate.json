@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:pomegranateitem",
-    "pamhc2crops:pomegranateitem"
+    {
+      "id": "pamhc2trees:pomegranateitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:pomegranateitem",
+      "required": false
+    }
   ]
 }

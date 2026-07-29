@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:jackfruititem",
-    "pamhc2crops:jackfruititem"
+    {
+      "id": "pamhc2trees:jackfruititem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:jackfruititem",
+      "required": false
+    }
   ]
 }

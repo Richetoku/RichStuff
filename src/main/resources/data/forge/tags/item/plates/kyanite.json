@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/kyanite"
+    {
+      "id": "#c:plates/kyanite",
+      "required": false
+    }
   ]
 }

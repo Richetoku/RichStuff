@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/bitumen"
+    {
+      "id": "#c:raw_materials/bitumen",
+      "required": false
+    }
   ]
 }

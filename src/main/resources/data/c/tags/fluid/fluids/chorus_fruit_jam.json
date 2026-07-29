@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:chorus_fruit_jam",
-    "richstuff:flowing_chorus_fruit_jam"
+    {
+      "id": "richstuff:chorus_fruit_jam",
+      "required": false
+    }
   ]
 }

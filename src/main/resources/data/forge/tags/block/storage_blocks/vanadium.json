@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/vanadium"
+    {
+      "id": "#c:storage_blocks/vanadium",
+      "required": false
+    }
   ]
 }

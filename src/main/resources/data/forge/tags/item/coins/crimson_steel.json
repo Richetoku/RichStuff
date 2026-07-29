@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/crimson_steel"
+    {
+      "id": "#c:coins/crimson_steel",
+      "required": false
+    }
   ]
 }

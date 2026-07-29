@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:tiny_dusts/sulfur"
+    {
+      "id": "#c:tiny_dusts/sulfur",
+      "required": false
+    }
   ]
 }

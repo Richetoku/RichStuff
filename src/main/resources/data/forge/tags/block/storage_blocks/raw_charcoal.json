@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_charcoal"
+    {
+      "id": "#c:storage_blocks/raw_charcoal",
+      "required": false
+    }
   ]
 }

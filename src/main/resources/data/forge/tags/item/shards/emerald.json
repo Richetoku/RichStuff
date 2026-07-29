@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/emerald"
+    {
+      "id": "#c:shards/emerald",
+      "required": false
+    },
+    {
+      "id": "richstuff:emerald_shard",
+      "required": false
+    }
   ]
 }

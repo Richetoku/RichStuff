@@ -4,7 +4,9 @@
   "category": "utility",
   "enabled": true,
   "color": "#624C4C",
-  "forms": [],
+  "forms": [
+    "ancient_debris_filled_block_mold"
+  ],
   "skipForms": [],
   "crystalGrowthOnly": false
 }

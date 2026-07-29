@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/azure_silver"
+    {
+      "id": "#c:plates/azure_silver",
+      "required": false
+    }
   ]
 }

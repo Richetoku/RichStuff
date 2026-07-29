@@ -14,7 +14,9 @@ import org.jetbrains.annotations.Nullable;
 /** Extended-stack barrel menu whose client side is detached from the live world block entity. */
 public final class RichBarrelMenu extends AbstractContainerMenu {
     public static final int WIDTH = 176;
-    public static final int HEIGHT = 240;
+    public static final int HEIGHT = 258;
+    public static final int BARREL_COLUMNS = 8;
+    public static final int BARREL_ROWS = 7;
 
     private final Container contents;
     @Nullable private final RichBarrelBlockEntity barrel;
@@ -26,7 +28,14 @@ public final class RichBarrelMenu extends AbstractContainerMenu {
         this.pos = buffer.readBlockPos();
         this.tier = Math.max(1, Math.min(7, buffer.readVarInt()));
         this.barrel = null;
-        this.contents = new SimpleContainer(RichBarrelBlockEntity.SLOTS);
+        this.contents = new SimpleContainer(RichBarrelBlockEntity.SLOTS) {
+            private int multiplier() { return 1 << Math.max(0, Math.min(6, RichBarrelMenu.this.tier - 1)); }
+            @Override public int getMaxStackSize() { return Math.min(4096, 64 * multiplier()); }
+            @Override public int getMaxStackSize(ItemStack stack) {
+                int base = stack == null || stack.isEmpty() ? 64 : Math.max(1, stack.getMaxStackSize());
+                return Math.min(4096, base * multiplier());
+            }
+        };
         addSlots(inventory);
     }
 
@@ -41,18 +50,19 @@ public final class RichBarrelMenu extends AbstractContainerMenu {
     }
 
     private void addSlots(Inventory inventory) {
-        for (int row = 0; row < 6; row++) {
-            for (int col = 0; col < 9; col++) {
-                addSlot(new BarrelSlot(contents, tier, col + row * 9, 8 + col * 18, 20 + row * 18));
+        for (int row = 0; row < BARREL_ROWS; row++) {
+            for (int col = 0; col < BARREL_COLUMNS; col++) {
+                addSlot(new BarrelSlot(contents, tier, col + row * BARREL_COLUMNS,
+                        17 + col * 18, 20 + row * 18));
             }
         }
-        int playerY = 140;
+        int playerY = 158;
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 9; col++) {
                 addSlot(new Slot(inventory, col + row * 9 + 9, 8 + col * 18, playerY + row * 18));
             }
         }
-        for (int col = 0; col < 9; col++) addSlot(new Slot(inventory, col, 8 + col * 18, 198));
+        for (int col = 0; col < 9; col++) addSlot(new Slot(inventory, col, 8 + col * 18, 216));
     }
 
     @Nullable public RichBarrelBlockEntity barrel() { return barrel; }
@@ -66,10 +76,21 @@ public final class RichBarrelMenu extends AbstractContainerMenu {
         Slot slot = slots.get(index);
         if (!slot.hasItem()) return ItemStack.EMPTY;
         ItemStack source = slot.getItem();
-        ItemStack copy = source.copy();
         if (index < RichBarrelBlockEntity.SLOTS) {
-            if (!moveItemStackTo(source, RichBarrelBlockEntity.SLOTS, slots.size(), true)) return ItemStack.EMPTY;
-        } else if (!moveItemStackTo(source, 0, RichBarrelBlockEntity.SLOTS, false)) return ItemStack.EMPTY;
+            // One shift-click removes at most one native stack. The logical barrel slot may hold
+            // thousands, but player inventories and network packets must only receive legal stacks.
+            int offeredCount = Math.min(source.getCount(), source.getMaxStackSize());
+            ItemStack offered = source.copyWithCount(offeredCount);
+            if (!moveItemStackTo(offered, RichBarrelBlockEntity.SLOTS, slots.size(), true)) return ItemStack.EMPTY;
+            int moved = offeredCount - offered.getCount();
+            if (moved <= 0) return ItemStack.EMPTY;
+            ItemStack movedStack = source.copyWithCount(moved);
+            source.shrink(moved);
+            if (source.isEmpty()) slot.set(ItemStack.EMPTY); else slot.setChanged();
+            return movedStack;
+        }
+        ItemStack copy = source.copy();
+        if (!moveItemStackTo(source, 0, RichBarrelBlockEntity.SLOTS, false)) return ItemStack.EMPTY;
         if (source.isEmpty()) slot.set(ItemStack.EMPTY); else slot.setChanged();
         return copy;
     }
@@ -80,11 +101,16 @@ public final class RichBarrelMenu extends AbstractContainerMenu {
             super(container, index, x, y);
             this.tier = tier;
         }
+        private int multiplier() { return 1 << Math.max(0, Math.min(6, tier - 1)); }
         private int limit(ItemStack stack) {
             int base = stack == null || stack.isEmpty() ? 64 : Math.max(1, stack.getMaxStackSize());
-            return Math.min(4096, base << Math.max(0, tier - 1));
+            return Math.min(4096, base * multiplier());
         }
-        @Override public int getMaxStackSize() { return Math.min(4096, 64 << Math.max(0, tier - 1)); }
+        @Override public int getMaxStackSize() { return Math.min(4096, 64 * multiplier()); }
         @Override public int getMaxStackSize(ItemStack stack) { return limit(stack); }
+        @Override public ItemStack remove(int amount) {
+            ItemStack stored = getItem();
+            return super.remove(Math.min(amount, stored.isEmpty() ? 0 : stored.getMaxStackSize()));
+        }
     }
 }

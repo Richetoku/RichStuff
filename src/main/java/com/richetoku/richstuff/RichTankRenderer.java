@@ -21,6 +21,8 @@ public final class RichTankRenderer implements BlockEntityRenderer<RichTankBlock
         BlockState visual = fluid.getFluid().defaultFluidState().createLegacyBlock();
         if (visual.isAir()) return;
         float ratio = Math.min(1.0F, amount / (float)Math.max(1, tank.capacity()));
+        // Any non-empty tank shows at least one model pixel of fluid.
+        ratio = Math.max(1.0F / 16.0F, ratio);
         BlockState tankState = tank.getBlockState();
         boolean west = tankState.hasProperty(RichTankBlock.WEST) && tankState.getValue(RichTankBlock.WEST);
         boolean east = tankState.hasProperty(RichTankBlock.EAST) && tankState.getValue(RichTankBlock.EAST);
@@ -37,7 +39,7 @@ public final class RichTankRenderer implements BlockEntityRenderer<RichTankBlock
         pose.pushPose();
         // Valid connected faces extend to the block boundary, producing one continuous tank volume.
         pose.translate(minX, minY, minZ);
-        pose.scale((float)(maxX - minX), Math.max(0.002F, (float)(maxY - minY)), (float)(maxZ - minZ));
+        pose.scale((float)(maxX - minX), Math.max(1.0F / 16.0F, (float)(maxY - minY)), (float)(maxZ - minZ));
         int fluidLight = fluid.getFluidType().getLightLevel(fluid) << 4;
         Minecraft.getInstance().getBlockRenderer().renderSingleBlock(visual, pose, buffer,
                 Math.max(light, fluidLight), OverlayTexture.NO_OVERLAY);

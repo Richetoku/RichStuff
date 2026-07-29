@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:nether_charcoal_dust"
+    {
+      "id": "richstuff:nether_charcoal_dust",
+      "required": false
+    }
   ]
 }

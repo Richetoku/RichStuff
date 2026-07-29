@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/copper"
+    {
+      "id": "#c:molten/copper",
+      "required": false
+    }
   ]
 }

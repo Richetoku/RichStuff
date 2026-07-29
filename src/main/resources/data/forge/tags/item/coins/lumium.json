@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/lumium"
+    {
+      "id": "#c:coins/lumium",
+      "required": false
+    }
   ]
 }

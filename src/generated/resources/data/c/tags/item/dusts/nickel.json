@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:nickel_dust",
+    {
+      "id": "richstuff:nickel_dust",
+      "required": false
+    },
     {
       "id": "oritech:nickel_dust",
       "required": false

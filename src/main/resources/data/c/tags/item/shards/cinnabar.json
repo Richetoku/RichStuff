@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:cinnabar_shard"
+    {
+      "id": "richstuff:cinnabar_shard",
+      "required": false
+    }
   ]
 }

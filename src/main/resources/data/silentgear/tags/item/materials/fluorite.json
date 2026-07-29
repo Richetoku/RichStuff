@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:fluorite_polished",
-    "richstuff:fluorite_rod"
+    {
+      "id": "richstuff:fluorite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:fluorite_rod",
+      "required": false
+    }
   ]
 }

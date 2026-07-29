@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/osmium"
+    {
+      "id": "#c:wires/osmium",
+      "required": false
+    }
   ]
 }

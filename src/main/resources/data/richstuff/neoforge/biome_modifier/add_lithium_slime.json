@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/lithium",
+  "spawners": {
+    "type": "richstuff:lithium_slime",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

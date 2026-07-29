@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/white_diamond"
+    {
+      "id": "#c:rods/white_diamond",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/electrum"
+    {
+      "id": "#c:wires/electrum",
+      "required": false
+    }
   ]
 }

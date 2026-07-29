@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:reinforced_copper_block"
+    {
+      "id": "richstuff:reinforced_copper_block",
+      "required": false
+    }
   ]
 }

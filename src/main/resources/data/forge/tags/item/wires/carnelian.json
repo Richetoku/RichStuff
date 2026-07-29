@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/carnelian"
+    {
+      "id": "#c:wires/carnelian",
+      "required": false
+    }
   ]
 }

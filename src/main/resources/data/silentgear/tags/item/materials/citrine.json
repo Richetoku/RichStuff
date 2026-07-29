@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:citrine_polished",
-    "richstuff:citrine_rod"
+    {
+      "id": "richstuff:citrine_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:citrine_rod",
+      "required": false
+    }
   ]
 }

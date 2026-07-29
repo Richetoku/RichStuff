@@ -1,128 +1,497 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/alexandrite",
-    "#c:wires/aluminum",
-    "#c:wires/amethyst",
-    "#c:wires/ammolite",
-    "#c:wires/andesite_alloy",
-    "#c:wires/azure_electrum",
-    "#c:wires/azure_silver",
-    "#c:wires/black_diamond",
-    "#c:wires/blaze_gold",
-    "#c:wires/brass",
-    "#c:wires/bronze",
-    "#c:wires/carnelian",
-    "#c:wires/cast_iron",
-    "#c:wires/celestigem",
-    "#c:wires/cinnabar",
-    "#c:wires/citrine",
-    "#c:wires/cobalt",
-    "#c:wires/constantan",
-    "#c:wires/copper",
-    "#c:wires/copronickel",
-    "#c:wires/crimson_iron",
-    "#c:wires/crimson_steel",
-    "#c:wires/diamond",
-    "#c:wires/eclipse_alloy",
-    "#c:wires/electrum",
-    "#c:wires/emerald",
-    "#c:wires/enderium",
-    "#c:wires/ferricore",
-    "#c:wires/fluorite",
-    "#c:wires/gold",
-    "#c:wires/heliodor",
-    "#c:wires/invar",
-    "#c:wires/iolite",
-    "#c:wires/iridium",
-    "#c:wires/iron",
-    "#c:wires/kyanite",
-    "#c:wires/lapis_lazuli",
-    "#c:wires/lead",
-    "#c:wires/lithium",
-    "#c:wires/lumium",
-    "#c:wires/moldavite",
-    "#c:wires/netherite",
-    "#c:wires/nickel",
-    "#c:wires/osmium",
-    "#c:wires/peridot",
-    "#c:wires/pig_iron",
-    "#c:wires/platinum",
-    "#c:wires/prismarine",
-    "#c:wires/quartz",
-    "#c:wires/reinforced_copper",
-    "#c:wires/rose_quartz",
-    "#c:wires/ruby",
-    "#c:wires/salt",
-    "#c:wires/sapphire",
-    "#c:wires/signalum",
-    "#c:wires/silver",
-    "#c:wires/steel",
-    "#c:wires/tin",
-    "#c:wires/topaz",
-    "#c:wires/turquoise",
-    "#c:wires/tyrian_steel",
-    "#c:wires/uranite",
-    "#c:wires/uranium",
-    "#c:wires/vanadium",
-    "#c:wires/white_diamond",
-    "#c:wires/wrought_iron",
-    "#c:wires/zinc",
-    "richstuff:alexandrite_wire",
-    "richstuff:aluminum_wire",
-    "richstuff:amethyst_wire",
-    "richstuff:ammolite_wire",
-    "richstuff:andesite_alloy_wire",
-    "richstuff:azure_electrum_wire",
-    "richstuff:azure_silver_wire",
-    "richstuff:black_diamond_wire",
-    "richstuff:blaze_gold_wire",
-    "richstuff:brass_wire",
-    "richstuff:bronze_wire",
-    "richstuff:carnelian_wire",
-    "richstuff:cast_iron_wire",
-    "richstuff:citrine_wire",
-    "richstuff:cobalt_wire",
-    "richstuff:constantan_wire",
-    "richstuff:copper_wire",
-    "richstuff:copronickel_wire",
-    "richstuff:crimson_iron_wire",
-    "richstuff:crimson_steel_wire",
-    "richstuff:diamond_wire",
-    "richstuff:electrum_wire",
-    "richstuff:emerald_wire",
-    "richstuff:enderium_wire",
-    "richstuff:gold_wire",
-    "richstuff:heliodor_wire",
-    "richstuff:invar_wire",
-    "richstuff:iolite_wire",
-    "richstuff:iridium_wire",
-    "richstuff:iron_wire",
-    "richstuff:kyanite_wire",
-    "richstuff:lapis_lazuli_wire",
-    "richstuff:lead_wire",
-    "richstuff:lumium_wire",
-    "richstuff:moldavite_wire",
-    "richstuff:netherite_wire",
-    "richstuff:nickel_wire",
-    "richstuff:osmium_wire",
-    "richstuff:peridot_wire",
-    "richstuff:platinum_wire",
-    "richstuff:prismarine_wire",
-    "richstuff:quartz_wire",
-    "richstuff:reinforced_copper_wire",
-    "richstuff:rose_quartz_wire",
-    "richstuff:ruby_wire",
-    "richstuff:sapphire_wire",
-    "richstuff:signalum_wire",
-    "richstuff:silver_wire",
-    "richstuff:steel_wire",
-    "richstuff:tin_wire",
-    "richstuff:topaz_wire",
-    "richstuff:turquoise_wire",
-    "richstuff:tyrian_steel_wire",
-    "richstuff:uranium_wire",
-    "richstuff:white_diamond_wire",
-    "richstuff:zinc_wire"
+    {
+      "id": "#c:wires/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:wires/amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:wires/ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:wires/azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:wires/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:wires/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:wires/blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#c:wires/brass",
+      "required": false
+    },
+    {
+      "id": "#c:wires/bronze",
+      "required": false
+    },
+    {
+      "id": "#c:wires/carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:wires/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:wires/celestigem",
+      "required": false
+    },
+    {
+      "id": "#c:wires/cinnabar",
+      "required": false
+    },
+    {
+      "id": "#c:wires/citrine",
+      "required": false
+    },
+    {
+      "id": "#c:wires/cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:wires/constantan",
+      "required": false
+    },
+    {
+      "id": "#c:wires/copper",
+      "required": false
+    },
+    {
+      "id": "#c:wires/copronickel",
+      "required": false
+    },
+    {
+      "id": "#c:wires/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:wires/crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#c:wires/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:wires/eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:wires/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:wires/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:wires/enderium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/ferricore",
+      "required": false
+    },
+    {
+      "id": "#c:wires/fluorite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/gold",
+      "required": false
+    },
+    {
+      "id": "#c:wires/heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:wires/invar",
+      "required": false
+    },
+    {
+      "id": "#c:wires/iolite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/iron",
+      "required": false
+    },
+    {
+      "id": "#c:wires/kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:wires/lead",
+      "required": false
+    },
+    {
+      "id": "#c:wires/lithium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/lumium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/netherite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:wires/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/peridot",
+      "required": false
+    },
+    {
+      "id": "#c:wires/pig_iron",
+      "required": false
+    },
+    {
+      "id": "#c:wires/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:wires/prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:wires/quartz",
+      "required": false
+    },
+    {
+      "id": "#c:wires/reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#c:wires/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:wires/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:wires/salt",
+      "required": false
+    },
+    {
+      "id": "#c:wires/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:wires/signalum",
+      "required": false
+    },
+    {
+      "id": "#c:wires/silver",
+      "required": false
+    },
+    {
+      "id": "#c:wires/steel",
+      "required": false
+    },
+    {
+      "id": "#c:wires/tin",
+      "required": false
+    },
+    {
+      "id": "#c:wires/topaz",
+      "required": false
+    },
+    {
+      "id": "#c:wires/turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:wires/tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#c:wires/uranite",
+      "required": false
+    },
+    {
+      "id": "#c:wires/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:wires/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:wires/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#c:wires/zinc",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:aluminum_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:amethyst_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_electrum_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:bronze_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:citrine_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:diamond_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:emerald_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:lapis_lazuli_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:prismarine_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:quartz_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:rose_quartz_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:sapphire_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:signalum_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:steel_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:topaz_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:white_diamond_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:zinc_wire",
+      "required": false
+    }
   ]
 }

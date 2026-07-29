@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:chorus_fruit_juice",
+      "required": false
+    }
+  ]
+}

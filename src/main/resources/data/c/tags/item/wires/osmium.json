@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:osmium_wire"
+    {
+      "id": "richstuff:osmium_wire",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:alexandrite_polished",
-    "richstuff:alexandrite_rod"
+    {
+      "id": "richstuff:alexandrite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_rod",
+      "required": false
+    }
   ]
 }

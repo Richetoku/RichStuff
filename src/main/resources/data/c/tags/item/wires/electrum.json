@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:electrum_wire"
+    {
+      "id": "richstuff:electrum_wire",
+      "required": false
+    }
   ]
 }

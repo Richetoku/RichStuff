@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:alexandrite_spring"
+    {
+      "id": "richstuff:alexandrite_spring",
+      "required": false
+    }
   ]
 }

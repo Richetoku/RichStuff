@@ -1,10 +1,25 @@
 {
   "replace": false,
   "values": [
-    "#c:tiny_nuggets/bitumen",
-    "#c:tiny_nuggets/charcoal",
-    "#c:tiny_nuggets/coal_coke",
-    "#c:tiny_nuggets/coal",
-    "#c:tiny_nuggets/nether_charcoal"
+    {
+      "id": "#c:tiny_nuggets/bitumen",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_nuggets/charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_nuggets/coal_coke",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_nuggets/coal",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_nuggets/nether_charcoal",
+      "required": false
+    }
   ]
 }

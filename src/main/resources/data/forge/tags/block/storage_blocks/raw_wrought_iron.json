@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_wrought_iron"
+    {
+      "id": "#c:storage_blocks/raw_wrought_iron",
+      "required": false
+    }
   ]
 }

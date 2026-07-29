@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/cast_iron",
+  "spawners": {
+    "type": "richstuff:cast_iron_slime",
+    "weight": 16,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

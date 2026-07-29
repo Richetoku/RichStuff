@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:dragonfruititem",
-    "pamhc2crops:dragonfruititem"
+    {
+      "id": "pamhc2trees:dragonfruititem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:dragonfruititem",
+      "required": false
+    }
   ]
 }

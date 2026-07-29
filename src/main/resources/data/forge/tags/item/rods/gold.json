@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/gold"
+    {
+      "id": "#c:rods/gold",
+      "required": false
+    }
   ]
 }

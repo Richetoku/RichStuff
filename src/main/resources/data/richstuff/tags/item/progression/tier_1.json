@@ -1,330 +1,1297 @@
 {
   "replace": false,
   "values": [
-    "richstuff:bitumen_block",
-    "richstuff:bitumen_brick",
-    "richstuff:bitumen_dust",
-    "richstuff:bitumen_dust_block",
-    "richstuff:bitumen_nugget",
-    "richstuff:cast_iron_blisk",
-    "richstuff:cast_iron_block",
-    "richstuff:cast_iron_brick",
-    "richstuff:cast_iron_ceramic_ingot_mold",
-    "richstuff:cast_iron_coin",
-    "richstuff:cast_iron_coin_stack",
-    "richstuff:cast_iron_crushed",
-    "richstuff:cast_iron_dust",
-    "richstuff:cast_iron_dust_block",
-    "richstuff:cast_iron_filled_axe_head_mold",
-    "richstuff:cast_iron_filled_binding_mold",
-    "richstuff:cast_iron_filled_blisk_mold",
-    "richstuff:cast_iron_filled_block_mold",
-    "richstuff:cast_iron_filled_boots_plates_mold",
-    "richstuff:cast_iron_filled_brick_mold",
-    "richstuff:cast_iron_filled_chestplate_plates_mold",
-    "richstuff:cast_iron_filled_coin_mold",
-    "richstuff:cast_iron_filled_gear_mold",
-    "richstuff:cast_iron_filled_helmet_plates_mold",
-    "richstuff:cast_iron_filled_hoe_head_mold",
-    "richstuff:cast_iron_filled_ingot_mold",
-    "richstuff:cast_iron_filled_leggings_plates_mold",
-    "richstuff:cast_iron_filled_main_part_mold",
-    "richstuff:cast_iron_filled_nugget_mold",
-    "richstuff:cast_iron_filled_nuggets_mold",
-    "richstuff:cast_iron_filled_pickaxe_head_mold",
-    "richstuff:cast_iron_filled_plate_mold",
-    "richstuff:cast_iron_filled_ring_mold",
-    "richstuff:cast_iron_filled_rod_mold",
-    "richstuff:cast_iron_filled_shovel_head_mold",
-    "richstuff:cast_iron_filled_sword_blade_mold",
-    "richstuff:cast_iron_filled_tip_upgrade_mold",
-    "richstuff:cast_iron_filled_wire_mold",
-    "richstuff:cast_iron_gear",
-    "richstuff:cast_iron_ingot",
-    "richstuff:cast_iron_ingot_mold",
-    "richstuff:cast_iron_nugget",
-    "richstuff:cast_iron_plate",
-    "richstuff:cast_iron_raw",
-    "richstuff:cast_iron_ring",
-    "richstuff:cast_iron_rod",
-    "richstuff:cast_iron_spring",
-    "richstuff:cast_iron_wire",
-    "richstuff:coal_block",
-    "richstuff:coal_brick",
-    "richstuff:coal_coke_block",
-    "richstuff:coal_coke_brick",
-    "richstuff:coal_coke_dust",
-    "richstuff:coal_coke_dust_block",
-    "richstuff:coal_coke_nugget",
-    "richstuff:coal_dust",
-    "richstuff:coal_dust_block",
-    "richstuff:coal_nugget",
-    "richstuff:copper_blisk",
-    "richstuff:copper_block",
-    "richstuff:copper_brick",
-    "richstuff:copper_ceramic_ingot_mold",
-    "richstuff:copper_coin",
-    "richstuff:copper_coin_stack",
-    "richstuff:copper_compressed",
-    "richstuff:copper_crushed",
-    "richstuff:copper_dust",
-    "richstuff:copper_dust_block",
-    "richstuff:copper_filled_axe_head_mold",
-    "richstuff:copper_filled_binding_mold",
-    "richstuff:copper_filled_blisk_mold",
-    "richstuff:copper_filled_block_mold",
-    "richstuff:copper_filled_boots_plates_mold",
-    "richstuff:copper_filled_brick_mold",
-    "richstuff:copper_filled_chestplate_plates_mold",
-    "richstuff:copper_filled_coin_mold",
-    "richstuff:copper_filled_gear_mold",
-    "richstuff:copper_filled_helmet_plates_mold",
-    "richstuff:copper_filled_hoe_head_mold",
-    "richstuff:copper_filled_ingot_mold",
-    "richstuff:copper_filled_leggings_plates_mold",
-    "richstuff:copper_filled_main_part_mold",
-    "richstuff:copper_filled_nugget_mold",
-    "richstuff:copper_filled_nuggets_mold",
-    "richstuff:copper_filled_pickaxe_head_mold",
-    "richstuff:copper_filled_plate_mold",
-    "richstuff:copper_filled_ring_mold",
-    "richstuff:copper_filled_rod_mold",
-    "richstuff:copper_filled_shovel_head_mold",
-    "richstuff:copper_filled_sword_blade_mold",
-    "richstuff:copper_filled_tip_upgrade_mold",
-    "richstuff:copper_filled_wire_mold",
-    "richstuff:copper_gear",
-    "richstuff:copper_ingot",
-    "richstuff:copper_ingot_mold",
-    "richstuff:copper_nugget",
-    "richstuff:copper_plate",
-    "richstuff:copper_ring",
-    "richstuff:copper_rod",
-    "richstuff:copper_seperated",
-    "richstuff:copper_spring",
-    "richstuff:copper_wire",
-    "richstuff:crimson_iron_blisk",
-    "richstuff:crimson_iron_block",
-    "richstuff:crimson_iron_brick",
-    "richstuff:crimson_iron_ceramic_ingot_mold",
-    "richstuff:crimson_iron_coin",
-    "richstuff:crimson_iron_coin_stack",
-    "richstuff:crimson_iron_compressed",
-    "richstuff:crimson_iron_crushed",
-    "richstuff:crimson_iron_dust",
-    "richstuff:crimson_iron_dust_block",
-    "richstuff:crimson_iron_filled_axe_head_mold",
-    "richstuff:crimson_iron_filled_binding_mold",
-    "richstuff:crimson_iron_filled_blisk_mold",
-    "richstuff:crimson_iron_filled_block_mold",
-    "richstuff:crimson_iron_filled_boots_plates_mold",
-    "richstuff:crimson_iron_filled_brick_mold",
-    "richstuff:crimson_iron_filled_chestplate_plates_mold",
-    "richstuff:crimson_iron_filled_coin_mold",
-    "richstuff:crimson_iron_filled_gear_mold",
-    "richstuff:crimson_iron_filled_helmet_plates_mold",
-    "richstuff:crimson_iron_filled_hoe_head_mold",
-    "richstuff:crimson_iron_filled_ingot_mold",
-    "richstuff:crimson_iron_filled_leggings_plates_mold",
-    "richstuff:crimson_iron_filled_main_part_mold",
-    "richstuff:crimson_iron_filled_nugget_mold",
-    "richstuff:crimson_iron_filled_nuggets_mold",
-    "richstuff:crimson_iron_filled_pickaxe_head_mold",
-    "richstuff:crimson_iron_filled_plate_mold",
-    "richstuff:crimson_iron_filled_ring_mold",
-    "richstuff:crimson_iron_filled_rod_mold",
-    "richstuff:crimson_iron_filled_shovel_head_mold",
-    "richstuff:crimson_iron_filled_sword_blade_mold",
-    "richstuff:crimson_iron_filled_tip_upgrade_mold",
-    "richstuff:crimson_iron_filled_wire_mold",
-    "richstuff:crimson_iron_gear",
-    "richstuff:crimson_iron_ingot",
-    "richstuff:crimson_iron_ingot_mold",
-    "richstuff:crimson_iron_nugget",
-    "richstuff:crimson_iron_plate",
-    "richstuff:crimson_iron_ring",
-    "richstuff:crimson_iron_rod",
-    "richstuff:crimson_iron_seperated",
-    "richstuff:crimson_iron_spring",
-    "richstuff:crimson_iron_wire",
-    "richstuff:iron_blisk",
-    "richstuff:iron_block",
-    "richstuff:iron_brick",
-    "richstuff:iron_ceramic_ingot_mold",
-    "richstuff:iron_coin",
-    "richstuff:iron_coin_stack",
-    "richstuff:iron_compressed",
-    "richstuff:iron_crushed",
-    "richstuff:iron_dust",
-    "richstuff:iron_dust_block",
-    "richstuff:iron_filled_axe_head_mold",
-    "richstuff:iron_filled_binding_mold",
-    "richstuff:iron_filled_blisk_mold",
-    "richstuff:iron_filled_block_mold",
-    "richstuff:iron_filled_boots_plates_mold",
-    "richstuff:iron_filled_brick_mold",
-    "richstuff:iron_filled_chestplate_plates_mold",
-    "richstuff:iron_filled_coin_mold",
-    "richstuff:iron_filled_gear_mold",
-    "richstuff:iron_filled_helmet_plates_mold",
-    "richstuff:iron_filled_hoe_head_mold",
-    "richstuff:iron_filled_ingot_mold",
-    "richstuff:iron_filled_leggings_plates_mold",
-    "richstuff:iron_filled_main_part_mold",
-    "richstuff:iron_filled_nugget_mold",
-    "richstuff:iron_filled_nuggets_mold",
-    "richstuff:iron_filled_pickaxe_head_mold",
-    "richstuff:iron_filled_plate_mold",
-    "richstuff:iron_filled_ring_mold",
-    "richstuff:iron_filled_rod_mold",
-    "richstuff:iron_filled_shovel_head_mold",
-    "richstuff:iron_filled_sword_blade_mold",
-    "richstuff:iron_filled_tip_upgrade_mold",
-    "richstuff:iron_filled_wire_mold",
-    "richstuff:iron_gear",
-    "richstuff:iron_ingot",
-    "richstuff:iron_ingot_mold",
-    "richstuff:iron_nugget",
-    "richstuff:iron_plate",
-    "richstuff:iron_ring",
-    "richstuff:iron_rod",
-    "richstuff:iron_seperated",
-    "richstuff:iron_spring",
-    "richstuff:iron_wire",
-    "richstuff:pig_iron_blisk",
-    "richstuff:pig_iron_block",
-    "richstuff:pig_iron_brick",
-    "richstuff:pig_iron_coin",
-    "richstuff:pig_iron_crushed",
-    "richstuff:pig_iron_dust",
-    "richstuff:pig_iron_dust_block",
-    "richstuff:pig_iron_filled_axe_head_mold",
-    "richstuff:pig_iron_filled_binding_mold",
-    "richstuff:pig_iron_filled_blisk_mold",
-    "richstuff:pig_iron_filled_block_mold",
-    "richstuff:pig_iron_filled_boots_plates_mold",
-    "richstuff:pig_iron_filled_brick_mold",
-    "richstuff:pig_iron_filled_chestplate_plates_mold",
-    "richstuff:pig_iron_filled_coin_mold",
-    "richstuff:pig_iron_filled_gear_mold",
-    "richstuff:pig_iron_filled_helmet_plates_mold",
-    "richstuff:pig_iron_filled_hoe_head_mold",
-    "richstuff:pig_iron_filled_ingot_mold",
-    "richstuff:pig_iron_filled_leggings_plates_mold",
-    "richstuff:pig_iron_filled_main_part_mold",
-    "richstuff:pig_iron_filled_nugget_mold",
-    "richstuff:pig_iron_filled_nuggets_mold",
-    "richstuff:pig_iron_filled_pickaxe_head_mold",
-    "richstuff:pig_iron_filled_plate_mold",
-    "richstuff:pig_iron_filled_ring_mold",
-    "richstuff:pig_iron_filled_rod_mold",
-    "richstuff:pig_iron_filled_shovel_head_mold",
-    "richstuff:pig_iron_filled_sword_blade_mold",
-    "richstuff:pig_iron_filled_tip_upgrade_mold",
-    "richstuff:pig_iron_filled_wire_mold",
-    "richstuff:pig_iron_gear",
-    "richstuff:pig_iron_ingot",
-    "richstuff:pig_iron_nugget",
-    "richstuff:pig_iron_plate",
-    "richstuff:pig_iron_raw",
-    "richstuff:pig_iron_ring",
-    "richstuff:pig_iron_rod",
-    "richstuff:pig_iron_wire",
-    "richstuff:reinforced_copper_blisk",
-    "richstuff:reinforced_copper_block",
-    "richstuff:reinforced_copper_brick",
-    "richstuff:reinforced_copper_ceramic_ingot_mold",
-    "richstuff:reinforced_copper_coin",
-    "richstuff:reinforced_copper_coin_stack",
-    "richstuff:reinforced_copper_crushed",
-    "richstuff:reinforced_copper_dust",
-    "richstuff:reinforced_copper_dust_block",
-    "richstuff:reinforced_copper_filled_axe_head_mold",
-    "richstuff:reinforced_copper_filled_binding_mold",
-    "richstuff:reinforced_copper_filled_blisk_mold",
-    "richstuff:reinforced_copper_filled_block_mold",
-    "richstuff:reinforced_copper_filled_boots_plates_mold",
-    "richstuff:reinforced_copper_filled_brick_mold",
-    "richstuff:reinforced_copper_filled_chestplate_plates_mold",
-    "richstuff:reinforced_copper_filled_coin_mold",
-    "richstuff:reinforced_copper_filled_gear_mold",
-    "richstuff:reinforced_copper_filled_helmet_plates_mold",
-    "richstuff:reinforced_copper_filled_hoe_head_mold",
-    "richstuff:reinforced_copper_filled_ingot_mold",
-    "richstuff:reinforced_copper_filled_leggings_plates_mold",
-    "richstuff:reinforced_copper_filled_main_part_mold",
-    "richstuff:reinforced_copper_filled_nugget_mold",
-    "richstuff:reinforced_copper_filled_nuggets_mold",
-    "richstuff:reinforced_copper_filled_pickaxe_head_mold",
-    "richstuff:reinforced_copper_filled_plate_mold",
-    "richstuff:reinforced_copper_filled_ring_mold",
-    "richstuff:reinforced_copper_filled_rod_mold",
-    "richstuff:reinforced_copper_filled_shovel_head_mold",
-    "richstuff:reinforced_copper_filled_sword_blade_mold",
-    "richstuff:reinforced_copper_filled_tip_upgrade_mold",
-    "richstuff:reinforced_copper_filled_wire_mold",
-    "richstuff:reinforced_copper_gear",
-    "richstuff:reinforced_copper_ingot",
-    "richstuff:reinforced_copper_ingot_mold",
-    "richstuff:reinforced_copper_nugget",
-    "richstuff:reinforced_copper_plate",
-    "richstuff:reinforced_copper_raw",
-    "richstuff:reinforced_copper_ring",
-    "richstuff:reinforced_copper_rod",
-    "richstuff:reinforced_copper_spring",
-    "richstuff:reinforced_copper_wire",
-    "richstuff:small_pig_iron_dust",
-    "richstuff:small_wrought_iron_dust",
-    "richstuff:sulfur_block",
-    "richstuff:sulfur_brick",
-    "richstuff:sulfur_dust",
-    "richstuff:sulfur_filled_block_mold",
-    "richstuff:sulfur_filled_brick_mold",
-    "richstuff:tiny_cast_iron_dust",
-    "richstuff:tiny_copper_dust",
-    "richstuff:tiny_crimson_iron_dust",
-    "richstuff:tiny_iron_dust",
-    "richstuff:tiny_pig_iron_dust",
-    "richstuff:tiny_reinforced_copper_dust",
-    "richstuff:tiny_wrought_iron_dust",
-    "richstuff:wrought_iron_blisk",
-    "richstuff:wrought_iron_block",
-    "richstuff:wrought_iron_brick",
-    "richstuff:wrought_iron_coin",
-    "richstuff:wrought_iron_crushed",
-    "richstuff:wrought_iron_dust",
-    "richstuff:wrought_iron_dust_block",
-    "richstuff:wrought_iron_filled_axe_head_mold",
-    "richstuff:wrought_iron_filled_binding_mold",
-    "richstuff:wrought_iron_filled_blisk_mold",
-    "richstuff:wrought_iron_filled_block_mold",
-    "richstuff:wrought_iron_filled_boots_plates_mold",
-    "richstuff:wrought_iron_filled_brick_mold",
-    "richstuff:wrought_iron_filled_chestplate_plates_mold",
-    "richstuff:wrought_iron_filled_coin_mold",
-    "richstuff:wrought_iron_filled_gear_mold",
-    "richstuff:wrought_iron_filled_helmet_plates_mold",
-    "richstuff:wrought_iron_filled_hoe_head_mold",
-    "richstuff:wrought_iron_filled_ingot_mold",
-    "richstuff:wrought_iron_filled_leggings_plates_mold",
-    "richstuff:wrought_iron_filled_main_part_mold",
-    "richstuff:wrought_iron_filled_nugget_mold",
-    "richstuff:wrought_iron_filled_nuggets_mold",
-    "richstuff:wrought_iron_filled_pickaxe_head_mold",
-    "richstuff:wrought_iron_filled_plate_mold",
-    "richstuff:wrought_iron_filled_ring_mold",
-    "richstuff:wrought_iron_filled_rod_mold",
-    "richstuff:wrought_iron_filled_shovel_head_mold",
-    "richstuff:wrought_iron_filled_sword_blade_mold",
-    "richstuff:wrought_iron_filled_tip_upgrade_mold",
-    "richstuff:wrought_iron_filled_wire_mold",
-    "richstuff:wrought_iron_gear",
-    "richstuff:wrought_iron_ingot",
-    "richstuff:wrought_iron_nugget",
-    "richstuff:wrought_iron_plate",
-    "richstuff:wrought_iron_raw",
-    "richstuff:wrought_iron_ring",
-    "richstuff:wrought_iron_rod",
-    "richstuff:wrought_iron_wire"
+    {
+      "id": "richstuff:bitumen_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:bitumen_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:bitumen_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:bitumen_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:bitumen_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_ceramic_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_raw",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_coke_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_coke_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_coke_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_coke_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_coke_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:coal_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_ceramic_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_compressed",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_seperated",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_ceramic_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_compressed",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_seperated",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_ceramic_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_compressed",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_seperated",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_raw",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_ceramic_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_coin_stack",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_raw",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_spring",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_wire",
+      "required": false
+    },
+    {
+      "id": "richstuff:small_pig_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:small_wrought_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_cast_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_copper_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_crimson_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_pig_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_reinforced_copper_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:tiny_wrought_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_blisk",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_brick",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_coin",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_crushed",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_dust_block",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_axe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_binding_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_blisk_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_block_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_boots_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_brick_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_chestplate_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_coin_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_gear_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_helmet_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_hoe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_ingot_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_leggings_plates_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_main_part_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_nugget_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_nuggets_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_pickaxe_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_plate_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_ring_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_rod_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_shovel_head_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_sword_blade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_tip_upgrade_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_filled_wire_mold",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_nugget",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_raw",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_ring",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_wire",
+      "required": false
+    }
   ]
 }

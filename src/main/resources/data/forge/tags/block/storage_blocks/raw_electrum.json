@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_electrum"
+    {
+      "id": "#c:storage_blocks/raw_electrum",
+      "required": false
+    }
   ]
 }

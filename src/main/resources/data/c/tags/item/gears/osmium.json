@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:osmium_gear"
+    {
+      "id": "richstuff:osmium_gear",
+      "required": false
+    }
   ]
 }

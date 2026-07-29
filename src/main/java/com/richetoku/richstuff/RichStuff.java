@@ -9,6 +9,7 @@ import com.richetoku.richstuff.rikumimita.RikumiMitaEntity;
 import com.richetoku.richstuff.rikumimita.RikumiMitaMenu;
 import com.richetoku.richstuff.rikumimita.RikumiMitaPresentBlock;
 import com.richetoku.richstuff.rikumimita.RikumiMitaPresentBlockEntity;
+import com.richetoku.richstuff.rikumimita.ai.RikumiAiLifecycle;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -32,6 +33,7 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.common.extensions.IMenuTypeExtension;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
@@ -62,11 +64,24 @@ public final class RichStuff {
 
     public static final Map<String, DeferredBlock<Block>> BLOCKS = new LinkedHashMap<>();
     public static final Map<String, DeferredItem<? extends Item>> ITEMS = new LinkedHashMap<>();
+    public static final DeferredItem<Item> SLIME_TREAT = ITEM_REGISTRY.register("slime_treat", () -> new SlimeTreatItem(new Item.Properties().stacksTo(16)));
     public static final Map<String, DeferredBlock<Block>> CRYSTAL_GROWTH_BLOCKS = new LinkedHashMap<>();
     public static final Map<String, DeferredHolder<EntityType<?>, EntityType<RichStuffMetalSlime>>> METAL_SLIMES = new LinkedHashMap<>();
+    public static final Map<String, DeferredItem<? extends Item>> METAL_SLIME_EGGS = new LinkedHashMap<>();
 
     public static final DeferredHolder<SoundEvent, SoundEvent> RICH_GEAR_LEVEL_UP = SOUND_REGISTRY.register("rich_gear_level_up",
             () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "rich_gear_level_up")));
+    public static final DeferredHolder<SoundEvent, SoundEvent> RIKUMI_GREETING = rikumiVoice("rikumi_greeting");
+    public static final DeferredHolder<SoundEvent, SoundEvent> RIKUMI_WORKING = rikumiVoice("rikumi_working");
+    public static final DeferredHolder<SoundEvent, SoundEvent> RIKUMI_FOUND = rikumiVoice("rikumi_found");
+    public static final DeferredHolder<SoundEvent, SoundEvent> RIKUMI_WARNING = rikumiVoice("rikumi_warning");
+    public static final DeferredHolder<SoundEvent, SoundEvent> RIKUMI_CRAFTING = rikumiVoice("rikumi_crafting");
+    public static final DeferredHolder<SoundEvent, SoundEvent> RIKUMI_IDLE = rikumiVoice("rikumi_idle");
+
+    private static DeferredHolder<SoundEvent, SoundEvent> rikumiVoice(String id) {
+        return SOUND_REGISTRY.register(id,
+                () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, id)));
+    }
 
     public static final DeferredBlock<CoinPileBlock> COIN_PILE = BLOCK_REGISTRY.register("coin_pile", () -> new CoinPileBlock(
             BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(0.25F).sound(SoundType.COPPER).noOcclusion()));
@@ -75,7 +90,7 @@ public final class RichStuff {
 
     public static final DeferredHolder<EntityType<?>, EntityType<RikumiMitaEntity>> RIKUMI_MITA_ENTITY = ENTITY_REGISTRY.register(
             "rikumi_mita", () -> EntityType.Builder.<RikumiMitaEntity>of(RikumiMitaEntity::new, MobCategory.CREATURE)
-                    .sized(0.72F, 2.15F).clientTrackingRange(12).updateInterval(2)
+                    .sized(0.72F, 2.72F).clientTrackingRange(12).updateInterval(2)
                     .build(ResourceLocation.fromNamespaceAndPath(MODID, "rikumi_mita").toString()));
     public static final DeferredHolder<MenuType<?>, MenuType<RikumiMitaMenu>> RIKUMI_MITA_MENU =
             MENU_REGISTRY.register("rikumi_mita", () -> IMenuTypeExtension.create(RikumiMitaMenu::new));
@@ -185,6 +200,8 @@ public final class RichStuff {
         RichTierProgressionApi.registerResolver(MODID, RichStuffProgression::tierFor);
         registerManualContent();
         registerGeneratedContent();
+        ITEMS.put("slime_treat", SLIME_TREAT);
+        registerMachineProcessingResources();
         registerMetalSlimes();
         RichStuffFallbackFluids.registerAll();
         BLOCK_REGISTRY.register(modBus); ITEM_REGISTRY.register(modBus); RichStuffMoltenFluids.FLUID_TYPES.register(modBus);
@@ -202,6 +219,7 @@ public final class RichStuff {
             modBus.addListener(RichStuffClient::registerRenderers); modBus.addListener(RichStuffClient::registerItemDecorations); modBus.addListener(RichStuffClient::registerMenuScreens);
         }
         container.registerConfig(ModConfig.Type.COMMON, RichStuffConfig.SPEC);
+        RikumiAiLifecycle.register();
         LOGGER.info("Rich Stuff core registered {} blocks, {} items, {} molten families and {} native gear material profiles.",
                 BLOCKS.size(), ITEMS.size(), RichStuffMoltenFluids.MOLTEN.size(), RichGearProfiles.all().size());
     }
@@ -240,41 +258,73 @@ public final class RichStuff {
         event.registerItem(Capabilities.FluidHandler.ITEM,
                 (stack, context) -> new com.richetoku.richcore.api.RichFluidItemHandler(stack,
                         stack.getItem() instanceof RichTankBlockItem tank ? tank.capacity() : 1000), tankItems);
+        Item[] vesselItems = ITEMS.entrySet().stream()
+                .filter(entry -> isFluidVesselId(entry.getKey()))
+                .map(entry -> entry.getValue().get()).toArray(Item[]::new);
+        if (vesselItems.length > 0) {
+            event.registerItem(Capabilities.FluidHandler.ITEM,
+                    (stack, context) -> new com.richetoku.richcore.api.RichFluidItemHandler(stack, 1000), vesselItems);
+        }
     }
 
+
+    public static boolean isFluidVesselId(String id) {
+        return id != null && (id.equals("empty_jar") || id.endsWith("_juice_jar")
+                || id.endsWith("_cream_jar") || id.endsWith("_cream_frosting_jar"));
+    }
     private static String roman(int value) {
         return switch (value) { case 1 -> "I"; case 2 -> "II"; case 3 -> "III"; case 4 -> "IV"; case 5 -> "V"; case 6 -> "VI"; default -> "VII"; };
     }
 
     private static void registerMetalSlimes() {
-        for (RichStuffSlimeCatalog.MetalSlimeDef def : RichStuffSlimeCatalog.METAL_SLIMES) METAL_SLIMES.put(def.material(), ENTITY_REGISTRY.register(def.entityId(), () ->
-                EntityType.Builder.<RichStuffMetalSlime>of(RichStuffMetalSlime::new, MobCategory.MONSTER).sized(1.04F,1.04F)
-                        .clientTrackingRange(10).updateInterval(3).build(ResourceLocation.fromNamespaceAndPath(MODID,def.entityId()).toString())));
+        for (RichStuffSlimeCatalog.MetalSlimeDef def : RichStuffSlimeCatalog.METAL_SLIMES) {
+            DeferredHolder<EntityType<?>, EntityType<RichStuffMetalSlime>> entity = ENTITY_REGISTRY.register(def.entityId(), () ->
+                    EntityType.Builder.<RichStuffMetalSlime>of(RichStuffMetalSlime::new, MobCategory.MONSTER).sized(1.04F,1.04F)
+                            .clientTrackingRange(12).updateInterval(2).build(ResourceLocation.fromNamespaceAndPath(MODID,def.entityId()).toString()));
+            METAL_SLIMES.put(def.material(), entity);
+            int primary=(def.red()<<16)|(def.green()<<8)|def.blue();
+            int secondary=((Math.min(255,def.red()+55))<<16)|((Math.min(255,def.green()+55))<<8)|Math.min(255,def.blue()+55);
+            DeferredItem<? extends Item> egg=ITEM_REGISTRY.register(def.entityId()+"_spawn_egg", () ->
+                    new DeferredSpawnEggItem(entity, primary, secondary, new Item.Properties()));
+            METAL_SLIME_EGGS.put(def.material(), egg); ITEMS.put(def.entityId()+"_spawn_egg", egg);
+        }
     }
     private static void registerSpawnPlacements(RegisterSpawnPlacementsEvent event) { METAL_SLIMES.values().forEach(holder -> event.register(holder.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, RichStuffMetalSlime::checkMetalSlimeSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE)); }
-    private static void registerEntityAttributes(EntityAttributeCreationEvent event) { METAL_SLIMES.values().forEach(holder -> event.put(holder.get(), RichStuffMetalSlime.createAttributes().build())); event.put(RIKUMI_MITA_ENTITY.get(), RikumiMitaEntity.createAttributes().build()); }
+    private static void registerEntityAttributes(EntityAttributeCreationEvent event) {
+        for (RichStuffSlimeCatalog.MetalSlimeDef def : RichStuffSlimeCatalog.METAL_SLIMES) {
+            var holder=METAL_SLIMES.get(def.material()); if(holder!=null) event.put(holder.get(), RichStuffMetalSlime.createAttributes(def.tier()).build());
+        }
+        event.put(RIKUMI_MITA_ENTITY.get(), RikumiMitaEntity.createAttributes().build());
+    }
+
+    /** Shared material intermediates consumed by Rich Machines through Rich Stuff/common tags. */
+    private static void registerMachineProcessingResources() {
+        for (String id : List.of("iron_washed", "iron_refined", "copper_washed", "copper_refined",
+                "gold_washed", "gold_refined", "dark_iron_crushed", "dark_iron_washed", "dark_iron_refined",
+                "empty_jar")) {
+            registerGeneratedItem(id);
+        }
+    }
 
     private static void registerGeneratedContent() {
-        Set<String> jars = new HashSet<>(Set.of(RichStuffCatalog.STACKABLE_JARS));
-        Set<String> jugs = new HashSet<>(Set.of(RichStuffCatalog.STACKABLE_JUGS));
         Set<String> blocks = new HashSet<>(Set.of(RichStuffCatalog.BLOCK_IDS));
         Set<String> items = new HashSet<>(Set.of(RichStuffCatalog.ITEM_ONLY_IDS));
         for (MaterialDef material : RichStuffCatalog.MATERIALS) {
             List<String> family = new ArrayList<>();
             blocks.stream().filter(id -> belongsToFamily(id, material.name())).forEach(family::add);
             items.stream().filter(id -> belongsToFamily(id, material.name())).forEach(family::add);
-            family.stream().distinct().sorted().forEach(id -> { boolean block=blocks.remove(id); items.remove(id); if(RichContentPartition.isCoreId(id)) registerCatalogId(id,block,jars.contains(id),jugs.contains(id)); });
+            family.stream().distinct().sorted().forEach(id -> { boolean block=blocks.remove(id); items.remove(id); if(RichContentPartition.isCoreId(id)) registerCatalogId(id,block); });
             if (material.kind().equals("dust")) {
-                if (material.name().equals("redstone")) { registerCatalogId("redstone_small_dust",true,false,false); registerCatalogId("redstone_tiny_dust",true,false,false); }
+                if (material.name().equals("redstone")) { registerCatalogId("redstone_small_dust",true); registerCatalogId("redstone_tiny_dust",true); }
                 else if (!material.name().equals("glowstone")) { registerGeneratedItem(material.name()+"_small_dust"); registerGeneratedItem(material.name()+"_tiny_dust"); }
             }
             RichStuffMoltenFluids.register(material); if(material.isCrystal()) registerCrystalGrowthFamily(material);
         }
-        List<String> rest=new ArrayList<>(); rest.addAll(blocks); rest.addAll(items); rest.stream().distinct().sorted().forEach(id->{ if(RichContentPartition.isCoreId(id)) registerCatalogId(id,blocks.contains(id),jars.contains(id),jugs.contains(id)); });
+        List<String> rest=new ArrayList<>(); rest.addAll(blocks); rest.addAll(items); rest.stream().distinct().sorted().forEach(id->{ if(RichContentPartition.isCoreId(id)) registerCatalogId(id,blocks.contains(id)); });
     }
 
     private static boolean belongsToFamily(String id,String material){ return id.equals(material)||id.startsWith(material+"_")||((id.startsWith("base_")||id.startsWith("filled_")||id.startsWith("unfired_"))&&id.contains("_"+material+"_")); }
-    private static void registerCatalogId(String id,boolean isBlock,boolean jar,boolean jug) {
+    private static void registerCatalogId(String id,boolean isBlock) {
         if(ITEMS.containsKey(id))return;
         if(isBlock||isPlaceableMoldId(id)||isRedstoneWireId(id)) {
             DeferredBlock<Block> block=BLOCK_REGISTRY.register(id,blockFactory(id)); BLOCKS.put(id,block);
@@ -283,7 +333,15 @@ public final class RichStuff {
         else if(id.endsWith("_coin")) ITEMS.put(id,ITEM_REGISTRY.register(id,()->new CoinItem(new Item.Properties())));
         else registerGeneratedItem(id);
     }
-    private static void registerGeneratedItem(String id){ if(!ITEMS.containsKey(id))ITEMS.put(id,ITEM_REGISTRY.register(id,()->new Item(new Item.Properties()))); }
+    private static void registerGeneratedItem(String id){
+        if (ITEMS.containsKey(id)) return;
+        if (id.equals("empty_jar")) {
+            ITEMS.put(id, ITEM_REGISTRY.register(id, () -> new RichJarItem(new Item.Properties())));
+        } else {
+            ITEMS.put(id, ITEM_REGISTRY.register(id,
+                    () -> new Item(isFluidVesselId(id) ? new Item.Properties().stacksTo(8) : new Item.Properties())));
+        }
+    }
     private static void registerCrystalGrowthFamily(MaterialDef material){ if(!ITEMS.containsKey(material.name())&&!ITEMS.containsKey(material.name()+"_shard"))registerGeneratedItem(material.name()+"_shard"); registerCrystalStage("small_"+material.name()+"_crystal_bud",material.name(),1,3,4); registerCrystalStage("medium_"+material.name()+"_crystal_bud",material.name(),2,4,3); registerCrystalStage("large_"+material.name()+"_crystal_bud",material.name(),3,5,3); registerCrystalStage(material.name()+"_crystal_cluster",material.name(),4,7,3); }
     private static void registerCrystalStage(String id,String material,int stage,float height,float offset){ if(BLOCKS.containsKey(id))return; DeferredBlock<Block> block=BLOCK_REGISTRY.register(id,()->new RichCrystalGrowthBlock(height,offset,BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).strength(stage==4?1.5F:0.5F).sound(SoundType.AMETHYST_CLUSTER).noOcclusion(),material,stage)); BLOCKS.put(id,block); CRYSTAL_GROWTH_BLOCKS.put(id,block); ITEMS.put(id,ITEM_REGISTRY.register(id,()->new BlockItem(block.get(),new Item.Properties()))); }
     private static Supplier<Block> blockFactory(String id){ return ()->{

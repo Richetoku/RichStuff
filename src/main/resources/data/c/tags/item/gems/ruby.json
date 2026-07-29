@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:ruby",
-    "richstuff:ruby"
+    {
+      "id": "richores:ruby",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby",
+      "required": false
+    }
   ]
 }

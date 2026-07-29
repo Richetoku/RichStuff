@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/lapis_lazuli"
+    {
+      "id": "#c:plates/lapis_lazuli",
+      "required": false
+    }
   ]
 }

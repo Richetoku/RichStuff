@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/heliodor"
+    {
+      "id": "#c:coins/heliodor",
+      "required": false
+    }
   ]
 }

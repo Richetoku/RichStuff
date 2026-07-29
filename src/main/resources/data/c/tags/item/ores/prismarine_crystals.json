@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:prismarine_crystals_ore",
-    "richores:deepslate_prismarine_crystals_ore"
+    {
+      "id": "richores:prismarine_crystals_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_prismarine_crystals_ore",
+      "required": false
+    }
   ]
 }

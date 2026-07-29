@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lapis_lazuli_block"
+    {
+      "id": "richstuff:lapis_lazuli_block",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copper_gear"
+    {
+      "id": "richstuff:copper_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/moldavite"
+    {
+      "id": "#c:gems/moldavite",
+      "required": false
+    }
   ]
 }

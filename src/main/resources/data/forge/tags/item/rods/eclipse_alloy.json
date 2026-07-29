@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/eclipse_alloy"
+    {
+      "id": "#c:rods/eclipse_alloy",
+      "required": false
+    }
   ]
 }

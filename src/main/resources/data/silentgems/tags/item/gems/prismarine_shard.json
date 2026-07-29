@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:prismarine_shard_rod"
+    {
+      "id": "richstuff:prismarine_shard_rod",
+      "required": false
+    }
   ]
 }

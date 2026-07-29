@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:sulfur_nugget"
+    {
+      "id": "richstuff:sulfur_nugget",
+      "required": false
+    }
   ]
 }

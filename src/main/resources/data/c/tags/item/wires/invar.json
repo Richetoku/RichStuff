@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:invar_wire"
+    {
+      "id": "richstuff:invar_wire",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/uranium"
+    {
+      "id": "#c:nuggets/uranium",
+      "required": false
+    }
   ]
 }

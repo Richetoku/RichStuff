@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_iolite_block"
+    {
+      "id": "richstuff:raw_iolite_block",
+      "required": false
+    }
   ]
 }

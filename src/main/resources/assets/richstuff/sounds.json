@@ -11,13 +11,99 @@
     "subtitle": "subtitles.richstuff.rich_gear.level_up",
     "sounds": [
       {
-        "name": "minecraft:entity/player/levelup",
+        "name": "minecraft:entity.player.levelup",
+        "type": "event",
         "volume": 0.75
       },
       {
-        "name": "minecraft:block/amethyst_block/chime",
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event",
         "volume": 0.45,
         "pitch": 1.15
+      }
+    ]
+  },
+  "rikumi_greeting": {
+    "subtitle": "subtitles.richstuff.rikumi_greeting",
+    "sounds": [
+      {
+        "name": "richstuff:rikumi_voice/ai/tamed1"
+      },
+      {
+        "name": "richstuff:rikumi_voice/ai/tamed4"
+      },
+      {
+        "name": "richstuff:rikumi_voice/ai/tamed9"
+      }
+    ]
+  },
+  "rikumi_working": {
+    "subtitle": "subtitles.richstuff.rikumi_working",
+    "sounds": [
+      {
+        "name": "richstuff:rikumi_voice/mode/farm2"
+      },
+      {
+        "name": "richstuff:rikumi_voice/mode/farm4"
+      },
+      {
+        "name": "richstuff:rikumi_voice/mode/farm7"
+      }
+    ]
+  },
+  "rikumi_found": {
+    "subtitle": "subtitles.richstuff.rikumi_found",
+    "sounds": [
+      {
+        "name": "richstuff:rikumi_voice/ai/item_get1"
+      },
+      {
+        "name": "richstuff:rikumi_voice/ai/item_get6"
+      },
+      {
+        "name": "richstuff:rikumi_voice/ai/item_get13"
+      }
+    ]
+  },
+  "rikumi_warning": {
+    "subtitle": "subtitles.richstuff.rikumi_warning",
+    "sounds": [
+      {
+        "name": "richstuff:rikumi_voice/ai/find_target2"
+      },
+      {
+        "name": "richstuff:rikumi_voice/ai/find_target7"
+      },
+      {
+        "name": "richstuff:rikumi_voice/ai/find_target14"
+      }
+    ]
+  },
+  "rikumi_crafting": {
+    "subtitle": "subtitles.richstuff.rikumi_crafting",
+    "sounds": [
+      {
+        "name": "richstuff:rikumi_voice/mode/farm19"
+      },
+      {
+        "name": "richstuff:rikumi_voice/mode/shears10"
+      },
+      {
+        "name": "richstuff:rikumi_voice/mode/milk6"
+      }
+    ]
+  },
+  "rikumi_idle": {
+    "subtitle": "subtitles.richstuff.rikumi_idle",
+    "sounds": [
+      {
+        "name": "richstuff:rikumi_voice/mode/idle3"
+      },
+      {
+        "name": "richstuff:rikumi_voice/mode/idle13"
+      },
+      {
+        "name": "richstuff:rikumi_voice/mode/idle28"
       }
     ]
   }

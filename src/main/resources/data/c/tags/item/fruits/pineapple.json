@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:pineappleitem",
-    "pamhc2crops:pineappleitem"
+    {
+      "id": "pamhc2trees:pineappleitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:pineappleitem",
+      "required": false
+    }
   ]
 }

@@ -5,7 +5,8 @@
   "enabled": true,
   "color": "#FFFFFF",
   "forms": [
-    "ghast_tear_block"
+    "ghast_tear_block",
+    "ghast_tear_filled_block_mold"
   ],
   "skipForms": [],
   "crystalGrowthOnly": false

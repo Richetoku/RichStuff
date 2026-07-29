@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:blaze_gold_dust_block"
+    {
+      "id": "richstuff:blaze_gold_dust_block",
+      "required": false
+    }
   ]
 }

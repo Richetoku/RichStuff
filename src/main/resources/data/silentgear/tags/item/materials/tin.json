@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tin_ingot",
-    "richstuff:tin_rod",
-    "richstuff:tin_plate",
-    "richstuff:tin_gear"
+    {
+      "id": "richstuff:tin_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_gear",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:uranite",
-    "richstuff:uranite"
+    {
+      "id": "richores:uranite",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite",
+      "required": false
+    }
   ]
 }

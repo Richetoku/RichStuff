@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/tin"
+    {
+      "id": "#c:molten/tin",
+      "required": false
+    }
   ]
 }

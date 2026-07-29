@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/tin"
+    {
+      "id": "#c:nuggets/tin",
+      "required": false
+    }
   ]
 }

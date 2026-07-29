@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/amethyst"
+    {
+      "id": "#c:raw_materials/amethyst",
+      "required": false
+    }
   ]
 }

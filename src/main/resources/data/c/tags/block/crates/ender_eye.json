@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ender_eye_crate"
+    {
+      "id": "richstuff:ender_eye_crate",
+      "required": false
+    }
   ]
 }

@@ -3,8 +3,8 @@
   "biomes": "#richstuff:metal_slime_spawns/azure_silver",
   "spawners": {
     "type": "richstuff:azure_silver_slime",
-    "weight": 7,
+    "weight": 12,
     "minCount": 1,
-    "maxCount": 1
+    "maxCount": 2
   }
 }

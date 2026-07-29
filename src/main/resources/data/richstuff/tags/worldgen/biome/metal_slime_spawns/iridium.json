@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:is_overworld"
+    "minecraft:forest",
+    "minecraft:deep_dark"
   ]
 }

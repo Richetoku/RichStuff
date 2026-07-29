@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:black_diamond_spring"
+    {
+      "id": "richstuff:black_diamond_spring",
+      "required": false
+    }
   ]
 }

@@ -1,8 +1,39 @@
 {
   "multipart": [
     {
+      "when": {
+        "north": "false",
+        "west": "false"
+      },
       "apply": {
-        "model": "richstuff:block/rich_tank_i_core"
+        "model": "richstuff:block/rich_tank_i_post_nw"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "richstuff:block/rich_tank_i_post_ne"
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "richstuff:block/rich_tank_i_post_sw"
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "richstuff:block/rich_tank_i_post_se"
       }
     },
     {

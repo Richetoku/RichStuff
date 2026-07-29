@@ -39,3 +39,10 @@ local.properties
 # Scripts and tools (generated)
 tools/validate_worldgen.py
 scripts/
+
+# Runtime / client working directory
+run/
+
+# Crash dumps (hotspot replay files already covered by *.log below)
+hs_err_pid*.log
+replay_pid*.log

@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:uranium_rod",
+    {
+      "id": "richstuff:uranium_rod",
+      "required": false
+    },
     {
       "id": "vintageimprovements:uranium_rod",
       "required": false

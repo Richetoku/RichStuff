@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/uranite"
+    {
+      "id": "#c:shards/uranite",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_shard",
+      "required": false
+    }
   ]
 }

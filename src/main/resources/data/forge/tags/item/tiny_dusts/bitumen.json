@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:tiny_dusts/bitumen"
+    {
+      "id": "#c:tiny_dusts/bitumen",
+      "required": false
+    }
   ]
 }

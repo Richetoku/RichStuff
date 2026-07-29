@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/crimson_steel"
+    {
+      "id": "#c:storage_blocks/crimson_steel",
+      "required": false
+    }
   ]
 }

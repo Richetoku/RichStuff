@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/tin"
+    {
+      "id": "#c:raw_materials/tin",
+      "required": false
+    }
   ]
 }

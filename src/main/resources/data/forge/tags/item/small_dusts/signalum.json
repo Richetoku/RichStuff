@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/signalum"
+    {
+      "id": "#c:small_dusts/signalum",
+      "required": false
+    }
   ]
 }

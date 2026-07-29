@@ -150,7 +150,7 @@ public final class RichTankBlock extends BaseEntityBlock {
             return ItemInteractionResult.SUCCESS;
         }
 
-        // Fluid item capabilities mutate their container. Work on one copy so stacked jars/jugs never
+        // Fluid item capabilities mutate their container. Work on one copy so stacked jars never
         // share component data across the stack.
         ItemStack single = held.copyWithCount(1);
         IFluidHandlerItem itemHandler = single.getCapability(Capabilities.FluidHandler.ITEM);

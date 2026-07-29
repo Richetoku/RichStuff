@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/turquoise"
+    {
+      "id": "#c:coins/turquoise",
+      "required": false
+    }
   ]
 }

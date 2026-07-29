@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:iron_rod",
+    {
+      "id": "richstuff:iron_rod",
+      "required": false
+    },
     {
       "id": "vintageimprovements:cast_iron_rod",
       "required": false

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:nickel_ingot",
-    "richstuff:nickel_rod",
-    "richstuff:nickel_plate",
-    "richstuff:nickel_gear"
+    {
+      "id": "richstuff:nickel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_gear",
+      "required": false
+    }
   ]
 }

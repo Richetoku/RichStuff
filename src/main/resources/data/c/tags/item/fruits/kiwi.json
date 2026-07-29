@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:kiwiitem",
-    "pamhc2crops:kiwiitem"
+    {
+      "id": "pamhc2trees:kiwiitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:kiwiitem",
+      "required": false
+    }
   ]
 }

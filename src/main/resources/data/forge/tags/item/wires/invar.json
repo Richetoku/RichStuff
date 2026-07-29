@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/invar"
+    {
+      "id": "#c:wires/invar",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:topaz",
-    "richstuff:topaz"
+    {
+      "id": "richores:topaz",
+      "required": false
+    },
+    {
+      "id": "richstuff:topaz",
+      "required": false
+    }
   ]
 }

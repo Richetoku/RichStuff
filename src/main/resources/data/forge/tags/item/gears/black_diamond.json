@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/black_diamond"
+    {
+      "id": "#c:gears/black_diamond",
+      "required": false
+    }
   ]
 }

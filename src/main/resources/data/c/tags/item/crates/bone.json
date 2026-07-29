@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:bone_crate"
+    {
+      "id": "richstuff:bone_crate",
+      "required": false
+    }
   ]
 }

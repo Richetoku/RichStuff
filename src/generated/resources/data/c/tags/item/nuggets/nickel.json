@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:nickel_nugget",
+    {
+      "id": "richstuff:nickel_nugget",
+      "required": false
+    },
     {
       "id": "oritech:nickel_nugget",
       "required": false

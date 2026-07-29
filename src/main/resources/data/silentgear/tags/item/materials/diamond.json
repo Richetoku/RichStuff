@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:diamond_polished",
-    "richstuff:diamond_rod"
+    {
+      "id": "richstuff:diamond_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:diamond_rod",
+      "required": false
+    }
   ]
 }

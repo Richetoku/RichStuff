@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/lead"
+    {
+      "id": "#c:small_dusts/lead",
+      "required": false
+    }
   ]
 }

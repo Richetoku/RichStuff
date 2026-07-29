@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/moldavite"
+    {
+      "id": "#c:small_dusts/moldavite",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:aluminum_ingot",
-    "richstuff:aluminum_rod",
-    "richstuff:aluminum_plate",
-    "richstuff:aluminum_gear"
+    {
+      "id": "richstuff:aluminum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:aluminum_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:aluminum_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:aluminum_gear",
+      "required": false
+    }
   ]
 }

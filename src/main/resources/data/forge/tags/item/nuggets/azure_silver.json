@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/azure_silver"
+    {
+      "id": "#c:nuggets/azure_silver",
+      "required": false
+    }
   ]
 }

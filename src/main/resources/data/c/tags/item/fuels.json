@@ -1,8 +1,17 @@
 {
   "replace": false,
   "values": [
-    "#c:fuels/charcoal",
-    "#c:fuels/coal",
-    "#c:fuels/nether_charcoal"
+    {
+      "id": "#c:fuels/charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:fuels/coal",
+      "required": false
+    },
+    {
+      "id": "#c:fuels/nether_charcoal",
+      "required": false
+    }
   ]
 }

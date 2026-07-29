@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:pawpawitem",
-    "pamhc2crops:pawpawitem"
+    {
+      "id": "pamhc2trees:pawpawitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:pawpawitem",
+      "required": false
+    }
   ]
 }

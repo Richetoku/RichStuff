@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/signalum"
+    {
+      "id": "#c:storage_blocks/signalum",
+      "required": false
+    }
   ]
 }

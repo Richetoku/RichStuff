@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ammolite_polished",
-    "richstuff:ammolite_rod"
+    {
+      "id": "richstuff:ammolite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_rod",
+      "required": false
+    }
   ]
 }

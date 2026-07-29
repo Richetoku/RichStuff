@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:gold_ingot",
-    "richstuff:gold_rod",
-    "richstuff:gold_plate",
-    "richstuff:gold_gear"
+    {
+      "id": "richstuff:gold_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_gear",
+      "required": false
+    }
   ]
 }

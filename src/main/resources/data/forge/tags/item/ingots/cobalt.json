@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/cobalt"
+    {
+      "id": "#c:ingots/cobalt",
+      "required": false
+    }
   ]
 }

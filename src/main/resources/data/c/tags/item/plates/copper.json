@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copper_plate"
+    {
+      "id": "richstuff:copper_plate",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/tyrian_steel"
+    {
+      "id": "#c:ingots/tyrian_steel",
+      "required": false
+    }
   ]
 }

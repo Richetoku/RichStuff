@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:emerald_plate"
+    {
+      "id": "richstuff:emerald_plate",
+      "required": false
+    }
   ]
 }

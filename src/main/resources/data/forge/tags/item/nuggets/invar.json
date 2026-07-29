@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/invar"
+    {
+      "id": "#c:nuggets/invar",
+      "required": false
+    }
   ]
 }

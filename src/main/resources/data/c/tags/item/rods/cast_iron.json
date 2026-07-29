@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:cast_iron_rod"
+    {
+      "id": "richstuff:cast_iron_rod",
+      "required": false
+    }
   ]
 }

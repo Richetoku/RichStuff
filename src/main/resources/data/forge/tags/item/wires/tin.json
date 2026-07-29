@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/tin"
+    {
+      "id": "#c:wires/tin",
+      "required": false
+    }
   ]
 }

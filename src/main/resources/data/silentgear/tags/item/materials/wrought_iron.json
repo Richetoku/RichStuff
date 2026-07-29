@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:wrought_iron_rod"
+    {
+      "id": "richstuff:wrought_iron_rod",
+      "required": false
+    }
   ]
 }

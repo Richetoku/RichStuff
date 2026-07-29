@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_coin"
+    {
+      "id": "richstuff:constantan_coin",
+      "required": false
+    }
   ]
 }

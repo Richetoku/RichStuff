@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/azure_electrum"
+    {
+      "id": "#c:wires/azure_electrum",
+      "required": false
+    }
   ]
 }

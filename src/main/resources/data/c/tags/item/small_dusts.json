@@ -1,68 +1,257 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/alexandrite",
-    "#c:small_dusts/aluminum",
-    "#c:small_dusts/amethyst",
-    "#c:small_dusts/ammolite",
-    "#c:small_dusts/andesite_alloy",
-    "#c:small_dusts/azure_electrum",
-    "#c:small_dusts/azure_silver",
-    "#c:small_dusts/bitumen",
-    "#c:small_dusts/black_diamond",
-    "#c:small_dusts/blaze_gold",
-    "#c:small_dusts/brass",
-    "#c:small_dusts/bronze",
-    "#c:small_dusts/carnelian",
-    "#c:small_dusts/cast_iron",
-    "#c:small_dusts/charcoal",
-    "#c:small_dusts/citrine",
-    "#c:small_dusts/coal",
-    "#c:small_dusts/cobalt",
-    "#c:small_dusts/constantan",
-    "#c:small_dusts/copper",
-    "#c:small_dusts/copronickel",
-    "#c:small_dusts/crimson_iron",
-    "#c:small_dusts/crimson_steel",
-    "#c:small_dusts/diamond",
-    "#c:small_dusts/electrum",
-    "#c:small_dusts/emerald",
-    "#c:small_dusts/enderium",
-    "#c:small_dusts/gold",
-    "#c:small_dusts/heliodor",
-    "#c:small_dusts/invar",
-    "#c:small_dusts/iolite",
-    "#c:small_dusts/iridium",
-    "#c:small_dusts/iron",
-    "#c:small_dusts/kyanite",
-    "#c:small_dusts/lapis_lazuli",
-    "#c:small_dusts/lead",
-    "#c:small_dusts/lithium",
-    "#c:small_dusts/lumium",
-    "#c:small_dusts/moldavite",
-    "#c:small_dusts/nether_charcoal",
-    "#c:small_dusts/netherite",
-    "#c:small_dusts/nickel",
-    "#c:small_dusts/osmium",
-    "#c:small_dusts/peridot",
-    "#c:small_dusts/platinum",
-    "#c:small_dusts/prismarine",
-    "#c:small_dusts/quartz",
-    "#c:small_dusts/reinforced_copper",
-    "#c:small_dusts/rose_quartz",
-    "#c:small_dusts/ruby",
-    "#c:small_dusts/sapphire",
-    "#c:small_dusts/signalum",
-    "#c:small_dusts/silver",
-    "#c:small_dusts/steel",
-    "#c:small_dusts/sulfur",
-    "#c:small_dusts/tin",
-    "#c:small_dusts/topaz",
-    "#c:small_dusts/turquoise",
-    "#c:small_dusts/tyrian_steel",
-    "#c:small_dusts/uranium",
-    "#c:small_dusts/vanadium",
-    "#c:small_dusts/white_diamond",
-    "#c:small_dusts/zinc"
+    {
+      "id": "#c:small_dusts/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/bitumen",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/brass",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/bronze",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/citrine",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/coal",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/constantan",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/copper",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/copronickel",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/enderium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/gold",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/invar",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/iolite",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/iron",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/lead",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/lithium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/lumium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/nether_charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/netherite",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/peridot",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/quartz",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/signalum",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/silver",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/steel",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/sulfur",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/tin",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/topaz",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:small_dusts/zinc",
+      "required": false
+    }
   ]
 }

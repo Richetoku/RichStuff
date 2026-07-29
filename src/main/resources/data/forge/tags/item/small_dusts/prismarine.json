@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/prismarine"
+    {
+      "id": "#c:small_dusts/prismarine",
+      "required": false
+    }
   ]
 }

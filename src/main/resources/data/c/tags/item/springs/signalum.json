@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:signalum_spring"
+    {
+      "id": "richstuff:signalum_spring",
+      "required": false
+    }
   ]
 }

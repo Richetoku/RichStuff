@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/signalum"
+    {
+      "id": "#c:nuggets/signalum",
+      "required": false
+    }
   ]
 }

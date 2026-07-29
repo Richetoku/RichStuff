@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_constantan_dust"
+    {
+      "id": "richstuff:small_constantan_dust",
+      "required": false
+    }
   ]
 }

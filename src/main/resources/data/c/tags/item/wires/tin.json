@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tin_wire"
+    {
+      "id": "richstuff:tin_wire",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/white_diamond"
+    {
+      "id": "#c:plates/white_diamond",
+      "required": false
+    }
   ]
 }

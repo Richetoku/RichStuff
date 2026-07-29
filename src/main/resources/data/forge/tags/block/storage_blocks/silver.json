@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/silver"
+    {
+      "id": "#c:storage_blocks/silver",
+      "required": false
+    }
   ]
 }

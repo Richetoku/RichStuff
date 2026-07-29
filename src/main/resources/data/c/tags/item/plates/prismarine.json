@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:prismarine_plate"
+    {
+      "id": "richstuff:prismarine_plate",
+      "required": false
+    }
   ]
 }

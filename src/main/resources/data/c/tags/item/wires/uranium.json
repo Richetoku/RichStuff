@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:uranium_wire"
+    {
+      "id": "richstuff:uranium_wire",
+      "required": false
+    }
   ]
 }

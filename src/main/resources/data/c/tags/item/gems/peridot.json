@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:peridot",
-    "richstuff:peridot"
+    {
+      "id": "richores:peridot",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot",
+      "required": false
+    }
   ]
 }

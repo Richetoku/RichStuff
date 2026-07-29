@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:silver_ingot",
-    "richstuff:silver_rod",
-    "richstuff:silver_plate",
-    "richstuff:silver_gear"
+    {
+      "id": "richstuff:silver_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_gear",
+      "required": false
+    }
   ]
 }

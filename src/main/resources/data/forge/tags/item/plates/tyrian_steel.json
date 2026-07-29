@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/tyrian_steel"
+    {
+      "id": "#c:plates/tyrian_steel",
+      "required": false
+    }
   ]
 }

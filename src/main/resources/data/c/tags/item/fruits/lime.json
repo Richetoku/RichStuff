@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:limeitem",
-    "pamhc2crops:limeitem"
+    {
+      "id": "pamhc2trees:limeitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:limeitem",
+      "required": false
+    }
   ]
 }

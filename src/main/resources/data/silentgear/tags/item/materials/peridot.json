@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:peridot_polished",
-    "richstuff:peridot_rod"
+    {
+      "id": "richstuff:peridot_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot_rod",
+      "required": false
+    }
   ]
 }

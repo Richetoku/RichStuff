@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/crimson_steel"
+    {
+      "id": "#c:nuggets/crimson_steel",
+      "required": false
+    }
   ]
 }

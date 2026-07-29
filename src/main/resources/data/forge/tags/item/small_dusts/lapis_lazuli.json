@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/lapis_lazuli"
+    {
+      "id": "#c:small_dusts/lapis_lazuli",
+      "required": false
+    }
   ]
 }

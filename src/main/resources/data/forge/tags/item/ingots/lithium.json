@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/lithium"
+    {
+      "id": "#c:ingots/lithium",
+      "required": false
+    }
   ]
 }

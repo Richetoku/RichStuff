@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:wolfberryitem",
-    "pamhc2crops:wolfberryitem"
+    {
+      "id": "pamhc2trees:wolfberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:wolfberryitem",
+      "required": false
+    }
   ]
 }

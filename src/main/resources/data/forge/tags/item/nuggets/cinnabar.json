@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:nuggets/cinnabar",
+      "required": false
+    },
+    {
+      "id": "richstuff:cinnabar_shard",
+      "required": false
+    }
+  ]
+}

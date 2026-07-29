@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_tin"
+    {
+      "id": "#c:storage_blocks/raw_tin",
+      "required": false
+    }
   ]
 }

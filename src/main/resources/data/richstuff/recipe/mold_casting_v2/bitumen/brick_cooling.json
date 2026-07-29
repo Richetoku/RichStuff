@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:bitumen_filled_brick_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:bitumen_brick"
+    },
+    {
+      "id": "richstuff:base_brick_mold"
+    }
+  ]
+}

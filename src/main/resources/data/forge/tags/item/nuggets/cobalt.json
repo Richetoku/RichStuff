@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/cobalt"
+    {
+      "id": "#c:nuggets/cobalt",
+      "required": false
+    }
   ]
 }

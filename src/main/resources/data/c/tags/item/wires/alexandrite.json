@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:alexandrite_wire"
+    {
+      "id": "richstuff:alexandrite_wire",
+      "required": false
+    }
   ]
 }

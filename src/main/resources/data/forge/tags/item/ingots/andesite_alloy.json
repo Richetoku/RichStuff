@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/andesite_alloy"
+    {
+      "id": "#c:ingots/andesite_alloy",
+      "required": false
+    }
   ]
 }

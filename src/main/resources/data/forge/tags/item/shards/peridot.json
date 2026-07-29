@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/peridot"
+    {
+      "id": "#c:shards/peridot",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot_shard",
+      "required": false
+    }
   ]
 }

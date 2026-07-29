@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/reinforced_copper"
+    {
+      "id": "#c:molten/reinforced_copper",
+      "required": false
+    }
   ]
 }

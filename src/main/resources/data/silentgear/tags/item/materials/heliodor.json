@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:heliodor_polished",
-    "richstuff:heliodor_rod"
+    {
+      "id": "richstuff:heliodor_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor_rod",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/prismarine"
+    {
+      "id": "#c:rods/prismarine",
+      "required": false
+    }
   ]
 }

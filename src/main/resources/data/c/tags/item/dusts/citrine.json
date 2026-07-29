@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:citrine_dust"
+    {
+      "id": "richstuff:citrine_dust",
+      "required": false
+    }
   ]
 }

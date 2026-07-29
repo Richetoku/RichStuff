@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:heliodor_block"
+    {
+      "id": "richstuff:heliodor_block",
+      "required": false
+    }
   ]
 }

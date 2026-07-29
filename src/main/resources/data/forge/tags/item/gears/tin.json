@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/tin"
+    {
+      "id": "#c:gears/tin",
+      "required": false
+    }
   ]
 }

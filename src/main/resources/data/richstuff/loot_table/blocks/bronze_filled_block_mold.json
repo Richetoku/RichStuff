@@ -8,6 +8,11 @@
           "type": "minecraft:item",
           "name": "richstuff:bronze_filled_block_mold"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

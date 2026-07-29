@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/ferricore"
+    {
+      "id": "#c:rods/ferricore",
+      "required": false
+    }
   ]
 }

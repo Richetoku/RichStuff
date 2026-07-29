@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/heliodor"
+    {
+      "id": "#c:shards/heliodor",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor_shard",
+      "required": false
+    }
   ]
 }

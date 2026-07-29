@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/ferricore"
+    {
+      "id": "#c:coins/ferricore",
+      "required": false
+    }
   ]
 }

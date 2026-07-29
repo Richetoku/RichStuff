@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_brass_block"
+    {
+      "id": "richstuff:raw_brass_block",
+      "required": false
+    }
   ]
 }

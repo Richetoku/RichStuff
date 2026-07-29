@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/fluorite"
+    {
+      "id": "#c:gems/fluorite",
+      "required": false
+    }
   ]
 }

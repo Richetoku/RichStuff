@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/cinnabar"
+    {
+      "id": "#c:shards/cinnabar",
+      "required": false
+    },
+    {
+      "id": "richstuff:cinnabar_shard",
+      "required": false
+    }
   ]
 }

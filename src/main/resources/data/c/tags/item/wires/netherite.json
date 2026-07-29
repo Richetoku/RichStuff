@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:netherite_wire"
+    {
+      "id": "richstuff:netherite_wire",
+      "required": false
+    }
   ]
 }

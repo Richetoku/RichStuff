@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/copronickel"
+    {
+      "id": "#c:wires/copronickel",
+      "required": false
+    }
   ]
 }

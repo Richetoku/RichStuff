@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/amethyst"
+    {
+      "id": "#c:plates/amethyst",
+      "required": false
+    }
   ]
 }

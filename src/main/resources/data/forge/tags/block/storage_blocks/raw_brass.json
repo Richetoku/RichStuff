@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_brass"
+    {
+      "id": "#c:storage_blocks/raw_brass",
+      "required": false
+    }
   ]
 }

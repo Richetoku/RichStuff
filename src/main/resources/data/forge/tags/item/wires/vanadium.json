@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/vanadium"
+    {
+      "id": "#c:wires/vanadium",
+      "required": false
+    }
   ]
 }

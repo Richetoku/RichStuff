@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:reinforced_copper_wire"
+    {
+      "id": "richstuff:reinforced_copper_wire",
+      "required": false
+    }
   ]
 }

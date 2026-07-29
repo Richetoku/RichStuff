@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/reinforced_copper"
+    {
+      "id": "#c:rods/reinforced_copper",
+      "required": false
+    }
   ]
 }

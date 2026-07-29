@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:apple_jelly",
-    "richstuff:flowing_apple_jelly"
+    {
+      "id": "richstuff:apple_jelly",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:tiny_dusts/nether_charcoal"
+    {
+      "id": "#c:tiny_dusts/nether_charcoal",
+      "required": false
+    }
   ]
 }

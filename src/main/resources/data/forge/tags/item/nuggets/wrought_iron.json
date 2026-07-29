@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/wrought_iron"
+    {
+      "id": "#c:nuggets/wrought_iron",
+      "required": false
+    }
   ]
 }

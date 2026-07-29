@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/enderium"
+    {
+      "id": "#c:molten/enderium",
+      "required": false
+    }
   ]
 }

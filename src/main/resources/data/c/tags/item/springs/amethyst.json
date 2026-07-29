@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:amethyst_spring"
+    {
+      "id": "richstuff:amethyst_spring",
+      "required": false
+    }
   ]
 }

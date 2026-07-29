@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:prismarine_shard_ore",
-    "richores:deepslate_prismarine_shard_ore"
+    {
+      "id": "richores:prismarine_shard_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_prismarine_shard_ore",
+      "required": false
+    }
   ]
 }

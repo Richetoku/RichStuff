@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:crimson_iron_block"
+    {
+      "id": "richstuff:crimson_iron_block",
+      "required": false
+    }
   ]
 }

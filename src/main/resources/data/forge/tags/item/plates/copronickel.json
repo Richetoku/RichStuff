@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/copronickel"
+    {
+      "id": "#c:plates/copronickel",
+      "required": false
+    }
   ]
 }

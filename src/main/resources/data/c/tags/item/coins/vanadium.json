@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:vanadium_coin"
+    {
+      "id": "richstuff:vanadium_coin",
+      "required": false
+    }
   ]
 }

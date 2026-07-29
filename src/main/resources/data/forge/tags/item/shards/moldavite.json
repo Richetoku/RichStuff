@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/moldavite"
+    {
+      "id": "#c:shards/moldavite",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_shard",
+      "required": false
+    }
   ]
 }

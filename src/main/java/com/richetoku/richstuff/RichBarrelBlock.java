@@ -49,5 +49,5 @@ public final class RichBarrelBlock extends BaseEntityBlock {
         if(!level.isClientSide()&&player instanceof ServerPlayer server)server.openMenu(barrel,b->{b.writeBlockPos(pos);b.writeVarInt(barrel.tier());});
         return InteractionResult.sidedSuccess(level.isClientSide());
     }
-    @Override protected List<ItemStack> getDrops(BlockState state,LootParams.Builder params){ItemStack stack=new ItemStack(asItem());BlockEntity entity=params.getOptionalParameter(LootContextParams.BLOCK_ENTITY);if(entity instanceof RichBarrelBlockEntity barrel)barrel.saveToItem(stack);return List.of(stack);}
+    @Override protected List<ItemStack> getDrops(BlockState state,LootParams.Builder params){java.util.ArrayList<ItemStack> drops=new java.util.ArrayList<>();drops.add(new ItemStack(asItem()));BlockEntity entity=params.getOptionalParameter(LootContextParams.BLOCK_ENTITY);if(entity instanceof RichBarrelBlockEntity barrel)drops.addAll(barrel.contentsForWorldDrops());return drops;}
 }

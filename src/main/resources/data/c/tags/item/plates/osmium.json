@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:osmium_plate"
+    {
+      "id": "richstuff:osmium_plate",
+      "required": false
+    }
   ]
 }

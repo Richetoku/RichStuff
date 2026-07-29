@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/alexandrite"
+    {
+      "id": "#c:gears/alexandrite",
+      "required": false
+    }
   ]
 }

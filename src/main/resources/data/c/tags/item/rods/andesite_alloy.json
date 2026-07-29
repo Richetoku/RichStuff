@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:andesite_alloy_rod"
+    {
+      "id": "richstuff:andesite_alloy_rod",
+      "required": false
+    }
   ]
 }

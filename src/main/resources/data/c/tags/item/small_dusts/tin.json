@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_tin_dust"
+    {
+      "id": "richstuff:small_tin_dust",
+      "required": false
+    }
   ]
 }

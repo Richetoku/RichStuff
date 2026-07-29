@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/constantan_dust"
+    {
+      "id": "#c:storage_blocks/constantan_dust",
+      "required": false
+    }
   ]
 }

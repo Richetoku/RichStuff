@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:azure_silver_rod"
+    {
+      "id": "richstuff:azure_silver_rod",
+      "required": false
+    }
   ]
 }

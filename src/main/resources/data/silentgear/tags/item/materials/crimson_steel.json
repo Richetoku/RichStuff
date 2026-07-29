@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:crimson_steel_ingot",
-    "richstuff:crimson_steel_rod",
-    "richstuff:crimson_steel_plate",
-    "richstuff:crimson_steel_gear"
+    {
+      "id": "richstuff:crimson_steel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_gear",
+      "required": false
+    }
   ]
 }

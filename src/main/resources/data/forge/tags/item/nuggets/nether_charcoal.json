@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/nether_charcoal"
+    {
+      "id": "#c:nuggets/nether_charcoal",
+      "required": false
+    }
   ]
 }

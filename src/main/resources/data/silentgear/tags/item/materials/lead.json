@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lead_ingot",
-    "richstuff:lead_rod",
-    "richstuff:lead_plate",
-    "richstuff:lead_gear"
+    {
+      "id": "richstuff:lead_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_gear",
+      "required": false
+    }
   ]
 }

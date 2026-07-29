@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/quartz"
+    {
+      "id": "#c:gears/quartz",
+      "required": false
+    }
   ]
 }

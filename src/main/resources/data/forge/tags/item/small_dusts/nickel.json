@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/nickel"
+    {
+      "id": "#c:small_dusts/nickel",
+      "required": false
+    }
   ]
 }

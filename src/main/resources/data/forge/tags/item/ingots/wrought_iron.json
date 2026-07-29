@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/wrought_iron"
+    {
+      "id": "#c:ingots/wrought_iron",
+      "required": false
+    }
   ]
 }

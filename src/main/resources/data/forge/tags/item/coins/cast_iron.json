@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/cast_iron"
+    {
+      "id": "#c:coins/cast_iron",
+      "required": false
+    }
   ]
 }

@@ -1,0 +1,297 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:aloe_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:apple_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:apricot_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:artichoke_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:asparagus_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:avocado_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:banana_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:barrelcactus_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:bell_pepper_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:bellpepper_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:blackberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:blueberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:breadfruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:cactusfruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:calabash_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:candleberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:cantaloupe_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:cherry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:chilipepper_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:chorus_fruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:cloudberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:cranberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:cucumber_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:date_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:dragonfruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:durian_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:eggplant_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:elderberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:fig_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:glow_berries_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:golden_apple_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:gooseberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:grape_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:grapefruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:greengrape_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:guarana_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:guava_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:huckleberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:jackfruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:juniperberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:kiwi_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:lemon_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:lime_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:lychee_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:mango_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:maplesyrup_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:melon_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:mulberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:olive_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:orange_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:papaya_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:passionfruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:pawpaw_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:peach_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:pear_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:persimmon_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:pineapple_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:plum_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:pomegranate_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:pumpkin_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:rambutan_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:raspberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:rhubarb_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:soursop_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:starfruit_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:strawberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:sweet_berries_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:tamarind_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:tomatillo_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:tomato_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:wintersquash_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:wolfberry_juice",
+      "required": false
+    },
+    {
+      "id": "richstuff:zucchini_juice",
+      "required": false
+    }
+  ]
+}

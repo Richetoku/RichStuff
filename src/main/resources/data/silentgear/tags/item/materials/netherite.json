@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:netherite_ingot",
-    "richstuff:netherite_rod",
-    "richstuff:netherite_plate",
-    "richstuff:netherite_gear"
+    {
+      "id": "richstuff:netherite_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_gear",
+      "required": false
+    }
   ]
 }

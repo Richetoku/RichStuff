@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/tyrian_steel"
+    {
+      "id": "#c:wires/tyrian_steel",
+      "required": false
+    }
   ]
 }

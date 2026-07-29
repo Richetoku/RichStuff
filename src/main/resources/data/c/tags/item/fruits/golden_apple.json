@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:golden_appleitem",
-    "pamhc2crops:golden_appleitem"
+    {
+      "id": "pamhc2trees:golden_appleitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:golden_appleitem",
+      "required": false
+    }
   ]
 }

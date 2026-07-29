@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_aluminum"
+    {
+      "id": "#c:storage_blocks/raw_aluminum",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:carnelian_ore",
-    "richores:deepslate_carnelian_ore"
+    {
+      "id": "richores:carnelian_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_carnelian_ore",
+      "required": false
+    }
   ]
 }

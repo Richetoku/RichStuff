@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:salt",
-    "richstuff:salt"
+    {
+      "id": "richores:salt",
+      "required": false
+    },
+    {
+      "id": "richstuff:salt",
+      "required": false
+    }
   ]
 }

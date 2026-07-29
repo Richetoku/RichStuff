@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/turquoise"
+    {
+      "id": "#c:wires/turquoise",
+      "required": false
+    }
   ]
 }

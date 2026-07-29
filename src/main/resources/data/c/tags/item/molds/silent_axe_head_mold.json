@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:silent_axe_head_mold"
+    {
+      "id": "richstuff:silent_axe_head_mold",
+      "required": false
+    }
   ]
 }

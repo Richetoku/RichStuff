@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ruby_rod"
+    {
+      "id": "richstuff:ruby_rod",
+      "required": false
+    }
   ]
 }

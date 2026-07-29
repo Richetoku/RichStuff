@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:heliodor_rod"
+    {
+      "id": "richstuff:heliodor_rod",
+      "required": false
+    }
   ]
 }

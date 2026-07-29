@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/brass"
+    {
+      "id": "#c:coins/brass",
+      "required": false
+    }
   ]
 }

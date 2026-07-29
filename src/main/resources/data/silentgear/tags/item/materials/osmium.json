@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:osmium_ingot",
-    "richstuff:osmium_rod",
-    "richstuff:osmium_plate",
-    "richstuff:osmium_gear"
+    {
+      "id": "richstuff:osmium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_gear",
+      "required": false
+    }
   ]
 }

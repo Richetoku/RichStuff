@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:rambutanitem",
-    "pamhc2crops:rambutanitem"
+    {
+      "id": "pamhc2trees:rambutanitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:rambutanitem",
+      "required": false
+    }
   ]
 }

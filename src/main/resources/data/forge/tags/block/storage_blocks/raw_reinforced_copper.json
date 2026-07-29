@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_reinforced_copper"
+    {
+      "id": "#c:storage_blocks/raw_reinforced_copper",
+      "required": false
+    }
   ]
 }

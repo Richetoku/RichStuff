@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:silent_boots_plates_mold"
+    {
+      "id": "richstuff:silent_boots_plates_mold",
+      "required": false
+    }
   ]
 }

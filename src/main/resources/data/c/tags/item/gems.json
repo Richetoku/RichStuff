@@ -1,48 +1,177 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/alexandrite",
-    "#c:gems/ammolite",
-    "#c:gems/black_diamond",
-    "#c:gems/carnelian",
-    "#c:gems/celestigem",
-    "#c:gems/cinnabar",
-    "#c:gems/citrine",
-    "#c:gems/diamond",
-    "#c:gems/emerald",
-    "#c:gems/fluorite",
-    "#c:gems/heliodor",
-    "#c:gems/iolite",
-    "#c:gems/kyanite",
-    "#c:gems/lapis_lazuli",
-    "#c:gems/moldavite",
-    "#c:gems/peridot",
-    "#c:gems/rose_quartz",
-    "#c:gems/ruby",
-    "#c:gems/sapphire",
-    "#c:gems/topaz",
-    "#c:gems/turquoise",
-    "#c:gems/white_diamond",
-    "richstuff:alexandrite_refined",
-    "richstuff:amethyst_refined",
-    "richstuff:ammolite_refined",
-    "richstuff:black_diamond_refined",
-    "richstuff:carnelian_refined",
-    "richstuff:citrine_refined",
-    "richstuff:diamond_refined",
-    "richstuff:emerald_refined",
-    "richstuff:heliodor_refined",
-    "richstuff:iolite_refined",
-    "richstuff:kyanite_refined",
-    "richstuff:lapis_lazuli_refined",
-    "richstuff:moldavite_refined",
-    "richstuff:peridot_refined",
-    "richstuff:quartz_refined",
-    "richstuff:rose_quartz_refined",
-    "richstuff:ruby_refined",
-    "richstuff:sapphire_refined",
-    "richstuff:topaz_refined",
-    "richstuff:turquoise_refined",
-    "richstuff:white_diamond_refined"
+    {
+      "id": "#c:gems/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:gems/carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:gems/celestigem",
+      "required": false
+    },
+    {
+      "id": "#c:gems/cinnabar",
+      "required": false
+    },
+    {
+      "id": "#c:gems/citrine",
+      "required": false
+    },
+    {
+      "id": "#c:gems/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:gems/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:gems/fluorite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:gems/iolite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:gems/moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:gems/peridot",
+      "required": false
+    },
+    {
+      "id": "#c:gems/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:gems/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:gems/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:gems/topaz",
+      "required": false
+    },
+    {
+      "id": "#c:gems/turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:gems/white_diamond",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:amethyst_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:citrine_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:diamond_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:emerald_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:lapis_lazuli_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:quartz_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:rose_quartz_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:sapphire_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:topaz_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise_refined",
+      "required": false
+    },
+    {
+      "id": "richstuff:white_diamond_refined",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/alexandrite"
+    {
+      "id": "#c:raw_materials/alexandrite",
+      "required": false
+    }
   ]
 }

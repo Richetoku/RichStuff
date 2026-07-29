@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_plate"
+    {
+      "id": "richstuff:constantan_plate",
+      "required": false
+    }
   ]
 }

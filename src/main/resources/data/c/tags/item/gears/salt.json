@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:salt_gear"
+    {
+      "id": "richstuff:salt_gear",
+      "required": false
+    }
   ]
 }

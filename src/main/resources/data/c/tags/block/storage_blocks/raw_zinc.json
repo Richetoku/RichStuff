@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_zinc_block"
+    {
+      "id": "richstuff:raw_zinc_block",
+      "required": false
+    }
   ]
 }

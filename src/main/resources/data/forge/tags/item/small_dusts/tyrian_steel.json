@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/tyrian_steel"
+    {
+      "id": "#c:small_dusts/tyrian_steel",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lapis_lazuli_coin"
+    {
+      "id": "richstuff:lapis_lazuli_coin",
+      "required": false
+    }
   ]
 }

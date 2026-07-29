@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/ruby"
+    {
+      "id": "#c:dusts/ruby",
+      "required": false
+    }
   ]
 }

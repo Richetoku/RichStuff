@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/sapphire"
+    {
+      "id": "#c:plates/sapphire",
+      "required": false
+    }
   ]
 }

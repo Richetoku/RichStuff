@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/amethyst"
+    {
+      "id": "#c:shards/amethyst",
+      "required": false
+    },
+    {
+      "id": "richstuff:amethyst_shard",
+      "required": false
+    }
   ]
 }

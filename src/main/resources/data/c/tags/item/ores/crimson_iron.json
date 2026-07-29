@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:crimson_iron_ore",
-    "richores:deepslate_crimson_iron_ore"
+    {
+      "id": "richores:crimson_iron_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_crimson_iron_ore",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/topaz"
+    {
+      "id": "#c:raw_materials/topaz",
+      "required": false
+    }
   ]
 }

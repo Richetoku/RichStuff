@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_invar_block"
+    {
+      "id": "richstuff:raw_invar_block",
+      "required": false
+    }
   ]
 }

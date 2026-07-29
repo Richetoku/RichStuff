@@ -11,13 +11,13 @@ import net.minecraft.world.entity.player.Inventory;
 
 /** Owner-only native RichStuff companion inventory and settings screen. */
 public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMenu> {
-    private static final int GUI_WIDTH = 308;
+    private static final int GUI_WIDTH = 344;
     private static final int GUI_HEIGHT = 232;
 
     private static final int LEFT_X = 8;
     private static final int LEFT_WIDTH = 110;
     private static final int RIGHT_X = 124;
-    private static final int RIGHT_WIDTH = 176;
+    private static final int RIGHT_WIDTH = 212;
 
     private static final int PORTRAIT_X1 = 14;
     private static final int PORTRAIT_Y1 = 22;
@@ -90,6 +90,10 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
                 topPos + RikumiMitaMenu.COMPANION_Y,
                 9,
                 3);
+        drawSlotGrid(graphics, leftPos + RikumiMitaMenu.EQUIPMENT_X,
+                topPos + RikumiMitaMenu.MAIN_HAND_Y, 1, 1);
+        drawSlotGrid(graphics, leftPos + RikumiMitaMenu.EQUIPMENT_X,
+                topPos + RikumiMitaMenu.OFF_HAND_Y, 1, 1);
         drawSlotGrid(graphics,
                 leftPos + RikumiMitaMenu.PLAYER_X,
                 topPos + RikumiMitaMenu.PLAYER_Y,
@@ -145,8 +149,10 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
     @Override
     protected void renderLabels(GuiGraphics graphics, int mouseX, int mouseY) {
         graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.title"), 14, 8, 0x404040, false);
-        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.companion_inventory"), RIGHT_X + 4, 8, 0x404040, false);
-        graphics.drawString(font, Component.translatable("container.inventory"), RIGHT_X + 4, 96, 0x404040, false);
+        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.companion_inventory"), RIGHT_X + 40, 8, 0x404040, false);
+        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.main_hand"), RIGHT_X + 4, 22, 0x404040, false);
+        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.off_hand"), RIGHT_X + 4, 70, 0x404040, false);
+        graphics.drawString(font, Component.translatable("container.inventory"), RIGHT_X + 40, 96, 0x404040, false);
 
         graphics.drawCenteredString(font, Component.translatable("gui.richstuff.rikumi.outfit"), 63, OUTFIT_CONTROL_Y + 6, 0x404040);
 

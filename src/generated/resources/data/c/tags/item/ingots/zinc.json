@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:zinc_ingot",
+    {
+      "id": "richstuff:zinc_ingot",
+      "required": false
+    },
     {
       "id": "create:zinc_ingot",
       "required": false

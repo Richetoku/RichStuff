@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:heliodor_ore",
-    "richores:deepslate_heliodor_ore"
+    {
+      "id": "richores:heliodor_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_heliodor_ore",
+      "required": false
+    }
   ]
 }

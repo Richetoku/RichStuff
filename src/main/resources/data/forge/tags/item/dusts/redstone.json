@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/redstone"
+    {
+      "id": "#c:dusts/redstone",
+      "required": false
+    }
   ]
 }

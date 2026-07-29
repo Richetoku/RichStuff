@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/citrine"
+    {
+      "id": "#c:gems/citrine",
+      "required": false
+    }
   ]
 }

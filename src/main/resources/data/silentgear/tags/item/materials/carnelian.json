@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:carnelian_polished",
-    "richstuff:carnelian_rod"
+    {
+      "id": "richstuff:carnelian_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian_rod",
+      "required": false
+    }
   ]
 }

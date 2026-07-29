@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/ferricore"
+    {
+      "id": "#c:wires/ferricore",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/lapis_lazuli"
+    {
+      "id": "#c:gears/lapis_lazuli",
+      "required": false
+    }
   ]
 }

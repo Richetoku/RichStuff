@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/lithium"
+    {
+      "id": "#c:plates/lithium",
+      "required": false
+    }
   ]
 }

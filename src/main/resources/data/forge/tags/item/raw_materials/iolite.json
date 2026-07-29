@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/iolite"
+    {
+      "id": "#c:raw_materials/iolite",
+      "required": false
+    }
   ]
 }

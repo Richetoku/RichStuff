@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:juniperberryitem",
-    "pamhc2crops:juniperberryitem"
+    {
+      "id": "pamhc2trees:juniperberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:juniperberryitem",
+      "required": false
+    }
   ]
 }

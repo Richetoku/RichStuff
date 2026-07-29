@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/wrought_iron"
+    {
+      "id": "#c:molten/wrought_iron",
+      "required": false
+    }
   ]
 }

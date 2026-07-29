@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/andesite_alloy"
+    {
+      "id": "#c:molten/andesite_alloy",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/eclipse_alloy"
+    {
+      "id": "#c:coins/eclipse_alloy",
+      "required": false
+    }
   ]
 }

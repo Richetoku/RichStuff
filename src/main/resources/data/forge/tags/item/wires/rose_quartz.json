@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/rose_quartz"
+    {
+      "id": "#c:wires/rose_quartz",
+      "required": false
+    }
   ]
 }

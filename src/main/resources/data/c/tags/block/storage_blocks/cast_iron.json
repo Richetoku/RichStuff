@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:cast_iron_block"
+    {
+      "id": "richstuff:cast_iron_block",
+      "required": false
+    }
   ]
 }

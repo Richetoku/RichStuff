@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_ferricore_block"
+    {
+      "id": "richstuff:raw_ferricore_block",
+      "required": false
+    }
   ]
 }

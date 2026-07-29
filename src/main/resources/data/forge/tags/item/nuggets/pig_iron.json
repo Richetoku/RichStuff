@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/pig_iron"
+    {
+      "id": "#c:nuggets/pig_iron",
+      "required": false
+    }
   ]
 }

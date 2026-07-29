@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:brass_ingot",
-    "richstuff:brass_rod",
-    "richstuff:brass_plate",
-    "richstuff:brass_gear"
+    {
+      "id": "richstuff:brass_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_gear",
+      "required": false
+    }
   ]
 }

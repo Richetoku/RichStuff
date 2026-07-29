@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/reinforced_copper"
+    {
+      "id": "#c:ingots/reinforced_copper",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:eclipse_alloy_coin"
+    {
+      "id": "richstuff:eclipse_alloy_coin",
+      "required": false
+    }
   ]
 }

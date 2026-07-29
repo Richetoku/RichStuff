@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/wrought_iron"
+    {
+      "id": "#c:dusts/wrought_iron",
+      "required": false
+    }
   ]
 }

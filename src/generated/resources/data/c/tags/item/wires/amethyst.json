@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:amethyst_wire",
+    {
+      "id": "richstuff:amethyst_wire",
+      "required": false
+    },
     {
       "id": "vintageimprovements:amethyst_bronze_wire",
       "required": false

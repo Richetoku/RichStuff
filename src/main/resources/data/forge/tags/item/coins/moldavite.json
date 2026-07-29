@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/moldavite"
+    {
+      "id": "#c:coins/moldavite",
+      "required": false
+    }
   ]
 }

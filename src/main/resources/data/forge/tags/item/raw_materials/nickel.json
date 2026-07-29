@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/nickel"
+    {
+      "id": "#c:raw_materials/nickel",
+      "required": false
+    }
   ]
 }

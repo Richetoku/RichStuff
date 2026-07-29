@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_lead_block"
+    {
+      "id": "richstuff:raw_lead_block",
+      "required": false
+    }
   ]
 }

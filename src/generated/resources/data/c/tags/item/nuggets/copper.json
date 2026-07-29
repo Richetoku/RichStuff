@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copper_nugget",
+    {
+      "id": "richstuff:copper_nugget",
+      "required": false
+    },
     {
       "id": "create:copper_nugget",
       "required": false

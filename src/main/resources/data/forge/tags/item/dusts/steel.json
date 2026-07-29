@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/steel"
+    {
+      "id": "#c:dusts/steel",
+      "required": false
+    }
   ]
 }

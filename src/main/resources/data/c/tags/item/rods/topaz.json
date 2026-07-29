@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:topaz_rod"
+    {
+      "id": "richstuff:topaz_rod",
+      "required": false
+    }
   ]
 }

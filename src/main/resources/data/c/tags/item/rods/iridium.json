@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:iridium_rod"
+    {
+      "id": "richstuff:iridium_rod",
+      "required": false
+    }
   ]
 }

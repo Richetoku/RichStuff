@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/ammolite"
+    {
+      "id": "#c:small_dusts/ammolite",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:vanadium_ingot",
-    "richstuff:vanadium_rod",
-    "richstuff:vanadium_plate",
-    "richstuff:vanadium_gear"
+    {
+      "id": "richstuff:vanadium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:vanadium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:vanadium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:vanadium_gear",
+      "required": false
+    }
   ]
 }

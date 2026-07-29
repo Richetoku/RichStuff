@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_blaze_gold"
+    {
+      "id": "#c:storage_blocks/raw_blaze_gold",
+      "required": false
+    }
   ]
 }

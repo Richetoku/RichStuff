@@ -41,7 +41,7 @@ public final class RichStuffMoltenFluids {
 
     public static boolean supports(MaterialDef material) {
         return switch (material.kind()) {
-            case "metal", "alloy", "gem", "crystal", "dust", "material" -> true;
+            case "metal", "alloy", "gem", "crystal", "dust", "fuel", "material" -> true;
             default -> false;
         };
     }

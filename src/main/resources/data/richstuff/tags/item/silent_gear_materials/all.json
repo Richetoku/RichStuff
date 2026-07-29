@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#richstuff:silent_gear_materials/metals",
-    "#richstuff:silent_gear_materials/gems"
+    {
+      "id": "#richstuff:silent_gear_materials/metals",
+      "required": false
+    },
+    {
+      "id": "#richstuff:silent_gear_materials/gems",
+      "required": false
+    }
   ]
 }

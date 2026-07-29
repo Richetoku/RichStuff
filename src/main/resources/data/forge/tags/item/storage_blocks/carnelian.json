@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/carnelian"
+    {
+      "id": "#c:storage_blocks/carnelian",
+      "required": false
+    }
   ]
 }

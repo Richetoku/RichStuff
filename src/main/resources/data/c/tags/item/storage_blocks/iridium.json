@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:iridium_block"
+    {
+      "id": "richstuff:iridium_block",
+      "required": false
+    }
   ]
 }

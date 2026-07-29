@@ -3,8 +3,8 @@
   "biomes": "#richstuff:metal_slime_spawns/osmium",
   "spawners": {
     "type": "richstuff:osmium_slime",
-    "weight": 8,
+    "weight": 12,
     "minCount": 1,
-    "maxCount": 1
+    "maxCount": 2
   }
 }

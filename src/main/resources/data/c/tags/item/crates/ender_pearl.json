@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ender_pearl_crate"
+    {
+      "id": "richstuff:ender_pearl_crate",
+      "required": false
+    }
   ]
 }

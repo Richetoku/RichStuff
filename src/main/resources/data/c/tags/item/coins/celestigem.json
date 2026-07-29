@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:celestigem_coin"
+    {
+      "id": "richstuff:celestigem_coin",
+      "required": false
+    }
   ]
 }

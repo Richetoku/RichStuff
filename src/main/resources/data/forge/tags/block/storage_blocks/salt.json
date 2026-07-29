@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/salt"
+    {
+      "id": "#c:storage_blocks/salt",
+      "required": false
+    }
   ]
 }

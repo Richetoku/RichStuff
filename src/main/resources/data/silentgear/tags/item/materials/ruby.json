@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ruby_polished",
-    "richstuff:ruby_rod"
+    {
+      "id": "richstuff:ruby_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby_rod",
+      "required": false
+    }
   ]
 }

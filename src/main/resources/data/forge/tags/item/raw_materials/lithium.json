@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/lithium"
+    {
+      "id": "#c:raw_materials/lithium",
+      "required": false
+    }
   ]
 }

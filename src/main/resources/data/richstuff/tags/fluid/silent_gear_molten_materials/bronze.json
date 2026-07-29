@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/bronze"
+    {
+      "id": "#c:molten/bronze",
+      "required": false
+    }
   ]
 }

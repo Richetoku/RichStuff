@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:uranium_coin_stack"
+    {
+      "id": "richstuff:uranium_coin_stack",
+      "required": false
+    }
   ]
 }

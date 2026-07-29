@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/lapis_lazuli"
+    {
+      "id": "#c:coins/lapis_lazuli",
+      "required": false
+    }
   ]
 }

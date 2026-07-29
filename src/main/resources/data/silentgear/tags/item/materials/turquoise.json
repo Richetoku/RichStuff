@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:turquoise_polished",
-    "richstuff:turquoise_rod"
+    {
+      "id": "richstuff:turquoise_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise_rod",
+      "required": false
+    }
   ]
 }

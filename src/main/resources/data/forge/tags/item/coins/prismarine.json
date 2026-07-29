@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/prismarine"
+    {
+      "id": "#c:coins/prismarine",
+      "required": false
+    }
   ]
 }

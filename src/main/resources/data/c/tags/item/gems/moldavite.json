@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:moldavite",
-    "richstuff:moldavite"
+    {
+      "id": "richores:moldavite",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite",
+      "required": false
+    }
   ]
 }

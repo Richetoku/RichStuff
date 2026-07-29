@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:turquoise_polished"
+    {
+      "id": "richstuff:turquoise_polished",
+      "required": false
+    }
   ]
 }

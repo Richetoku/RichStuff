@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:peridot_spring"
+    {
+      "id": "richstuff:peridot_spring",
+      "required": false
+    }
   ]
 }

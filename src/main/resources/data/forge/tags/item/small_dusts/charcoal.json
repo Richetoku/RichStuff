@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/charcoal"
+    {
+      "id": "#c:small_dusts/charcoal",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/iridium"
+    {
+      "id": "#c:dusts/iridium",
+      "required": false
+    }
   ]
 }

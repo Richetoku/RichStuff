@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:carnelian_plate"
+    {
+      "id": "richstuff:carnelian_plate",
+      "required": false
+    }
   ]
 }

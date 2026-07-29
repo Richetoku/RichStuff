@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/tin"
+    {
+      "id": "#c:dusts/tin",
+      "required": false
+    }
   ]
 }

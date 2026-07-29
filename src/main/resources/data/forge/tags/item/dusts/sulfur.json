@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/sulfur"
+    {
+      "id": "#c:dusts/sulfur",
+      "required": false
+    }
   ]
 }

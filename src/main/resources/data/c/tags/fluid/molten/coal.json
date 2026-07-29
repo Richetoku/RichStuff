@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:flowing_molten_coal",
+      "required": false
+    },
+    {
+      "id": "richstuff:molten_coal",
+      "required": false
+    }
+  ]
+}

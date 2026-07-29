@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/eclipse_alloy"
+    {
+      "id": "#c:plates/eclipse_alloy",
+      "required": false
+    }
   ]
 }

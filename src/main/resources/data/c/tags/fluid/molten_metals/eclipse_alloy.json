@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/eclipse_alloy"
+    {
+      "id": "#c:molten/eclipse_alloy",
+      "required": false
+    }
   ]
 }

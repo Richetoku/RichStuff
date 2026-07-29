@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/iolite"
+    {
+      "id": "#c:small_dusts/iolite",
+      "required": false
+    }
   ]
 }

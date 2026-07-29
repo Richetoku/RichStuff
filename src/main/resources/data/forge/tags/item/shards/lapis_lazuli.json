@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/lapis_lazuli"
+    {
+      "id": "#c:shards/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "richstuff:lapis_lazuli_shard",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/blaze_gold"
+    {
+      "id": "#c:coins/blaze_gold",
+      "required": false
+    }
   ]
 }

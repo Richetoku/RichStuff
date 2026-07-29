@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_tin_block"
+    {
+      "id": "richstuff:raw_tin_block",
+      "required": false
+    }
   ]
 }

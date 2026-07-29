@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/citrine"
+    {
+      "id": "#c:coins/citrine",
+      "required": false
+    }
   ]
 }

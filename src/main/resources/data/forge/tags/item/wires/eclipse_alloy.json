@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/eclipse_alloy"
+    {
+      "id": "#c:wires/eclipse_alloy",
+      "required": false
+    }
   ]
 }

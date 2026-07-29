@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ferricore_wire"
+    {
+      "id": "richstuff:ferricore_wire",
+      "required": false
+    }
   ]
 }

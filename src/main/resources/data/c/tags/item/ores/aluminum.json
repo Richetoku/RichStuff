@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:aluminum_ore",
-    "richores:deepslate_aluminum_ore"
+    {
+      "id": "richores:aluminum_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_aluminum_ore",
+      "required": false
+    }
   ]
 }

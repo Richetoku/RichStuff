@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:milk_bucket",
-    "pamhc2foodcore:freshmilkitem"
+    {
+      "id": "pamhc2foodcore:freshmilkitem",
+      "required": false
+    }
   ]
 }

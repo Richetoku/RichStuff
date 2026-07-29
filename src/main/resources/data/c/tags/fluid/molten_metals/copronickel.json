@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/copronickel"
+    {
+      "id": "#c:molten/copronickel",
+      "required": false
+    }
   ]
 }

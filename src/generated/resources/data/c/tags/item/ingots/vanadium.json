@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:vanadium_ingot",
+    {
+      "id": "richstuff:vanadium_ingot",
+      "required": false
+    },
     {
       "id": "vintageimprovements:vanadium_ingot",
       "required": false

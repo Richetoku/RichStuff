@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "material": "dark_iron",
+  "category": "metal",
+  "enabled": true,
+  "color": "#25272B",
+  "forms": [],
+  "skipForms": [],
+  "crystalGrowthOnly": false
+}

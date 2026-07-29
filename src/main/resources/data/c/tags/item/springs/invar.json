@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:invar_spring"
+    {
+      "id": "richstuff:invar_spring",
+      "required": false
+    }
   ]
 }

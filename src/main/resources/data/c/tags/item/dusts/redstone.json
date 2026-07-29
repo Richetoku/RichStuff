@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:redstone",
-    "richstuff:redstone_dust"
+    {
+      "id": "richstuff:redstone_dust",
+      "required": false
+    }
   ]
 }

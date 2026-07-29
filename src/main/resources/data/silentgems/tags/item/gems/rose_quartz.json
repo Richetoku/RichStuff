@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:rose_quartz_polished"
+    {
+      "id": "richstuff:rose_quartz_polished",
+      "required": false
+    }
   ]
 }

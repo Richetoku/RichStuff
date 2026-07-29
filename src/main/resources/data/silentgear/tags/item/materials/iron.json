@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:iron_ingot",
-    "richstuff:iron_rod",
-    "richstuff:iron_plate",
-    "richstuff:iron_gear"
+    {
+      "id": "richstuff:iron_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_gear",
+      "required": false
+    }
   ]
 }

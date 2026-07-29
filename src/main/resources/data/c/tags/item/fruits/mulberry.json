@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:mulberryitem",
-    "pamhc2crops:mulberryitem"
+    {
+      "id": "pamhc2trees:mulberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:mulberryitem",
+      "required": false
+    }
   ]
 }

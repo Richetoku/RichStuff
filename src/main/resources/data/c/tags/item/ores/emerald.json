@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:emerald_ore",
-    "richores:deepslate_emerald_ore"
+    {
+      "id": "richores:emerald_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_emerald_ore",
+      "required": false
+    }
   ]
 }

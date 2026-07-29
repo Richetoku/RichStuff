@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/kyanite"
+    {
+      "id": "#c:shards/kyanite",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite_shard",
+      "required": false
+    }
   ]
 }

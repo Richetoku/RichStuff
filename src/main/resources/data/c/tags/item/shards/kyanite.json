@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:kyanite_shard"
+    {
+      "id": "richstuff:kyanite_shard",
+      "required": false
+    }
   ]
 }

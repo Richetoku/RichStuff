@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/uranite"
+    {
+      "id": "#c:storage_blocks/uranite",
+      "required": false
+    }
   ]
 }

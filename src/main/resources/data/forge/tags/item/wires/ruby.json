@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/ruby"
+    {
+      "id": "#c:wires/ruby",
+      "required": false
+    }
   ]
 }

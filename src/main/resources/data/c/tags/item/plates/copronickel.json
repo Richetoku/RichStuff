@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copronickel_plate"
+    {
+      "id": "richstuff:copronickel_plate",
+      "required": false
+    }
   ]
 }

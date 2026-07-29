@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/topaz"
+    {
+      "id": "#c:dusts/topaz",
+      "required": false
+    }
   ]
 }

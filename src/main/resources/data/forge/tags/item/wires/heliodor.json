@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/heliodor"
+    {
+      "id": "#c:wires/heliodor",
+      "required": false
+    }
   ]
 }

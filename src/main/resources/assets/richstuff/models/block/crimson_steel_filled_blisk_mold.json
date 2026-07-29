@@ -1,8 +1,8 @@
 {
-  "parent": "minecraft:block/block",
+  "parent": "richstuff:block/mold/base_blisk_mold",
   "textures": {
-    "base": "minecraft:block/terracotta",
-    "particle": "minecraft:block/terracotta",
+    "particle": "#base",
+    "base": "minecraft:block/clay",
     "fluid": "richstuff:block/fluid/molten_crimson_steel_still"
   },
   "elements": [
@@ -1442,7 +1442,7 @@
       ],
       "to": [
         10,
-        2.0,
+        3,
         12
       ],
       "faces": {
@@ -1510,7 +1510,7 @@
       ],
       "to": [
         6,
-        2.0,
+        3,
         11
       ],
       "faces": {
@@ -1578,7 +1578,7 @@
       ],
       "to": [
         11,
-        2.0,
+        3,
         11
       ],
       "faces": {
@@ -1646,7 +1646,7 @@
       ],
       "to": [
         5,
-        2.0,
+        3,
         10
       ],
       "faces": {
@@ -1714,7 +1714,7 @@
       ],
       "to": [
         12,
-        2.0,
+        3,
         10
       ],
       "faces": {
@@ -1773,6 +1773,100 @@
           "texture": "#fluid"
         }
       }
+    }
+  ],
+  "groups": [
+    {
+      "name": "Base",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Walls",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Left_Handle",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Right_Handle",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "Interior",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "name": "Fluid",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
     }
   ],
   "display": {
@@ -1912,6 +2006,5 @@
         0.5
       ]
     }
-  },
-  "render_type": "minecraft:cutout"
+  }
 }

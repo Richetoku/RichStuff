@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:spider_eye_crate"
+    {
+      "id": "richstuff:spider_eye_crate",
+      "required": false
+    }
   ]
 }

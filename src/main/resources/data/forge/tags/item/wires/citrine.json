@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/citrine"
+    {
+      "id": "#c:wires/citrine",
+      "required": false
+    }
   ]
 }

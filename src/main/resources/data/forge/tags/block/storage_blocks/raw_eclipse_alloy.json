@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_eclipse_alloy"
+    {
+      "id": "#c:storage_blocks/raw_eclipse_alloy",
+      "required": false
+    }
   ]
 }

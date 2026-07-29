@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ammolite_shard"
+    {
+      "id": "richstuff:ammolite_shard",
+      "required": false
+    }
   ]
 }

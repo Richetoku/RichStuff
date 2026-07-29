@@ -1,6 +1,7 @@
 package com.richetoku.richstuff;
 
 import com.richetoku.richcore.RichStuffCatalog;
+import com.richetoku.richcore.RichProduceCatalog;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -23,7 +24,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * Data-driven fallback fluids for legacy jar/jug contents. Runtime compatibility always prefers an
+ * Data-driven fallback fluids for legacy jar contents. Runtime compatibility always prefers an
  * external fluid with a matching semantic/tag identity; these namespaced definitions guarantee a
  * usable last resort without replacing or remapping another mod's registry objects.
  */
@@ -36,7 +37,9 @@ public final class RichStuffFallbackFluids {
         if (!FLUIDS.isEmpty()) return;
         Set<String> contents = new LinkedHashSet<>();
         for (String id : RichStuffCatalog.STACKABLE_JARS) addContent(contents, id, "_jar");
-        for (String id : RichStuffCatalog.STACKABLE_JUGS) addContent(contents, id, "_jug");
+        for (String produce : RichProduceCatalog.JUICEABLE_IDS) contents.add(produce + "_juice");
+        contents.add("cream");
+        contents.add("cream_frosting");
         contents.remove("empty");
         contents.remove("water");
         contents.remove("lava");

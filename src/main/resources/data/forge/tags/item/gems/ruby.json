@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/ruby"
+    {
+      "id": "#c:gems/ruby",
+      "required": false
+    }
   ]
 }

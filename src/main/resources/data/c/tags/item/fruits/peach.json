@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:peachitem",
-    "pamhc2crops:peachitem"
+    {
+      "id": "pamhc2trees:peachitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:peachitem",
+      "required": false
+    }
   ]
 }

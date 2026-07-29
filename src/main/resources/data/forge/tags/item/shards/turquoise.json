@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/turquoise"
+    {
+      "id": "#c:shards/turquoise",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise_shard",
+      "required": false
+    }
   ]
 }

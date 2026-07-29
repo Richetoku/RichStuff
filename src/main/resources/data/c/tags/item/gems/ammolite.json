@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:ammolite",
-    "richstuff:ammolite"
+    {
+      "id": "richores:ammolite",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite",
+      "required": false
+    }
   ]
 }

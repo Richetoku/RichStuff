@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:invar_coin_stack"
+    {
+      "id": "richstuff:invar_coin_stack",
+      "required": false
+    }
   ]
 }

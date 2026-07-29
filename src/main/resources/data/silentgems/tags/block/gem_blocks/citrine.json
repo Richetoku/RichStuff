@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/citrine"
+    {
+      "id": "#c:storage_blocks/citrine",
+      "required": false
+    }
   ]
 }

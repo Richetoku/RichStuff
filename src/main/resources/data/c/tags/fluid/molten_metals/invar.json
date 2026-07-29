@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/invar"
+    {
+      "id": "#c:molten/invar",
+      "required": false
+    }
   ]
 }

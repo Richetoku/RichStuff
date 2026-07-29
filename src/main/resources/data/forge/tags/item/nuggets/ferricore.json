@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/ferricore"
+    {
+      "id": "#c:nuggets/ferricore",
+      "required": false
+    }
   ]
 }

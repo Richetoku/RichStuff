@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/copper"
+    {
+      "id": "#c:small_dusts/copper",
+      "required": false
+    }
   ]
 }

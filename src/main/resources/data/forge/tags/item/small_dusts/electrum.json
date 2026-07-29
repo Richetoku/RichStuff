@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/electrum"
+    {
+      "id": "#c:small_dusts/electrum",
+      "required": false
+    }
   ]
 }

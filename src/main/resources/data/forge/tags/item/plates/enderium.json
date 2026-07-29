@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/enderium"
+    {
+      "id": "#c:plates/enderium",
+      "required": false
+    }
   ]
 }

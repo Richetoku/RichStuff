@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lumium_spring"
+    {
+      "id": "richstuff:lumium_spring",
+      "required": false
+    }
   ]
 }

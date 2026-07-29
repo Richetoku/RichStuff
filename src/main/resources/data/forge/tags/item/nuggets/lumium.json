@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/lumium"
+    {
+      "id": "#c:nuggets/lumium",
+      "required": false
+    }
   ]
 }

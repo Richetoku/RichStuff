@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:celestigem_ore",
-    "richores:deepslate_celestigem_ore"
+    {
+      "id": "richores:celestigem_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_celestigem_ore",
+      "required": false
+    }
   ]
 }

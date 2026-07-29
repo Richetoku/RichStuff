@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:andesite_alloy_gear"
+    {
+      "id": "richstuff:andesite_alloy_gear",
+      "required": false
+    }
   ]
 }

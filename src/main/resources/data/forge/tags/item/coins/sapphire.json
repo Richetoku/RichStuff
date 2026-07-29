@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/sapphire"
+    {
+      "id": "#c:coins/sapphire",
+      "required": false
+    }
   ]
 }

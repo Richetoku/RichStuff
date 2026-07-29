@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "richstuff:slag_nugget"
+    }
+  },
+  "result": {
+    "id": "richstuff:slag"
+  }
+}

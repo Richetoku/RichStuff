@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_alexandrite_dust"
+    {
+      "id": "richstuff:small_alexandrite_dust",
+      "required": false
+    }
   ]
 }

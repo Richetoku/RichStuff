@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:signalum_rod"
+    {
+      "id": "richstuff:signalum_rod",
+      "required": false
+    }
   ]
 }

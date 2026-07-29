@@ -1,6 +1,7 @@
 package com.richetoku.richstuff.rikumimita;
 
 import com.richetoku.richstuff.RichStuff;
+import com.richetoku.richstuff.rikumimita.ai.RikumiAiLifecycle;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -29,7 +30,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.neoforged.neoforge.items.ItemStackHandler;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.UUID;
@@ -48,12 +48,7 @@ public final class RikumiMitaEntity extends TamableAnimal implements MenuProvide
     private static final EntityDataAccessor<Boolean> NAMEPLATE_ENABLED =
             SynchedEntityData.defineId(RikumiMitaEntity.class, EntityDataSerializers.BOOLEAN);
 
-    private final ItemStackHandler inventory = new ItemStackHandler(27) {
-        @Override
-        protected void onContentsChanged(int slot) {
-            RikumiMitaEntity.this.setPersistenceRequired();
-        }
-    };
+    private final RikumiInventoryBridge inventory = new RikumiInventoryBridge(this::setPersistenceRequired);
 
     public RikumiMitaEntity(EntityType<? extends RikumiMitaEntity> type, Level level) {
         super(type, level);
@@ -69,6 +64,12 @@ public final class RikumiMitaEntity extends TamableAnimal implements MenuProvide
                 .add(Attributes.FOLLOW_RANGE, 32.0D)
                 .add(Attributes.ATTACK_DAMAGE, 4.0D)
                 .add(Attributes.ARMOR, 4.0D);
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        if (!level().isClientSide()) RikumiAiLifecycle.bindAvatar(this);
     }
 
     @Override
@@ -89,7 +90,7 @@ public final class RikumiMitaEntity extends TamableAnimal implements MenuProvide
         builder.define(NAMEPLATE_ENABLED, true);
     }
 
-    public ItemStackHandler getInventoryHandler() {
+    public RikumiInventoryBridge getInventoryHandler() {
         return inventory;
     }
 

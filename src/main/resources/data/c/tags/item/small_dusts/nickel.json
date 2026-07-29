@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_nickel_dust"
+    {
+      "id": "richstuff:small_nickel_dust",
+      "required": false
+    }
   ]
 }

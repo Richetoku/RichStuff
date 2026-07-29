@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_azure_silver"
+    {
+      "id": "#c:storage_blocks/raw_azure_silver",
+      "required": false
+    }
   ]
 }

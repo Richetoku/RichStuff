@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ferricore_rod"
+    {
+      "id": "richstuff:ferricore_rod",
+      "required": false
+    }
   ]
 }

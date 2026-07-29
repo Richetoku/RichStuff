@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/peridot"
+    {
+      "id": "#c:gears/peridot",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/copronickel"
+    {
+      "id": "#c:ingots/copronickel",
+      "required": false
+    }
   ]
 }

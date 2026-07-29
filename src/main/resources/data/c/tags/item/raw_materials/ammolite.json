@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_ammolite"
+    {
+      "id": "richstuff:raw_ammolite",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:invar_ingot",
-    "richstuff:invar_rod",
-    "richstuff:invar_plate",
-    "richstuff:invar_gear"
+    {
+      "id": "richstuff:invar_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_gear",
+      "required": false
+    }
   ]
 }

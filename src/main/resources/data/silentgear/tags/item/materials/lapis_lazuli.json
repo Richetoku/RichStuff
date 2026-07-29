@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lapis_lazuli_polished",
-    "richstuff:lapis_lazuli_rod"
+    {
+      "id": "richstuff:lapis_lazuli_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:lapis_lazuli_rod",
+      "required": false
+    }
   ]
 }

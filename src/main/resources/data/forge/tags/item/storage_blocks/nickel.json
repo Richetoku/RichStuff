@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/nickel"
+    {
+      "id": "#c:storage_blocks/nickel",
+      "required": false
+    }
   ]
 }

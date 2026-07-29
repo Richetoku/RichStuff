@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_obsidian"
+    {
+      "id": "#c:storage_blocks/raw_obsidian",
+      "required": false
+    }
   ]
 }

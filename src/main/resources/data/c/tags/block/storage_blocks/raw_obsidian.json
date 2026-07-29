@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_obsidian_block"
+    {
+      "id": "richstuff:raw_obsidian_block",
+      "required": false
+    }
   ]
 }

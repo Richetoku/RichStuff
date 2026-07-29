@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/rose_quartz"
+    {
+      "id": "#c:coins/rose_quartz",
+      "required": false
+    }
   ]
 }

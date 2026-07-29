@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:persimmonitem",
-    "pamhc2crops:persimmonitem"
+    {
+      "id": "pamhc2trees:persimmonitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:persimmonitem",
+      "required": false
+    }
   ]
 }

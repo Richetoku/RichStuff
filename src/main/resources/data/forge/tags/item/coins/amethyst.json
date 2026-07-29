@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/amethyst"
+    {
+      "id": "#c:coins/amethyst",
+      "required": false
+    }
   ]
 }

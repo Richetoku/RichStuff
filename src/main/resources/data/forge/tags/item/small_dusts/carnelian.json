@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/carnelian"
+    {
+      "id": "#c:small_dusts/carnelian",
+      "required": false
+    }
   ]
 }

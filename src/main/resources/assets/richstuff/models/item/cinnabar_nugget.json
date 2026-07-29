@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "richstuff:item/nugget/cinnabar"
+    "layer0": "richstuff:item/cinnabar_nugget"
   }
 }

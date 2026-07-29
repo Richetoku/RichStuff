@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lithium_gear"
+    {
+      "id": "richstuff:lithium_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_constantan_block"
+    {
+      "id": "richstuff:raw_constantan_block",
+      "required": false
+    }
   ]
 }

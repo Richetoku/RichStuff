@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:moldavite_polished",
-    "richstuff:moldavite_rod"
+    {
+      "id": "richstuff:moldavite_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_rod",
+      "required": false
+    }
   ]
 }

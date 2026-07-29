@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/lithium"
+    {
+      "id": "#c:storage_blocks/lithium",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:blaze_gold_ingot",
-    "richstuff:blaze_gold_rod",
-    "richstuff:blaze_gold_plate",
-    "richstuff:blaze_gold_gear"
+    {
+      "id": "richstuff:blaze_gold_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_gear",
+      "required": false
+    }
   ]
 }

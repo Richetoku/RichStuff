@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:reinforced_copper_ingot",
-    "richstuff:reinforced_copper_rod",
-    "richstuff:reinforced_copper_plate",
-    "richstuff:reinforced_copper_gear"
+    {
+      "id": "richstuff:reinforced_copper_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/bitumen"
+    {
+      "id": "#c:dusts/bitumen",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials"
+    {
+      "id": "#c:raw_materials",
+      "required": false
+    }
   ]
 }

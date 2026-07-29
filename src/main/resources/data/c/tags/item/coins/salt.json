@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:salt_coin"
+    {
+      "id": "richstuff:salt_coin",
+      "required": false
+    }
   ]
 }

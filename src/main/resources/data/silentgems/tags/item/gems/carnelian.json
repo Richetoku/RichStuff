@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:carnelian_polished"
+    {
+      "id": "richstuff:carnelian_polished",
+      "required": false
+    }
   ]
 }

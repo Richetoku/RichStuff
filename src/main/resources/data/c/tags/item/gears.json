@@ -1,128 +1,497 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/alexandrite",
-    "#c:gears/aluminum",
-    "#c:gears/amethyst",
-    "#c:gears/ammolite",
-    "#c:gears/andesite_alloy",
-    "#c:gears/azure_electrum",
-    "#c:gears/azure_silver",
-    "#c:gears/black_diamond",
-    "#c:gears/blaze_gold",
-    "#c:gears/brass",
-    "#c:gears/bronze",
-    "#c:gears/carnelian",
-    "#c:gears/cast_iron",
-    "#c:gears/celestigem",
-    "#c:gears/cinnabar",
-    "#c:gears/citrine",
-    "#c:gears/cobalt",
-    "#c:gears/constantan",
-    "#c:gears/copper",
-    "#c:gears/copronickel",
-    "#c:gears/crimson_iron",
-    "#c:gears/crimson_steel",
-    "#c:gears/diamond",
-    "#c:gears/eclipse_alloy",
-    "#c:gears/electrum",
-    "#c:gears/emerald",
-    "#c:gears/enderium",
-    "#c:gears/ferricore",
-    "#c:gears/fluorite",
-    "#c:gears/gold",
-    "#c:gears/heliodor",
-    "#c:gears/invar",
-    "#c:gears/iolite",
-    "#c:gears/iridium",
-    "#c:gears/iron",
-    "#c:gears/kyanite",
-    "#c:gears/lapis_lazuli",
-    "#c:gears/lead",
-    "#c:gears/lithium",
-    "#c:gears/lumium",
-    "#c:gears/moldavite",
-    "#c:gears/netherite",
-    "#c:gears/nickel",
-    "#c:gears/osmium",
-    "#c:gears/peridot",
-    "#c:gears/pig_iron",
-    "#c:gears/platinum",
-    "#c:gears/prismarine",
-    "#c:gears/quartz",
-    "#c:gears/reinforced_copper",
-    "#c:gears/rose_quartz",
-    "#c:gears/ruby",
-    "#c:gears/salt",
-    "#c:gears/sapphire",
-    "#c:gears/signalum",
-    "#c:gears/silver",
-    "#c:gears/steel",
-    "#c:gears/tin",
-    "#c:gears/topaz",
-    "#c:gears/turquoise",
-    "#c:gears/tyrian_steel",
-    "#c:gears/uranite",
-    "#c:gears/uranium",
-    "#c:gears/vanadium",
-    "#c:gears/white_diamond",
-    "#c:gears/wrought_iron",
-    "#c:gears/zinc",
-    "richstuff:alexandrite_gear",
-    "richstuff:aluminum_gear",
-    "richstuff:amethyst_gear",
-    "richstuff:ammolite_gear",
-    "richstuff:andesite_alloy_gear",
-    "richstuff:azure_electrum_gear",
-    "richstuff:azure_silver_gear",
-    "richstuff:black_diamond_gear",
-    "richstuff:blaze_gold_gear",
-    "richstuff:brass_gear",
-    "richstuff:bronze_gear",
-    "richstuff:carnelian_gear",
-    "richstuff:cast_iron_gear",
-    "richstuff:citrine_gear",
-    "richstuff:cobalt_gear",
-    "richstuff:constantan_gear",
-    "richstuff:copper_gear",
-    "richstuff:copronickel_gear",
-    "richstuff:crimson_iron_gear",
-    "richstuff:crimson_steel_gear",
-    "richstuff:diamond_gear",
-    "richstuff:electrum_gear",
-    "richstuff:emerald_gear",
-    "richstuff:enderium_gear",
-    "richstuff:gold_gear",
-    "richstuff:heliodor_gear",
-    "richstuff:invar_gear",
-    "richstuff:iolite_gear",
-    "richstuff:iridium_gear",
-    "richstuff:iron_gear",
-    "richstuff:kyanite_gear",
-    "richstuff:lapis_lazuli_gear",
-    "richstuff:lead_gear",
-    "richstuff:lumium_gear",
-    "richstuff:moldavite_gear",
-    "richstuff:netherite_gear",
-    "richstuff:nickel_gear",
-    "richstuff:osmium_gear",
-    "richstuff:peridot_gear",
-    "richstuff:platinum_gear",
-    "richstuff:prismarine_gear",
-    "richstuff:quartz_gear",
-    "richstuff:reinforced_copper_gear",
-    "richstuff:rose_quartz_gear",
-    "richstuff:ruby_gear",
-    "richstuff:sapphire_gear",
-    "richstuff:signalum_gear",
-    "richstuff:silver_gear",
-    "richstuff:steel_gear",
-    "richstuff:tin_gear",
-    "richstuff:topaz_gear",
-    "richstuff:turquoise_gear",
-    "richstuff:tyrian_steel_gear",
-    "richstuff:uranium_gear",
-    "richstuff:white_diamond_gear",
-    "richstuff:zinc_gear"
+    {
+      "id": "#c:gears/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:gears/amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:gears/ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:gears/azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:gears/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:gears/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:gears/blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#c:gears/brass",
+      "required": false
+    },
+    {
+      "id": "#c:gears/bronze",
+      "required": false
+    },
+    {
+      "id": "#c:gears/carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:gears/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:gears/celestigem",
+      "required": false
+    },
+    {
+      "id": "#c:gears/cinnabar",
+      "required": false
+    },
+    {
+      "id": "#c:gears/citrine",
+      "required": false
+    },
+    {
+      "id": "#c:gears/cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:gears/constantan",
+      "required": false
+    },
+    {
+      "id": "#c:gears/copper",
+      "required": false
+    },
+    {
+      "id": "#c:gears/copronickel",
+      "required": false
+    },
+    {
+      "id": "#c:gears/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:gears/crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#c:gears/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:gears/eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:gears/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:gears/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:gears/enderium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/ferricore",
+      "required": false
+    },
+    {
+      "id": "#c:gears/fluorite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/gold",
+      "required": false
+    },
+    {
+      "id": "#c:gears/heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:gears/invar",
+      "required": false
+    },
+    {
+      "id": "#c:gears/iolite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/iron",
+      "required": false
+    },
+    {
+      "id": "#c:gears/kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:gears/lead",
+      "required": false
+    },
+    {
+      "id": "#c:gears/lithium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/lumium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/netherite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:gears/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/peridot",
+      "required": false
+    },
+    {
+      "id": "#c:gears/pig_iron",
+      "required": false
+    },
+    {
+      "id": "#c:gears/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:gears/prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:gears/quartz",
+      "required": false
+    },
+    {
+      "id": "#c:gears/reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#c:gears/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:gears/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:gears/salt",
+      "required": false
+    },
+    {
+      "id": "#c:gears/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:gears/signalum",
+      "required": false
+    },
+    {
+      "id": "#c:gears/silver",
+      "required": false
+    },
+    {
+      "id": "#c:gears/steel",
+      "required": false
+    },
+    {
+      "id": "#c:gears/tin",
+      "required": false
+    },
+    {
+      "id": "#c:gears/topaz",
+      "required": false
+    },
+    {
+      "id": "#c:gears/turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:gears/tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#c:gears/uranite",
+      "required": false
+    },
+    {
+      "id": "#c:gears/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:gears/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:gears/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#c:gears/zinc",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:aluminum_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:amethyst_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_electrum_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:bronze_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:citrine_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:diamond_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:emerald_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:lapis_lazuli_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:prismarine_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:quartz_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:rose_quartz_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:sapphire_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:signalum_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:steel_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:topaz_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:white_diamond_gear",
+      "required": false
+    },
+    {
+      "id": "richstuff:zinc_gear",
+      "required": false
+    }
   ]
 }

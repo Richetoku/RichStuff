@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:steel_nugget"
+    {
+      "id": "richstuff:steel_nugget",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_lithium",
-    "richstuff:raw_lithium"
+    {
+      "id": "richores:raw_lithium",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_lithium",
+      "required": false
+    }
   ]
 }

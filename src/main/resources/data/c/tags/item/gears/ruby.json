@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ruby_gear"
+    {
+      "id": "richstuff:ruby_gear",
+      "required": false
+    }
   ]
 }

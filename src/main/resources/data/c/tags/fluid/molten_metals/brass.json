@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/brass"
+    {
+      "id": "#c:molten/brass",
+      "required": false
+    }
   ]
 }

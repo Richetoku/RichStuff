@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lead_wire",
+    {
+      "id": "richstuff:lead_wire",
+      "required": false
+    },
     {
       "id": "vintageimprovements:lead_wire",
       "required": false

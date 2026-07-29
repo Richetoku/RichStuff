@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_zinc",
-    "richstuff:raw_zinc"
+    {
+      "id": "richores:raw_zinc",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_zinc",
+      "required": false
+    }
   ]
 }

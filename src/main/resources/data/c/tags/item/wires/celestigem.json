@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:celestigem_wire"
+    {
+      "id": "richstuff:celestigem_wire",
+      "required": false
+    }
   ]
 }

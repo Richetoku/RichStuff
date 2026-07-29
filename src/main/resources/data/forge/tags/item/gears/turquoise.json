@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/turquoise"
+    {
+      "id": "#c:gears/turquoise",
+      "required": false
+    }
   ]
 }

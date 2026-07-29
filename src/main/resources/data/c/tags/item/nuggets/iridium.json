@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:iridium_nugget"
+    {
+      "id": "richstuff:iridium_nugget",
+      "required": false
+    }
   ]
 }

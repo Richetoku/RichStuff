@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ruby_wire"
+    {
+      "id": "richstuff:ruby_wire",
+      "required": false
+    }
   ]
 }

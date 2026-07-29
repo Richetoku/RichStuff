@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/tin"
+    {
+      "id": "#c:rods/tin",
+      "required": false
+    }
   ]
 }

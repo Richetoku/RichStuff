@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/signalum"
+    {
+      "id": "#c:coins/signalum",
+      "required": false
+    }
   ]
 }

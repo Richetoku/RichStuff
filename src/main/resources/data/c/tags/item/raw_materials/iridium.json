@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_iridium",
-    "richstuff:raw_iridium"
+    {
+      "id": "richores:raw_iridium",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_iridium",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:alexandrite_ore",
-    "richores:deepslate_alexandrite_ore"
+    {
+      "id": "richores:alexandrite_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_alexandrite_ore",
+      "required": false
+    }
   ]
 }

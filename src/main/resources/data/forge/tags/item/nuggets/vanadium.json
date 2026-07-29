@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/vanadium"
+    {
+      "id": "#c:nuggets/vanadium",
+      "required": false
+    }
   ]
 }

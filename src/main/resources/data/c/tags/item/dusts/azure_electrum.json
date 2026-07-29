@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:azure_electrum_dust"
+    {
+      "id": "richstuff:azure_electrum_dust",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ender_block"
+    {
+      "id": "richstuff:ender_block",
+      "required": false
+    }
   ]
 }

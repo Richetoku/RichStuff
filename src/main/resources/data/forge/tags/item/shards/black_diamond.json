@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/black_diamond"
+    {
+      "id": "#c:shards/black_diamond",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_shard",
+      "required": false
+    }
   ]
 }

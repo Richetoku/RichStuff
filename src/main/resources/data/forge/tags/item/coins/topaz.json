@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/topaz"
+    {
+      "id": "#c:coins/topaz",
+      "required": false
+    }
   ]
 }

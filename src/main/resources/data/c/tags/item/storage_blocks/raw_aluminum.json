@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:raw_aluminum_block"
+    {
+      "id": "richstuff:raw_aluminum_block",
+      "required": false
+    }
   ]
 }

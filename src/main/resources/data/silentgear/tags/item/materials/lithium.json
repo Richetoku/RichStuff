@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lithium_ingot",
-    "richstuff:lithium_rod",
-    "richstuff:lithium_plate",
-    "richstuff:lithium_gear"
+    {
+      "id": "richstuff:lithium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:lithium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:lithium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:lithium_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/invar"
+    {
+      "id": "#c:coins/invar",
+      "required": false
+    }
   ]
 }

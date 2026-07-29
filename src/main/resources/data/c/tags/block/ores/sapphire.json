@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:sapphire_ore",
-    "richores:deepslate_sapphire_ore"
+    {
+      "id": "richores:sapphire_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_sapphire_ore",
+      "required": false
+    }
   ]
 }

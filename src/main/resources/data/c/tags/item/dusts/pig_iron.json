@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:pig_iron_dust"
+    {
+      "id": "richstuff:pig_iron_dust",
+      "required": false
+    }
   ]
 }

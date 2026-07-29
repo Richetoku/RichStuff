@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:gold_wire",
+    {
+      "id": "richstuff:gold_wire",
+      "required": false
+    },
     {
       "id": "vintageimprovements:pure_gold_wire",
       "required": false

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:sapphire_block"
+    {
+      "id": "richstuff:sapphire_block",
+      "required": false
+    }
   ]
 }

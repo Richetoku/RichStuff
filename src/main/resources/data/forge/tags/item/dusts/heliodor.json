@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/heliodor"
+    {
+      "id": "#c:dusts/heliodor",
+      "required": false
+    }
   ]
 }

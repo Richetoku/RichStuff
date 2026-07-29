@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:cinnabar_polished",
-    "richstuff:cinnabar_rod"
+    {
+      "id": "richstuff:cinnabar_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:cinnabar_rod",
+      "required": false
+    }
   ]
 }

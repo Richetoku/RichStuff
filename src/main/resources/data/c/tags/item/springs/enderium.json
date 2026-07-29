@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:enderium_spring"
+    {
+      "id": "richstuff:enderium_spring",
+      "required": false
+    }
   ]
 }

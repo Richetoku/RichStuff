@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/sapphire"
+    {
+      "id": "#c:small_dusts/sapphire",
+      "required": false
+    }
   ]
 }

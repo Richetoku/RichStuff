@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:apple_sauce",
-    "richstuff:flowing_apple_sauce"
+    {
+      "id": "richstuff:apple_sauce",
+      "required": false
+    }
   ]
 }

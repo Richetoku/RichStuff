@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/lumium"
+    {
+      "id": "#c:rods/lumium",
+      "required": false
+    }
   ]
 }

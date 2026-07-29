@@ -1,49 +1,181 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/alexandrite",
-    "#c:raw_materials/aluminum",
-    "#c:raw_materials/amethyst",
-    "#c:raw_materials/ammolite",
-    "#c:raw_materials/azure_silver",
-    "#c:raw_materials/bitumen",
-    "#c:raw_materials/black_diamond",
-    "#c:raw_materials/carnelian",
-    "#c:raw_materials/cinnabar",
-    "#c:raw_materials/citrine",
-    "#c:raw_materials/cobalt",
-    "#c:raw_materials/copper",
-    "#c:raw_materials/crimson_iron",
-    "#c:raw_materials/diamond",
-    "#c:raw_materials/emerald",
-    "#c:raw_materials/fluorite",
-    "#c:raw_materials/gold",
-    "#c:raw_materials/heliodor",
-    "#c:raw_materials/iolite",
-    "#c:raw_materials/iridium",
-    "#c:raw_materials/iron",
-    "#c:raw_materials/kyanite",
-    "#c:raw_materials/lapis_lazuli",
-    "#c:raw_materials/lead",
-    "#c:raw_materials/lithium",
-    "#c:raw_materials/moldavite",
-    "#c:raw_materials/nickel",
-    "#c:raw_materials/osmium",
-    "#c:raw_materials/peridot",
-    "#c:raw_materials/platinum",
-    "#c:raw_materials/prismarine",
-    "#c:raw_materials/quartz",
-    "#c:raw_materials/rose_quartz",
-    "#c:raw_materials/ruby",
-    "#c:raw_materials/sapphire",
-    "#c:raw_materials/silver",
-    "#c:raw_materials/tin",
-    "#c:raw_materials/topaz",
-    "#c:raw_materials/turquoise",
-    "#c:raw_materials/uranium",
-    "#c:raw_materials/vanadium",
-    "#c:raw_materials/white_diamond",
-    "#c:raw_materials/zinc",
-    "richstuff:raw_moldavite"
+    {
+      "id": "#c:raw_materials/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/bitumen",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/cinnabar",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/citrine",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/copper",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/fluorite",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/gold",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/iolite",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/iron",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/lead",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/lithium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/peridot",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/quartz",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/silver",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/tin",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/topaz",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/zinc",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_moldavite",
+      "required": false
+    }
   ]
 }

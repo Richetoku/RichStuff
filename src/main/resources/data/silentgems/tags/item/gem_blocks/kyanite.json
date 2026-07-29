@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/kyanite"
+    {
+      "id": "#c:storage_blocks/kyanite",
+      "required": false
+    }
   ]
 }

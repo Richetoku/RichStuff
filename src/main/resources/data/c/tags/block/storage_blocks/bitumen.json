@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:bitumen_block"
+    {
+      "id": "richstuff:bitumen_block",
+      "required": false
+    }
   ]
 }

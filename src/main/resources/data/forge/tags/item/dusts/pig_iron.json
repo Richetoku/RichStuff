@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/pig_iron"
+    {
+      "id": "#c:dusts/pig_iron",
+      "required": false
+    }
   ]
 }

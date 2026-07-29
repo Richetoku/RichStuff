@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lumium_ingot",
-    "richstuff:lumium_rod",
-    "richstuff:lumium_plate",
-    "richstuff:lumium_gear"
+    {
+      "id": "richstuff:lumium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/signalum"
+    {
+      "id": "#c:wires/signalum",
+      "required": false
+    }
   ]
 }

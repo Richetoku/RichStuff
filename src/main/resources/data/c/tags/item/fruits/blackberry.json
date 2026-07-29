@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:blackberryitem",
-    "pamhc2crops:blackberryitem"
+    {
+      "id": "pamhc2trees:blackberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:blackberryitem",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ghast_tear_crate"
+    {
+      "id": "richstuff:ghast_tear_crate",
+      "required": false
+    }
   ]
 }

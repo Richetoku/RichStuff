@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/enderium"
+    {
+      "id": "#c:storage_blocks/enderium",
+      "required": false
+    }
   ]
 }

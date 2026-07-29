@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:platinum_ingot",
+    {
+      "id": "richstuff:platinum_ingot",
+      "required": false
+    },
     {
       "id": "oritech:platinum_ingot",
       "required": false

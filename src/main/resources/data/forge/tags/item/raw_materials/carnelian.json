@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/carnelian"
+    {
+      "id": "#c:raw_materials/carnelian",
+      "required": false
+    }
   ]
 }

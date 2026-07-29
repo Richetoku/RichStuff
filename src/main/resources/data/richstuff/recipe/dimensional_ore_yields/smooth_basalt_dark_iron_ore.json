@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "richores"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richores:smooth_basalt_dark_iron_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "richcore:raw_dark_iron",
+      "count": 2
+    },
+    {
+      "id": "minecraft:flint",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 180
+}

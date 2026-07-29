@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tin_rod",
+    {
+      "id": "richstuff:tin_rod",
+      "required": false
+    },
     {
       "id": "vintageimprovements:tin_rod",
       "required": false

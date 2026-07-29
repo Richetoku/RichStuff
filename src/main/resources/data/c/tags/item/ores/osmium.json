@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:osmium_ore",
-    "richores:deepslate_osmium_ore"
+    {
+      "id": "richores:osmium_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_osmium_ore",
+      "required": false
+    }
   ]
 }

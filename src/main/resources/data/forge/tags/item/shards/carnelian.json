@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/carnelian"
+    {
+      "id": "#c:shards/carnelian",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian_shard",
+      "required": false
+    }
   ]
 }

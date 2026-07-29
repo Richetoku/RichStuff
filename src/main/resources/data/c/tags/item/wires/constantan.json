@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_wire"
+    {
+      "id": "richstuff:constantan_wire",
+      "required": false
+    }
   ]
 }

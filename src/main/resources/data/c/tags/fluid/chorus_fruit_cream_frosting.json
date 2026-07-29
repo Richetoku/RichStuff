@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:chorus_fruit_cream_frosting",
-    "richstuff:flowing_chorus_fruit_cream_frosting"
+    {
+      "id": "richstuff:chorus_fruit_cream_frosting",
+      "required": false
+    }
   ]
 }

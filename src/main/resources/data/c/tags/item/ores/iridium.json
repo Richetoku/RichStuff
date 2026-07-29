@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:iridium_ore",
-    "richores:deepslate_iridium_ore"
+    {
+      "id": "richores:iridium_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_iridium_ore",
+      "required": false
+    }
   ]
 }

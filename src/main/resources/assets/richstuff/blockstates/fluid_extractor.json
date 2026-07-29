@@ -1,52 +1,52 @@
 {
   "variants": {
-    "facing=north,formed=false,powered=false": {
-      "model": "richstuff:block/fluid_extractor_unformed",
-      "y": 0
+    "level=0": {
+      "model": "minecraft:block/air"
     },
-    "facing=north,formed=true,powered=false": {
-      "model": "richstuff:block/fluid_extractor_formed",
-      "y": 0
+    "level=1": {
+      "model": "minecraft:block/air"
     },
-    "facing=north,formed=true,powered=true": {
-      "model": "richstuff:block/fluid_extractor_powered",
-      "y": 0
+    "level=2": {
+      "model": "minecraft:block/air"
     },
-    "facing=east,formed=false,powered=false": {
-      "model": "richstuff:block/fluid_extractor_unformed",
-      "y": 90
+    "level=3": {
+      "model": "minecraft:block/air"
     },
-    "facing=east,formed=true,powered=false": {
-      "model": "richstuff:block/fluid_extractor_formed",
-      "y": 90
+    "level=4": {
+      "model": "minecraft:block/air"
     },
-    "facing=east,formed=true,powered=true": {
-      "model": "richstuff:block/fluid_extractor_powered",
-      "y": 90
+    "level=5": {
+      "model": "minecraft:block/air"
     },
-    "facing=south,formed=false,powered=false": {
-      "model": "richstuff:block/fluid_extractor_unformed",
-      "y": 180
+    "level=6": {
+      "model": "minecraft:block/air"
     },
-    "facing=south,formed=true,powered=false": {
-      "model": "richstuff:block/fluid_extractor_formed",
-      "y": 180
+    "level=7": {
+      "model": "minecraft:block/air"
     },
-    "facing=south,formed=true,powered=true": {
-      "model": "richstuff:block/fluid_extractor_powered",
-      "y": 180
+    "level=8": {
+      "model": "minecraft:block/air"
     },
-    "facing=west,formed=false,powered=false": {
-      "model": "richstuff:block/fluid_extractor_unformed",
-      "y": 270
+    "level=9": {
+      "model": "minecraft:block/air"
     },
-    "facing=west,formed=true,powered=false": {
-      "model": "richstuff:block/fluid_extractor_formed",
-      "y": 270
+    "level=10": {
+      "model": "minecraft:block/air"
     },
-    "facing=west,formed=true,powered=true": {
-      "model": "richstuff:block/fluid_extractor_powered",
-      "y": 270
+    "level=11": {
+      "model": "minecraft:block/air"
+    },
+    "level=12": {
+      "model": "minecraft:block/air"
+    },
+    "level=13": {
+      "model": "minecraft:block/air"
+    },
+    "level=14": {
+      "model": "minecraft:block/air"
+    },
+    "level=15": {
+      "model": "minecraft:block/air"
     }
   }
 }

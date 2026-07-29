@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:fluorite_shard"
+    {
+      "id": "richstuff:fluorite_shard",
+      "required": false
+    }
   ]
 }

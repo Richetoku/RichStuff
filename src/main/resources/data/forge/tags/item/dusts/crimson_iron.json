@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/crimson_iron"
+    {
+      "id": "#c:dusts/crimson_iron",
+      "required": false
+    }
   ]
 }

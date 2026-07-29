@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/moldavite"
+    {
+      "id": "#c:rods/moldavite",
+      "required": false
+    }
   ]
 }

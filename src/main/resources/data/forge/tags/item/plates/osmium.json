@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/osmium"
+    {
+      "id": "#c:plates/osmium",
+      "required": false
+    }
   ]
 }

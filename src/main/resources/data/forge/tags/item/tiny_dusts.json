@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:tiny_dusts"
+    {
+      "id": "#c:tiny_dusts",
+      "required": false
+    }
   ]
 }

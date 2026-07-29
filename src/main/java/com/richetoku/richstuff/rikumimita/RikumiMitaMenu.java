@@ -11,13 +11,17 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.items.SlotItemHandler;
 
 public final class RikumiMitaMenu extends AbstractContainerMenu {
-    public static final int COMPANION_SLOTS = 27;
+    public static final int COMPANION_SLOTS = RikumiInventoryBridge.SLOT_COUNT;
+    public static final int STORAGE_SLOTS = RikumiInventoryBridge.STORAGE_SLOTS;
 
     // Coordinates are shared with RikumiMitaScreen so rendered slot backplates and
     // actual interactive slots always stay aligned.
-    public static final int COMPANION_X = 132;
+    public static final int EQUIPMENT_X = 132;
+    public static final int MAIN_HAND_Y = 31;
+    public static final int OFF_HAND_Y = 55;
+    public static final int COMPANION_X = 168;
     public static final int COMPANION_Y = 28;
-    public static final int PLAYER_X = 132;
+    public static final int PLAYER_X = 168;
     public static final int PLAYER_Y = 112;
     public static final int HOTBAR_Y = 170;
 
@@ -46,6 +50,10 @@ public final class RikumiMitaMenu extends AbstractContainerMenu {
                         COMPANION_Y + row * 18));
             }
         }
+        addSlot(new SlotItemHandler(rikumi.getInventoryHandler(), RikumiInventoryBridge.MAIN_HAND_SLOT,
+                EQUIPMENT_X, MAIN_HAND_Y));
+        addSlot(new SlotItemHandler(rikumi.getInventoryHandler(), RikumiInventoryBridge.OFF_HAND_SLOT,
+                EQUIPMENT_X, OFF_HAND_Y));
 
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 9; col++) {

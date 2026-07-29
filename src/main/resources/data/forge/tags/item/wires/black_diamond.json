@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/black_diamond"
+    {
+      "id": "#c:wires/black_diamond",
+      "required": false
+    }
   ]
 }

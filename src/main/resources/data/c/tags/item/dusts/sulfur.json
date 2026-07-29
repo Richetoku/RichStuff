@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:sulfur_dust",
-    "richstuff:sulfur_dust"
+    {
+      "id": "richores:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "richstuff:sulfur_dust",
+      "required": false
+    }
   ]
 }

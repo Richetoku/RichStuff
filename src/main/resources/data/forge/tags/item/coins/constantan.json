@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/constantan"
+    {
+      "id": "#c:coins/constantan",
+      "required": false
+    }
   ]
 }

@@ -14,11 +14,6 @@
       "type": "richstuff:server_config",
       "option": "convertVanillaToolRecipesToSilentGear",
       "expected": true
-    },
-    {
-      "type": "neoforge:registered",
-      "registry": "minecraft:item",
-      "value": "silentgear:leggings"
     }
   ],
   "pattern": [

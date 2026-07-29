@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:uranium_ore",
-    "richores:deepslate_uranium_ore"
+    {
+      "id": "richores:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_uranium_ore",
+      "required": false
+    }
   ]
 }

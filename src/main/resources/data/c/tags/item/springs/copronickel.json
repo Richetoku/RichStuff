@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copronickel_spring"
+    {
+      "id": "richstuff:copronickel_spring",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:platinum_ingot",
-    "richstuff:platinum_rod",
-    "richstuff:platinum_plate",
-    "richstuff:platinum_gear"
+    {
+      "id": "richstuff:platinum_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_gear",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/azure_electrum"
+    {
+      "id": "#c:dusts/azure_electrum",
+      "required": false
+    }
   ]
 }

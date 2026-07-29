@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "richstuff:apple_sauce_jar"
+      "id": "richfarming:apple_sauce_jar"
     },
     "title": {
       "text": "Stack Jars"
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "richstuff:apple_sauce_jar"
+            "items": "richfarming:apple_sauce_jar"
           }
         ]
       }

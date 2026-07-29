@@ -1,6 +1,113 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets"
+    {
+      "id": "#c:nuggets",
+      "required": false
+    },
+    {
+      "id": "richstuff:alexandrite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:amethyst_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:ammolite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:black_diamond_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:carnelian_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:celestigem_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:cinnabar_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:citrine_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:diamond_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:emerald_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:fluorite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:heliodor_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:kyanite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:lapis_lazuli_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:moldavite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:peridot_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:quartz_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:rose_quartz_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:ruby_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:salt_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:sapphire_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:topaz_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranite_shard",
+      "required": false
+    },
+    {
+      "id": "richstuff:white_diamond_shard",
+      "required": false
+    }
   ]
 }

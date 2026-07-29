@@ -9,6 +9,8 @@
     "bitumen_brick",
     "bitumen_dust",
     "bitumen_dust_block",
+    "bitumen_filled_block_mold",
+    "bitumen_filled_brick_mold",
     "bitumen_nugget",
     "raw_bitumen",
     "raw_bitumen_block",

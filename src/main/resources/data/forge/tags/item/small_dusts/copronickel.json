@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/copronickel"
+    {
+      "id": "#c:small_dusts/copronickel",
+      "required": false
+    }
   ]
 }

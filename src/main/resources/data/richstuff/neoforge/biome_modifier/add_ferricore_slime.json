@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/ferricore",
+  "spawners": {
+    "type": "richstuff:ferricore_slime",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

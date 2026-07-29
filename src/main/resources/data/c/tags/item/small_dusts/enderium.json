@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_enderium_dust"
+    {
+      "id": "richstuff:small_enderium_dust",
+      "required": false
+    }
   ]
 }

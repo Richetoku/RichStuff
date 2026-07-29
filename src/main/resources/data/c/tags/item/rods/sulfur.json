@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:sulfur_rod"
+    {
+      "id": "richstuff:sulfur_rod",
+      "required": false
+    }
   ]
 }

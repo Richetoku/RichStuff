@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/electrum"
+    {
+      "id": "#c:ingots/electrum",
+      "required": false
+    }
   ]
 }

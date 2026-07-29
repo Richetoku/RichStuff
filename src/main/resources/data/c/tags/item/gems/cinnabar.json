@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:cinnabar",
-    "richstuff:cinnabar"
+    {
+      "id": "richores:cinnabar",
+      "required": false
+    },
+    {
+      "id": "richstuff:cinnabar",
+      "required": false
+    }
   ]
 }

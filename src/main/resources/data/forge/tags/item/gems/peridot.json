@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/peridot"
+    {
+      "id": "#c:gems/peridot",
+      "required": false
+    }
   ]
 }

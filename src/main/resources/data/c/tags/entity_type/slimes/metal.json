@@ -1,21 +1,169 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copper_slime",
-    "richstuff:gold_slime",
-    "richstuff:iron_slime",
-    "richstuff:lead_slime",
-    "richstuff:nickel_slime",
-    "richstuff:silver_slime",
-    "richstuff:tin_slime",
-    "richstuff:uranium_slime",
-    "richstuff:iridium_slime",
-    "richstuff:osmium_slime",
-    "richstuff:platinum_slime",
-    "richstuff:zinc_slime",
-    "richstuff:aluminum_slime",
-    "richstuff:cobalt_slime",
-    "richstuff:azure_silver_slime",
-    "richstuff:crimson_iron_slime"
+    {
+      "id": "richstuff:aluminum_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:andesite_alloy_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_electrum_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:blaze_gold_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:brass_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:bronze_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:cast_iron_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_iron_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:crimson_steel_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:dark_iron_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:eclipse_alloy_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:electrum_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:ferricore_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:gold_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:invar_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:iridium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:iron_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:lead_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:lithium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:lumium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:netherite_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:nickel_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:osmium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:pig_iron_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:platinum_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:reinforced_copper_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:signalum_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:silver_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:steel_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:tin_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:uranium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:vanadium_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:wrought_iron_slime",
+      "required": false
+    },
+    {
+      "id": "richstuff:zinc_slime",
+      "required": false
+    }
   ]
 }

@@ -1,1 +1,0 @@
-{"random_sequence":"buddingcrystals:large_emerald_bud","pools":[{"rolls":1.0,"bonus_rolls":0.0,"entries":[{"name":"buddingcrystals:large_emerald_bud","type":"minecraft:item"}],"conditions":[{"predicate":{"predicates":{"minecraft:enchantments":[{"enchantments":"minecraft:silk_touch","levels":{"min":1}}]}},"condition":"minecraft:match_tool"}]}]}

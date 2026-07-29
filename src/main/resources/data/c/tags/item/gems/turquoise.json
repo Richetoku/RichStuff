@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:turquoise",
-    "richstuff:turquoise"
+    {
+      "id": "richores:turquoise",
+      "required": false
+    },
+    {
+      "id": "richstuff:turquoise",
+      "required": false
+    }
   ]
 }

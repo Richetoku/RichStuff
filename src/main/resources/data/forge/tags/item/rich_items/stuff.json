@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rich_items/stuff"
+    {
+      "id": "#c:rich_items/stuff",
+      "required": false
+    }
   ]
 }

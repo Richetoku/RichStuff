@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/spider_eye"
+    {
+      "id": "#c:storage_blocks/spider_eye",
+      "required": false
+    }
   ]
 }

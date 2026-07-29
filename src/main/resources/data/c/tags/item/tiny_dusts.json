@@ -1,11 +1,29 @@
 {
   "replace": false,
   "values": [
-    "#c:tiny_dusts/bitumen",
-    "#c:tiny_dusts/charcoal",
-    "#c:tiny_dusts/coal",
-    "#c:tiny_dusts/coal_coke",
-    "#c:tiny_dusts/nether_charcoal",
-    "#c:tiny_dusts/sulfur"
+    {
+      "id": "#c:tiny_dusts/bitumen",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_dusts/charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_dusts/coal",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_dusts/coal_coke",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_dusts/nether_charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:tiny_dusts/sulfur",
+      "required": false
+    }
   ]
 }

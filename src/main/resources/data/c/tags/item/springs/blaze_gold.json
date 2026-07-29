@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:blaze_gold_spring"
+    {
+      "id": "richstuff:blaze_gold_spring",
+      "required": false
+    }
   ]
 }

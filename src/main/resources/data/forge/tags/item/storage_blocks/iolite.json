@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/iolite"
+    {
+      "id": "#c:storage_blocks/iolite",
+      "required": false
+    }
   ]
 }

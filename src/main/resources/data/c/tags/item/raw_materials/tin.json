@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_tin",
-    "richstuff:raw_tin"
+    {
+      "id": "richores:raw_tin",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_tin",
+      "required": false
+    }
   ]
 }

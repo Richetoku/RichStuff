@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/ammolite"
+    {
+      "id": "#c:rods/ammolite",
+      "required": false
+    }
   ]
 }

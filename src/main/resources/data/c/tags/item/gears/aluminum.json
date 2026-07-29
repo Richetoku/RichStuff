@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:aluminum_gear"
+    {
+      "id": "richstuff:aluminum_gear",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:nickel_wire",
+    {
+      "id": "richstuff:nickel_wire",
+      "required": false
+    },
     {
       "id": "vintageimprovements:nickel_wire",
       "required": false

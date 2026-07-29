@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_andesite_alloy_dust"
+    {
+      "id": "richstuff:small_andesite_alloy_dust",
+      "required": false
+    }
   ]
 }

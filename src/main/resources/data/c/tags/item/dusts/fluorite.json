@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:fluorite_dust"
+    {
+      "id": "richstuff:fluorite_dust",
+      "required": false
+    }
   ]
 }

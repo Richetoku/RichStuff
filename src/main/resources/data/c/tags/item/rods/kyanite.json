@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:kyanite_rod"
+    {
+      "id": "richstuff:kyanite_rod",
+      "required": false
+    }
   ]
 }

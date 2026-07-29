@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:azure_silver_ingot",
-    "richstuff:azure_silver_rod",
-    "richstuff:azure_silver_plate",
-    "richstuff:azure_silver_gear"
+    {
+      "id": "richstuff:azure_silver_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:azure_silver_gear",
+      "required": false
+    }
   ]
 }

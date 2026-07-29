@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/iron"
+    {
+      "id": "#c:nuggets/iron",
+      "required": false
+    }
   ]
 }

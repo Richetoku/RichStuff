@@ -1,229 +1,898 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/alexandrite",
-    "#c:storage_blocks/alexandrite_dust",
-    "#c:storage_blocks/aluminum",
-    "#c:storage_blocks/aluminum_dust",
-    "#c:storage_blocks/amethyst",
-    "#c:storage_blocks/amethyst_dust",
-    "#c:storage_blocks/ammolite",
-    "#c:storage_blocks/ammolite_dust",
-    "#c:storage_blocks/andesite_alloy",
-    "#c:storage_blocks/andesite_alloy_dust",
-    "#c:storage_blocks/azure_electrum",
-    "#c:storage_blocks/azure_electrum_dust",
-    "#c:storage_blocks/azure_silver",
-    "#c:storage_blocks/azure_silver_dust",
-    "#c:storage_blocks/bitumen",
-    "#c:storage_blocks/bitumen_dust",
-    "#c:storage_blocks/black_diamond",
-    "#c:storage_blocks/black_diamond_dust",
-    "#c:storage_blocks/blaze_gold",
-    "#c:storage_blocks/blaze_gold_dust",
-    "#c:storage_blocks/blaze_rod",
-    "#c:storage_blocks/bone",
-    "#c:storage_blocks/brass",
-    "#c:storage_blocks/brass_dust",
-    "#c:storage_blocks/bronze",
-    "#c:storage_blocks/bronze_dust",
-    "#c:storage_blocks/carnelian",
-    "#c:storage_blocks/carnelian_dust",
-    "#c:storage_blocks/cast_iron",
-    "#c:storage_blocks/cast_iron_dust",
-    "#c:storage_blocks/celestigem",
-    "#c:storage_blocks/celestigem_dust",
-    "#c:storage_blocks/charcoal",
-    "#c:storage_blocks/charcoal_dust",
-    "#c:storage_blocks/cinnabar",
-    "#c:storage_blocks/cinnabar_dust",
-    "#c:storage_blocks/citrine",
-    "#c:storage_blocks/citrine_dust",
-    "#c:storage_blocks/coal",
-    "#c:storage_blocks/coal_dust",
-    "#c:storage_blocks/cobalt",
-    "#c:storage_blocks/cobalt_dust",
-    "#c:storage_blocks/constantan",
-    "#c:storage_blocks/constantan_dust",
-    "#c:storage_blocks/copper",
-    "#c:storage_blocks/copper_dust",
-    "#c:storage_blocks/copronickel",
-    "#c:storage_blocks/copronickel_dust",
-    "#c:storage_blocks/crimson_iron",
-    "#c:storage_blocks/crimson_iron_dust",
-    "#c:storage_blocks/crimson_steel",
-    "#c:storage_blocks/crimson_steel_dust",
-    "#c:storage_blocks/diamond",
-    "#c:storage_blocks/diamond_dust",
-    "#c:storage_blocks/eclipse_alloy",
-    "#c:storage_blocks/eclipse_alloy_dust",
-    "#c:storage_blocks/electrum",
-    "#c:storage_blocks/electrum_dust",
-    "#c:storage_blocks/emerald",
-    "#c:storage_blocks/emerald_dust",
-    "#c:storage_blocks/ender",
-    "#c:storage_blocks/enderium",
-    "#c:storage_blocks/enderium_dust",
-    "#c:storage_blocks/ferricore",
-    "#c:storage_blocks/ferricore_dust",
-    "#c:storage_blocks/fluorite",
-    "#c:storage_blocks/fluorite_dust",
-    "#c:storage_blocks/ghast_tear",
-    "#c:storage_blocks/glowstone",
-    "#c:storage_blocks/gold",
-    "#c:storage_blocks/gold_dust",
-    "#c:storage_blocks/heliodor",
-    "#c:storage_blocks/heliodor_dust",
-    "#c:storage_blocks/invar",
-    "#c:storage_blocks/invar_dust",
-    "#c:storage_blocks/iolite",
-    "#c:storage_blocks/iolite_dust",
-    "#c:storage_blocks/iridium",
-    "#c:storage_blocks/iridium_dust",
-    "#c:storage_blocks/iron",
-    "#c:storage_blocks/iron_dust",
-    "#c:storage_blocks/kyanite",
-    "#c:storage_blocks/kyanite_dust",
-    "#c:storage_blocks/lapis_lazuli",
-    "#c:storage_blocks/lapis_lazuli_dust",
-    "#c:storage_blocks/lead",
-    "#c:storage_blocks/lead_dust",
-    "#c:storage_blocks/lithium",
-    "#c:storage_blocks/lithium_dust",
-    "#c:storage_blocks/lumium",
-    "#c:storage_blocks/lumium_dust",
-    "#c:storage_blocks/moldavite",
-    "#c:storage_blocks/moldavite_dust",
-    "#c:storage_blocks/nether_charcoal",
-    "#c:storage_blocks/nether_charcoal_dust",
-    "#c:storage_blocks/netherite",
-    "#c:storage_blocks/netherite_dust",
-    "#c:storage_blocks/nickel",
-    "#c:storage_blocks/nickel_dust",
-    "#c:storage_blocks/obsidian",
-    "#c:storage_blocks/obsidian_dust",
-    "#c:storage_blocks/osmium",
-    "#c:storage_blocks/osmium_dust",
-    "#c:storage_blocks/peridot",
-    "#c:storage_blocks/peridot_dust",
-    "#c:storage_blocks/pig_iron",
-    "#c:storage_blocks/pig_iron_dust",
-    "#c:storage_blocks/platinum",
-    "#c:storage_blocks/platinum_dust",
-    "#c:storage_blocks/prismarine",
-    "#c:storage_blocks/prismarine_dust",
-    "#c:storage_blocks/quartz",
-    "#c:storage_blocks/quartz_dust",
-    "#c:storage_blocks/raw_alexandrite",
-    "#c:storage_blocks/raw_aluminum",
-    "#c:storage_blocks/raw_amethyst",
-    "#c:storage_blocks/raw_ammolite",
-    "#c:storage_blocks/raw_andesite_alloy",
-    "#c:storage_blocks/raw_azure_electrum",
-    "#c:storage_blocks/raw_azure_silver",
-    "#c:storage_blocks/raw_bitumen",
-    "#c:storage_blocks/raw_black_diamond",
-    "#c:storage_blocks/raw_blaze_gold",
-    "#c:storage_blocks/raw_brass",
-    "#c:storage_blocks/raw_bronze",
-    "#c:storage_blocks/raw_carnelian",
-    "#c:storage_blocks/raw_cast_iron",
-    "#c:storage_blocks/raw_celestigem",
-    "#c:storage_blocks/raw_charcoal",
-    "#c:storage_blocks/raw_cinnabar",
-    "#c:storage_blocks/raw_citrine",
-    "#c:storage_blocks/raw_coal",
-    "#c:storage_blocks/raw_cobalt",
-    "#c:storage_blocks/raw_constantan",
-    "#c:storage_blocks/raw_copper",
-    "#c:storage_blocks/raw_copronickel",
-    "#c:storage_blocks/raw_crimson_iron",
-    "#c:storage_blocks/raw_crimson_steel",
-    "#c:storage_blocks/raw_diamond",
-    "#c:storage_blocks/raw_eclipse_alloy",
-    "#c:storage_blocks/raw_electrum",
-    "#c:storage_blocks/raw_emerald",
-    "#c:storage_blocks/raw_enderium",
-    "#c:storage_blocks/raw_ferricore",
-    "#c:storage_blocks/raw_fluorite",
-    "#c:storage_blocks/raw_gold",
-    "#c:storage_blocks/raw_heliodor",
-    "#c:storage_blocks/raw_invar",
-    "#c:storage_blocks/raw_iolite",
-    "#c:storage_blocks/raw_iridium",
-    "#c:storage_blocks/raw_iron",
-    "#c:storage_blocks/raw_kyanite",
-    "#c:storage_blocks/raw_lapis_lazuli",
-    "#c:storage_blocks/raw_lead",
-    "#c:storage_blocks/raw_lithium",
-    "#c:storage_blocks/raw_lumium",
-    "#c:storage_blocks/raw_moldavite",
-    "#c:storage_blocks/raw_nether_charcoal",
-    "#c:storage_blocks/raw_netherite",
-    "#c:storage_blocks/raw_nickel",
-    "#c:storage_blocks/raw_obsidian",
-    "#c:storage_blocks/raw_osmium",
-    "#c:storage_blocks/raw_peridot",
-    "#c:storage_blocks/raw_pig_iron",
-    "#c:storage_blocks/raw_platinum",
-    "#c:storage_blocks/raw_prismarine",
-    "#c:storage_blocks/raw_quartz",
-    "#c:storage_blocks/raw_reinforced_copper",
-    "#c:storage_blocks/raw_rose_quartz",
-    "#c:storage_blocks/raw_ruby",
-    "#c:storage_blocks/raw_salt",
-    "#c:storage_blocks/raw_sapphire",
-    "#c:storage_blocks/raw_signalum",
-    "#c:storage_blocks/raw_silver",
-    "#c:storage_blocks/raw_steel",
-    "#c:storage_blocks/raw_tin",
-    "#c:storage_blocks/raw_topaz",
-    "#c:storage_blocks/raw_turquoise",
-    "#c:storage_blocks/raw_tyrian_steel",
-    "#c:storage_blocks/raw_uranium",
-    "#c:storage_blocks/raw_vanadium",
-    "#c:storage_blocks/raw_white_diamond",
-    "#c:storage_blocks/raw_wrought_iron",
-    "#c:storage_blocks/raw_zinc",
-    "#c:storage_blocks/redstone",
-    "#c:storage_blocks/reinforced_copper",
-    "#c:storage_blocks/reinforced_copper_dust",
-    "#c:storage_blocks/rose_quartz",
-    "#c:storage_blocks/rose_quartz_dust",
-    "#c:storage_blocks/rotten_flesh",
-    "#c:storage_blocks/ruby",
-    "#c:storage_blocks/ruby_dust",
-    "#c:storage_blocks/salt",
-    "#c:storage_blocks/salt_dust",
-    "#c:storage_blocks/sapphire",
-    "#c:storage_blocks/sapphire_dust",
-    "#c:storage_blocks/signalum",
-    "#c:storage_blocks/signalum_dust",
-    "#c:storage_blocks/silver",
-    "#c:storage_blocks/silver_dust",
-    "#c:storage_blocks/spider_eye",
-    "#c:storage_blocks/steel",
-    "#c:storage_blocks/steel_dust",
-    "#c:storage_blocks/sulfur",
-    "#c:storage_blocks/tin",
-    "#c:storage_blocks/tin_dust",
-    "#c:storage_blocks/topaz",
-    "#c:storage_blocks/topaz_dust",
-    "#c:storage_blocks/turquoise",
-    "#c:storage_blocks/turquoise_dust",
-    "#c:storage_blocks/tyrian_steel",
-    "#c:storage_blocks/tyrian_steel_dust",
-    "#c:storage_blocks/uranite",
-    "#c:storage_blocks/uranium",
-    "#c:storage_blocks/uranium_dust",
-    "#c:storage_blocks/vanadium",
-    "#c:storage_blocks/vanadium_dust",
-    "#c:storage_blocks/white_diamond",
-    "#c:storage_blocks/white_diamond_dust",
-    "#c:storage_blocks/wrought_iron",
-    "#c:storage_blocks/wrought_iron_dust",
-    "#c:storage_blocks/zinc",
-    "#c:storage_blocks/zinc_dust",
+    {
+      "id": "#c:storage_blocks/alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/alexandrite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/aluminum_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/amethyst_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ammolite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/andesite_alloy_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/azure_electrum_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/azure_silver_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/bitumen",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/bitumen_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/black_diamond_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/blaze_gold_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/blaze_rod",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/bone",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/brass",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/brass_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/bronze",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/bronze_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/carnelian_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/cast_iron_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/celestigem",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/celestigem_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/charcoal_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/cinnabar",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/cinnabar_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/citrine",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/citrine_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/coal",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/coal_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/cobalt_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/constantan",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/constantan_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/copper",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/copper_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/copronickel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/copronickel_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/crimson_iron_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/crimson_steel_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/diamond_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/eclipse_alloy_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/electrum_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/emerald_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ender",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/enderium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/enderium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ferricore",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ferricore_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/fluorite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/fluorite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ghast_tear",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/glowstone",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/gold",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/gold_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/heliodor_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/invar",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/invar_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iolite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iolite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iridium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iron_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/kyanite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lapis_lazuli_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lead",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lead_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lithium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lithium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lumium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/lumium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/moldavite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/nether_charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/nether_charcoal_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/netherite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/netherite_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/nickel_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/obsidian",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/obsidian_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/osmium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/peridot",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/peridot_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/pig_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/pig_iron_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/platinum_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/prismarine_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/quartz",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/quartz_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_alexandrite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_ammolite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_azure_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_azure_silver",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_bitumen",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_black_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_blaze_gold",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_brass",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_bronze",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_carnelian",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_cast_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_celestigem",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_cinnabar",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_citrine",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_coal",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_cobalt",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_constantan",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_copper",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_copronickel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_crimson_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_crimson_steel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_electrum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_emerald",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_enderium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_ferricore",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_fluorite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_gold",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_heliodor",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_invar",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_iolite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_iridium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_kyanite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_lapis_lazuli",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_lead",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_lithium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_lumium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_moldavite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_nether_charcoal",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_netherite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_nickel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_obsidian",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_osmium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_peridot",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_pig_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_platinum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_ruby",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_salt",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_signalum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_silver",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_steel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_tin",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_topaz",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_uranium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_white_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/raw_zinc",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/redstone",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/reinforced_copper",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/reinforced_copper_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/rose_quartz",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/rose_quartz_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/rotten_flesh",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ruby",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/ruby_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/salt",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/salt_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/sapphire_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/signalum",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/signalum_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/silver",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/silver_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/spider_eye",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/steel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/steel_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/sulfur",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/tin",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/tin_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/topaz",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/topaz_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/turquoise",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/turquoise_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/tyrian_steel",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/tyrian_steel_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/uranite",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/uranium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/vanadium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/vanadium_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/white_diamond",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/white_diamond_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/wrought_iron",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/wrought_iron_dust",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/zinc",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/zinc_dust",
+      "required": false
+    },
     "minecraft:melon"
   ]
 }

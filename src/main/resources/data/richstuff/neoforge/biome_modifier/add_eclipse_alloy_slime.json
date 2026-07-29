@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#richstuff:metal_slime_spawns/eclipse_alloy",
+  "spawners": {
+    "type": "richstuff:eclipse_alloy_slime",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

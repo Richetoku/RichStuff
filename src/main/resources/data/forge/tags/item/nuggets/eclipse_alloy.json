@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/eclipse_alloy"
+    {
+      "id": "#c:nuggets/eclipse_alloy",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:enderium_ingot",
-    "richstuff:enderium_rod",
-    "richstuff:enderium_plate",
-    "richstuff:enderium_gear"
+    {
+      "id": "richstuff:enderium_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:enderium_gear",
+      "required": false
+    }
   ]
 }

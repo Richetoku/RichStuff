@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:foods/pies"
+    {
+      "id": "#c:foods/pies",
+      "required": false
+    }
   ]
 }

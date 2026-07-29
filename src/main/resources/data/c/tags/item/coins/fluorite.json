@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:fluorite_coin"
+    {
+      "id": "richstuff:fluorite_coin",
+      "required": false
+    }
   ]
 }

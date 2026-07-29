@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/andesite_alloy"
+    {
+      "id": "#c:nuggets/andesite_alloy",
+      "required": false
+    }
   ]
 }

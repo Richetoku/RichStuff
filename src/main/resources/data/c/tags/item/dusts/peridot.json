@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:peridot_dust"
+    {
+      "id": "richstuff:peridot_dust",
+      "required": false
+    }
   ]
 }

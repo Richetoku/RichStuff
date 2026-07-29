@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "minecraft:gold_ingot",
-    "richstuff:gold_ingot"
+    {
+      "id": "richstuff:gold_ingot",
+      "required": false
+    }
   ]
 }

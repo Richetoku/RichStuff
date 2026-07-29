@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:raspberryitem",
-    "pamhc2crops:raspberryitem"
+    {
+      "id": "pamhc2trees:raspberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:raspberryitem",
+      "required": false
+    }
   ]
 }

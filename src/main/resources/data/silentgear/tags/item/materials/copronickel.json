@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copronickel_ingot",
-    "richstuff:copronickel_rod",
-    "richstuff:copronickel_plate",
-    "richstuff:copronickel_gear"
+    {
+      "id": "richstuff:copronickel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:copronickel_gear",
+      "required": false
+    }
   ]
 }

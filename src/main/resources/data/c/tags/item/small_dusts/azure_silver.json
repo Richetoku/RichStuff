@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:small_azure_silver_dust"
+    {
+      "id": "richstuff:small_azure_silver_dust",
+      "required": false
+    }
   ]
 }

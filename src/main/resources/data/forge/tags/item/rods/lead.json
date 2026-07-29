@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/lead"
+    {
+      "id": "#c:rods/lead",
+      "required": false
+    }
   ]
 }

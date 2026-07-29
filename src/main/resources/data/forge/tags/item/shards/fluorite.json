@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/fluorite"
+    {
+      "id": "#c:shards/fluorite",
+      "required": false
+    },
+    {
+      "id": "richstuff:fluorite_shard",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "richstuff:zinc_rod",
+    {
+      "id": "richstuff:zinc_rod",
+      "required": false
+    },
     {
       "id": "vintageimprovements:zinc_rod",
       "required": false

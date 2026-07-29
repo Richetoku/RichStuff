@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "#c:shards/iolite"
+    {
+      "id": "#c:shards/iolite",
+      "required": false
+    },
+    {
+      "id": "richstuff:iolite_shard",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/lapis_lazuli"
+    {
+      "id": "#c:wires/lapis_lazuli",
+      "required": false
+    }
   ]
 }

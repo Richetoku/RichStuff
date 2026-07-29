@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tyrian_steel_ingot",
-    "richstuff:tyrian_steel_rod",
-    "richstuff:tyrian_steel_plate",
-    "richstuff:tyrian_steel_gear"
+    {
+      "id": "richstuff:tyrian_steel_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:tyrian_steel_gear",
+      "required": false
+    }
   ]
 }

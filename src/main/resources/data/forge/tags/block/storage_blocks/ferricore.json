@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/ferricore"
+    {
+      "id": "#c:storage_blocks/ferricore",
+      "required": false
+    }
   ]
 }

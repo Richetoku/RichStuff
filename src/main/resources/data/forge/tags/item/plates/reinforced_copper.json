@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/reinforced_copper"
+    {
+      "id": "#c:plates/reinforced_copper",
+      "required": false
+    }
   ]
 }

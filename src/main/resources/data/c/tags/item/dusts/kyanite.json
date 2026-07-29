@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:kyanite_dust"
+    {
+      "id": "richstuff:kyanite_dust",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:signalum_nugget"
+    {
+      "id": "richstuff:signalum_nugget",
+      "required": false
+    }
   ]
 }

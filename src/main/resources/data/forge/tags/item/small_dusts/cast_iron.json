@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/cast_iron"
+    {
+      "id": "#c:small_dusts/cast_iron",
+      "required": false
+    }
   ]
 }

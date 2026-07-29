@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:dateitem",
-    "pamhc2crops:dateitem"
+    {
+      "id": "pamhc2trees:dateitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:dateitem",
+      "required": false
+    }
   ]
 }

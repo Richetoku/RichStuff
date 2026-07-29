@@ -29,6 +29,10 @@ public final class RichStuffClient {
         RichFluidItemDecorator decorator = new RichFluidItemDecorator(stack ->
                 stack.getItem() instanceof RichTankBlockItem tank ? tank.capacity() : 1, false);
         RichStuff.RICH_TANK_ITEMS.forEach(item -> event.register(item.get(), decorator));
+        RichFluidItemDecorator vesselDecorator = new RichFluidItemDecorator(stack -> 1000, true);
+        RichStuff.ITEMS.forEach((id, holder) -> {
+            if (RichStuff.isFluidVesselId(id)) event.register(holder.get(), vesselDecorator);
+        });
         RichGearItemDecorator brokenDecorator = new RichGearItemDecorator();
         RichStuff.ITEMS.values().forEach(holder -> {
             if (holder.get() instanceof RichGearMarker) event.register(holder.get(), brokenDecorator);

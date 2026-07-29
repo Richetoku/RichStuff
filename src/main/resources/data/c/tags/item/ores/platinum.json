@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:platinum_ore",
-    "richores:deepslate_platinum_ore"
+    {
+      "id": "richores:platinum_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_platinum_ore",
+      "required": false
+    }
   ]
 }

@@ -1,12 +1,33 @@
 {
   "replace": false,
   "values": [
-    "#c:crystals/amethyst",
-    "#c:crystals/prismarine",
-    "#c:crystals/prismarine_crystals",
-    "#c:crystals/prismarine_shard",
-    "#c:crystals/quartz",
-    "#c:crystals/salt",
-    "#c:crystals/uranite"
+    {
+      "id": "#c:crystals/amethyst",
+      "required": false
+    },
+    {
+      "id": "#c:crystals/prismarine",
+      "required": false
+    },
+    {
+      "id": "#c:crystals/prismarine_crystals",
+      "required": false
+    },
+    {
+      "id": "#c:crystals/prismarine_shard",
+      "required": false
+    },
+    {
+      "id": "#c:crystals/quartz",
+      "required": false
+    },
+    {
+      "id": "#c:crystals/salt",
+      "required": false
+    },
+    {
+      "id": "#c:crystals/uranite",
+      "required": false
+    }
   ]
 }

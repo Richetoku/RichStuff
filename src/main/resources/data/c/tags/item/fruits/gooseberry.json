@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:gooseberryitem",
-    "pamhc2crops:gooseberryitem"
+    {
+      "id": "pamhc2trees:gooseberryitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:gooseberryitem",
+      "required": false
+    }
   ]
 }

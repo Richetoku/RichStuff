@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gems/kyanite"
+    {
+      "id": "#c:gems/kyanite",
+      "required": false
+    }
   ]
 }

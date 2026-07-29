@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:lapis_lazuli_wire"
+    {
+      "id": "richstuff:lapis_lazuli_wire",
+      "required": false
+    }
   ]
 }

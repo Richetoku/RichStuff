@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:molten/lumium"
+    {
+      "id": "#c:molten/lumium",
+      "required": false
+    }
   ]
 }

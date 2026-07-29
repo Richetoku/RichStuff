@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/crimson_steel"
+    {
+      "id": "#c:wires/crimson_steel",
+      "required": false
+    }
   ]
 }

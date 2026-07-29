@@ -7,7 +7,8 @@
   "forms": [
     "ender_block",
     "ender_dust_bag",
-    "ender_eye_block"
+    "ender_eye_block",
+    "ender_filled_block_mold"
   ],
   "skipForms": [],
   "crystalGrowthOnly": false

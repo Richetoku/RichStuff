@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/crimson_steel"
+    {
+      "id": "#c:plates/crimson_steel",
+      "required": false
+    }
   ]
 }

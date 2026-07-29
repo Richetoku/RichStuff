@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:wires/nickel"
+    {
+      "id": "#c:wires/nickel",
+      "required": false
+    }
   ]
 }

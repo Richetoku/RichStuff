@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:mangoitem",
-    "pamhc2crops:mangoitem"
+    {
+      "id": "pamhc2trees:mangoitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:mangoitem",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:cobalt_ingot",
-    "richstuff:cobalt_rod",
-    "richstuff:cobalt_plate",
-    "richstuff:cobalt_gear"
+    {
+      "id": "richstuff:cobalt_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:cobalt_gear",
+      "required": false
+    }
   ]
 }

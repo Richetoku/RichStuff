@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/signalum"
+    {
+      "id": "#c:ingots/signalum",
+      "required": false
+    }
   ]
 }

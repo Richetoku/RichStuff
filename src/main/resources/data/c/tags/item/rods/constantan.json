@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_rod"
+    {
+      "id": "richstuff:constantan_rod",
+      "required": false
+    }
   ]
 }

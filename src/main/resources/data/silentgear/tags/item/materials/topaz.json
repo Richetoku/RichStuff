@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richstuff:topaz_polished",
-    "richstuff:topaz_rod"
+    {
+      "id": "richstuff:topaz_polished",
+      "required": false
+    },
+    {
+      "id": "richstuff:topaz_rod",
+      "required": false
+    }
   ]
 }

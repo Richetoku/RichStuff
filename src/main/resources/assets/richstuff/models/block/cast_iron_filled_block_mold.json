@@ -1,8 +1,8 @@
 {
-  "parent": "minecraft:block/block",
+  "parent": "richstuff:block/mold/base_block_mold",
   "textures": {
-    "base": "minecraft:block/terracotta",
-    "particle": "minecraft:block/terracotta",
+    "particle": "#base",
+    "base": "minecraft:block/clay",
     "fluid": "richstuff:block/fluid/molten_cast_iron_still"
   },
   "elements": [
@@ -898,7 +898,7 @@
       ],
       "to": [
         12,
-        8.0,
+        9,
         12
       ],
       "faces": {
@@ -957,6 +957,89 @@
           "texture": "#fluid"
         }
       }
+    }
+  ],
+  "groups": [
+    {
+      "name": "Base",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Walls",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Left_Handle",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Right_Handle",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "Interior",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": []
+    },
+    {
+      "name": "Fluid",
+      "origin": [
+        3,
+        0,
+        3
+      ],
+      "color": 0,
+      "children": [
+        13
+      ]
     }
   ],
   "display": {
@@ -1096,6 +1179,5 @@
         0.5
       ]
     }
-  },
-  "render_type": "minecraft:cutout"
+  }
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:invar_nugget"
+    {
+      "id": "richstuff:invar_nugget",
+      "required": false
+    }
   ]
 }

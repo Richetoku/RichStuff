@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:nether_charcoal_filled_brick_mold"
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:nether_charcoal_brick"
+    },
+    {
+      "id": "richstuff:base_brick_mold"
+    }
+  ]
+}

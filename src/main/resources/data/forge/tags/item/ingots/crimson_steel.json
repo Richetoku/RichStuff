@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/crimson_steel"
+    {
+      "id": "#c:ingots/crimson_steel",
+      "required": false
+    }
   ]
 }

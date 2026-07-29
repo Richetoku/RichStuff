@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:plates/signalum"
+    {
+      "id": "#c:plates/signalum",
+      "required": false
+    }
   ]
 }

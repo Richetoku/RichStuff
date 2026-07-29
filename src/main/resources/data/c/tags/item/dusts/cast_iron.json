@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:cast_iron_dust"
+    {
+      "id": "richstuff:cast_iron_dust",
+      "required": false
+    }
   ]
 }

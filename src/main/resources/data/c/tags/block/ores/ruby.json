@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:ruby_ore",
-    "richores:deepslate_ruby_ore"
+    {
+      "id": "richores:ruby_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_ruby_ore",
+      "required": false
+    }
   ]
 }

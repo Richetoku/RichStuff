@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/cobalt"
+    {
+      "id": "#c:raw_materials/cobalt",
+      "required": false
+    }
   ]
 }

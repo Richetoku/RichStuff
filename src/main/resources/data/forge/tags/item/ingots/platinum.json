@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/platinum"
+    {
+      "id": "#c:ingots/platinum",
+      "required": false
+    }
   ]
 }

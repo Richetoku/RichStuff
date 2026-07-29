@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/white_diamond"
+    {
+      "id": "#c:storage_blocks/white_diamond",
+      "required": false
+    }
   ]
 }

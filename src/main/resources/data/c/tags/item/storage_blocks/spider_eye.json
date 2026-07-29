@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:spider_eye_block"
+    {
+      "id": "richstuff:spider_eye_block",
+      "required": false
+    }
   ]
 }

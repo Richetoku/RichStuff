@@ -3,7 +3,7 @@
   "textures": {
     "particle": "#base",
     "base": "minecraft:block/clay",
-    "fluid": "minecraft:block/water_flow"
+    "fluid": "minecraft:block/water_still"
   },
   "elements": [
     {
@@ -1442,7 +1442,7 @@
       ],
       "to": [
         10,
-        2.0,
+        3,
         11
       ],
       "faces": {
@@ -1510,7 +1510,7 @@
       ],
       "to": [
         6,
-        2.0,
+        3,
         10
       ],
       "faces": {
@@ -1578,7 +1578,7 @@
       ],
       "to": [
         11,
-        2.0,
+        3,
         10
       ],
       "faces": {
@@ -1868,6 +1868,5 @@
         0.5
       ]
     }
-  },
-  "render_type": "minecraft:cutout"
+  }
 }

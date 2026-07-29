@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/peridot"
+    {
+      "id": "#c:storage_blocks/peridot",
+      "required": false
+    }
   ]
 }

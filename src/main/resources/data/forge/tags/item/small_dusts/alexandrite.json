@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:small_dusts/alexandrite"
+    {
+      "id": "#c:small_dusts/alexandrite",
+      "required": false
+    }
   ]
 }

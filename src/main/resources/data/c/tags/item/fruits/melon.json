@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:melonitem",
-    "pamhc2crops:melonitem"
+    {
+      "id": "pamhc2trees:melonitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:melonitem",
+      "required": false
+    }
   ]
 }

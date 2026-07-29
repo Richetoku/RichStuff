@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ghast_tear_block"
+    {
+      "id": "richstuff:ghast_tear_block",
+      "required": false
+    }
   ]
 }

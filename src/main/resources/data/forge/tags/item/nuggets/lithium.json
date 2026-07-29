@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:nuggets/lithium"
+    {
+      "id": "#c:nuggets/lithium",
+      "required": false
+    }
   ]
 }

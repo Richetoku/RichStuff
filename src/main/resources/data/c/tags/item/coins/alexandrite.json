@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:alexandrite_coin"
+    {
+      "id": "richstuff:alexandrite_coin",
+      "required": false
+    }
   ]
 }

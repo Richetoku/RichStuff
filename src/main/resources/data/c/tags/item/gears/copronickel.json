@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copronickel_gear"
+    {
+      "id": "richstuff:copronickel_gear",
+      "required": false
+    }
   ]
 }

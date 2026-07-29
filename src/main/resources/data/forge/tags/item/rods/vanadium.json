@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/vanadium"
+    {
+      "id": "#c:rods/vanadium",
+      "required": false
+    }
   ]
 }

@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:constantan_ingot",
-    "richstuff:constantan_rod",
-    "richstuff:constantan_plate",
-    "richstuff:constantan_gear"
+    {
+      "id": "richstuff:constantan_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:constantan_gear",
+      "required": false
+    }
   ]
 }

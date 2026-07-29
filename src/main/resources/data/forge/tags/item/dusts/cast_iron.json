@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:dusts/cast_iron"
+    {
+      "id": "#c:dusts/cast_iron",
+      "required": false
+    }
   ]
 }

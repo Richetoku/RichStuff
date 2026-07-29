@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/andesite_alloy"
+    {
+      "id": "#c:coins/andesite_alloy",
+      "required": false
+    }
   ]
 }

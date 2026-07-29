@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:diamond_ore",
-    "richores:deepslate_diamond_ore"
+    {
+      "id": "richores:diamond_ore",
+      "required": false
+    },
+    {
+      "id": "richores:deepslate_diamond_ore",
+      "required": false
+    }
   ]
 }

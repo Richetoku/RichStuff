@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:moldavite_wire"
+    {
+      "id": "richstuff:moldavite_wire",
+      "required": false
+    }
   ]
 }

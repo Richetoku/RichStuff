@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "richstuff:copper_ingot",
-    "richstuff:copper_rod",
-    "richstuff:copper_plate",
-    "richstuff:copper_gear"
+    {
+      "id": "richstuff:copper_ingot",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_rod",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_plate",
+      "required": false
+    },
+    {
+      "id": "richstuff:copper_gear",
+      "required": false
+    }
   ]
 }

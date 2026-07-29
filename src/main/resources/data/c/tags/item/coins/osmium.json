@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:osmium_coin"
+    {
+      "id": "richstuff:osmium_coin",
+      "required": false
+    }
   ]
 }

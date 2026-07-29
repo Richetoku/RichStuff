@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/eclipse_alloy"
+    {
+      "id": "#c:ingots/eclipse_alloy",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/alexandrite"
+    {
+      "id": "#c:coins/alexandrite",
+      "required": false
+    }
   ]
 }

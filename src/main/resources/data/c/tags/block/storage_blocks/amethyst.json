@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:amethyst_block"
+    {
+      "id": "richstuff:amethyst_block",
+      "required": false
+    }
   ]
 }

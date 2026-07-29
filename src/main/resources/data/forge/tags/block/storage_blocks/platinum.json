@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/platinum"
+    {
+      "id": "#c:storage_blocks/platinum",
+      "required": false
+    }
   ]
 }

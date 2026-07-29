@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ruby_dust"
+    {
+      "id": "richstuff:ruby_dust",
+      "required": false
+    }
   ]
 }

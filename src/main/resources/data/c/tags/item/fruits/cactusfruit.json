@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "pamhc2trees:cactusfruititem",
-    "pamhc2crops:cactusfruititem"
+    {
+      "id": "pamhc2trees:cactusfruititem",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cactusfruititem",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:gears/rose_quartz"
+    {
+      "id": "#c:gears/rose_quartz",
+      "required": false
+    }
   ]
 }

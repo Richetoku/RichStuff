@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:tyrian_steel_wire"
+    {
+      "id": "richstuff:tyrian_steel_wire",
+      "required": false
+    }
   ]
 }

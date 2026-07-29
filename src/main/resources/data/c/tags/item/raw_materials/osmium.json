@@ -1,7 +1,13 @@
 {
   "replace": false,
   "values": [
-    "richores:raw_osmium",
-    "richstuff:raw_osmium"
+    {
+      "id": "richores:raw_osmium",
+      "required": false
+    },
+    {
+      "id": "richstuff:raw_osmium",
+      "required": false
+    }
   ]
 }

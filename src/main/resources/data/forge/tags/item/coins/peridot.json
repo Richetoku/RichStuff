@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:coins/peridot"
+    {
+      "id": "#c:coins/peridot",
+      "required": false
+    }
   ]
 }

@@ -4,6 +4,7 @@ import com.richetoku.richcore.api.RichFluidItemHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.Packet;
@@ -156,7 +157,13 @@ public final class RichTankBlockEntity extends BlockEntity implements IFluidHand
     }
 
     public void saveToItem(ItemStack stack) {
-        if (RichStuffConfig.RICH_TANKS_RETAIN_FLUID.get() && !fluid.isEmpty()) RichFluidItemHandler.setFluid(stack, fluid.copy());
+        if (RichStuffConfig.RICH_TANKS_RETAIN_FLUID.get() && !fluid.isEmpty()) {
+            RichFluidItemHandler.setFluid(stack, fluid.copy());
+            stack.set(DataComponents.MAX_STACK_SIZE, 1);
+        } else {
+            RichFluidItemHandler.setFluid(stack, FluidStack.EMPTY);
+            stack.remove(DataComponents.MAX_STACK_SIZE);
+        }
     }
 
     @Override public int getTanks() { return 1; }

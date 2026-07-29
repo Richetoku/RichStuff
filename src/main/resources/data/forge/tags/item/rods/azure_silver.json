@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:rods/azure_silver"
+    {
+      "id": "#c:rods/azure_silver",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:ammolite_spring"
+    {
+      "id": "richstuff:ammolite_spring",
+      "required": false
+    }
   ]
 }

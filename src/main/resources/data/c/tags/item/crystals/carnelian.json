@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:carnelian"
+    {
+      "id": "richstuff:carnelian",
+      "required": false
+    }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:storage_blocks/raw_rose_quartz"
+    {
+      "id": "#c:storage_blocks/raw_rose_quartz",
+      "required": false
+    }
   ]
 }

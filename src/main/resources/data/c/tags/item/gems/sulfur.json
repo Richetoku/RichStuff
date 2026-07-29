@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "richstuff:sulfur_polished"
+    {
+      "id": "richstuff:sulfur_polished",
+      "required": false
+    }
   ]
 }
