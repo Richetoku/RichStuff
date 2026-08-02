@@ -133,6 +133,53 @@ public final class RikumiFakePlayerActor {
         json.addProperty("off_hand_slot", 28);
         json.addProperty("local_autonomy_available", true);
         json.addProperty("local_autonomy_active", isOnline() && !RikumiAiLifecycle.externalAgentActive(level));
+        RikumiAiLifecycle.avatar().ifPresent(avatar -> {
+            String mode = avatar.getMode().name().toLowerCase(java.util.Locale.ROOT);
+            String action = avatar.getActionState().name().toLowerCase(java.util.Locale.ROOT);
+            json.addProperty("behavior_mode", mode);
+            json.addProperty("mode", mode);
+            json.addProperty("current_task", avatar.getCurrentTask());
+            json.addProperty("task", avatar.getCurrentTask());
+            json.addProperty("overall_goal", avatar.getCurrentGoal());
+            json.addProperty("goal", avatar.getCurrentGoal());
+            json.addProperty("current_project", avatar.getCurrentProjectName());
+            json.addProperty("project", avatar.getCurrentProjectName());
+            json.addProperty("animation_action", action);
+            json.addProperty("action", action);
+            avatar.getBuildProject().ifPresent(project -> {
+                JsonObject projectJson = new JsonObject();
+                projectJson.addProperty("schematic", project.schematicId().toString());
+                projectJson.addProperty("name", project.displayName());
+                projectJson.addProperty("placed", project.placed());
+                projectJson.addProperty("total", project.total());
+                projectJson.addProperty("origin", project.origin().toShortString());
+                JsonArray materials = new JsonArray();
+                project.remainingMaterials().forEach((id, count) -> {
+                    JsonObject material = new JsonObject();
+                    material.addProperty("item", id.toString());
+                    material.addProperty("count", count);
+                    materials.add(material);
+                });
+                projectJson.add("remaining_materials", materials);
+                json.add("remaining_project_materials", materials);
+                json.add("build_project", projectJson);
+            });
+        });
+        JsonArray modes = new JsonArray();
+        for (var mode : com.richetoku.richstuff.rikumimita.RikumiMode.values()) modes.add(mode.name().toLowerCase(java.util.Locale.ROOT));
+        json.add("supported_modes", modes);
+        JsonArray schematics = new JsonArray();
+        for (var schematic : com.richetoku.richstuff.rikumimita.ai.schematic.RikumiSchematicRegistry.all()) {
+            JsonObject entry = new JsonObject();
+            entry.addProperty("id", schematic.id().toString());
+            entry.addProperty("name", schematic.displayName());
+            entry.addProperty("format", schematic.sourceFormat());
+            entry.addProperty("blocks", schematic.placements().size());
+            schematics.add(entry);
+        }
+        json.add("available_schematics", schematics);
+        json.addProperty("positional_audio", true);
+        json.addProperty("audio_attenuation", "entity_distance_based");
         return json;
     }
 

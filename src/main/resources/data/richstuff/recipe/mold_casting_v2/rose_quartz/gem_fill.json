@@ -24,8 +24,8 @@
           "RichStuffMaterial": "rose_quartz",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/rose_quartz",
-          "RichStuffTargetPart": "richstuff:rose_quartz",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:rose_quartz"
         }
       }
     }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:passionfruit_juice",
+      "required": false
+    }
+  ]
+}

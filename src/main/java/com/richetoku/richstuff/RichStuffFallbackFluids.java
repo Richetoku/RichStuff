@@ -2,6 +2,7 @@ package com.richetoku.richstuff;
 
 import com.richetoku.richcore.RichStuffCatalog;
 import com.richetoku.richcore.RichProduceCatalog;
+import com.richetoku.richcore.RichFoodFluidCatalog;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -37,7 +38,7 @@ public final class RichStuffFallbackFluids {
         if (!FLUIDS.isEmpty()) return;
         Set<String> contents = new LinkedHashSet<>();
         for (String id : RichStuffCatalog.STACKABLE_JARS) addContent(contents, id, "_jar");
-        for (String produce : RichProduceCatalog.JUICEABLE_IDS) contents.add(produce + "_juice");
+        contents.addAll(RichFoodFluidCatalog.allPrimaryFluidIds());
         contents.add("cream");
         contents.add("cream_frosting");
         contents.remove("empty");
@@ -64,7 +65,7 @@ public final class RichStuffFallbackFluids {
             final Supplier<FlowingFluid>[] flowingRef = new Supplier[1];
             final Supplier<LiquidBlock>[] blockRef = new Supplier[1];
             Supplier<BaseFlowingFluid.Properties> props = () -> new BaseFlowingFluid.Properties(type, sourceRef[0], flowingRef[0])
-                    .slopeFindDistance(2).levelDecreasePerBlock(2).block(blockRef[0]);
+                    .slopeFindDistance(flowDistance(key)).levelDecreasePerBlock(levelDecrease(key)).block(blockRef[0]);
             DeferredHolder<Fluid, FlowingFluid> source = RichStuffMoltenFluids.FLUIDS.register(key,
                     () -> new BaseFlowingFluid.Source(props.get()));
             DeferredHolder<Fluid, FlowingFluid> flowingFluid = RichStuffMoltenFluids.FLUIDS.register("flowing_" + key,
@@ -83,13 +84,23 @@ public final class RichStuffFallbackFluids {
     private static void addContent(Set<String> out, String id, String suffix) {
         if (id.endsWith(suffix)) out.add(id.substring(0, id.length() - suffix.length()));
     }
-    private static int density(String key) { return key.contains("oil") ? 850 : key.contains("milk") || key.equals("cream") ? 1030 : 1200; }
-    private static int viscosity(String key) { return key.contains("jam") || key.contains("jelly") || key.contains("frosting") ? 6000 : key.contains("syrup") || key.contains("honey") ? 4000 : key.contains("oil") ? 1600 : 1200; }
+    private static int density(String key) {
+        if (key.contains("frosting")) return 1450;
+        if (key.contains("jam") || key.contains("jelly")) return 1325;
+        return key.contains("oil") ? 850 : key.contains("milk") || key.equals("cream") ? 1030 : 1200;
+    }
+    private static int viscosity(String key) {
+        if (key.contains("frosting")) return 12_000;
+        if (key.contains("jam") || key.contains("jelly")) return 8_000;
+        return key.contains("syrup") || key.contains("honey") ? 4_000 : key.contains("oil") ? 1_600 : 1_200;
+    }
+    private static int flowDistance(String key) { return key.contains("frosting") ? 1 : key.contains("jam") || key.contains("jelly") ? 1 : 2; }
+    private static int levelDecrease(String key) { return key.contains("frosting") ? 4 : key.contains("jam") || key.contains("jelly") ? 3 : 2; }
     private static int temperature(String key) { return 300; }
     private static int tintFor(String key) {
         String k = key.toLowerCase(Locale.ROOT);
-        if (k.contains("milk") || k.equals("cream") || k.contains("cream_frosting")) return 0xFFF8E7;
         if (k.contains("chocolate")) return 0x6B351F;
+        if (k.contains("milk") || k.equals("cream") || k.equals("cream_frosting")) return 0xFFF8E7;
         if (k.contains("honey") || k.contains("syrup")) return 0xD99018;
         if (k.contains("oil")) return 0xB8A83A;
         if (k.contains("blueberry") || k.contains("blackberry") || k.contains("elderberry")) return 0x45225E;

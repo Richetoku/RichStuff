@@ -24,8 +24,8 @@
           "RichStuffMaterial": "carnelian",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/carnelian",
-          "RichStuffTargetPart": "richstuff:carnelian_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:carnelian_brick"
         }
       }
     }

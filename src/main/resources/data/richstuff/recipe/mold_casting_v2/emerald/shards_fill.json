@@ -24,8 +24,8 @@
           "RichStuffMaterial": "emerald",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/emerald",
-          "RichStuffTargetPart": "richstuff:emerald_shard",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:emerald_shard"
         }
       }
     }

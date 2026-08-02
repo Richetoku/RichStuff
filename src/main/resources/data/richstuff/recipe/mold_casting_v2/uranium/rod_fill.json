@@ -24,8 +24,8 @@
           "RichStuffMaterial": "uranium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/uranium",
-          "RichStuffTargetPart": "richstuff:uranium_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:uranium_rod"
         }
       }
     }

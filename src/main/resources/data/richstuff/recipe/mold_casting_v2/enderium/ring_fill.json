@@ -24,8 +24,8 @@
           "RichStuffMaterial": "enderium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/enderium",
-          "RichStuffTargetPart": "richstuff:enderium_ring",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:enderium_ring"
         }
       }
     }

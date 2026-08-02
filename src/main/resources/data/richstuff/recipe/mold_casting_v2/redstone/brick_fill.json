@@ -24,8 +24,8 @@
           "RichStuffMaterial": "redstone",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/redstone",
-          "RichStuffTargetPart": "richstuff:redstone_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:redstone_brick"
         }
       }
     }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:calabash_jelly",
+      "required": false
+    }
+  ]
+}

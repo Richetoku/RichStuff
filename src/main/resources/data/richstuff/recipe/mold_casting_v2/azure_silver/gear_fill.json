@@ -24,8 +24,8 @@
           "RichStuffMaterial": "azure_silver",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/azure_silver",
-          "RichStuffTargetPart": "richstuff:azure_silver_gear",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:azure_silver_gear"
         }
       }
     }

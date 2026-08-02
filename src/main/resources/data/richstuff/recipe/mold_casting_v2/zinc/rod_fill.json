@@ -24,8 +24,8 @@
           "RichStuffMaterial": "zinc",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/zinc",
-          "RichStuffTargetPart": "richstuff:zinc_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:zinc_rod"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "pig_iron",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/pig_iron",
-          "RichStuffTargetPart": "richstuff:pig_iron_coin",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:pig_iron_coin"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "copper",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/copper",
-          "RichStuffTargetPart": "richstuff:copper_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:copper_rod"
         }
       }
     }

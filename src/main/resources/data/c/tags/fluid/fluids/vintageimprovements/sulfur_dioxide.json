@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "vintageimprovements:sulfur_dioxide",
+      "required": false
+    }
+  ]
+}

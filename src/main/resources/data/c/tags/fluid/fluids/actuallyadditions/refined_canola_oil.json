@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "actuallyadditions:refined_canola_oil",
+      "required": false
+    }
+  ]
+}

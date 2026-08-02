@@ -17,16 +17,8 @@
   ],
   "results": [
     {
-      "id": "richstuff:raw_bitumen",
+      "id": "richores:raw_bitumen",
       "count": 4
-    },
-    {
-      "id": "richstuff:bitumen_dust",
-      "chance": 0.65
-    },
-    {
-      "id": "richstuff:small_sulfur_dust",
-      "chance": 0.22499999999999998
     }
   ],
   "processing_time": 220

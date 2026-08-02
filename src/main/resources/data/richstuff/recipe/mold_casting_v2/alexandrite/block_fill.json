@@ -24,8 +24,8 @@
           "RichStuffMaterial": "alexandrite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/alexandrite",
-          "RichStuffTargetPart": "richstuff:alexandrite_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:alexandrite_block"
         }
       }
     }

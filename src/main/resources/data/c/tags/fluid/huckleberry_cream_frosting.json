@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:huckleberry_cream_frosting",
+      "required": false
+    }
+  ]
+}

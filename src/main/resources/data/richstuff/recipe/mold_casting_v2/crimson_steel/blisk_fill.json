@@ -24,8 +24,8 @@
           "RichStuffMaterial": "crimson_steel",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/crimson_steel",
-          "RichStuffTargetPart": "richstuff:crimson_steel_blisk",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:crimson_steel_blisk"
         }
       }
     }

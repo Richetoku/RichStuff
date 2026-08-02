@@ -13,7 +13,7 @@
     {
       "type": "neoforge:tag",
       "tag": "c:molten/sulfur",
-      "amount": 45
+      "amount": 72
     }
   ],
   "results": [
@@ -24,8 +24,8 @@
           "RichStuffMaterial": "sulfur",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/sulfur",
-          "RichStuffTargetPart": "richstuff:sulfur_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:sulfur_rod"
         }
       }
     }

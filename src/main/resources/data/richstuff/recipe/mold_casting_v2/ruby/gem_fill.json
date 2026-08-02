@@ -24,8 +24,8 @@
           "RichStuffMaterial": "ruby",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/ruby",
-          "RichStuffTargetPart": "richstuff:ruby",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:ruby"
         }
       }
     }

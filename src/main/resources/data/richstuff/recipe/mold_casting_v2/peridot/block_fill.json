@@ -24,8 +24,8 @@
           "RichStuffMaterial": "peridot",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/peridot",
-          "RichStuffTargetPart": "richstuff:peridot_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:peridot_block"
         }
       }
     }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:blank_mold_press"
+    },
+    {
+      "item": "richstuff:base_gear_mold"
+    }
+  ],
+  "result": {
+    "id": "richstuff:gear_mold_press"
+  }
+}

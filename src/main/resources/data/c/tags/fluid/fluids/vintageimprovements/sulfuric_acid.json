@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "vintageimprovements:sulfuric_acid",
+      "required": false
+    }
+  ]
+}

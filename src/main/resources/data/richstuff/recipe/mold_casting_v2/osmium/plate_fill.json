@@ -24,8 +24,8 @@
           "RichStuffMaterial": "osmium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/osmium",
-          "RichStuffTargetPart": "richstuff:osmium_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:osmium_plate"
         }
       }
     }

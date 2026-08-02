@@ -24,8 +24,8 @@
           "RichStuffMaterial": "crimson_iron",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/crimson_iron",
-          "RichStuffTargetPart": "richstuff:crimson_iron_wire",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:crimson_iron_wire"
         }
       }
     }

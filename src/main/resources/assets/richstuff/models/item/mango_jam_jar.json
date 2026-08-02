@@ -1,3 +1,3 @@
 {
-  "parent": "richstuff:block/vessels_centered/mango_jam_jar"
+  "parent": "minecraft:builtin/entity"
 }

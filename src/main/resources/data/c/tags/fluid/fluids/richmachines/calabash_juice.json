@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richmachines:calabash_juice",
+      "required": false
+    }
+  ]
+}

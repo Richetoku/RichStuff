@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "pneumaticcraft:yeast_culture",
+      "required": false
+    }
+  ]
+}

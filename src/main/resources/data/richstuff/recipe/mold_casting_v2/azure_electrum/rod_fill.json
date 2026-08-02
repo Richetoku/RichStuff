@@ -24,8 +24,8 @@
           "RichStuffMaterial": "azure_electrum",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/azure_electrum",
-          "RichStuffTargetPart": "richstuff:azure_electrum_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:azure_electrum_rod"
         }
       }
     }

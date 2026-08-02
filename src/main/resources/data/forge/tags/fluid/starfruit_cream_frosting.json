@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:starfruit_cream_frosting",
+      "required": false
+    }
+  ]
+}

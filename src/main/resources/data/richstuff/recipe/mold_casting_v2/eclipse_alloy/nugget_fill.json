@@ -24,8 +24,8 @@
           "RichStuffMaterial": "eclipse_alloy",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/eclipse_alloy",
-          "RichStuffTargetPart": "richstuff:eclipse_alloy_nugget",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:eclipse_alloy_nugget"
         }
       }
     }

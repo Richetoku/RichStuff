@@ -24,8 +24,8 @@
           "RichStuffMaterial": "prismarine_shard",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/prismarine_shard",
-          "RichStuffTargetPart": "minecraft:prismarine_shard",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:prismarine_shard"
         }
       }
     }

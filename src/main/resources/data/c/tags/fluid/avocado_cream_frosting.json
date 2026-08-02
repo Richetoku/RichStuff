@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:avocado_cream_frosting",
+      "required": false
+    }
+  ]
+}

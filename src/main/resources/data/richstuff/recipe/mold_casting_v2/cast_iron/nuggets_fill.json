@@ -24,8 +24,8 @@
           "RichStuffMaterial": "cast_iron",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/cast_iron",
-          "RichStuffTargetPart": "richstuff:cast_iron_nugget",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:cast_iron_nugget"
         }
       }
     }

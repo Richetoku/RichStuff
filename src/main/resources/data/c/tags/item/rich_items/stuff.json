@@ -2,10 +2,6 @@
   "replace": false,
   "values": [
     {
-      "id": "richfarming:apple_sauce_jar",
-      "required": false
-    },
-    {
       "id": "richstuff:alexandrite",
       "required": false
     },
@@ -31,10 +27,6 @@
     },
     {
       "id": "richstuff:alexandrite_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:alexandrite_crystal_cluster",
       "required": false
     },
     {
@@ -614,10 +606,6 @@
       "required": false
     },
     {
-      "id": "richstuff:ammolite_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:ammolite_dust",
       "required": false
     },
@@ -967,10 +955,6 @@
     },
     {
       "id": "richstuff:andesite_alloy_wire",
-      "required": false
-    },
-    {
-      "id": "richstuff:arrow_crate",
       "required": false
     },
     {
@@ -1514,10 +1498,6 @@
       "required": false
     },
     {
-      "id": "richstuff:base_sulfur_gem_mold",
-      "required": false
-    },
-    {
       "id": "richstuff:base_topaz_gem_mold",
       "required": false
     },
@@ -1599,10 +1579,6 @@
     },
     {
       "id": "richstuff:black_diamond_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:black_diamond_crystal_cluster",
       "required": false
     },
     {
@@ -1970,19 +1946,11 @@
       "required": false
     },
     {
-      "id": "richstuff:blaze_rod_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:blisk_mold_press",
       "required": false
     },
     {
       "id": "richstuff:bone_block",
-      "required": false
-    },
-    {
-      "id": "richstuff:bone_crate",
       "required": false
     },
     {
@@ -2354,63 +2322,7 @@
       "required": false
     },
     {
-      "id": "richstuff:budding_alexandrite_crystal",
-      "required": false
-    },
-    {
       "id": "richstuff:budding_amethyst_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_ammolite_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_black_diamond_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_carnelian_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_celestigem_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_citrine_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_diamond_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_emerald_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_heliodor_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_iolite_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_kyanite_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_lapis_lazuli_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_moldavite_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_peridot_crystal",
       "required": false
     },
     {
@@ -2418,23 +2330,7 @@
       "required": false
     },
     {
-      "id": "richstuff:budding_prismarine_crystals_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_prismarine_shard_crystal",
-      "required": false
-    },
-    {
       "id": "richstuff:budding_quartz_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_rose_quartz_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_ruby_crystal",
       "required": false
     },
     {
@@ -2442,23 +2338,7 @@
       "required": false
     },
     {
-      "id": "richstuff:budding_sapphire_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_topaz_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_turquoise_crystal",
-      "required": false
-    },
-    {
       "id": "richstuff:budding_uranite_crystal",
-      "required": false
-    },
-    {
-      "id": "richstuff:budding_white_diamond_crystal",
       "required": false
     },
     {
@@ -2487,10 +2367,6 @@
     },
     {
       "id": "richstuff:carnelian_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:carnelian_crystal_cluster",
       "required": false
     },
     {
@@ -2870,10 +2746,6 @@
       "required": false
     },
     {
-      "id": "richstuff:celestigem_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:celestigem_dust_block",
       "required": false
     },
@@ -3067,10 +2939,6 @@
     },
     {
       "id": "richstuff:cinnabar_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:cinnabar_crystal_cluster",
       "required": false
     },
     {
@@ -3271,10 +3139,6 @@
     },
     {
       "id": "richstuff:citrine_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:citrine_crystal_cluster",
       "required": false
     },
     {
@@ -3683,10 +3547,6 @@
     },
     {
       "id": "richstuff:cobalt_wire",
-      "required": false
-    },
-    {
-      "id": "richstuff:cod_crate",
       "required": false
     },
     {
@@ -4670,10 +4530,6 @@
       "required": false
     },
     {
-      "id": "richstuff:diamond_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:diamond_dust",
       "required": false
     },
@@ -5218,10 +5074,6 @@
       "required": false
     },
     {
-      "id": "richstuff:emerald_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:emerald_dust",
       "required": false
     },
@@ -5386,6 +5238,10 @@
       "required": false
     },
     {
+      "id": "richstuff:empty_jar",
+      "required": false
+    },
+    {
       "id": "richstuff:ender_block",
       "required": false
     },
@@ -5398,15 +5254,7 @@
       "required": false
     },
     {
-      "id": "richstuff:ender_eye_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:ender_filled_block_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:ender_pearl_crate",
       "required": false
     },
     {
@@ -5591,10 +5439,6 @@
     },
     {
       "id": "richstuff:enderium_wire",
-      "required": false
-    },
-    {
-      "id": "richstuff:feather_crate",
       "required": false
     },
     {
@@ -5918,10 +5762,6 @@
       "required": false
     },
     {
-      "id": "richstuff:filled_sulfur_gem_mold",
-      "required": false
-    },
-    {
       "id": "richstuff:filled_topaz_gem_mold",
       "required": false
     },
@@ -5963,10 +5803,6 @@
     },
     {
       "id": "richstuff:fluorite_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:fluorite_crystal_cluster",
       "required": false
     },
     {
@@ -6154,10 +5990,6 @@
       "required": false
     },
     {
-      "id": "richstuff:ghast_tear_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:ghast_tear_filled_block_mold",
       "required": false
     },
@@ -6178,31 +6010,7 @@
       "required": false
     },
     {
-      "id": "richstuff:glowstone_brick",
-      "required": false
-    },
-    {
-      "id": "richstuff:glowstone_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:glowstone_dust_block",
-      "required": false
-    },
-    {
       "id": "richstuff:glowstone_filled_block_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:glowstone_filled_brick_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:glowstone_small_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:glowstone_tiny_dust",
       "required": false
     },
     {
@@ -6410,10 +6218,6 @@
       "required": false
     },
     {
-      "id": "richstuff:gunpowder_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:hastelloy_blisk",
       "required": false
     },
@@ -6503,10 +6307,6 @@
     },
     {
       "id": "richstuff:heliodor_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:heliodor_crystal_cluster",
       "required": false
     },
     {
@@ -6947,10 +6747,6 @@
     },
     {
       "id": "richstuff:iolite_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:iolite_crystal_cluster",
       "required": false
     },
     {
@@ -7506,10 +7302,6 @@
       "required": false
     },
     {
-      "id": "richstuff:kelp_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:kyanite",
       "required": false
     },
@@ -7535,10 +7327,6 @@
     },
     {
       "id": "richstuff:kyanite_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:kyanite_crystal_cluster",
       "required": false
     },
     {
@@ -7730,10 +7518,6 @@
       "required": false
     },
     {
-      "id": "richstuff:lapis_lazuli_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:lapis_lazuli_dust",
       "required": false
     },
@@ -7898,71 +7682,7 @@
       "required": false
     },
     {
-      "id": "richstuff:large_alexandrite_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:large_amethyst_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_ammolite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_black_diamond_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_carnelian_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_celestigem_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_cinnabar_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_citrine_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_diamond_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_emerald_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_fluorite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_heliodor_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_iolite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_kyanite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_lapis_lazuli_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_moldavite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_peridot_crystal_bud",
       "required": false
     },
     {
@@ -7970,23 +7690,7 @@
       "required": false
     },
     {
-      "id": "richstuff:large_prismarine_crystals_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_prismarine_shard_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:large_quartz_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_rose_quartz_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_ruby_crystal_bud",
       "required": false
     },
     {
@@ -7994,27 +7698,7 @@
       "required": false
     },
     {
-      "id": "richstuff:large_sapphire_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_sulfur_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_topaz_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_turquoise_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:large_uranite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:large_white_diamond_crystal_bud",
       "required": false
     },
     {
@@ -8566,71 +8250,7 @@
       "required": false
     },
     {
-      "id": "richstuff:medium_alexandrite_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:medium_amethyst_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_ammolite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_black_diamond_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_carnelian_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_celestigem_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_cinnabar_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_citrine_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_diamond_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_emerald_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_fluorite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_heliodor_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_iolite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_kyanite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_lapis_lazuli_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_moldavite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_peridot_crystal_bud",
       "required": false
     },
     {
@@ -8638,23 +8258,7 @@
       "required": false
     },
     {
-      "id": "richstuff:medium_prismarine_crystals_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_prismarine_shard_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:medium_quartz_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_rose_quartz_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_ruby_crystal_bud",
       "required": false
     },
     {
@@ -8662,31 +8266,7 @@
       "required": false
     },
     {
-      "id": "richstuff:medium_sapphire_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_sulfur_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_topaz_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_turquoise_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:medium_uranite_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:medium_white_diamond_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:melon_cube",
       "required": false
     },
     {
@@ -8715,10 +8295,6 @@
     },
     {
       "id": "richstuff:moldavite_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:moldavite_crystal_cluster",
       "required": false
     },
     {
@@ -9942,10 +9518,6 @@
       "required": false
     },
     {
-      "id": "richstuff:peridot_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:peridot_dust",
       "required": false
     },
@@ -10582,10 +10154,6 @@
       "required": false
     },
     {
-      "id": "richstuff:prismarine_crystals_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:prismarine_crystals_filled_axe_head_mold",
       "required": false
     },
@@ -10858,10 +10426,6 @@
       "required": false
     },
     {
-      "id": "richstuff:prismarine_shard_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:prismarine_shard_filled_axe_head_mold",
       "required": false
     },
@@ -11003,14 +10567,6 @@
     },
     {
       "id": "richstuff:prismarine_wire",
-      "required": false
-    },
-    {
-      "id": "richstuff:pufferfish_crate",
-      "required": false
-    },
-    {
-      "id": "richstuff:pumpkin_cube",
       "required": false
     },
     {
@@ -11430,10 +10986,6 @@
       "required": false
     },
     {
-      "id": "richstuff:raw_glowstone_block",
-      "required": false
-    },
-    {
       "id": "richstuff:raw_gold",
       "required": false
     },
@@ -11602,10 +11154,6 @@
       "required": false
     },
     {
-      "id": "richstuff:raw_redstone_block",
-      "required": false
-    },
-    {
       "id": "richstuff:raw_reinforced_copper_block",
       "required": false
     },
@@ -11651,10 +11199,6 @@
     },
     {
       "id": "richstuff:raw_steel_block",
-      "required": false
-    },
-    {
-      "id": "richstuff:raw_sulfur_block",
       "required": false
     },
     {
@@ -11731,10 +11275,6 @@
     },
     {
       "id": "richstuff:redstone_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:redstone_dust_block",
       "required": false
     },
     {
@@ -12038,6 +11578,14 @@
       "required": false
     },
     {
+      "id": "richstuff:rikumi_schematic",
+      "required": false
+    },
+    {
+      "id": "richstuff:rikumi_schematic_marker",
+      "required": false
+    },
+    {
       "id": "richstuff:rose_quartz",
       "required": false
     },
@@ -12063,10 +11611,6 @@
     },
     {
       "id": "richstuff:rose_quartz_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:rose_quartz_crystal_cluster",
       "required": false
     },
     {
@@ -12238,10 +11782,6 @@
       "required": false
     },
     {
-      "id": "richstuff:rotten_flesh_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:round_mold",
       "required": false
     },
@@ -12271,10 +11811,6 @@
     },
     {
       "id": "richstuff:ruby_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:ruby_crystal_cluster",
       "required": false
     },
     {
@@ -12439,10 +11975,6 @@
     },
     {
       "id": "richstuff:ruby_wire",
-      "required": false
-    },
-    {
-      "id": "richstuff:salmon_crate",
       "required": false
     },
     {
@@ -12619,10 +12151,6 @@
     },
     {
       "id": "richstuff:sapphire_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:sapphire_crystal_cluster",
       "required": false
     },
     {
@@ -13238,10 +12766,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_alexandrite_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_alexandrite_dust",
       "required": false
     },
@@ -13267,10 +12791,6 @@
     },
     {
       "id": "richstuff:small_amethyst_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_ammolite_crystal_bud",
       "required": false
     },
     {
@@ -13310,10 +12830,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_black_diamond_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_black_diamond_dust",
       "required": false
     },
@@ -13346,10 +12862,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_carnelian_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_carnelian_dust",
       "required": false
     },
@@ -13366,19 +12878,7 @@
       "required": false
     },
     {
-      "id": "richstuff:small_celestigem_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_charcoal_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_cinnabar_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_citrine_crystal_bud",
       "required": false
     },
     {
@@ -13446,10 +12946,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_diamond_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_diamond_dust",
       "required": false
     },
@@ -13463,10 +12959,6 @@
     },
     {
       "id": "richstuff:small_electrum_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_emerald_crystal_bud",
       "required": false
     },
     {
@@ -13486,10 +12978,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_fluorite_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_gold_dust",
       "required": false
     },
@@ -13503,10 +12991,6 @@
     },
     {
       "id": "richstuff:small_hastelloy_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_heliodor_crystal_bud",
       "required": false
     },
     {
@@ -13534,10 +13018,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_iolite_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_iolite_dust",
       "required": false
     },
@@ -13562,19 +13042,11 @@
       "required": false
     },
     {
-      "id": "richstuff:small_kyanite_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_kyanite_dust",
       "required": false
     },
     {
       "id": "richstuff:small_kyanite_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_lapis_lazuli_crystal_bud",
       "required": false
     },
     {
@@ -13607,10 +13079,6 @@
     },
     {
       "id": "richstuff:small_lumium_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_moldavite_crystal_bud",
       "required": false
     },
     {
@@ -13658,10 +13126,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_peridot_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_peridot_dust",
       "required": false
     },
@@ -13690,15 +13154,7 @@
       "required": false
     },
     {
-      "id": "richstuff:small_prismarine_crystals_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_prismarine_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_prismarine_shard_crystal_bud",
       "required": false
     },
     {
@@ -13726,19 +13182,11 @@
       "required": false
     },
     {
-      "id": "richstuff:small_rose_quartz_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_rose_quartz_dust",
       "required": false
     },
     {
       "id": "richstuff:small_rose_quartz_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_ruby_crystal_bud",
       "required": false
     },
     {
@@ -13751,10 +13199,6 @@
     },
     {
       "id": "richstuff:small_salt_crystal_bud",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_sapphire_crystal_bud",
       "required": false
     },
     {
@@ -13790,10 +13234,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_sulfur_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_sulfur_dust",
       "required": false
     },
@@ -13806,19 +13246,11 @@
       "required": false
     },
     {
-      "id": "richstuff:small_topaz_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_topaz_dust",
       "required": false
     },
     {
       "id": "richstuff:small_topaz_spring",
-      "required": false
-    },
-    {
-      "id": "richstuff:small_turquoise_crystal_bud",
       "required": false
     },
     {
@@ -13858,10 +13290,6 @@
       "required": false
     },
     {
-      "id": "richstuff:small_white_diamond_crystal_bud",
-      "required": false
-    },
-    {
       "id": "richstuff:small_white_diamond_dust",
       "required": false
     },
@@ -13879,10 +13307,6 @@
     },
     {
       "id": "richstuff:spider_eye_block",
-      "required": false
-    },
-    {
-      "id": "richstuff:spider_eye_crate",
       "required": false
     },
     {
@@ -14070,23 +13494,7 @@
       "required": false
     },
     {
-      "id": "richstuff:stick_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:stone_nugget",
-      "required": false
-    },
-    {
-      "id": "richstuff:string_crate",
-      "required": false
-    },
-    {
-      "id": "richstuff:sugar_cane_crate",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_blisk",
       "required": false
     },
     {
@@ -14098,31 +13506,7 @@
       "required": false
     },
     {
-      "id": "richstuff:sulfur_coin",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:sulfur_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_dust_block",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_axe_head_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_binding_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_blisk_mold",
       "required": false
     },
     {
@@ -14130,103 +13514,7 @@
       "required": false
     },
     {
-      "id": "richstuff:sulfur_filled_boots_plates_mold",
-      "required": false
-    },
-    {
       "id": "richstuff:sulfur_filled_brick_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_chestplate_plates_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_coin_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_gear_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_helmet_plates_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_hoe_head_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_leggings_plates_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_main_part_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_pickaxe_head_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_plate_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_ring_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_rod_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_shard_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_shards_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_shovel_head_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_sword_blade_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_tip_upgrade_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_filled_wire_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_gear",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_ingot",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_plate",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_ring",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_rod",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_shard",
       "required": false
     },
     {
@@ -14235,10 +13523,6 @@
     },
     {
       "id": "richstuff:sulfur_tiny_dust",
-      "required": false
-    },
-    {
-      "id": "richstuff:sulfur_wire",
       "required": false
     },
     {
@@ -14502,10 +13786,6 @@
       "required": false
     },
     {
-      "id": "richstuff:topaz_crystal_cluster",
-      "required": false
-    },
-    {
       "id": "richstuff:topaz_dust",
       "required": false
     },
@@ -14670,10 +13950,6 @@
       "required": false
     },
     {
-      "id": "richstuff:tropical_fish_crate",
-      "required": false
-    },
-    {
       "id": "richstuff:turquoise",
       "required": false
     },
@@ -14699,10 +13975,6 @@
     },
     {
       "id": "richstuff:turquoise_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:turquoise_crystal_cluster",
       "required": false
     },
     {
@@ -15263,10 +14535,6 @@
     },
     {
       "id": "richstuff:unfired_silent_tip_upgrade_mold",
-      "required": false
-    },
-    {
-      "id": "richstuff:unfired_sulfur_gem_mold",
       "required": false
     },
     {
@@ -15863,10 +15131,6 @@
     },
     {
       "id": "richstuff:white_diamond_crushed",
-      "required": false
-    },
-    {
-      "id": "richstuff:white_diamond_crystal_cluster",
       "required": false
     },
     {

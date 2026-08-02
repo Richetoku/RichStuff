@@ -24,8 +24,8 @@
           "RichStuffMaterial": "glass",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/glass",
-          "RichStuffTargetPart": "minecraft:glass",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:glass"
         }
       }
     }

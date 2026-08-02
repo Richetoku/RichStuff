@@ -24,8 +24,8 @@
           "RichStuffMaterial": "iron",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/iron",
-          "RichStuffTargetPart": "richstuff:iron_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:iron_plate"
         }
       }
     }

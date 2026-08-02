@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":"richstuff:block/rikumi_schematic_marker"},
+    "facing=east": {"model":"richstuff:block/rikumi_schematic_marker","y":90},
+    "facing=south": {"model":"richstuff:block/rikumi_schematic_marker","y":180},
+    "facing=west": {"model":"richstuff:block/rikumi_schematic_marker","y":270}
+  }
+}

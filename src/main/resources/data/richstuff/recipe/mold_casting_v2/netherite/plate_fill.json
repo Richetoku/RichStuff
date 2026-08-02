@@ -24,8 +24,8 @@
           "RichStuffMaterial": "netherite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/netherite",
-          "RichStuffTargetPart": "richstuff:netherite_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:netherite_plate"
         }
       }
     }

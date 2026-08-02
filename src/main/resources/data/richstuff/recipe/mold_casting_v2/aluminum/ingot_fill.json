@@ -24,8 +24,8 @@
           "RichStuffMaterial": "aluminum",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/aluminum",
-          "RichStuffTargetPart": "richstuff:aluminum_ingot",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:aluminum_ingot"
         }
       }
     }

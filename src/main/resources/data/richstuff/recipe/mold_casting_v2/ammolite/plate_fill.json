@@ -24,8 +24,8 @@
           "RichStuffMaterial": "ammolite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/ammolite",
-          "RichStuffTargetPart": "richstuff:ammolite_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:ammolite_plate"
         }
       }
     }

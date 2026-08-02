@@ -1,0 +1,212 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.141'
+    id 'idea'
+}
+
+// Module identity is loaded from this folder's gradle.properties so the same
+// build file works as a suite subproject and as a standalone Gradle root. Gradle
+// normally loads only the active root's properties, so included RichCore must
+// explicitly read its own module identity rather than inheriting the feature's.
+def moduleProperties = new Properties()
+file('gradle.properties').withInputStream { moduleProperties.load(it) }
+['mod_id', 'mod_name', 'mod_license', 'mod_version', 'mod_group_id'].each { key ->
+    if (!moduleProperties.getProperty(key)) {
+        throw new GradleException("Missing ${key} in ${project.projectDir}/gradle.properties")
+    }
+}
+ext.mod_id = moduleProperties.getProperty('mod_id')
+ext.mod_name = moduleProperties.getProperty('mod_name')
+ext.mod_license = moduleProperties.getProperty('mod_license')
+ext.mod_version = moduleProperties.getProperty('mod_version')
+ext.mod_group_id = moduleProperties.getProperty('mod_group_id')
+
+version = mod_version
+group = mod_group_id
+base { archivesName = mod_id }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+def sourceModulePaths = [':richcore', ':richores', ':richfarming', ':richmachines', ':richmobfarming', ':richtransport']
+def sourceModules = sourceModulePaths.collect { rootProject.findProject(it) }.findAll { it != null }
+sourceModulePaths.findAll { rootProject.findProject(it) != null }.each { evaluationDependsOn(it) }
+def richOresProject = rootProject.findProject(':richores')
+
+def suiteRoot = new File(rootProject.projectDir, 'mods').isDirectory()
+        ? rootProject.projectDir
+        : projectDir.parentFile
+def externalModsDir = new File(suiteRoot, 'mods')
+
+def richCoreProject = rootProject.findProject(':richcore')
+if (richCoreProject == null) {
+    throw new GradleException('RichCore is required. Open this module with its settings.gradle or build it from the suite root.')
+}
+evaluationDependsOn(':richcore')
+def generatedResourcesDir = file('src/generated/resources')
+def mergedResourcesDir = layout.buildDirectory.dir('generated/mergedResources').get().asFile
+def generatedMetadataDir = layout.buildDirectory.dir('generated/sources/modMetadata').get().asFile
+
+// Resources are staged into one directory before processResources. Compatibility
+// generation intentionally overrides selected recipes and merges common tags.
+// Using two raw resource roots would make Gradle 9 reject duplicate paths such
+// as data/c/tags/block/ores/alexandrite.json.
+sourceSets.main.resources.setSrcDirs([mergedResourcesDir])
+
+repositories {
+    maven { url = 'https://maven.neoforged.net/releases' }
+    mavenCentral()
+}
+
+neoForge {
+    version = project.neo_version
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+            def requestedUsername = providers.gradleProperty('minecraftUsername').orNull
+            if (requestedUsername != null && !requestedUsername.isBlank()) {
+                programArguments.addAll '--username', requestedUsername
+            }
+        }
+        server { server(); programArgument '--nogui'; systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id }
+        data { data(); programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath() }
+        configureEach { logLevel = org.slf4j.event.Level.DEBUG }
+    }
+    mods {
+        "${mod_id}" { sourceSet(sourceSets.main) }
+        sourceModules.each { moduleProject ->
+            "${moduleProject.ext.mod_id}" { sourceSet(moduleProject.sourceSets.main) }
+        }
+    }
+}
+
+configurations { runtimeClasspath.extendsFrom localRuntime }
+
+dependencies {
+    implementation project(':richcore')
+    // Load every external mod jar from the suite root mods folder in development runs.
+    // RichStuff and RichOres are excluded because they are loaded from source above.
+    localRuntime fileTree(
+        dir: externalModsDir,
+        include: ['*.jar'],
+        exclude: ['richstuff-*.jar', 'RichStuff-*.jar', 'richcore-*.jar', 'RichCore-*.jar', 'richores-*.jar', 'RichOres-*.jar', 'richores-*.jar', 'RichOres-*.jar', 'richfarming-*.jar', 'richmachines-*.jar', 'richmobfarming-*.jar', 'richtransport-*.jar']
+    )
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    var replaceProperties = [
+        minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+        neo_version: neo_version, loader_version_range: loader_version_range,
+        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from 'src/main/templates'
+    into generatedMetadataDir
+}
+
+var prepareMergedResources = tasks.register('prepareMergedResources') {
+    dependsOn generateModMetadata
+    inputs.dir('src/main/resources')
+    if (generatedResourcesDir.exists()) inputs.dir(generatedResourcesDir)
+    inputs.files(generateModMetadata)
+    outputs.dir(mergedResourcesDir)
+
+    doLast {
+        def destination = mergedResourcesDir
+
+        // Windows can briefly retain handles while ModDev/Gradle snapshots the large
+        // staged resource tree. A single Project.delete() fails immediately in that
+        // case and reports that new files appeared. Clear the tree with bounded
+        // retries before copying, so transient file-system activity cannot abort an
+        // otherwise valid incremental build.
+        Exception lastDeleteFailure = null
+        for (int attempt = 1; attempt <= 20 && destination.exists(); attempt++) {
+            try {
+                java.nio.file.Files.walk(destination.toPath()).withCloseable { paths ->
+                    paths.sorted(java.util.Comparator.reverseOrder()).forEach { path ->
+                        java.nio.file.Files.deleteIfExists(path)
+                    }
+                }
+                lastDeleteFailure = null
+            } catch (Exception failure) {
+                lastDeleteFailure = failure
+                sleep(Math.min(1000L, 100L * attempt))
+            }
+        }
+        if (destination.exists()) {
+            throw new GradleException(
+                "Unable to clear staged RichStuff resources after 20 retries: ${destination}",
+                lastDeleteFailure
+            )
+        }
+
+        // Copy bundled resources first.
+        copy {
+            from 'src/main/resources'
+            into destination
+            exclude '**/*.bbmodel'
+            exclude '**/.cache/**'
+        }
+
+        // Compatibility resources are authoritative for colliding paths. The
+        // generator already merges bundled tag values into generated tag files.
+        if (generatedResourcesDir.exists()) {
+            copy {
+                from generatedResourcesDir
+                into destination
+                exclude '**/*.bbmodel'
+                exclude '**/.cache/**'
+            }
+        }
+
+        copy {
+            from generatedMetadataDir
+            into destination
+        }
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    dependsOn prepareMergedResources
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+}
+
+neoForge.ideSyncTask generateModMetadata
+neoForge.ideSyncTask prepareMergedResources
+
+// ModDev may inspect the configured resource source set while creating Minecraft
+// artifacts. Keep that task ahead of destructive staging on parallel launches.
+// Configure the staging provider once and give mustRunAfter the lazy task
+// collection. Gradle 8.8 rejects configuring one task provider from inside a
+// TaskCollection.configureEach callback during project evaluation.
+def minecraftArtifactTasks = tasks.matching { it.name == 'createMinecraftArtifacts' }
+prepareMergedResources.configure {
+    mustRunAfter(minecraftArtifactTasks)
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+// Development runs use generated/staged resources directly. Make the run task
+// depend on both source-mod metadata generators so stale metadata cannot select
+// an older external RichOres build.
+tasks.matching { it.name == 'runClient' || it.name == 'runServer' }.configureEach {
+    dependsOn prepareMergedResources
+    sourceModules.each { moduleProject ->
+        dependsOn moduleProject.tasks.named('generateModMetadata')
+        dependsOn moduleProject.tasks.named('processResources')
+        dependsOn moduleProject.tasks.named('classes')
+    }
+}
+
+// A standalone full rebuild clears the included RichCore output as well. The
+// suite root already owns aggregate cleaning, so this applies only when this
+// feature folder is the active Gradle root.
+if (project == rootProject) {
+    tasks.named('clean').configure { dependsOn ':richcore:clean' }
+}

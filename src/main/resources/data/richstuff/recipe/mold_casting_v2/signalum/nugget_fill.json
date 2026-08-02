@@ -24,8 +24,8 @@
           "RichStuffMaterial": "signalum",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/signalum",
-          "RichStuffTargetPart": "richstuff:signalum_nugget",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:signalum_nugget"
         }
       }
     }

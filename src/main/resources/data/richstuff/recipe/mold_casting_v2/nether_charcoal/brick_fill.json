@@ -24,8 +24,8 @@
           "RichStuffMaterial": "nether_charcoal",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/nether_charcoal",
-          "RichStuffTargetPart": "richstuff:nether_charcoal_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:nether_charcoal_brick"
         }
       }
     }

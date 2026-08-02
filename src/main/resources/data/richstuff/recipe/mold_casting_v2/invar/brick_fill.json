@@ -24,8 +24,8 @@
           "RichStuffMaterial": "invar",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/invar",
-          "RichStuffTargetPart": "richstuff:invar_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:invar_brick"
         }
       }
     }

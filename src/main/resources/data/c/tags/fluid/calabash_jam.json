@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:calabash_jam",
+      "required": false
+    }
+  ]
+}

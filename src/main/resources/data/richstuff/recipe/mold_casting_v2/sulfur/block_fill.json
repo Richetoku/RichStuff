@@ -24,8 +24,8 @@
           "RichStuffMaterial": "sulfur",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/sulfur",
-          "RichStuffTargetPart": "richstuff:sulfur_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:sulfur_block"
         }
       }
     }

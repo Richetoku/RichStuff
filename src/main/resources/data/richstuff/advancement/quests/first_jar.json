@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "richfarming:apple_sauce_jar"
+      "id": "richstuff:empty_jar"
     },
     "title": {
       "text": "Stack Jars"
     },
     "description": {
-      "text": "RichStuff quest: Stack Jars"
+      "text": "Craft four placeable Empty Jars"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "richfarming:apple_sauce_jar"
+            "items": "richstuff:empty_jar"
           }
         ]
       }

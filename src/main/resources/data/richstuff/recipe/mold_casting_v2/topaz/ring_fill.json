@@ -24,8 +24,8 @@
           "RichStuffMaterial": "topaz",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/topaz",
-          "RichStuffTargetPart": "richstuff:topaz_ring",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:topaz_ring"
         }
       }
     }

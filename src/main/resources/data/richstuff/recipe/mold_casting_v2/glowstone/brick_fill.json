@@ -13,7 +13,7 @@
     {
       "type": "neoforge:tag",
       "tag": "c:molten/glowstone",
-      "amount": 45
+      "amount": 1296
     }
   ],
   "results": [
@@ -24,8 +24,8 @@
           "RichStuffMaterial": "glowstone",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/glowstone",
-          "RichStuffTargetPart": "richstuff:glowstone_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:glowstone_brick"
         }
       }
     }

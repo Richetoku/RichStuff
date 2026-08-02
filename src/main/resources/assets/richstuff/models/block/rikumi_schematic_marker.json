@@ -1,0 +1,9 @@
+{
+  "parent":"minecraft:block/block",
+  "textures":{"particle":"richstuff:block/rikumi_schematic_marker","marker":"richstuff:block/rikumi_schematic_marker"},
+  "elements":[
+    {"from":[2,0,2],"to":[14,3,14],"faces":{"down":{"texture":"#marker"},"up":{"texture":"#marker"},"north":{"texture":"#marker"},"south":{"texture":"#marker"},"west":{"texture":"#marker"},"east":{"texture":"#marker"}}},
+    {"from":[6,3,6],"to":[10,13,10],"faces":{"down":{"texture":"#marker"},"up":{"texture":"#marker"},"north":{"texture":"#marker"},"south":{"texture":"#marker"},"west":{"texture":"#marker"},"east":{"texture":"#marker"}}},
+    {"from":[3,12,3],"to":[13,16,13],"faces":{"down":{"texture":"#marker"},"up":{"texture":"#marker"},"north":{"texture":"#marker"},"south":{"texture":"#marker"},"west":{"texture":"#marker"},"east":{"texture":"#marker"}}}
+  ]
+}

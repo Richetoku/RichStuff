@@ -4,6 +4,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.fluids.FluidStack;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ import java.util.WeakHashMap;
  * Create-style same-tier tank multiblock resolver.
  *
  * <p>Every same-tier tank may always join a one-wide vertical column when its horizontal slice is
- * not assigned to a completed square layer. Completed 2x2 through 16x16 layers are selected
+ * not assigned to a completed square layer. Completed 2x2 through 7x7 layers are selected
  * deterministically and never overlap: the largest square wins, then the north-west-most square.
  * A complete layer may connect vertically only to another complete layer with exactly the same
  * footprint. Partial layers and vertical columns above one member remain independent.</p>
@@ -129,6 +130,18 @@ final class RichTankNetwork {
     private static View compute(RichTankBlockEntity start, Level level) {
         int tier = start.tier();
         BlockPos origin = start.getBlockPos();
+
+        // Reconstruct the largest complete square stack directly from the actual tanks before
+        // consulting persisted face-state locks. This is essential after bulk placement, chunk
+        // reloads, or upgrades from older builds where the connection booleans may not yet describe
+        // the complete structure. A valid 7x7x7 Tier VII tank therefore exposes all 343 members
+        // (175,616 buckets), rather than falling back to one local 512-bucket block.
+        Candidate completeStack = largestCompleteSquareStack(level, origin, tier);
+        if (completeStack != null && completeStack.members().size() > 1) {
+            return new View(completeStack.members(), completeStack.min(), completeStack.max(),
+                    completeStack.size(), completeStack.height(), completeStack.size(), start.capacity());
+        }
+
         Layer originLayer = layerAt(level, origin, tier);
         Candidate best;
 
@@ -167,6 +180,54 @@ final class RichTankNetwork {
 
         if (best == null) return View.single(start);
         return new View(best.members(), best.min(), best.max(), best.size(), best.height(), best.size(), start.capacity());
+    }
+
+
+    /** Finds the largest complete square footprint containing {@code origin} and extends it vertically. */
+    @Nullable
+    private static Candidate largestCompleteSquareStack(Level level, BlockPos origin, int tier) {
+        Candidate best = null;
+        int bestVolume = 0;
+        for (int size = MAX_WIDTH; size >= 2; size--) {
+            for (int offsetX = 0; offsetX < size; offsetX++) {
+                int minX = origin.getX() - offsetX;
+                for (int offsetZ = 0; offsetZ < size; offsetZ++) {
+                    int minZ = origin.getZ() - offsetZ;
+                    if (!completeSquare(level, minX, origin.getY(), minZ, size, tier)) continue;
+                    int minY = origin.getY();
+                    int maxY = origin.getY();
+                    while (minY > level.getMinBuildHeight() && maxY - minY + 1 < MAX_HEIGHT
+                            && completeSquare(level, minX, minY - 1, minZ, size, tier)) minY--;
+                    while (maxY < level.getMaxBuildHeight() - 1 && maxY - minY + 1 < MAX_HEIGHT
+                            && completeSquare(level, minX, maxY + 1, minZ, size, tier)) maxY++;
+                    Candidate candidate = candidate(level, tier, minX, minY, minZ, size, maxY - minY + 1);
+                    if (candidate == null) continue;
+                    int volume = candidate.members().size();
+                    if (volume > bestVolume || volume == bestVolume && better(candidate, best)) {
+                        best = candidate;
+                        bestVolume = volume;
+                    }
+                }
+            }
+            // A larger square always wins over any smaller square at the same permitted height.
+            if (best != null && best.size() == size) break;
+        }
+        return best;
+    }
+
+    private static boolean completeSquare(Level level, int minX, int y, int minZ, int size, int tier) {
+        for (int x = minX; x < minX + size; x++) for (int z = minZ; z < minZ + size; z++) {
+            if (tankAt(level, x, y, z, tier) == null) return false;
+        }
+        return true;
+    }
+
+    private static boolean better(Candidate candidate, @Nullable Candidate current) {
+        if (current == null) return true;
+        if (candidate.size() != current.size()) return candidate.size() > current.size();
+        if (candidate.height() != current.height()) return candidate.height() > current.height();
+        if (candidate.min().getX() != current.min().getX()) return candidate.min().getX() < current.min().getX();
+        return candidate.min().getZ() < current.min().getZ();
     }
 
     /** Assigns all tanks in one horizontal connected component to non-overlapping complete squares. */
@@ -391,8 +452,16 @@ final class RichTankNetwork {
         }
 
         FluidStack fluid() {
-            for (RichTankBlockEntity tank : members) if (!tank.localFluid().isEmpty()) return tank.localFluid().copy();
-            return FluidStack.EMPTY;
+            FluidStack type = FluidStack.EMPTY;
+            long total = 0L;
+            for (RichTankBlockEntity tank : members) {
+                FluidStack local = tank.localFluid();
+                if (local.isEmpty()) continue;
+                if (type.isEmpty()) type = local.copyWithAmount(1);
+                total += local.getAmount();
+            }
+            if (type.isEmpty() || total <= 0L) return FluidStack.EMPTY;
+            return type.copyWithAmount((int) Math.min(Integer.MAX_VALUE, total));
         }
 
         int amount() {

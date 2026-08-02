@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "oritech:still_molten_duratium",
+      "required": false
+    }
+  ]
+}

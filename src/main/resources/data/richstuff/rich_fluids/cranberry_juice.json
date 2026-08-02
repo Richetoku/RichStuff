@@ -1,0 +1,19 @@
+{
+  "id": "richstuff:cranberry_juice",
+  "aliases": [
+    "cranberry_juice"
+  ],
+  "still": "richstuff:block/fluid/fallback_still",
+  "flowing": "richstuff:block/fluid/fallback_flow",
+  "density": 1200,
+  "viscosity": 1200,
+  "temperature": 300,
+  "luminosity": 0,
+  "translucent": true,
+  "containers": {
+    "jar": true,
+    "tank": true
+  },
+  "foundry_compatible": true,
+  "prefer_external_tag": "c:cranberry_juice"
+}

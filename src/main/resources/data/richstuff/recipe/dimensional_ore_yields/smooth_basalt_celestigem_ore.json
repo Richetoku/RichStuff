@@ -21,8 +21,8 @@
       "count": 2
     },
     {
-      "id": "richores:celestigem",
-      "chance": 0.7
+      "id": "minecraft:flint",
+      "chance": 0.5
     }
   ],
   "processing_time": 180

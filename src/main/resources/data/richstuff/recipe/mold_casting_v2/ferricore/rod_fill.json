@@ -24,8 +24,8 @@
           "RichStuffMaterial": "ferricore",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/ferricore",
-          "RichStuffTargetPart": "richstuff:ferricore_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:ferricore_rod"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "copronickel",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/copronickel",
-          "RichStuffTargetPart": "richstuff:copronickel_nugget",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:copronickel_nugget"
         }
       }
     }

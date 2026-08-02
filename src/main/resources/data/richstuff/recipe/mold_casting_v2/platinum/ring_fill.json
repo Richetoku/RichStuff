@@ -24,8 +24,8 @@
           "RichStuffMaterial": "platinum",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/platinum",
-          "RichStuffTargetPart": "richstuff:platinum_ring",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:platinum_ring"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "tyrian_steel",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/tyrian_steel",
-          "RichStuffTargetPart": "richstuff:tyrian_steel_ingot",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:tyrian_steel_ingot"
         }
       }
     }

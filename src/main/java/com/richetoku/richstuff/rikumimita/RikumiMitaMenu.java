@@ -85,9 +85,10 @@ public final class RikumiMitaMenu extends AbstractContainerMenu {
         switch (id) {
             case 0 -> rikumi.cycleOutfit(-1);
             case 1 -> rikumi.cycleOutfit(1);
-            case 2 -> rikumi.toggleSitFollow();
+            case 2 -> rikumi.cycleMode();
             case 3 -> rikumi.toggleVoiceWithDialogue();
             case 4 -> rikumi.toggleNameplateWithDialogue();
+            case 5 -> rikumi.setHomePosition(rikumi.blockPosition());
             default -> { return false; }
         }
         return true;

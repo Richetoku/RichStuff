@@ -24,8 +24,8 @@
           "RichStuffMaterial": "glowstone",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/glowstone",
-          "RichStuffTargetPart": "richstuff:glowstone_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:glowstone_block"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "heliodor",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/heliodor",
-          "RichStuffTargetPart": "richstuff:heliodor_ring",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:heliodor_ring"
         }
       }
     }

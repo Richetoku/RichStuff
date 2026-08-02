@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ratatouille:egg_yolk",
+      "required": false
+    }
+  ]
+}

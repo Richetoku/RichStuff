@@ -17,12 +17,8 @@
   ],
   "results": [
     {
-      "id": "richstuff:copper_crushed",
+      "id": "minecraft:raw_copper",
       "count": 4
-    },
-    {
-      "id": "richstuff:small_sulfur_dust",
-      "chance": 0.22499999999999998
     }
   ],
   "processing_time": 220

@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "richstuff:apple_sauce",
-      "required": false
-    }
+    "richstuff:apple_sauce"
   ]
 }

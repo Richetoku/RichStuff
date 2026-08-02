@@ -9,7 +9,12 @@ import com.richetoku.richstuff.rikumimita.RikumiMitaEntity;
 import com.richetoku.richstuff.rikumimita.RikumiMitaMenu;
 import com.richetoku.richstuff.rikumimita.RikumiMitaPresentBlock;
 import com.richetoku.richstuff.rikumimita.RikumiMitaPresentBlockEntity;
+import com.richetoku.richstuff.rikumimita.ai.schematic.RikumiSchematicItem;
+import com.richetoku.richstuff.rikumimita.ai.schematic.RikumiSchematicMarkerBlock;
+import com.richetoku.richstuff.rikumimita.ai.schematic.RikumiSchematicMarkerBlockEntity;
 import com.richetoku.richstuff.rikumimita.ai.RikumiAiLifecycle;
+import com.richetoku.richstuff.rikumimita.ai.autonomy.RikumiPlacementLedger;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -19,12 +24,16 @@ import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.*;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -39,6 +48,7 @@ import net.neoforged.neoforge.common.extensions.IMenuTypeExtension;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
+import net.neoforged.neoforge.fluids.FluidStack;
 import net.neoforged.neoforge.registries.*;
 import org.slf4j.Logger;
 
@@ -64,6 +74,8 @@ public final class RichStuff {
 
     public static final Map<String, DeferredBlock<Block>> BLOCKS = new LinkedHashMap<>();
     public static final Map<String, DeferredItem<? extends Item>> ITEMS = new LinkedHashMap<>();
+    private static final Map<ResourceLocation, DeferredItem<? extends Item>> JARS_BY_FLUID = new LinkedHashMap<>();
+    private static final Map<String, DeferredItem<? extends Item>> JARS_BY_PATH = new LinkedHashMap<>();
     public static final DeferredItem<Item> SLIME_TREAT = ITEM_REGISTRY.register("slime_treat", () -> new SlimeTreatItem(new Item.Properties().stacksTo(16)));
     public static final Map<String, DeferredBlock<Block>> CRYSTAL_GROWTH_BLOCKS = new LinkedHashMap<>();
     public static final Map<String, DeferredHolder<EntityType<?>, EntityType<RichStuffMetalSlime>>> METAL_SLIMES = new LinkedHashMap<>();
@@ -104,6 +116,26 @@ public final class RichStuff {
                     RikumiMitaPresentBlockEntity::new, RIKUMI_MITA_PRESENT.get()).build(null));
     public static final DeferredItem<BlockItem> RIKUMI_MITA_PACKAGE = ITEM_REGISTRY.register(
             "rikumi_mita_package", () -> new BlockItem(RIKUMI_MITA_PRESENT.get(), new Item.Properties().stacksTo(1)));
+    public static final DeferredBlock<RikumiSchematicMarkerBlock> RIKUMI_SCHEMATIC_MARKER = BLOCK_REGISTRY.register(
+            "rikumi_schematic_marker", () -> new RikumiSchematicMarkerBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_GREEN).strength(1.2F, 3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<RikumiSchematicMarkerBlockEntity>> RIKUMI_SCHEMATIC_MARKER_ENTITY =
+            BLOCK_ENTITY_REGISTRY.register("rikumi_schematic_marker", () -> BlockEntityType.Builder.of(
+                    RikumiSchematicMarkerBlockEntity::new, RIKUMI_SCHEMATIC_MARKER.get()).build(null));
+    public static final DeferredItem<BlockItem> RIKUMI_SCHEMATIC_MARKER_ITEM = ITEM_REGISTRY.register(
+            "rikumi_schematic_marker", () -> new BlockItem(RIKUMI_SCHEMATIC_MARKER.get(), new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<RikumiSchematicItem> RIKUMI_SCHEMATIC_ITEM = ITEM_REGISTRY.register(
+            "rikumi_schematic", () -> new RikumiSchematicItem(new Item.Properties()));
+
+    public static final DeferredBlock<PetHouseBlock> PET_HOUSE = BLOCK_REGISTRY.register(
+            "pet_house", () -> new PetHouseBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD).strength(2.5F, 4.0F).sound(SoundType.WOOD).noOcclusion()
+                    .pushReaction(PushReaction.BLOCK)));
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PetHouseBlockEntity>> PET_HOUSE_ENTITY =
+            BLOCK_ENTITY_REGISTRY.register("pet_house", () -> BlockEntityType.Builder.of(
+                    PetHouseBlockEntity::new, PET_HOUSE.get()).build(null));
+    public static final DeferredItem<BlockItem> PET_HOUSE_ITEM = ITEM_REGISTRY.register(
+            "pet_house", () -> new BlockItem(PET_HOUSE.get(), new Item.Properties().stacksTo(16)));
 
     /** Rich Stuff owns the optional visualizer item; common visualization APIs live in RichCore. */
     public static final DeferredItem<RichVisualizerItem> RICH_VISUALIZER = ITEM_REGISTRY.register(
@@ -193,7 +225,12 @@ public final class RichStuff {
             .icon(() -> FOUNDRY_CONTROLLER_ITEM.get().getDefaultInstance())
             .displayItems((params, out) -> {
                 out.accept(RIKUMI_MITA_PACKAGE.get());
-                ITEMS.forEach((id, holder) -> { if (RichStuffMaterialDefinitions.isRegisteredFormEnabled(id)) out.accept(holder.get()); });
+                out.accept(RIKUMI_SCHEMATIC_MARKER_ITEM.get());
+                out.accept(RIKUMI_SCHEMATIC_ITEM.get());
+                out.accept(PET_HOUSE_ITEM.get());
+                ITEMS.forEach((id, holder) -> { if (!id.endsWith("_jar") && (id.endsWith("_slime_spawn_egg") || id.equals("slime_treat") || id.startsWith("molten_") && id.endsWith("_bucket") || RichStuffMaterialDefinitions.isRegisteredFormEnabled(id))) out.accept(holder.get()); });
+                ITEMS.entrySet().stream().filter(entry -> entry.getKey().endsWith("_jar"))
+                        .sorted(Map.Entry.comparingByKey()).forEach(entry -> out.accept(entry.getValue().get()));
             }).build());
 
     public RichStuff(IEventBus modBus, ModContainer container) {
@@ -204,22 +241,26 @@ public final class RichStuff {
         registerMachineProcessingResources();
         registerMetalSlimes();
         RichStuffFallbackFluids.registerAll();
+        registerFluidJars();
         BLOCK_REGISTRY.register(modBus); ITEM_REGISTRY.register(modBus); RichStuffMoltenFluids.FLUID_TYPES.register(modBus);
         RichStuffMoltenFluids.FLUIDS.register(modBus); ENTITY_REGISTRY.register(modBus); BLOCK_ENTITY_REGISTRY.register(modBus);
         MENU_REGISTRY.register(modBus); CREATIVE_TABS.register(modBus); SOUND_REGISTRY.register(modBus); RichStuffConditions.CONDITION_CODECS.register(modBus);
         modBus.addListener(RichStuff::registerSpawnPlacements); modBus.addListener(RichStuff::registerEntityAttributes);
         modBus.addListener(RichStuff::registerCapabilities);
         NeoForge.EVENT_BUS.addListener(RichStuff::addReloadListeners);
+        NeoForge.EVENT_BUS.addListener(RikumiPlacementLedger::onPlace);
+        NeoForge.EVENT_BUS.addListener(RikumiPlacementLedger::onBreak);
         NeoForge.EVENT_BUS.addListener(RichGearEvents::onBreakSpeed);
         NeoForge.EVENT_BUS.addListener(RichGearEvents::onDamage);
         NeoForge.EVENT_BUS.addListener(RichGearEvents::onAnvil);
         NeoForge.EVENT_BUS.addListener(RichGearEvents::onPlayerTick);
         if (FMLEnvironment.dist == Dist.CLIENT) {
             modBus.addListener(RichStuffClient::clientSetup); modBus.addListener(RichStuffClient::registerLayerDefinitions);
-            modBus.addListener(RichStuffClient::registerRenderers); modBus.addListener(RichStuffClient::registerItemDecorations); modBus.addListener(RichStuffClient::registerMenuScreens);
+            modBus.addListener(RichStuffClient::registerRenderers); modBus.addListener(RichStuffClient::registerItemDecorations); modBus.addListener(RichStuffClient::registerClientExtensions); modBus.addListener(RichStuffClient::registerMenuScreens);
         }
         container.registerConfig(ModConfig.Type.COMMON, RichStuffConfig.SPEC);
         RikumiAiLifecycle.register();
+        PetHouseEvents.register();
         LOGGER.info("Rich Stuff core registered {} blocks, {} items, {} molten families and {} native gear material profiles.",
                 BLOCKS.size(), ITEMS.size(), RichStuffMoltenFluids.MOLTEN.size(), RichGearProfiles.all().size());
     }
@@ -235,6 +276,9 @@ public final class RichStuff {
         ITEMS.put("rich_hoe", RICH_HOE); ITEMS.put("rich_sword", RICH_SWORD); ITEMS.put("rich_helmet", RICH_HELMET);
         ITEMS.put("rich_chestplate", RICH_CHESTPLATE); ITEMS.put("rich_leggings", RICH_LEGGINGS); ITEMS.put("rich_boots", RICH_BOOTS);
         ITEMS.put("rich_visualizer", RICH_VISUALIZER);
+        putBlockItem("rikumi_schematic_marker", RIKUMI_SCHEMATIC_MARKER, RIKUMI_SCHEMATIC_MARKER_ITEM);
+        ITEMS.put("rikumi_schematic", RIKUMI_SCHEMATIC_ITEM);
+        putBlockItem("pet_house", PET_HOUSE, PET_HOUSE_ITEM);
     }
 
     private static void addReloadListeners(AddReloadListenerEvent event) {
@@ -257,20 +301,88 @@ public final class RichStuff {
         Item[] tankItems = RICH_TANK_ITEMS.stream().map(DeferredItem::get).toArray(Item[]::new);
         event.registerItem(Capabilities.FluidHandler.ITEM,
                 (stack, context) -> new com.richetoku.richcore.api.RichFluidItemHandler(stack,
-                        stack.getItem() instanceof RichTankBlockItem tank ? tank.capacity() : 1000), tankItems);
+                        stack.getItem() instanceof RichTankBlockItem tank ? tank.capacity() : 1000, 1), tankItems);
         Item[] vesselItems = ITEMS.entrySet().stream()
                 .filter(entry -> isFluidVesselId(entry.getKey()))
                 .map(entry -> entry.getValue().get()).toArray(Item[]::new);
         if (vesselItems.length > 0) {
             event.registerItem(Capabilities.FluidHandler.ITEM,
-                    (stack, context) -> new com.richetoku.richcore.api.RichFluidItemHandler(stack, 1000), vesselItems);
+                    (stack, context) -> new RichJarFluidHandler(stack), vesselItems);
         }
     }
 
 
     public static boolean isFluidVesselId(String id) {
-        return id != null && (id.equals("empty_jar") || id.endsWith("_juice_jar")
-                || id.endsWith("_cream_jar") || id.endsWith("_cream_frosting_jar"));
+        return id != null && (id.equals("empty_jar") || id.endsWith("_jar"));
+    }
+
+    private static void registerFluidJars() {
+        registerJar("water", ResourceLocation.fromNamespaceAndPath("minecraft", "water"));
+        registerJar("lava", ResourceLocation.fromNamespaceAndPath("minecraft", "lava"));
+        RichStuffFallbackFluids.FLUIDS.keySet().stream().sorted().forEach(path ->
+                registerJar(path, ResourceLocation.fromNamespaceAndPath(MODID, path)));
+        RichStuffMoltenFluids.MOLTEN.keySet().stream().sorted().forEach(material -> {
+            String path = "molten_" + material;
+            registerJar(path, ResourceLocation.fromNamespaceAndPath(MODID, path));
+        });
+    }
+
+    private static void registerJar(String fluidPath, ResourceLocation fluidId) {
+        String jarId = fluidPath + "_jar";
+        if (ITEMS.containsKey(jarId)) return;
+        DeferredItem<? extends Item> holder = ITEM_REGISTRY.register(jarId,
+                () -> new RichJarItem(new Item.Properties(), fluidId));
+        ITEMS.put(jarId, holder);
+        JARS_BY_FLUID.put(fluidId, holder);
+        JARS_BY_PATH.put(fluidPath, holder);
+    }
+
+    public static ItemStack emptyJar() {
+        DeferredItem<? extends Item> holder = ITEMS.get("empty_jar");
+        return holder == null ? ItemStack.EMPTY : new ItemStack(holder.get());
+    }
+
+    public static ItemStack jarForFluid(Fluid fluid) {
+        if (fluid == null || fluid == Fluids.EMPTY) return ItemStack.EMPTY;
+        ResourceLocation id = BuiltInRegistries.FLUID.getKey(fluid);
+        DeferredItem<? extends Item> holder = id == null ? null : JARS_BY_FLUID.get(id);
+        if (holder == null && id != null) {
+            String path = normalizedFluidPath(id.getPath());
+            holder = JARS_BY_PATH.get(path);
+            if (holder == null) holder = jarForCommonFluidTag(fluid, path);
+        }
+        return holder == null ? ItemStack.EMPTY : new ItemStack(holder.get());
+    }
+
+    /** Resolves external fluids, including Productive Metalworks molten fluids, through common tags. */
+    private static DeferredItem<? extends Item> jarForCommonFluidTag(Fluid fluid, String externalPath) {
+        if (externalPath.startsWith("molten_")) {
+            String material = externalPath.substring("molten_".length());
+            DeferredItem<? extends Item> direct = JARS_BY_PATH.get("molten_" + material);
+            if (direct != null && fluid.builtInRegistryHolder().is(fluidTag("molten/" + material))) return direct;
+        }
+        for (Map.Entry<String, DeferredItem<? extends Item>> entry : JARS_BY_PATH.entrySet()) {
+            String path = entry.getKey();
+            if (path.startsWith("molten_")) {
+                String material = path.substring("molten_".length());
+                if (fluid.builtInRegistryHolder().is(fluidTag("molten/" + material))
+                        || fluid.builtInRegistryHolder().is(fluidTag("molten_metals/" + material))) return entry.getValue();
+            } else if (fluid.builtInRegistryHolder().is(fluidTag(path))) {
+                return entry.getValue();
+            }
+        }
+        return null;
+    }
+
+    private static TagKey<Fluid> fluidTag(String path) {
+        return TagKey.create(Registries.FLUID, ResourceLocation.fromNamespaceAndPath("c", path));
+    }
+
+    private static String normalizedFluidPath(String path) {
+        if (path.startsWith("flowing_")) path = path.substring(8);
+        if (path.endsWith("_still")) path = path.substring(0, path.length() - 6);
+        if (path.endsWith("_fluid")) path = path.substring(0, path.length() - 6);
+        return path;
     }
     private static String roman(int value) {
         return switch (value) { case 1 -> "I"; case 2 -> "II"; case 3 -> "III"; case 4 -> "IV"; case 5 -> "V"; case 6 -> "VI"; default -> "VII"; };
@@ -278,9 +390,14 @@ public final class RichStuff {
 
     private static void registerMetalSlimes() {
         for (RichStuffSlimeCatalog.MetalSlimeDef def : RichStuffSlimeCatalog.METAL_SLIMES) {
-            DeferredHolder<EntityType<?>, EntityType<RichStuffMetalSlime>> entity = ENTITY_REGISTRY.register(def.entityId(), () ->
-                    EntityType.Builder.<RichStuffMetalSlime>of(RichStuffMetalSlime::new, MobCategory.MONSTER).sized(1.04F,1.04F)
-                            .clientTrackingRange(12).updateInterval(2).build(ResourceLocation.fromNamespaceAndPath(MODID,def.entityId()).toString()));
+            DeferredHolder<EntityType<?>, EntityType<RichStuffMetalSlime>> entity = ENTITY_REGISTRY.register(def.entityId(), () -> {
+                return EntityType.Builder.<RichStuffMetalSlime>of(RichStuffMetalSlime::new, MobCategory.MONSTER)
+                        // Match vanilla's slime base. RichStuffMetalSlime#getDimensions returns the
+                        // final tier-specific box and avoids a second application of slime size.
+                        .sized(2.04F, 2.04F)
+                        .clientTrackingRange(16).updateInterval(2)
+                        .build(ResourceLocation.fromNamespaceAndPath(MODID, def.entityId()).toString());
+            });
             METAL_SLIMES.put(def.material(), entity);
             int primary=(def.red()<<16)|(def.green()<<8)|def.blue();
             int secondary=((Math.min(255,def.red()+55))<<16)|((Math.min(255,def.green()+55))<<8)|Math.min(255,def.blue()+55);
@@ -325,6 +442,7 @@ public final class RichStuff {
 
     private static boolean belongsToFamily(String id,String material){ return id.equals(material)||id.startsWith(material+"_")||((id.startsWith("base_")||id.startsWith("filled_")||id.startsWith("unfired_"))&&id.contains("_"+material+"_")); }
     private static void registerCatalogId(String id,boolean isBlock) {
+        if (id.endsWith("_jar") && !id.equals("empty_jar")) return;
         if(ITEMS.containsKey(id))return;
         if(isBlock||isPlaceableMoldId(id)||isRedstoneWireId(id)) {
             DeferredBlock<Block> block=BLOCK_REGISTRY.register(id,blockFactory(id)); BLOCKS.put(id,block);
@@ -335,11 +453,12 @@ public final class RichStuff {
     }
     private static void registerGeneratedItem(String id){
         if (ITEMS.containsKey(id)) return;
+        if (id.endsWith("_jar") && !id.equals("empty_jar")) return;
         if (id.equals("empty_jar")) {
-            ITEMS.put(id, ITEM_REGISTRY.register(id, () -> new RichJarItem(new Item.Properties())));
+            // One universal capability-backed Jar represents every registered fluid.
+            ITEMS.put(id, ITEM_REGISTRY.register(id, () -> new RichJarItem(new Item.Properties(), null)));
         } else {
-            ITEMS.put(id, ITEM_REGISTRY.register(id,
-                    () -> new Item(isFluidVesselId(id) ? new Item.Properties().stacksTo(8) : new Item.Properties())));
+            ITEMS.put(id, ITEM_REGISTRY.register(id, () -> new Item(new Item.Properties())));
         }
     }
     private static void registerCrystalGrowthFamily(MaterialDef material){ if(!ITEMS.containsKey(material.name())&&!ITEMS.containsKey(material.name()+"_shard"))registerGeneratedItem(material.name()+"_shard"); registerCrystalStage("small_"+material.name()+"_crystal_bud",material.name(),1,3,4); registerCrystalStage("medium_"+material.name()+"_crystal_bud",material.name(),2,4,3); registerCrystalStage("large_"+material.name()+"_crystal_bud",material.name(),3,5,3); registerCrystalStage(material.name()+"_crystal_cluster",material.name(),4,7,3); }
@@ -350,8 +469,6 @@ public final class RichStuff {
         if(isRedstoneWireId(id)){int max=id.equals("redstone_tiny_dust")?5:id.equals("redstone_small_dust")?10:15;return new RichRedstoneWireBlock(BlockBehaviour.Properties.of().noCollission().instabreak().replaceable().sound(SoundType.EMPTY),max);}
         if(id.equals("redstone_block"))return new RichRedstonePowerBlock(properties);
         if(id.equals("glowstone_block"))return new Block(BlockBehaviour.Properties.of().mapColor(MapColor.SAND).strength(0.3F).sound(SoundType.GLASS).lightLevel(s->15));
-        if(id.equals("melon_block"))return new RichProduceBundleBlock(properties, () -> Items.MELON);
-        if(id.equals("pumpkin_block"))return new RichProduceBundleBlock(properties, () -> Items.PUMPKIN);
         if(id.startsWith("budding_")&&id.endsWith("_crystal")){String material=id.substring(8,id.length()-8);return new BuddingRichCrystalBlock(properties,material);}
         CrystalStage stage=crystalStage(id);
         if(stage!=null)return new RichCrystalGrowthBlock(stage.height(),stage.offset(),BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).strength(stage.stage()==4?1.5F:0.5F).sound(SoundType.AMETHYST_CLUSTER).noOcclusion(),stage.material(),stage.stage());

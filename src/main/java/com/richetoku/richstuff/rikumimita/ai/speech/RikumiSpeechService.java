@@ -29,8 +29,13 @@ public final class RikumiSpeechService {
         result.addProperty("preset", normalizePreset(preset));
         result.addProperty("sound_event", soundId == null ? "richstuff:rikumi_idle" : soundId.toString());
         result.addProperty("dynamic_tts_mode", "registered_sound_event");
+        result.addProperty("positional", true);
+        result.addProperty("attenuation", "distance_based_from_rikumi_entity");
+        result.addProperty("x", avatar.getX());
+        result.addProperty("y", avatar.getY());
+        result.addProperty("z", avatar.getZ());
         result.addProperty("dynamic_audio_contract",
-                "The connected agent may register generated OGG audio in a resource pack and pass its sound-event id.");
+                "The connected agent may register generated OGG audio in a resource pack and pass its sound-event id; playback originates from Rikumi and attenuates with distance.");
         return result;
     }
 

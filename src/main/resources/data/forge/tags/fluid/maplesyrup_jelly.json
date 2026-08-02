@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:maplesyrup_jelly",
+      "required": false
+    }
+  ]
+}

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "wrought_iron",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/wrought_iron",
-          "RichStuffTargetPart": "richstuff:wrought_iron_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:wrought_iron_block"
         }
       }
     }

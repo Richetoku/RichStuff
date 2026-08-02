@@ -24,8 +24,8 @@
           "RichStuffMaterial": "quartz",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/quartz",
-          "RichStuffTargetPart": "minecraft:quartz",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:quartz"
         }
       }
     }

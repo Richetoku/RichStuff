@@ -18,11 +18,12 @@
   "results": [
     {
       "id": "richores:salt",
-      "count": 6
+      "count": 2
     },
     {
-      "id": "richores:salt",
-      "count": 6
+      "id": "minecraft:flint",
+      "chance": 0.75,
+      "count": 2
     }
   ],
   "processing_time": 180

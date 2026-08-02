@@ -24,8 +24,8 @@
           "RichStuffMaterial": "kyanite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/kyanite",
-          "RichStuffTargetPart": "richstuff:kyanite_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:kyanite_block"
         }
       }
     }

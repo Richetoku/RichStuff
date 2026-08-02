@@ -24,8 +24,8 @@
           "RichStuffMaterial": "bitumen",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/bitumen",
-          "RichStuffTargetPart": "richstuff:bitumen_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:bitumen_brick"
         }
       }
     }

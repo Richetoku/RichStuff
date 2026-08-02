@@ -8,6 +8,9 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterItemDecorationsEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
+import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -37,6 +40,18 @@ public final class RichStuffClient {
         RichStuff.ITEMS.values().forEach(holder -> {
             if (holder.get() instanceof RichGearMarker) event.register(holder.get(), brokenDecorator);
         });
+    }
+    public static void registerClientExtensions(RegisterClientExtensionsEvent event) {
+        IClientItemExtensions extensions = new IClientItemExtensions() {
+            private RichJarItemRenderer renderer;
+            @Override public BlockEntityWithoutLevelRenderer getCustomRenderer() {
+                if (renderer == null) renderer = new RichJarItemRenderer();
+                return renderer;
+            }
+        };
+        var jars = RichStuff.ITEMS.entrySet().stream().filter(entry -> RichStuff.isFluidVesselId(entry.getKey()))
+                .map(entry -> entry.getValue().get()).toArray(net.minecraft.world.item.Item[]::new);
+        if (jars.length > 0) event.registerItem(extensions, jars);
     }
     public static void registerMenuScreens(RegisterMenuScreensEvent event) {
         if (!MENU_SCREENS_REGISTERED.compareAndSet(false, true)) {

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "moldavite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/moldavite",
-          "RichStuffTargetPart": "richstuff:moldavite_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:moldavite_plate"
         }
       }
     }

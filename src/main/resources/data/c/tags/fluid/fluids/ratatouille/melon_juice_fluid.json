@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ratatouille:melon_juice_fluid",
+      "required": false
+    }
+  ]
+}

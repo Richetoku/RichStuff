@@ -24,8 +24,8 @@
           "RichStuffMaterial": "citrine",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/citrine",
-          "RichStuffTargetPart": "richstuff:citrine_ring",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:citrine_ring"
         }
       }
     }

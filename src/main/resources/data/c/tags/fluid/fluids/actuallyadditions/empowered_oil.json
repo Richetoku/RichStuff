@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "actuallyadditions:empowered_oil",
+      "required": false
+    }
+  ]
+}

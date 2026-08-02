@@ -24,8 +24,8 @@
           "RichStuffMaterial": "reinforced_copper",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/reinforced_copper",
-          "RichStuffTargetPart": "richstuff:reinforced_copper_blisk",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:reinforced_copper_blisk"
         }
       }
     }

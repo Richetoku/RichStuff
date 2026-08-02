@@ -24,8 +24,8 @@
           "RichStuffMaterial": "iridium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/iridium",
-          "RichStuffTargetPart": "richstuff:iridium_wire",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:iridium_wire"
         }
       }
     }

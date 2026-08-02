@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:blank_mold_press"
+    },
+    {
+      "item": "richstuff:base_coin_mold"
+    }
+  ],
+  "result": {
+    "id": "richstuff:coin_mold_press"
+  }
+}

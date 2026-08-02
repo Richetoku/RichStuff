@@ -24,8 +24,8 @@
           "RichStuffMaterial": "brass",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/brass",
-          "RichStuffTargetPart": "richstuff:brass_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:brass_block"
         }
       }
     }

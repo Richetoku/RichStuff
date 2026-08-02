@@ -24,8 +24,8 @@
           "RichStuffMaterial": "bronze",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/bronze",
-          "RichStuffTargetPart": "richstuff:bronze_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:bronze_rod"
         }
       }
     }

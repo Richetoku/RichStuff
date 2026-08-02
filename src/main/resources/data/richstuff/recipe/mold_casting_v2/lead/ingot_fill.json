@@ -24,8 +24,8 @@
           "RichStuffMaterial": "lead",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/lead",
-          "RichStuffTargetPart": "richstuff:lead_ingot",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:lead_ingot"
         }
       }
     }

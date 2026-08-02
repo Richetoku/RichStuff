@@ -4,7 +4,9 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.richetoku.richstuff.RichStuff;
 import com.richetoku.richstuff.rikumimita.RikumiMitaEntity;
+import com.richetoku.richstuff.rikumimita.RikumiAction;
 import net.minecraft.client.model.EntityModel;
+import net.minecraft.client.model.ArmedModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
@@ -14,13 +16,18 @@ import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.util.Mth;
 
 /** Native RichStuff model generated from the supplied Bedrock model JSON. */
-public final class RikumiMitaModel extends EntityModel<RikumiMitaEntity> {
+public final class RikumiMitaModel extends EntityModel<RikumiMitaEntity> implements ArmedModel {
     public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
             ResourceLocation.fromNamespaceAndPath(RichStuff.MODID, "rikumi_mita"), "main");
     private final ModelPart root;
+    private final ModelPart allBody;
+    private final ModelPart upBody;
+    private final ModelPart upperBody;
+    private final ModelPart arms;
     private final ModelPart allHead;
     private final ModelPart leftArm;
     private final ModelPart rightArm;
@@ -29,15 +36,15 @@ public final class RikumiMitaModel extends EntityModel<RikumiMitaEntity> {
 
     public RikumiMitaModel(ModelPart root) {
         this.root = root.getChild("Root");
-        ModelPart allBody = this.root.getChild("AllBody");
-        ModelPart upBody = allBody.getChild("UpBody");
-        ModelPart upperBody = upBody.getChild("UpperBody");
-        ModelPart arms = upperBody.getChild("Arms");
-        ModelPart downBody = allBody.getChild("DownBody");
+        this.allBody = this.root.getChild("AllBody");
+        this.upBody = this.allBody.getChild("UpBody");
+        this.upperBody = this.upBody.getChild("UpperBody");
+        this.arms = this.upperBody.getChild("Arms");
+        ModelPart downBody = this.allBody.getChild("DownBody");
         ModelPart legs = downBody.getChild("Legs");
-        this.allHead = upperBody.getChild("AllHead");
-        this.leftArm = arms.getChild("LeftArm");
-        this.rightArm = arms.getChild("RightArm");
+        this.allHead = this.upperBody.getChild("AllHead");
+        this.leftArm = this.arms.getChild("LeftArm");
+        this.rightArm = this.arms.getChild("RightArm");
         this.leftLeg = legs.getChild("LeftLeg");
         this.rightLeg = legs.getChild("RightLeg");
     }
@@ -652,12 +659,45 @@ public final class RikumiMitaModel extends EntityModel<RikumiMitaEntity> {
         this.leftArm.xRot -= walk;
         this.rightLeg.xRot -= walk;
         this.leftLeg.xRot += walk;
-        if (entity.isOrderedToSit()) {
+        if (entity.isOrderedToSit() || entity.getActionState() == RikumiAction.SIT) {
             this.rightLeg.xRot = -1.15F;
             this.leftLeg.xRot = -1.15F;
             this.rightArm.xRot *= 0.25F;
             this.leftArm.xRot *= 0.25F;
         }
+        float work = Mth.sin(ageInTicks * 0.55F);
+        switch (entity.getActionState()) {
+            case MINE, BUILD -> {
+                this.rightArm.xRot = -1.15F + work * 0.75F;
+                this.leftArm.xRot *= 0.2F;
+            }
+            case ATTACK -> this.rightArm.xRot = -1.35F + work * 0.45F;
+            case USE_ITEM -> {
+                this.rightArm.xRot = -1.05F;
+                this.rightArm.yRot = -0.15F;
+            }
+            case FISH -> {
+                this.rightArm.xRot = -1.30F;
+                this.leftArm.xRot = -0.75F;
+            }
+            case CRAFT -> {
+                this.rightArm.xRot = -0.85F + work * 0.18F;
+                this.leftArm.xRot = -0.85F - work * 0.18F;
+                this.rightArm.yRot = -0.35F;
+                this.leftArm.yRot = 0.35F;
+            }
+            default -> { }
+        }
+    }
+
+    @Override
+    public void translateToHand(HumanoidArm side, PoseStack poseStack) {
+        this.root.translateAndRotate(poseStack);
+        this.allBody.translateAndRotate(poseStack);
+        this.upBody.translateAndRotate(poseStack);
+        this.upperBody.translateAndRotate(poseStack);
+        this.arms.translateAndRotate(poseStack);
+        (side == HumanoidArm.RIGHT ? this.rightArm : this.leftArm).translateAndRotate(poseStack);
     }
 
     @Override

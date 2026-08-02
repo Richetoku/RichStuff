@@ -24,8 +24,8 @@
           "RichStuffMaterial": "nickel",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/nickel",
-          "RichStuffTargetPart": "richstuff:nickel_blisk",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:nickel_blisk"
         }
       }
     }

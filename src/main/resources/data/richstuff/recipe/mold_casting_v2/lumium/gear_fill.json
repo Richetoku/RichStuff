@@ -24,8 +24,8 @@
           "RichStuffMaterial": "lumium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/lumium",
-          "RichStuffTargetPart": "richstuff:lumium_gear",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:lumium_gear"
         }
       }
     }

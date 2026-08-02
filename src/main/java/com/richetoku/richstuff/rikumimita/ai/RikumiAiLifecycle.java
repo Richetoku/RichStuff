@@ -8,6 +8,7 @@ import com.richetoku.richstuff.rikumimita.ai.actor.RikumiFakePlayerActor;
 import com.richetoku.richstuff.rikumimita.ai.autonomy.RikumiAutonomousHelper;
 import com.richetoku.richstuff.rikumimita.ai.control.RikumiExternalControl;
 import com.richetoku.richstuff.rikumimita.ai.transport.CompanionApiClient;
+import com.richetoku.richstuff.rikumimita.ai.schematic.RikumiSchematicRegistry;
 import java.lang.ref.WeakReference;
 import java.time.Instant;
 import java.util.Optional;
@@ -45,6 +46,7 @@ public final class RikumiAiLifecycle {
         cleanup();
         var server = event.getServer();
         settings = RikumiAiSettings.load();
+        RikumiSchematicRegistry.reload(server);
         autoSpawnSuppressed = false;
         if (!settings.enabled()) {
             RichStuff.LOGGER.info("RichStuff Rikumi AI integration is disabled.");
@@ -63,12 +65,17 @@ public final class RikumiAiLifecycle {
         registration.addProperty("main_hand_slot", true);
         registration.addProperty("off_hand_slot", true);
         registration.addProperty("local_autonomy_when_agent_idle", true);
-        registration.add("external_actions", arrayOf("spawn", "despawn", "snapshot", "move_relative", "look",
+        registration.add("external_actions", arrayOf("spawn", "despawn", "snapshot", "move_relative", "path_to", "look",
                 "select_slot", "swing", "use_item", "use_item_on", "attack", "break_block",
-                "interact_entity", "chat", "speak", "tts"));
-        registration.add("local_helper_actions", arrayOf("follow_owner", "collect_items", "defend_owner",
+                "interact_entity", "set_mode", "set_goal", "set_task", "list_schematics",
+                "build_schematic", "cancel_project", "chat", "speak", "tts"));
+        registration.add("behavior_modes", arrayOf("stay", "follow", "assist", "auto", "patrol"));
+        registration.add("local_helper_actions", arrayOf("mob_pathfinding", "follow_owner_at_safe_distance",
+                "collect_items", "defend_owner", "patrol", "mine", "fish", "cook",
                 "equip_tools_and_weapons", "use_shield", "place_light", "eat_food",
-                "craft_torches_and_bread", "interact_with_rich_tanks_and_machines"));
+                "craft_recipe_aware_supplies", "use_rich_tanks_and_machines", "build_schematic_one_block_at_a_time"));
+        registration.add("schematic_formats", arrayOf("richstuff_datapack_json", "vanilla_structure_nbt",
+                "create_schematic_nbt", "minecolonies_structurize_blueprint"));
         registration.add("tts_modes", arrayOf("pregenerated_preset", "registered_sound_event", "chat_fallback"));
 
         if (settings.hasTransport()) {
@@ -95,15 +102,19 @@ public final class RikumiAiLifecycle {
             RikumiMitaEntity visible = avatar().orElse(null);
             if (visible == null || !visible.isAlive()) return;
             if (active.player().isPresent() && active.player().get().level() instanceof ServerLevel helperLevel) {
-                AUTONOMOUS_HELPER.tick(helperLevel, active.player().get(), visible, externalAgentActive(helperLevel));
+                boolean agentActive = externalAgentActive(helperLevel);
+                if (!agentActive) alignActorToAvatar(visible, active.player().get());
+                AUTONOMOUS_HELPER.tick(helperLevel, active.player().get(), visible, agentActive);
                 visible.getInventoryHandler().syncWithActor();
+                visible.syncDisplayedHands(active.player().get());
+                if (settings != null && settings.mirrorAvatar() && agentActive) mirrorVisibleAvatar(visible, active);
+                else visible.setNoAi(false);
             }
 
             if (!active.isOnline() && settings != null && settings.autoSpawn() && !autoSpawnSuppressed
                     && visible.level() instanceof ServerLevel level) {
                 spawnActor(level, visible.blockPosition());
             }
-            if (settings != null && settings.mirrorAvatar()) mirrorVisibleAvatar(visible, active);
         } catch (RuntimeException exception) {
             RichStuff.LOGGER.warn("Rikumi AI tick failed: {}", exception.getMessage());
         }
@@ -123,6 +134,14 @@ public final class RikumiAiLifecycle {
         if (current != null) current.getInventoryHandler().detachFromActor();
         avatar = new WeakReference<>(entity);
         player().ifPresent(entity.getInventoryHandler()::attachToActor);
+    }
+
+    private static void alignActorToAvatar(RikumiMitaEntity visible, FakePlayer player) {
+        if (player.level() != visible.level()) return;
+        player.moveTo(visible.getX(), visible.getY(), visible.getZ(), visible.getYRot(), visible.getXRot());
+        player.setYHeadRot(visible.getYHeadRot());
+        player.setOnGround(visible.onGround());
+        player.fallDistance = visible.fallDistance;
     }
 
     private static void mirrorVisibleAvatar(RikumiMitaEntity visible, RikumiFakePlayerActor active) {
@@ -188,6 +207,11 @@ public final class RikumiAiLifecycle {
     public static boolean externalAgentActive(ServerLevel level) {
         return lastExternalControlTick != Long.MIN_VALUE
                 && level.getGameTime() - lastExternalControlTick <= 100L;
+    }
+
+    /** High-level mode/project commands hand movement back to Rikumi's local navigator immediately. */
+    public static void releaseExternalControl() {
+        lastExternalControlTick = Long.MIN_VALUE;
     }
 
     private static JsonArray arrayOf(String... values) {

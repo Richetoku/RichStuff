@@ -24,8 +24,8 @@
           "RichStuffMaterial": "constantan",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/constantan",
-          "RichStuffTargetPart": "richstuff:constantan_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:constantan_block"
         }
       }
     }

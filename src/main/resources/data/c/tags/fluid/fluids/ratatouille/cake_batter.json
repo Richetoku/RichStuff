@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ratatouille:cake_batter",
+      "required": false
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     {
       "type": "neoforge:tag",
       "tag": "c:molten/prismarine_crystals",
-      "amount": 10
+      "amount": 16
     }
   ],
   "results": [
@@ -24,8 +24,8 @@
           "RichStuffMaterial": "prismarine_crystals",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/prismarine_crystals",
-          "RichStuffTargetPart": "richstuff:prismarine_crystals_shard",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:prismarine_crystals_shard"
         }
       }
     }

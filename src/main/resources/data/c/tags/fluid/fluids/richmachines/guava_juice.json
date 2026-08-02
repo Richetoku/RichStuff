@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richmachines:guava_juice",
+      "required": false
+    }
+  ]
+}

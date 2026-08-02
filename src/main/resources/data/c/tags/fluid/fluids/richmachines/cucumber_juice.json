@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richmachines:cucumber_juice",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "richstuff:aloe_cream_frosting",
+  "aliases": [
+    "aloe_cream_frosting"
+  ],
+  "still": "richstuff:block/fluid/fallback_still",
+  "flowing": "richstuff:block/fluid/fallback_flow",
+  "density": 1450,
+  "viscosity": 12000,
+  "temperature": 300,
+  "luminosity": 0,
+  "translucent": true,
+  "containers": {
+    "jar": true,
+    "tank": true
+  },
+  "foundry_compatible": true,
+  "prefer_external_tag": "c:aloe_cream_frosting"
+}

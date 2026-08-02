@@ -24,8 +24,8 @@
           "RichStuffMaterial": "celestigem",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/celestigem",
-          "RichStuffTargetPart": "richstuff:celestigem_blisk",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:celestigem_blisk"
         }
       }
     }

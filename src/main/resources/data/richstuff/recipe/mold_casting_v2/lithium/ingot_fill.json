@@ -24,8 +24,8 @@
           "RichStuffMaterial": "lithium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/lithium",
-          "RichStuffTargetPart": "richstuff:lithium_ingot",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:lithium_ingot"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "ender",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/ender",
-          "RichStuffTargetPart": "richstuff:ender_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:ender_block"
         }
       }
     }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richmachines:soursop_juice",
+      "required": false
+    }
+  ]
+}

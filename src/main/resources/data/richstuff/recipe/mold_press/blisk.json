@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:blank_mold_press"
+    },
+    {
+      "item": "richstuff:base_blisk_mold"
+    }
+  ],
+  "result": {
+    "id": "richstuff:blisk_mold_press"
+  }
+}

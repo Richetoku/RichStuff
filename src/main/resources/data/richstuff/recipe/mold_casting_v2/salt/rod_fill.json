@@ -24,8 +24,8 @@
           "RichStuffMaterial": "salt",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/salt",
-          "RichStuffTargetPart": "richstuff:salt_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:salt_rod"
         }
       }
     }

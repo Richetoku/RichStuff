@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "G G",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "result": {
+    "id": "richstuff:empty_jar",
+    "count": 4
+  }
+}

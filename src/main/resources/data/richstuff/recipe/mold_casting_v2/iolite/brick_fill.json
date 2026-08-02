@@ -24,8 +24,8 @@
           "RichStuffMaterial": "iolite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/iolite",
-          "RichStuffTargetPart": "richstuff:iolite_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:iolite_brick"
         }
       }
     }

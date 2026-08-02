@@ -5,14 +5,13 @@
   ],
   "still": "richstuff:block/fluid/fallback_still",
   "flowing": "richstuff:block/fluid/fallback_flow",
-  "density": 1200,
-  "viscosity": 6000,
+  "density": 1450,
+  "viscosity": 12000,
   "temperature": 300,
   "luminosity": 0,
   "translucent": true,
   "containers": {
     "jar": true,
-    "jug": true,
     "tank": true
   },
   "foundry_compatible": true,

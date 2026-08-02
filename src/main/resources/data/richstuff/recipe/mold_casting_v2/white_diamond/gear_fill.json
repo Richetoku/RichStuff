@@ -24,8 +24,8 @@
           "RichStuffMaterial": "white_diamond",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/white_diamond",
-          "RichStuffTargetPart": "richstuff:white_diamond_gear",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:white_diamond_gear"
         }
       }
     }

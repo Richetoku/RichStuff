@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "immersiveengineering:high_power_biodiesel",
+      "required": false
+    }
+  ]
+}

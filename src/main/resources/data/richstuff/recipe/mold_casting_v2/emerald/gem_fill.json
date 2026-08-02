@@ -24,8 +24,8 @@
           "RichStuffMaterial": "emerald",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/emerald",
-          "RichStuffTargetPart": "minecraft:emerald",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:emerald"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "amethyst",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/amethyst",
-          "RichStuffTargetPart": "minecraft:amethyst_shard",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:amethyst_shard"
         }
       }
     }

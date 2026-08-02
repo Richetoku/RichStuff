@@ -1,0 +1,23 @@
+{
+  "type": "create:emptying",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:molten_gold_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bucket"
+    },
+    {
+      "id": "richstuff:molten_gold",
+      "amount": 1000
+    }
+  ]
+}

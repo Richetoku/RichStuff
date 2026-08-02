@@ -24,8 +24,8 @@
           "RichStuffMaterial": "vanadium",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/vanadium",
-          "RichStuffTargetPart": "richstuff:vanadium_blisk",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:vanadium_blisk"
         }
       }
     }

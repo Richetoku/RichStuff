@@ -24,8 +24,8 @@
           "RichStuffMaterial": "prismarine",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/prismarine",
-          "RichStuffTargetPart": "minecraft:prismarine_crystals",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:prismarine_crystals"
         }
       }
     }

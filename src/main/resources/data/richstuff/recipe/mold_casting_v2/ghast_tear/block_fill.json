@@ -24,8 +24,8 @@
           "RichStuffMaterial": "ghast_tear",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/ghast_tear",
-          "RichStuffTargetPart": "richstuff:ghast_tear_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:ghast_tear_block"
         }
       }
     }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ratatouille:compost_residue_fluid",
+      "required": false
+    }
+  ]
+}

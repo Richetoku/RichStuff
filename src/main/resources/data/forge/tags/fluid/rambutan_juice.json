@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richstuff:rambutan_juice",
+      "required": false
+    }
+  ]
+}

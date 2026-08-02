@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richmachines:chorus_fruit_juice",
+      "required": false
+    }
+  ]
+}

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "charcoal",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/charcoal",
-          "RichStuffTargetPart": "richstuff:charcoal_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:charcoal_brick"
         }
       }
     }

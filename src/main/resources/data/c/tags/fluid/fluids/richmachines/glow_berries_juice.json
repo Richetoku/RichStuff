@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "richmachines:glow_berries_juice",
+      "required": false
+    }
+  ]
+}

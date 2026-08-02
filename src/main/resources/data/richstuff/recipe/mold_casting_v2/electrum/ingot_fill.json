@@ -24,8 +24,8 @@
           "RichStuffMaterial": "electrum",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/electrum",
-          "RichStuffTargetPart": "richstuff:electrum_ingot",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:electrum_ingot"
         }
       }
     }

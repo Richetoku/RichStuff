@@ -24,8 +24,8 @@
           "RichStuffMaterial": "slime",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/slime",
-          "RichStuffTargetPart": "minecraft:slime_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:slime_block"
         }
       }
     }

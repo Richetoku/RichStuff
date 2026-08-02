@@ -1,48 +1,28 @@
-# Build directories
+.gradle/
 build/
 bin/
-.gradle/
-
-# IDE
+out/
+classes/
 .eclipse/
+.settings/
+run/
+logs/
+crash-reports/
+saves/
+config/
+mods/
 .idea/
 .vscode/
-*.iml
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Credentials/secrets
-*.db
-*.db-shm
-*.db-wal
-*.key
+.env
+.env.*
+*.log
+hs_err_pid*
+replay_pid*
+javac.*.args
+local.properties
 *.pem
-*.crt
+*.key
 *.p12
 *.jks
-local.properties
-*.properties.local
-
-# Logs
-*.log
-
-# Gradle cache
-.gradle/
-*.gradle
-
-# Mod jars (built artifacts)
-*.jar
-!src/**/*.jar
-
-# Scripts and tools (generated)
-tools/validate_worldgen.py
-scripts/
-
-# Runtime / client working directory
-run/
-
-# Crash dumps (hotspot replay files already covered by *.log below)
-hs_err_pid*.log
-replay_pid*.log
+*.keystore
+.DS_Store

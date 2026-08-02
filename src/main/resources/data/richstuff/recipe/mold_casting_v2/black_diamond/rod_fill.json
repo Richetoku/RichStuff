@@ -24,8 +24,8 @@
           "RichStuffMaterial": "black_diamond",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/black_diamond",
-          "RichStuffTargetPart": "richstuff:black_diamond_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:black_diamond_rod"
         }
       }
     }

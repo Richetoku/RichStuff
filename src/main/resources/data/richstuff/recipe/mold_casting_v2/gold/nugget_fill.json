@@ -24,8 +24,8 @@
           "RichStuffMaterial": "gold",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/gold",
-          "RichStuffTargetPart": "richstuff:gold_nugget",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:gold_nugget"
         }
       }
     }

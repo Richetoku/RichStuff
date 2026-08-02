@@ -1,0 +1,24 @@
+{
+  "type": "create:filling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:empty_jar"
+    },
+    {
+      "type": "neoforge:tag",
+      "tag": "c:tamarind_jam",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "id": "richstuff:tamarind_jam_jar"
+    }
+  ]
+}

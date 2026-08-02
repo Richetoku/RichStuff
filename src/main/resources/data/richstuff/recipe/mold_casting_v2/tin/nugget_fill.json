@@ -24,8 +24,8 @@
           "RichStuffMaterial": "tin",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/tin",
-          "RichStuffTargetPart": "richstuff:tin_nugget",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:tin_nugget"
         }
       }
     }

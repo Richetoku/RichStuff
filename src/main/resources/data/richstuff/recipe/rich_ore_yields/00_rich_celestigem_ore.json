@@ -19,10 +19,6 @@
     {
       "id": "richores:celestigem",
       "count": 4
-    },
-    {
-      "id": "richores:celestigem",
-      "chance": 0.35
     }
   ],
   "processing_time": 220

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "sapphire",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/sapphire",
-          "RichStuffTargetPart": "richstuff:sapphire_block",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:sapphire_block"
         }
       }
     }

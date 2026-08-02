@@ -24,8 +24,8 @@
           "RichStuffMaterial": "fluorite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/fluorite",
-          "RichStuffTargetPart": "richstuff:fluorite_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:fluorite_plate"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "amethyst",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/amethyst",
-          "RichStuffTargetPart": "richstuff:amethyst_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:amethyst_plate"
         }
       }
     }

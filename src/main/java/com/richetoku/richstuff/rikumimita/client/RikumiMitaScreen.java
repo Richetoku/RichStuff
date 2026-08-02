@@ -11,8 +11,13 @@ import net.minecraft.world.entity.player.Inventory;
 
 /** Owner-only native RichStuff companion inventory and settings screen. */
 public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMenu> {
+    private Button modeButton;
+    private Button homeButton;
+    private Button confirmHomeButton;
+    private Button cancelHomeButton;
+    private boolean confirmingHomeReplacement;
     private static final int GUI_WIDTH = 344;
-    private static final int GUI_HEIGHT = 232;
+    private static final int GUI_HEIGHT = 282;
 
     private static final int LEFT_X = 8;
     private static final int LEFT_WIDTH = 110;
@@ -47,15 +52,38 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
                 .bounds(leftPos + 88, topPos + OUTFIT_CONTROL_Y, OUTFIT_ARROW_WIDTH, 20)
                 .build());
 
-        addRenderableWidget(Button.builder(Component.translatable("gui.richstuff.rikumi.sit_follow"), button -> send(2))
-                .bounds(leftPos + ACTION_BUTTON_X, topPos + 160, ACTION_BUTTON_WIDTH, 18)
+        homeButton = addRenderableWidget(Button.builder(Component.translatable("gui.richstuff.rikumi.set_home"), button -> requestSetHome())
+                .bounds(leftPos + ACTION_BUTTON_X, topPos + 184, ACTION_BUTTON_WIDTH, 18)
+                .build());
+        modeButton = addRenderableWidget(Button.builder(Component.literal(menu.rikumi().getMode().displayName()), button -> {
+                    send(2);
+                    button.setMessage(Component.literal(menu.rikumi().getMode().next().displayName()));
+                })
+                .bounds(leftPos + ACTION_BUTTON_X, topPos + 206, ACTION_BUTTON_WIDTH, 18)
                 .build());
         addRenderableWidget(Button.builder(Component.translatable("gui.richstuff.rikumi.voice"), button -> send(3))
-                .bounds(leftPos + ACTION_BUTTON_X, topPos + 182, ACTION_BUTTON_WIDTH, 18)
+                .bounds(leftPos + ACTION_BUTTON_X, topPos + 228, ACTION_BUTTON_WIDTH, 18)
                 .build());
         addRenderableWidget(Button.builder(Component.translatable("gui.richstuff.rikumi.nameplate"), button -> send(4))
-                .bounds(leftPos + ACTION_BUTTON_X, topPos + 204, ACTION_BUTTON_WIDTH, 18)
+                .bounds(leftPos + ACTION_BUTTON_X, topPos + 250, ACTION_BUTTON_WIDTH, 18)
                 .build());
+        confirmHomeButton = addRenderableWidget(Button.builder(Component.translatable("gui.yes"), button -> {
+                    send(5); setHomeConfirmation(false);
+                }).bounds(leftPos + 118, topPos + 137, 50, 20).build());
+        cancelHomeButton = addRenderableWidget(Button.builder(Component.translatable("gui.no"), button -> setHomeConfirmation(false))
+                .bounds(leftPos + 176, topPos + 137, 50, 20).build());
+        setHomeConfirmation(false);
+    }
+
+    private void requestSetHome() {
+        if (!menu.rikumi().hasHome()) send(5);
+        else setHomeConfirmation(true);
+    }
+
+    private void setHomeConfirmation(boolean value) {
+        confirmingHomeReplacement = value;
+        if (confirmHomeButton != null) confirmHomeButton.visible = confirmHomeButton.active = value;
+        if (cancelHomeButton != null) cancelHomeButton.visible = cancelHomeButton.active = value;
     }
 
     private void send(int id) {
@@ -84,6 +112,11 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
                 topPos + 104,
                 leftPos + RIGHT_X + RIGHT_WIDTH,
                 topPos + 194);
+        insetPanel(graphics,
+                leftPos + RIGHT_X,
+                topPos + 196,
+                leftPos + RIGHT_X + RIGHT_WIDTH,
+                topPos + 250);
 
         drawSlotGrid(graphics,
                 leftPos + RikumiMitaMenu.COMPANION_X,
@@ -116,6 +149,13 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
                 mouseX,
                 mouseY,
                 menu.rikumi());
+        if (confirmingHomeReplacement) {
+            graphics.fill(leftPos + 104, topPos + 103, leftPos + 240, topPos + 164, 0xEE111111);
+            graphics.drawCenteredString(font, Component.translatable("gui.richstuff.rikumi.replace_home_title"),
+                    leftPos + 172, topPos + 111, 0xFFFFFFFF);
+            graphics.drawCenteredString(font, Component.translatable("gui.richstuff.rikumi.replace_home_warning"),
+                    leftPos + 172, topPos + 123, 0xFFFFC266);
+        }
     }
 
     private static void panel(GuiGraphics graphics, int x1, int y1, int x2, int y2) {
@@ -150,8 +190,6 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
     protected void renderLabels(GuiGraphics graphics, int mouseX, int mouseY) {
         graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.title"), 14, 8, 0x404040, false);
         graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.companion_inventory"), RIGHT_X + 40, 8, 0x404040, false);
-        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.main_hand"), RIGHT_X + 4, 22, 0x404040, false);
-        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.off_hand"), RIGHT_X + 4, 70, 0x404040, false);
         graphics.drawString(font, Component.translatable("container.inventory"), RIGHT_X + 40, 96, 0x404040, false);
 
         graphics.drawCenteredString(font, Component.translatable("gui.richstuff.rikumi.outfit"), 63, OUTFIT_CONTROL_Y + 6, 0x404040);
@@ -159,12 +197,35 @@ public final class RikumiMitaScreen extends AbstractContainerScreen<RikumiMitaMe
         String outfitName = OutfitRegistry.byIndex(menu.rikumi().getOutfitIndex()).label();
         String visibleName = font.plainSubstrByWidth(outfitName, LEFT_WIDTH - 12);
         graphics.drawCenteredString(font, Component.literal(visibleName), 63, 149, 0x404040);
+        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.current_task"), 14, 160, 0x404040, false);
+        graphics.drawString(font, Component.literal(font.plainSubstrByWidth(menu.rikumi().getCurrentTask(), 96)),
+                14, 170, 0x303030, false);
+        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.current_goal"), RIGHT_X + 4, 199, 0x404040, false);
+        graphics.drawString(font, Component.literal(font.plainSubstrByWidth(menu.rikumi().getCurrentGoal(), 204)),
+                RIGHT_X + 4, 210, 0x303030, false);
+        graphics.drawString(font, Component.translatable("gui.richstuff.rikumi.current_project"), RIGHT_X + 4, 222, 0x404040, false);
+        graphics.drawString(font, Component.literal(font.plainSubstrByWidth(menu.rikumi().getCurrentProjectName(), 204)),
+                RIGHT_X + 4, 233, 0x303030, false);
     }
 
     @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+        if (modeButton != null) modeButton.setMessage(Component.literal(menu.rikumi().getMode().displayName()));
+        if (homeButton != null) homeButton.setMessage(Component.translatable(menu.rikumi().hasHome()
+                ? "gui.richstuff.rikumi.replace_home" : "gui.richstuff.rikumi.set_home"));
         renderBackground(graphics, mouseX, mouseY, partialTick);
         super.render(graphics, mouseX, mouseY, partialTick);
         renderTooltip(graphics, mouseX, mouseY);
+        int localX = mouseX - leftPos;
+        int localY = mouseY - topPos;
+        if (localX >= 14 && localX < 112 && localY >= 168 && localY < 181) {
+            graphics.renderTooltip(font, Component.literal(menu.rikumi().getCurrentTaskDetail()), mouseX, mouseY);
+        } else if (localX >= RIGHT_X + 4 && localX < RIGHT_X + RIGHT_WIDTH - 4
+                && localY >= 208 && localY < 221) {
+            graphics.renderTooltip(font, Component.literal(menu.rikumi().getCurrentGoalDetail()), mouseX, mouseY);
+        } else if (localX >= RIGHT_X + 4 && localX < RIGHT_X + RIGHT_WIDTH - 4
+                && localY >= 231 && localY < 245) {
+            graphics.renderTooltip(font, Component.literal(menu.rikumi().getCurrentProjectDetail()), mouseX, mouseY);
+        }
     }
 }

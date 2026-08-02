@@ -1,0 +1,19 @@
+{
+  "id": "richstuff:rhubarb_jam",
+  "aliases": [
+    "rhubarb_jam"
+  ],
+  "still": "richstuff:block/fluid/fallback_still",
+  "flowing": "richstuff:block/fluid/fallback_flow",
+  "density": 1325,
+  "viscosity": 8000,
+  "temperature": 300,
+  "luminosity": 0,
+  "translucent": true,
+  "containers": {
+    "jar": true,
+    "tank": true
+  },
+  "foundry_compatible": true,
+  "prefer_external_tag": "c:rhubarb_jam"
+}

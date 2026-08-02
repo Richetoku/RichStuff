@@ -24,8 +24,8 @@
           "RichStuffMaterial": "diamond",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/diamond",
-          "RichStuffTargetPart": "richstuff:diamond_gear",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:diamond_gear"
         }
       }
     }

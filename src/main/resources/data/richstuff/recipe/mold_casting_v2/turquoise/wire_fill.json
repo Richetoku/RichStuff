@@ -24,8 +24,8 @@
           "RichStuffMaterial": "turquoise",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/turquoise",
-          "RichStuffTargetPart": "richstuff:turquoise_wire",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:turquoise_wire"
         }
       }
     }

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "cobalt",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/cobalt",
-          "RichStuffTargetPart": "richstuff:cobalt_gear",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:cobalt_gear"
         }
       }
     }

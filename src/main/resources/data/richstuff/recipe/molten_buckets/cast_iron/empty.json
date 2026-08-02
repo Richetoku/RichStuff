@@ -1,0 +1,23 @@
+{
+  "type": "create:emptying",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "richstuff:molten_cast_iron_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bucket"
+    },
+    {
+      "id": "richstuff:molten_cast_iron",
+      "amount": 1000
+    }
+  ]
+}

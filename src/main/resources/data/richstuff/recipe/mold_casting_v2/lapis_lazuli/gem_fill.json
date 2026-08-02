@@ -24,8 +24,8 @@
           "RichStuffMaterial": "lapis_lazuli",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/lapis_lazuli",
-          "RichStuffTargetPart": "minecraft:lapis_lazuli",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:lapis_lazuli"
         }
       }
     }

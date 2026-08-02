@@ -24,8 +24,8 @@
           "RichStuffMaterial": "coal",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/coal",
-          "RichStuffTargetPart": "richstuff:coal_brick",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:coal_brick"
         }
       }
     }

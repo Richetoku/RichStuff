@@ -41,16 +41,21 @@ public final class RichTankScreen extends AbstractContainerScreen<RichTankMenu> 
                 menu.width(), menu.depth(), menu.height()), 50, 62, 0xD5D9DE, false);
         graphics.drawString(font, Component.translatable("gui.richstuff.rich_tank.blocks", menu.tankCount()),
                 50, 79, 0xD5D9DE, false);
-        graphics.drawString(font, Component.translatable("gui.richstuff.rich_tank.layer_hint"),
-                50, 95, 0x9DA6AF, false);
     }
 
 
     private static String formatFluid(int amount) {
         if (amount < 1000) return amount + " mB";
+        if (amount % 1_000_000 == 0) return (amount / 1_000_000) + " kB";
+        if (amount >= 1_000_000) {
+            String value = String.format(java.util.Locale.ROOT, "%.2f", amount / 1_000_000.0D)
+                    .replaceAll("0+$", "").replaceAll("\\.$", "");
+            return value + " kB";
+        }
         if (amount % 1000 == 0) return (amount / 1000) + " B";
-        if (amount < 1_000_000) return String.format(java.util.Locale.ROOT, "%.2f B", amount / 1000.0D);
-        return String.format(java.util.Locale.ROOT, "%.2f kB", amount / 1_000_000.0D);
+        String value = String.format(java.util.Locale.ROOT, "%.2f", amount / 1000.0D)
+                .replaceAll("0+$", "").replaceAll("\\.$", "");
+        return value + " B";
     }
 
     @Override public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {

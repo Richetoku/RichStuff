@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "richcore:dark_iron_plate"
+    },
+    "B": {
+      "item": "richcore:dark_iron_block"
+    }
+  },
+  "result": {
+    "id": "richstuff:blank_mold_press"
+  }
+}

@@ -24,8 +24,8 @@
           "RichStuffMaterial": "quartz",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/quartz",
-          "RichStuffTargetPart": "richstuff:quartz_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:quartz_rod"
         }
       }
     }

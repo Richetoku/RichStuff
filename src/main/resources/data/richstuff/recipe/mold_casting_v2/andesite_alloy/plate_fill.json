@@ -24,8 +24,8 @@
           "RichStuffMaterial": "andesite_alloy",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/andesite_alloy",
-          "RichStuffTargetPart": "richstuff:andesite_alloy_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:andesite_alloy_plate"
         }
       }
     }

@@ -4,8 +4,12 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.richetoku.richstuff.RichStuff;
 import com.richetoku.richstuff.rikumimita.ai.RikumiAiLifecycle;
+import com.richetoku.richstuff.rikumimita.RikumiMode;
+import com.richetoku.richstuff.rikumimita.ai.schematic.RikumiSchematicRegistry;
 import com.richetoku.richstuff.rikumimita.ai.RikumiAiSettings;
 import com.richetoku.richstuff.rikumimita.ai.actor.RikumiFakePlayerActor;
+import com.richetoku.richstuff.rikumimita.ai.autonomy.RikumiMiningController;
+import com.richetoku.richstuff.rikumimita.ai.autonomy.RikumiPlacementLedger;
 import com.richetoku.richstuff.rikumimita.ai.chat.RikumiChatPrivacyFilter;
 import com.richetoku.richstuff.rikumimita.ai.survival.RikumiSurvivalValidator;
 import com.richetoku.richstuff.rikumimita.ai.speech.RikumiSpeechService;
@@ -16,6 +20,7 @@ import java.util.UUID;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
@@ -59,6 +64,7 @@ public final class RikumiExternalControl implements CompanionApiClient.InboundLi
                 case "despawn" -> despawn();
                 case "snapshot", "status" -> snapshot();
                 case "move_relative", "move" -> moveRelative(envelope.payload());
+                case "path_to" -> pathTo(envelope.payload());
                 case "look" -> look(envelope.payload());
                 case "select_slot" -> selectSlot(envelope.payload());
                 case "swing" -> swing(envelope.payload());
@@ -67,6 +73,12 @@ public final class RikumiExternalControl implements CompanionApiClient.InboundLi
                 case "attack" -> attack(envelope.payload());
                 case "break_block" -> breakBlock(envelope.payload());
                 case "interact_entity" -> interactEntity(envelope.payload());
+                case "set_mode" -> setMode(envelope.payload());
+                case "set_goal" -> setGoal(envelope.payload());
+                case "set_task" -> setTask(envelope.payload());
+                case "list_schematics" -> listSchematics();
+                case "build_schematic", "start_project" -> buildSchematic(envelope.payload());
+                case "cancel_project" -> cancelProject();
                 case "teleport" -> teleport(envelope.payload());
                 case "chat", "say" -> chat(envelope.payload());
                 case "speak", "tts" -> speak(envelope.payload());
@@ -111,6 +123,21 @@ public final class RikumiExternalControl implements CompanionApiClient.InboundLi
         }
         player.move(MoverType.SELF, requested);
         return actor.telemetry();
+    }
+
+    private JsonObject pathTo(JsonObject payload) {
+        var avatar = RikumiAiLifecycle.avatar().orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        BlockPos target = blockPos(payload, avatar.blockPosition());
+        double speed = Math.max(0.2D, Math.min(1.5D, number(payload, "speed", 1.0D)));
+        avatar.setMode(RikumiMode.AUTO);
+        avatar.setCurrentGoal(string(payload, "goal", "Travel to " + target.toShortString()));
+        avatar.setCurrentTask("Pathing to " + target.toShortString());
+        boolean started = avatar.getNavigation().moveTo(target.getX() + 0.5D, target.getY(), target.getZ() + 0.5D, speed);
+        RikumiAiLifecycle.releaseExternalControl();
+        JsonObject result = new JsonObject();
+        result.addProperty("started", started);
+        result.addProperty("target", target.toShortString());
+        return result;
     }
 
     private JsonObject look(JsonObject payload) {
@@ -164,7 +191,13 @@ public final class RikumiExternalControl implements CompanionApiClient.InboundLi
     private JsonObject useItemOn(JsonObject payload) {
         FakePlayer player = actor.requirePlayer();
         BlockPos target = blockPos(payload, player.blockPosition());
+        var avatar = RikumiAiLifecycle.avatar()
+                .orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        if (!avatar.hasHome()) throw new IllegalStateException("Set Rikumi's home before assigning block work");
+        if (!avatar.canWorkAt(target)) throw new IllegalStateException("Target is outside Rikumi's home work area");
         RikumiSurvivalValidator.assertReachable(player, target);
+        avatar.getNavigation().stop();
+        avatar.setDeltaMovement(Vec3.ZERO);
         InteractionHand hand = hand(payload);
         Direction face = Direction.byName(string(payload, "face", "up"));
         if (face == null) face = Direction.UP;
@@ -205,10 +238,81 @@ public final class RikumiExternalControl implements CompanionApiClient.InboundLi
         FakePlayer player = actor.requirePlayer();
         BlockPos target = blockPos(payload, player.blockPosition());
         RikumiSurvivalValidator.assertCanBreak(player, target);
-        boolean destroyed = player.gameMode.destroyBlock(target);
+        if (!RikumiPlacementLedger.mayRikumiBreak(player.serverLevel(), target)) {
+            throw new IllegalStateException("Rikumi will not break a player-placed block at " + target.toShortString());
+        }
+        var avatar = RikumiAiLifecycle.avatar()
+                .orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        RikumiMiningController.Result mining = RikumiMiningController.mine(player.serverLevel(), player, avatar,
+                target, "Assigned Mining", "Break the assigned block at normal player speed");
         JsonObject result = new JsonObject();
-        result.addProperty("destroyed", destroyed);
+        result.addProperty("destroyed", mining == RikumiMiningController.Result.COMPLETE);
+        result.addProperty("status", mining.name().toLowerCase(Locale.ROOT));
         result.addProperty("target", target.toShortString());
+        return result;
+    }
+
+    private JsonObject setMode(JsonObject payload) {
+        var avatar = RikumiAiLifecycle.avatar().orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        RikumiMode mode = RikumiMode.parse(string(payload, "mode", "follow"));
+        avatar.setMode(mode);
+        RikumiAiLifecycle.releaseExternalControl();
+        JsonObject result = new JsonObject();
+        result.addProperty("mode", mode.name().toLowerCase(Locale.ROOT));
+        result.addProperty("display_name", mode.displayName());
+        return result;
+    }
+
+    private JsonObject setGoal(JsonObject payload) {
+        var avatar = RikumiAiLifecycle.avatar().orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        avatar.setCurrentGoal(string(payload, "goal", "Help the owner"));
+        JsonObject result = new JsonObject();
+        result.addProperty("goal", avatar.getCurrentGoal());
+        return result;
+    }
+
+    private JsonObject setTask(JsonObject payload) {
+        var avatar = RikumiAiLifecycle.avatar().orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        avatar.setCurrentTask(string(payload, "task", "Idle"));
+        JsonObject result = new JsonObject();
+        result.addProperty("task", avatar.getCurrentTask());
+        return result;
+    }
+
+    private JsonObject listSchematics() {
+        JsonObject result = new JsonObject();
+        com.google.gson.JsonArray schematics = new com.google.gson.JsonArray();
+        for (var schematic : RikumiSchematicRegistry.all()) {
+            JsonObject entry = new JsonObject();
+            entry.addProperty("id", schematic.id().toString());
+            entry.addProperty("name", schematic.displayName());
+            entry.addProperty("format", schematic.sourceFormat());
+            entry.addProperty("blocks", schematic.placements().size());
+            schematics.add(entry);
+        }
+        result.add("schematics", schematics);
+        return result;
+    }
+
+    private JsonObject buildSchematic(JsonObject payload) {
+        var avatar = RikumiAiLifecycle.avatar().orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        ResourceLocation id = ResourceLocation.tryParse(string(payload, "schematic", "richstuff:starter_house"));
+        if (id == null) throw new IllegalArgumentException("Invalid schematic id");
+        BlockPos origin = blockPos(payload, avatar.blockPosition().relative(avatar.getDirection(), 4));
+        if (!avatar.startBuildProject(id, origin)) throw new IllegalArgumentException("Unknown schematic: " + id);
+        RikumiAiLifecycle.releaseExternalControl();
+        JsonObject result = new JsonObject();
+        result.addProperty("schematic", id.toString());
+        result.addProperty("origin", origin.toShortString());
+        result.addProperty("mode", avatar.getMode().name().toLowerCase(Locale.ROOT));
+        return result;
+    }
+
+    private JsonObject cancelProject() {
+        var avatar = RikumiAiLifecycle.avatar().orElseThrow(() -> new IllegalStateException("Rikumi Mita is not loaded"));
+        avatar.cancelBuildProject();
+        JsonObject result = new JsonObject();
+        result.addProperty("cancelled", true);
         return result;
     }
 

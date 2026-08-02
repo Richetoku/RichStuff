@@ -24,8 +24,8 @@
           "RichStuffMaterial": "cinnabar",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/cinnabar",
-          "RichStuffTargetPart": "richstuff:cinnabar_plate",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:cinnabar_plate"
         }
       }
     }

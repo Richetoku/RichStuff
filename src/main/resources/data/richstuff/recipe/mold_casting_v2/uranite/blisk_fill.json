@@ -24,8 +24,8 @@
           "RichStuffMaterial": "uranite",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/uranite",
-          "RichStuffTargetPart": "richstuff:uranite_blisk",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:uranite_blisk"
         }
       }
     }

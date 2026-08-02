@@ -24,8 +24,8 @@
           "RichStuffMaterial": "ancient_debris",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/ancient_debris",
-          "RichStuffTargetPart": "minecraft:ancient_debris",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "minecraft:ancient_debris"
         }
       }
     }

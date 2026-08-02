@@ -24,8 +24,8 @@
           "RichStuffMaterial": "blaze_gold",
           "RichStuffMoltenMold": true,
           "RichStuffFluidTag": "c:molten/blaze_gold",
-          "RichStuffTargetPart": "richstuff:blaze_gold_rod",
-          "RichStuffPreserveGrade": true
+          "RichStuffPreserveGrade": true,
+          "RichStuffTargetPart": "richstuff:blaze_gold_rod"
         }
       }
     }

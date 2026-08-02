@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "richstuff:block/pet_house"
+    },
+    "facing=east": {
+      "model": "richstuff:block/pet_house",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "richstuff:block/pet_house",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "richstuff:block/pet_house",
+      "y": 270
+    }
+  }
+}
