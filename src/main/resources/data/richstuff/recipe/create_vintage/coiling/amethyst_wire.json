@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/amethyst"
+    }
+  ],
+  "result": {
+    "item": "richstuff:amethyst_wire",
+    "count": 2
+  }
+}

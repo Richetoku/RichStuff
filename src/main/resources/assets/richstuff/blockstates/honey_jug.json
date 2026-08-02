@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "count=1": {
+      "model": "richstuff:block/honey_jug_1"
+    },
+    "count=2": {
+      "model": "richstuff:block/honey_jug_2"
+    },
+    "count=3": {
+      "model": "richstuff:block/honey_jug_3"
+    },
+    "count=4": {
+      "model": "richstuff:block/honey_jug_4"
+    }
+  }
+}

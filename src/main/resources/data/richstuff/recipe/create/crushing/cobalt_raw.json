@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/cobalt"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "id": "richstuff:cobalt_crushed",
+      "count": 1
+    },
+    {
+      "id": "richstuff:cobalt_dust",
+      "chance": 0.25
+    }
+  ]
+}

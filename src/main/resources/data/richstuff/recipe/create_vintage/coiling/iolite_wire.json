@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/iolite"
+    }
+  ],
+  "result": {
+    "item": "richstuff:iolite_wire",
+    "count": 2
+  }
+}

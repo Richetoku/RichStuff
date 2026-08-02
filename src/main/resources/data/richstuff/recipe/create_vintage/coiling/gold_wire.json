@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/gold"
+    }
+  ],
+  "result": {
+    "item": "richstuff:gold_wire",
+    "count": 2
+  }
+}

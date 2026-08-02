@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/emerald"
+    }
+  ],
+  "result": {
+    "item": "richstuff:emerald_wire",
+    "count": 2
+  }
+}

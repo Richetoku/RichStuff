@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/ruby"
+    }
+  ],
+  "result": {
+    "item": "richstuff:ruby_wire",
+    "count": 2
+  }
+}

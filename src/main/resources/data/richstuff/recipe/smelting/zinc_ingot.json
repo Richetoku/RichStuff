@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:zinc_dust"
+  },
+  "result": {
+    "id": "richstuff:zinc_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/black_diamond"
+    }
+  },
+  "result": {
+    "item": "richstuff:black_diamond_wire",
+    "count": 2
+  }
+}

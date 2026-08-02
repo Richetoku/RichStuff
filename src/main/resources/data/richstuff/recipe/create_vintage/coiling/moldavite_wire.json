@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/moldavite"
+    }
+  ],
+  "result": {
+    "item": "richstuff:moldavite_wire",
+    "count": 2
+  }
+}

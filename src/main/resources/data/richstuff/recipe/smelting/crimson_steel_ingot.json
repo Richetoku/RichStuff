@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:crimson_steel_dust"
+  },
+  "result": {
+    "id": "richstuff:crimson_steel_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

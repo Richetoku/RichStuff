@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/diamond"
+    }
+  },
+  "result": {
+    "item": "richstuff:diamond_wire",
+    "count": 2
+  }
+}

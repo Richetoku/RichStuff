@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/signalum"
+    }
+  ],
+  "result": {
+    "item": "richstuff:signalum_wire",
+    "count": 2
+  }
+}

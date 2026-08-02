@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:base_ruby_gem_mold"
+    },
+    {
+      "tag": "c:dusts"
+    }
+  ],
+  "result": {
+    "id": "richstuff:filled_ruby_gem_mold"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:base_coin_mold"
+    },
+    {
+      "tag": "c:dusts"
+    }
+  ],
+  "result": {
+    "id": "richstuff:filled_coin_mold"
+  }
+}

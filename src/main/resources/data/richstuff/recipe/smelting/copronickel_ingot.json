@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:copronickel_dust"
+  },
+  "result": {
+    "id": "richstuff:copronickel_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

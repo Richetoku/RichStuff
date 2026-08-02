@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/iridium"
+    }
+  },
+  "result": {
+    "item": "richstuff:iridium_wire",
+    "count": 2
+  }
+}

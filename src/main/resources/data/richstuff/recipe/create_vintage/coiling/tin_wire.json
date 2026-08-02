@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/tin"
+    }
+  ],
+  "result": {
+    "item": "richstuff:tin_wire",
+    "count": 2
+  }
+}

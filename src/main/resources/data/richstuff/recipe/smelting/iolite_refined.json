@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:iolite_washed"
+  },
+  "result": {
+    "id": "richstuff:iolite_refined"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

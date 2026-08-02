@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/crimson_iron"
+    }
+  ],
+  "result": {
+    "item": "richstuff:crimson_iron_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "pamhc2foodcore:olive_oilitem"
+    }
+  ],
+  "result": {
+    "id": "richstuff:olive_oil_jug"
+  }
+}

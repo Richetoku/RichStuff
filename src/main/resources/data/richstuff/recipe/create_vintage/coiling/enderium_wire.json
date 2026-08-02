@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/enderium"
+    }
+  ],
+  "result": {
+    "item": "richstuff:enderium_wire",
+    "count": 2
+  }
+}

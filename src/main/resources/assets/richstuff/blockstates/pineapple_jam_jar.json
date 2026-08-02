@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "count=1": {
+      "model": "richstuff:block/pineapple_jam_jar_1"
+    },
+    "count=2": {
+      "model": "richstuff:block/pineapple_jam_jar_2"
+    },
+    "count=3": {
+      "model": "richstuff:block/pineapple_jam_jar_3"
+    },
+    "count=4": {
+      "model": "richstuff:block/pineapple_jam_jar_4"
+    }
+  }
+}

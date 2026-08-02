@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:turquoise_washed"
+  },
+  "result": {
+    "id": "richstuff:turquoise_refined"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

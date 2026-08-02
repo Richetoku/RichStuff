@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "richstuff:base_ring_mold"
+    },
+    {
+      "tag": "c:dusts"
+    }
+  ],
+  "result": {
+    "id": "richstuff:filled_ring_mold"
+  }
+}

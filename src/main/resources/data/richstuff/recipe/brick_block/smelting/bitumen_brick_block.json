@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:bitumen_bricks"
+    },
+    {
+      "tag": "c:bitumen_bricks"
+    },
+    {
+      "tag": "c:bitumen_bricks"
+    },
+    {
+      "tag": "c:bitumen_bricks"
+    }
+  ],
+  "result": {
+    "item": "richstuff:bitumen_brick_block",
+    "count": 1
+  }
+}

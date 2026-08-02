@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/constantan"
+    }
+  },
+  "result": {
+    "item": "richstuff:constantan_wire",
+    "count": 2
+  }
+}

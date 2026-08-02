@@ -1,0 +1,15 @@
+{
+  "type": "create:coiling",
+  "ingredients": [
+    {
+      "item": "create:shears"
+    },
+    {
+      "tag": "c:plates/osmium"
+    }
+  ],
+  "result": {
+    "item": "richstuff:osmium_wire",
+    "count": 2
+  }
+}

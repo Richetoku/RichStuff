@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "richstuff:netherite_dust"
+  },
+  "result": {
+    "id": "richstuff:netherite_ingot"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
